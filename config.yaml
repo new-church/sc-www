@@ -1,0 +1,56 @@
+baseURL: https://swedenborg-centre.onrender.com/
+languageCode: en-AU
+title: Swedendborg Centre
+googleAnalytics: UA-XXX-X
+disableKinds:
+  - RSS
+params:
+  mainSections:
+    - posts
+  subtitle: Roseville
+  author: Joe Vandermeer
+  logo: /img/avatar.jpg
+  description: Test site
+  paginate: 10
+  adsenseSlot: XXX
+  adsenseSlotSticky: XXX
+  seotitle: Hugo Blog Title (SEO Version)
+  googleSiteVerification: google_site_verification_code
+  msValidate: bing_site_verification_code
+  email: name@domain.com
+  github: huyb1991
+  twitter: twitter_username
+  linkedin: linkedin_username
+  facebook: facebook_username
+  google: googleplus_id_number
+  instagram: instagram_username
+  youtube: youtube_username
+  dribbble: dribbble_username
+  reddit: reddit_username
+taxonomies:
+  tag: tags
+  category: categories
+menu:
+  main:
+    - name: Hugo
+      weight: 1
+      identifier: hugo
+      url: /hugo/
+    - name: AMP Project
+      weight: 2
+      identifier: amp
+      url: /amp/
+    - name: Tags
+      weight: 3
+      identifier: tags
+      url: /tags/
+outputs:
+  home:
+    - HTML
+    - AMP
+  page:
+    - HTML
+    - AMP
+  section:
+    - HTML
+    - AMP

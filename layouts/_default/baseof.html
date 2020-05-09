@@ -1,0 +1,13 @@
+<!doctype html>
+<html ⚡ lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{ partial "svg-icons.html" . }}
+    {{ partial "header.html" . }}
+    {{ partial "sidebar.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+  </body>
+</html>
