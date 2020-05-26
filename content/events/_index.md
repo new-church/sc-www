@@ -1,8 +1,8 @@
 ---
-title: About
+title: Events
 description: Events description
 ---
 
-# Loads of events!
+# We have events online and across multiple locations
 
-We do loads of events.
+Here are the all the current events

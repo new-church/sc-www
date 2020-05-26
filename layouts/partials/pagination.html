@@ -1,0 +1,61 @@
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+
+{{/* https://bulma.io/documentation/components/pagination/  */}}
+{{/*  <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
+  <a class="pagination-previous">Previous</a>
+  <a class="pagination-next">Next page</a>
+  <ul class="pagination-list">
+    <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+    <li><span class="pagination-ellipsis">&hellip;</span></li>
+    <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+    <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
+    <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+    <li><span class="pagination-ellipsis">&hellip;</span></li>
+    <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+  </ul>
+</nav>  */}}
+
+<nav class="pagination is-rounded" role="navigation" aria-label="pagination">
+
+  {{/*  PREVIOUS  */}}
+  {{ if $pag.HasPrev }}
+  <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}" {{ end }} class="pagination-previous">Previous</a>
+  {{ end }}
+
+  {{/*  NEXT  */}}
+  {{ if $pag.HasNext }}
+  <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}" {{ end }} class="pagination-next">Next page</a>
+  {{ end }}
+
+  <ul class="pagination-list">
+
+    {{ $ellipsed := false }}
+    {{ $shouldEllipse := false }}
+    {{ range $pag.Pagers }}
+
+    {{ $right := sub .TotalPages .PageNumber }}
+    {{ $showNumber := or (lt .PageNumber 2) (eq $right 0) }}
+    {{ $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 2)) (lt .PageNumber (add $pag.PageNumber 2)))  }}
+    {{ if $showNumber }}
+    {{ $ellipsed = false }}
+    {{ $shouldEllipse = false }}
+    {{ else }}
+    {{ $shouldEllipse = not $ellipsed }}
+    {{ $ellipsed = true }}
+    {{ end }}
+
+    {{/*  ITEMS  */}}
+    {{ if $showNumber }}
+    <li><a href="{{ .URL }}" class="pagination-link{{ if eq . $pag }} is-current{{ end }}"
+        aria-label="Page {{ .PageNumber }}" {{ if eq . $pag }} aria-current="page" {{ end }}>{{ .PageNumber }}</a></li>
+    {{/*  ELLIPSIS  */}}
+    {{ else if $shouldEllipse }}
+    <li><span class="pagination-ellipsis">&hellip;</span></li>
+    {{ end }}
+
+    {{ end }}
+  </ul>
+</nav>
+
+{{ end }}

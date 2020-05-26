@@ -1,7 +1,42 @@
 {{ define "main" }}
+
+<section class="hero is-primary is-medium is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        {{ .Title }}
+      </h1>
+      <h2 class="subtitle">
+        {{ .Description }}
+      </h2>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container">
     <div class="content">{{ .Content }}</div>
   </div>
 </section>
+
+{{ $paginator := .Paginate (where .Pages "Type" "events") }}
+
+
+
+<section class="section">
+  <div class="container">
+    {{ range $paginator.Pages  }}
+    <li>
+      <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+    </li>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ partial "pagination.html" . }}
+  </div>
+</section>
+
 {{ end }}

@@ -1,56 +1,55 @@
 baseURL: https://swedenborg.com.au/
 languageCode: en-AU
-title: Swedendborg Centre
+title: Swedendborg Association of Australia
 googleAnalytics: UA-XXX-X
 disableKinds:
   - RSS
+paginate: 3
 params:
-  mainSections:
-    - posts
-  subtitle: Roseville
+  staticURL: https://s3-ap-southeast-2.amazonaws.com/swedenborg.com.au/
+  imagesURL: https://res.cloudinary.com/swedenborg/image/upload/
   author: Joe Vandermeer
-  logo: /img/avatar.jpg
-  description: Test site
+  description:
+    SAA offers unprecedented detail about spiritual life and about the spiritual world, described in the unique experiences and writings of Emanuel Swedenborg, hoping this allows us to prepare for richer and more useful experiences ahead. (Est 1992)
   paginate: 10
-  adsenseSlot: XXX
-  adsenseSlotSticky: XXX
-  seotitle: Hugo Blog Title (SEO Version)
-  googleSiteVerification: google_site_verification_code
-  msValidate: bing_site_verification_code
-  email: name@domain.com
-  github: huyb1991
-  twitter: twitter_username
-  linkedin: linkedin_username
-  facebook: facebook_username
-  google: googleplus_id_number
-  instagram: instagram_username
-  youtube: youtube_username
-  dribbble: dribbble_username
-  reddit: reddit_username
+  email: info@swedenborg.com.au
+  facebook: https://www.facebook.com/Swedenborg-Association-of-Australia-104862382911851/
 taxonomies:
   tag: tags
   category: categories
+  location: location
 menu:
   main:
-    - name: Hugo
+    - 
+      name: home
+      url: /
       weight: 1
-      identifier: hugo
-      url: /hugo/
-    - name: AMP Project
+    - 
+      name: events
+      url: /events/
       weight: 2
-      identifier: amp
-      url: /amp/
-    - name: Tags
+    - 
+      name: news
+      url: /news/
       weight: 3
-      identifier: tags
-      url: /tags/
+    - 
+      name: about
+      url: /about/
+      weight: 4
+    - 
+      parent: about
+      name: Swedenborg
+      url: /emanuel-swedenborg/
+      weight: 2
+    - 
+      parent: about
+      name: contact
+      url: /contact/
+      weight: 1
 outputs:
   home:
-    - HTML
-    - AMP
-  page:
-    - HTML
-    - AMP
+    - html
+    # - json
   section:
-    - HTML
-    - AMP
+    - html
+    # - json
