@@ -1,6 +1,7 @@
 ---
 title: News
 description: Latest news from the association
+heroClass: is-color5
 ---
 
 # News

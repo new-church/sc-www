@@ -1,8 +1,7 @@
 ---
-title: Emanuel Swedenborg Scientist And Spiritual Explorer
+title: Emanuel Swedenborg
+description: Scientist And Spiritual Explorer
 ---
-
-# Emanuel Swedenborg Scientist And Spiritual Explorer
 
 In terms of intellectual stature and original, creative thinking, Swedenborg has been compared to Leonardo da Vinci. Yet, for the most part, the world remains in ignorance of the significant contribution made by this Swedish genius in so many fields of human endeavour, and of the veritable mine of enlightenment to be found in his esoteric writings, which give the blueprint for individual spiritual development and growth. These writings are known to have influenced the earliest anti-slavery movements and many of the great thinkers and religious leaders who have helped shape western culture during the past 200 years. These same writings largely inspired the establishment of infant education in Germany and England in the late 1700s and early 1800s. Whilst their impact has spread far and wide, it is has been largely forgotten that they were such a source of inspiration. Today, though, as the world enters a new era with a growing thirst for an understanding of the purpose of life and the working of the human psyche, there is a re-awakening of interest in, and appreciation of, the immensely valuable insights to be gained from the contents of Swedenborg's works. His name is becoming increasingly known.
 

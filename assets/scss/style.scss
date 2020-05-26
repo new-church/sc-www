@@ -1,22 +1,12 @@
+// 1. Import the initial variables
+@import "../from-node/bulma/sass/utilities/initial-variables";
+@import "../from-node/bulma/sass/utilities/functions";
+
 @charset "utf-8";
 
-/* HSL */
-$color1: hsla(333%, 85%, 97%, 1);
-$color2: hsla(276%, 95%, 72%, 1);
-$color3: hsla(258%, 93%, 64%, 1);
-$color4: hsla(229%, 72%, 93%, 1);
-$color5: hsla(194%, 68%, 94%, 1);
-
-/* RGB */
-$color1: rgba(247, 37, 133, 1);
-$color2: rgba(114, 9, 183, 1);
-$color3: rgba(58, 12, 163, 1);
-$color4: rgba(67, 97, 238, 1);
-$color5: rgba(76, 201, 240, 1);
-
 /* HEX */
-$color1: #f72585ff;
-$color2: #7209b7ff;
+$color1: #7209b7ff;
+$color2: #f72585ff;
 $color3: #3a0ca3ff;
 $color4: #4361eeff;
 $color5: #4cc9f0ff;
@@ -40,8 +30,7 @@ $family-secondary:  "Poppins", sans-serif;
 
 // $grey-dark: $brown;
 // $grey-light: $beige-light;
-$primary: $color2;
-$secondary: $color1;
+$primary: $color1;
 $link: $color3;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
@@ -52,12 +41,29 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
-@import "../from-node/bulma/sass/utilities/_all";
-@import "../from-node/bulma/sass/base/_all";
-@import "../from-node/bulma/sass/elements/_all";
-@import "../from-node/bulma/sass/form/_all";
-@import "../from-node/bulma/sass/components/_all";
-@import "../from-node/bulma/sass/grid/_all";
-@import "../from-node/bulma/sass/layout/_all";
+
+// Additional colors
+$color2-invert: findColorInvert($color2);
+$color3-invert: findColorInvert($color3);
+$color4-invert: findColorInvert($color4);
+$color5-invert: findColorInvert($color5);
+
+// 5. Add new color variables to the color map.
+@import "../from-node/bulma/sass/utilities/derived-variables";
+$addColors: (
+  "color2":($color2, $color2-invert),
+  "color3":($color3, $color3-invert),
+  "color4": ($color4, $color4-invert),
+  "color5": ($color5, $color5-invert)
+);
+$colors: map-merge($colors, $addColors);
+
+@import "../from-node/bulma/bulma";
+// @import "../from-node/bulma/sass/base/_all";
+// @import "../from-node/bulma/sass/elements/_all";
+// @import "../from-node/bulma/sass/form/_all";
+// @import "../from-node/bulma/sass/components/_all";
+// @import "../from-node/bulma/sass/grid/_all";
+// @import "../from-node/bulma/sass/layout/_all";
 @import "typography";
 
