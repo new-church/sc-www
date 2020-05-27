@@ -25,13 +25,16 @@
 
 <section class="section">
   <div class="container">
-    {{ range $paginator.Pages  }}
-    <li>
-      <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-    </li>
-    {{ end }}
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        {{ range $paginator.Pages  }}
+        {{ .Render "li" }}
+        {{ end }}
+      </div>
+    </div>
   </div>
 </section>
+
 
 <section class="section">
   <div class="container">
