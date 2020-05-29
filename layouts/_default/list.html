@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-<section class="hero is-medium is-bold {{- with .Params.heroClass }} {{.}}{{ else }} is-primary{{ end }}">
+{{/*  Hero header  */}}
+<section class="hero is-bold {{- with .Params.heroClass }} {{.}}{{ else }} is-primary{{ end }}">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -13,28 +14,35 @@
   </div>
 </section>
 
+{{/*  Breadcrumb  */}}
+<section class="section has-background-light" style="padding: 0.5rem 1.5rem;">
+  <div class="container">
+    {{ partial "breadcrumb.html" . }}
+  </div>
+</section>
+
+{{/*  The markdown  */}}
 <section class="section">
   <div class="container">
     <div class="content">{{ .Content }}</div>
   </div>
 </section>
 
+{{/*  Pagination  */}}
 {{ $paginator := .Paginate (where .Pages "Type" "events") }}
-
-
-
 <section class="section">
   <div class="container">
     <div class="tile is-ancestor">
       <div class="tile is-parent">
         {{ range $paginator.Pages  }}
-        {{ .Render "li" }}
+        <div class="tile is-child is-4" style="padding: 1rem">
+          {{ .Render "li" }}
+        </div>
         {{ end }}
       </div>
     </div>
   </div>
 </section>
-
 
 <section class="section">
   <div class="container">

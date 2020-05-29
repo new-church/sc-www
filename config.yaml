@@ -5,6 +5,7 @@ googleAnalytics: UA-XXX-X
 disableKinds:
   - RSS
 paginate: 3
+summaryLength: 20
 params:
   staticURL: https://s3-ap-southeast-2.amazonaws.com/swedenborg.com.au/
   imagesURL: https://res.cloudinary.com/swedenborg/image/upload/

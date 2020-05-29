@@ -1,8 +1,8 @@
 ---
 title: "Website Launch"
-date: 2020-05-17T16:38:58+10:00
-eventStart: 2020-06-17T16:38:58+10:00
-eventEnd: 2020-06-17T16:38:58+10:00
+publishDate: 2020-05-21T14:00:00+10:00
+date: 2020-06-21T14:00:00+10:00
+endDate: 2020-06-21T16:00:00+10:00
 ---
 
 ** insert event details here **
