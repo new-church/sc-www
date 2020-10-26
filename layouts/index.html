@@ -23,14 +23,20 @@
               <p class="title">Who is Swedenborg?</p>
               <p class="subtitle">Swedenborg, Afterlife Eyewitness</p>
               <p class="has-text-centered">
-                <a href="/emanuel-swedenborg/" class="button is-link is-uppercase">Read
-                  Now</a>
+                <a href="/emanuel-swedenborg/" class="button is-link is-uppercase">Learn More</a>
               </p>
             </article>
+            <!-- Latest Candela -->
+            {{ range first 1 (sort .Site.Data.candela.files "modified" "desc") }}
             <article class="tile is-child notification is-color2">
-              <p class="title">Latest Candela Newsletter</p>
-              <p class="subtitle">Bottom tile</p>
+              <p class="title">{{ .title }}</p>
+              <p class="subtitle">{{ .description }}</p>
+              <p class="has-text-centered">
+                <a href="{{ $.Site.Params.staticURL }}{{ .path }}" target="_blank"
+                  class="button is-link is-uppercase">Download</a>
+              </p>
             </article>
+            {{ end }}
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box has-background-color4">
@@ -48,10 +54,16 @@
         </div>
         <div class="tile is-parent">
           <article class="tile is-child notification is-danger">
-            <p class="title">Wide tile</p>
-            <p class="subtitle">Aligned with the right tile</p>
+            <p class="title">Contact</p>
+            <p class="subtitle">Swedenborg Centre & Swedenborg Association of Australia</p>
             <div class="content">
-              <!-- Content -->
+              <p>
+                <strong><i>4 Shirley Rd, Roseville NSW 2069</i></strong><br>
+                Open: weekdays 10:30am - 4pm<br>
+                Phone (Joe): <strong><a href="tel://+61294162812">02 9416 2812</a><br></strong>
+                <strong><a href="mailto:saa@swedenborg.com.au">saa@swedenborg.com.au</a></strong>
+              </p>
+              <p>See <a href="/contact/">CONTACT</a> page for further details</p>
             </div>
           </article>
         </div>

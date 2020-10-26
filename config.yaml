@@ -7,7 +7,7 @@ disableKinds:
 paginate: 3
 summaryLength: 20
 params:
-  staticURL: https://s3-ap-southeast-2.amazonaws.com/swedenborg.com.au/
+  staticURL: https://new-church.github.io/sc-static/
   imagesURL: https://res.cloudinary.com/swedenborg/image/upload/
   author: Joe Vandermeer
   description:
