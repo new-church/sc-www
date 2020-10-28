@@ -1,2 +1,2 @@
-{{ $built := resources.Get "js/index.js" | js.Build "main.js" }}
+{{ $built := resources.Get "js/index.js" | js.Build "main.js" | resources.Minify | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
