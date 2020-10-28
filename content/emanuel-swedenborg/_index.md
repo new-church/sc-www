@@ -3,12 +3,7 @@ title: Emanuel Swedenborg
 description: Scientist And Spiritual Explorer
 ---
 
-##
-## C ![](RackMultipart20201027-4-fpomgc_html_b768636dc7c079a8.jpg) ontents
-
-[Contents 1](#_Toc54773185)
-
-[Swedenborg 2](#_Toc54773186)
+<!-- [Swedenborg 2](#_Toc54773186)
 
 [Scientific Achievements 3](#_Toc54773187)
 
@@ -48,7 +43,7 @@ description: Scientist And Spiritual Explorer
 
 [Synchronicity 21](#_Toc54773205)
 
-[Life After Death & Angels 23](#_Toc54773206)
+[Life After Death &amp; Angels 23](#_Toc54773206)
 
 [The Inescapable Fact 23](#_Toc54773207)
 
@@ -82,7 +77,7 @@ description: Scientist And Spiritual Explorer
 
 ["Harps and Wings"](#_Toc54773222) 31
 
-[Angelic Life Now](#_Toc54773223) 31
+[Angelic Life Now](#_Toc54773223) 31 -->
 
 # Who Is Swedenborg?
 
@@ -624,11 +619,11 @@ The timing and nature of our death generally cannot be predicted. Whenever, and 
 
 ## Links to additional information on life after death within the website
 
-[**Michael Stanley talks on Life after Death, Evidence of life after death, Laws of the Spiritual World, and The effect of the Spiritual World on this World.**](http://www.swedenborg.com.au/talking-books-and-audio-talks#MichaelStanley) These are a comprehensive and wholistic view of life after death.
+**[Michael Stanley talks on Life after Death, Evidence of life after death, Laws of the Spiritual World, and The effect of the Spiritual World on this World.](http://www.swedenborg.com.au/talking-books-and-audio-talks#MichaelStanley)** These are a comprehensive and wholistic view of life after death.
 
 ## Swedenborg Foundation link to Swedenborg on the Afterlife
 
-[**What happens when we die?**](http://www.swedenborg.com/swedenborg-on-heaven-and-hell/)
+**[What happens when we die?](http://www.swedenborg.com/swedenborg-on-heaven-and-hell/)**
 
 ## A Person's awakening from the dead and entrance into eternal life
 
