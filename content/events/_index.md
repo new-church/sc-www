@@ -1,6 +1,6 @@
 ---
 title: Events
-description: Events description
+description: Come and join us at one of our great events
 heroClass: is-color4
 ---
 

@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "rm -rf public && hugo server -D -E -F --port 1314 --bind localhost --renderToDisk"
-
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,6 @@
   },
   "homepage": "https://github.com/new-church/sc-www#readme",
   "dependencies": {
-    "bulma": "^0.8.2"
+    "bulma": "^0.9.1"
   }
 }

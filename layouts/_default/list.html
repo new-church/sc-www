@@ -29,7 +29,7 @@
 </section>
 
 {{/*  Pagination  */}}
-{{ $paginator := .Paginate (where .Pages "Type" "events") }}
+{{ $paginator := .Paginate .Pages }}
 <section class="section">
   <div class="container">
     <div class="tile is-ancestor">
