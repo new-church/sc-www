@@ -7,4 +7,4 @@ endDate: 2020-11-02T21:00:00+10:00
 
 Read, explore and illuminate Gurdjieff's teachings using Swedenborg's insights.
 
-(Session starts 11am, using Zoom link:)[https://us02web.zoom.us/j/702567371?pwd=MFYra0FnZmhXSHZXYlJ3VE5GMGkwZz09]
+Session starts 11am, using Zoom link: [https://us02web.zoom.us/j/702567371?pwd=MFYra0FnZmhXSHZXYlJ3VE5GMGkwZz09](https://us02web.zoom.us/j/702567371?pwd=MFYra0FnZmhXSHZXYlJ3VE5GMGkwZz09)
