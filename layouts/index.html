@@ -43,7 +43,7 @@
               <p class="title has-text-white">Upcoming Events</p>
               <p class="subtitle has-text-white">Join an event</p>
               {{/*  Events  */}}
-              {{ range first 5 (where .Site.RegularPages "Section" "events") }}
+              {{ range first 5 (where .Site.RegularPages "Section" "events").ByDate }}
               <div style="padding: 0.5rem; color: unset">
                 {{ .Render "li-small" }}
               </div>
@@ -86,7 +86,7 @@
   </div>
 </section>
 
-<section class="section">
+<!-- <section class="section">
   <div class="container">
     <div class="box">
       <article class="media">
@@ -128,7 +128,7 @@
       </article>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="section">
   <div class="container">

@@ -32,15 +32,24 @@
 {{ $paginator := .Paginate .Pages }}
 <section class="section">
   <div class="container">
-    <div class="tile is-ancestor">
+
+    <div class="columns is-multiline">
+      {{ range $paginator.Pages  }}
+      <div class="column is-half">
+        {{ .Render "li" }}
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- <div class="tile is-ancestor">
       <div class="tile is-parent">
         {{ range $paginator.Pages  }}
-        <div class="tile is-child is-4" style="padding: 1rem">
+        <div class="tile is-child is-6" style="padding: 1rem">
           {{ .Render "li" }}
         </div>
         {{ end }}
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 
