@@ -43,7 +43,7 @@
               <p class="title has-text-white">Upcoming Events</p>
               <p class="subtitle has-text-white">Join an event</p>
               {{/*  Events  */}}
-              {{ range first 5 (where .Site.RegularPages "Section" "events").ByDate }}
+              {{ range first 5 (sort (where .Site.RegularPages "Section" "events") ".Params.eventStart") }}
               <div style="padding: 0.5rem; color: unset">
                 {{ .Render "li-small" }}
               </div>
