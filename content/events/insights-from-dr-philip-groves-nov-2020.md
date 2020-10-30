@@ -1,8 +1,8 @@
 ---
 title: "Insights from working with Dr Philip Groves"
-publishDate: 2020-11-06T11:00:00+10:00
-date: 2020-11-06T11:00:00+10:00
-endDate: 2020-11-06T21:00:00+10:00
+date: 2020-10-30T11:00:00+10:00
+eventStart: 2020-11-06T11:00:00+10:00
+eventEnd: 2020-11-06T21:00:00+10:00
 ---
 
 Read, explore and discuss aspects of learning from the teachings of Dr Philip Groves.

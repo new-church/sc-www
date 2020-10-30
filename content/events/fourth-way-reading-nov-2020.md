@@ -1,8 +1,8 @@
 ---
 title: "Read and discuss Gurdjieff in the light of Swedenborg"
-publishDate: 2020-11-02T11:00:00+10:00
-date: 2020-11-02T11:00:00+10:00
-endDate: 2020-11-02T21:00:00+10:00
+date: 2020-10-30T11:00:00+10:00
+eventStart: 2020-11-02T11:00:00+10:00
+eventEnd: 2020-11-02T21:00:00+10:00
 ---
 
 Read, explore and illuminate Gurdjieff's teachings using Swedenborg's insights.

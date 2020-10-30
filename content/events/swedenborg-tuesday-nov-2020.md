@@ -1,8 +1,8 @@
 ---
 title: "Swedenborg Centre Open Discussion"
-publishDate: 2020-11-16T11:00:00+10:00
-date: 2020-11-16T11:00:00+10:00
-endDate: 2020-11-16T21:00:00+10:00
+date: 2020-10-30T11:00:00+10:00
+eventStart: 2020-11-16T11:00:00+10:00
+eventEnd: 2020-11-16T21:00:00+10:00
 ---
 
 Bring a question, idea or insight relating to our inner life to share, explore, or discuss.
