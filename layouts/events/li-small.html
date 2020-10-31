@@ -6,7 +6,9 @@
     </p>
     <p class="is-size-7 has-text-grey">{{ .Summary }}</p>
     <p class="is-size-7 has-text-grey">Test</p>
-    <p class="has-text-link">more...</p>
+    <p class="has-text-link">
+      <a href="{{.Permalink}}">more...</a>
+    </p>
   </div>
   {{ if .Params.zoomLink }}
   <footer class="card-footer">
