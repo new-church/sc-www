@@ -39,16 +39,17 @@
             {{ end }}
           </div>
           <div class="tile is-parent">
-            <article class="tile is-child box has-background-color4">
-              <p class="title has-text-white">Upcoming Events</p>
-              <p class="subtitle has-text-white">Join an event (shown in Sydney time)</p>
-              {{/*  Events  */}}
-              {{ range first 5 (sort (where .Site.RegularPages "Section" "events") ".Params.eventStart") }}
-              <div style="padding: 0.5rem; color: unset">
-                {{ .Render "li-small" }}
+            <article class="tile is-child box has-background-color5">
+              <div class="content">
+                <p class="title has-text-white">News</p>
+                <p class="subtitle has-text-white">The latest from the association</p>
+                {{/*  News items  */}}
+                {{ range first 3 (where .Site.RegularPages "Section" "news") }}
+                <div style="padding: 0.5rem; color: unset">
+                  {{ .Render "li-small" }}
+                </div>
+                {{ end }}
               </div>
-              {{ end }}
-              <a href="/events/">See all events</a>
             </article>
           </div>
         </div>
@@ -69,19 +70,19 @@
         </div>
       </div>
       <div class="tile is-parent">
-        <article class="tile is-child box has-background-color5">
-          <div class="content">
-            <p class="title has-text-white">News</p>
-            <p class="subtitle has-text-white">The latest from the association</p>
-            {{/*  News items  */}}
-            {{ range first 3 (where .Site.RegularPages "Section" "news") }}
-            <div style="padding: 0.5rem; color: unset">
-              {{ .Render "li-small" }}
-            </div>
-            {{ end }}
+        <article class="tile is-child box has-background-color4">
+          <p class="title has-text-white">Upcoming Events</p>
+          <p class="subtitle has-text-white">Join an event (shown in Sydney time)</p>
+          {{/*  Events  */}}
+          {{ range first 5 (sort (where .Site.RegularPages "Section" "events") ".Params.eventStart") }}
+          <div style="padding: 0.5rem; color: unset">
+            {{ .Render "li-small" }}
           </div>
+          {{ end }}
+          <a href="/events/">See all events</a>
         </article>
       </div>
+
     </div>
   </div>
 </section>
