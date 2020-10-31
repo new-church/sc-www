@@ -1,6 +1,6 @@
 {{ with .}}
 {{ $date := time . }}
 {{ with $date }}
-<time datetime="{{ $date.Format "2006-01-02T15:04:05-0700" }}">{{ $date.Format "Mon, 2 Jan 2006 3:04PM"}}</time>
+<time datetime="{{ $date.Format "2006-01-02T15:04:05-0700" }}">{{ $date.Format "Mon, 2 Jan 2006 3:04PM" }}</time>
 {{ end }}
 {{ end }}

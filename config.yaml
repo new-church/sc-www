@@ -50,7 +50,7 @@ outputs:
     - html
     # - json
 params:
-  staticURL: http://static.swedenborg.com.au/
+  staticURL: https://static.swedenborg.com.au/
   imagesURL: https://res.cloudinary.com/swedenborg/image/upload/
   author: Joe Vandermeer
   description:
