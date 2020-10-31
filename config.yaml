@@ -50,7 +50,7 @@ outputs:
     - html
     # - json
 params:
-  staticURL: https://new-church.github.io/sc-static/
+  staticURL: http://static.swedenborg.com.au/
   imagesURL: https://res.cloudinary.com/swedenborg/image/upload/
   author: Joe Vandermeer
   description:
