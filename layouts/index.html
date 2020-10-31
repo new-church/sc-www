@@ -41,7 +41,7 @@
           <div class="tile is-parent">
             <article class="tile is-child box has-background-color4">
               <p class="title has-text-white">Upcoming Events</p>
-              <p class="subtitle has-text-white">Join an event</p>
+              <p class="subtitle has-text-white">Join an event (shown in Sydney time)</p>
               {{/*  Events  */}}
               {{ range first 5 (sort (where .Site.RegularPages "Section" "events") ".Params.eventStart") }}
               <div style="padding: 0.5rem; color: unset">
