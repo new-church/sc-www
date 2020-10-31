@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="hero is-primary is-medium is-bold">
+<section class="hero is-primary is-bold">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -20,7 +20,9 @@
         <div class="tile">
           <div class="tile is-parent is-vertical">
             <article class="box is-child is-white">
-              <p class="title">Who is Swedenborg?</p>
+              <p class="title">
+                <a href="/emanuel-swedenborg/">Who is Swedenborg?</a>
+              </p>
               <p class="subtitle">Swedenborg, Afterlife Eyewitness</p>
               <p class="has-text-centered">
                 <a href="/emanuel-swedenborg/" class="button is-link is-uppercase">Learn More</a>
@@ -28,9 +30,12 @@
             </article>
             <!-- Latest Candela -->
             {{ range first 1 (sort .Site.Data.candela.files "modified" "desc") }}
-            <article class="tile is-child notification is-color2">
-              <p class="title">{{ .title }}</p>
-              <p class="subtitle">{{ .description }}</p>
+            <article class="tile is-child box has-background-color2">
+              <p class="title">
+                <a href="{{ $.Site.Params.staticURL }}{{ .path }}" target="_blank"
+                  class="has-text-white">{{ .title }}</a>
+              </p>
+              <p class="subtitle has-text-white">{{ .description }}</p>
               <p class="has-text-centered">
                 <a href="{{ $.Site.Params.staticURL }}{{ .path }}" target="_blank"
                   class="button is-link is-uppercase">Download</a>
@@ -41,7 +46,9 @@
           <div class="tile is-parent">
             <article class="tile is-child box has-background-color5">
               <div class="content">
-                <p class="title has-text-white">News</p>
+                <p class="title has-text-white">
+                  <a href="/news/" class="has-text-white">News</a>
+                </p>
                 <p class="subtitle has-text-white">The latest from the association</p>
                 {{/*  News items  */}}
                 {{ range first 3 (where .Site.RegularPages "Section" "news") }}
@@ -54,32 +61,36 @@
           </div>
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child notification is-danger">
-            <p class="title">Contact</p>
-            <p class="subtitle">Swedenborg Centre & Swedenborg Association of Australia</p>
-            <div class="content">
-              <p>
-                <strong><i>4 Shirley Rd, Roseville NSW 2069</i></strong><br>
+          <article class="tile is-child box has-background-danger">
+            <p class="title">
+              <a href="/contact/" class="has-text-white">Contact</a>
+            </p>
+            <p class="subtitle has-text-white">Swedenborg Centre & Swedenborg Association of Australia</p>
+            <div class="content has-text-white">
+              <p class="has-text-white">
+                <strong><i class="has-text-white">4 Shirley Rd, Roseville NSW 2069</i></strong><br>
                 Open: weekdays 10:30am - 4pm<br>
-                Phone (Joe): <strong><a href="tel://+61294162812">02 9416 2812</a><br></strong>
-                <strong><a href="mailto:saa@swedenborg.com.au">saa@swedenborg.com.au</a></strong>
+                Phone (Joe): <strong><a href="tel://+61294162812" class="has-text-white">02 9416 2812</a><br></strong>
+                <strong><a href="mailto:saa@swedenborg.com.au" class="has-text-white">saa@swedenborg.com.au</a></strong>
               </p>
-              <p>See <a href="/contact/">CONTACT</a> page for further details</p>
+              <p>See <a href="/contact/" class="has-text-white">CONTACT</a> page for further details</p>
             </div>
           </article>
         </div>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child box has-background-color4">
-          <p class="title has-text-white">Upcoming Events</p>
+          <p class="title has-text-white">
+            <a href="/events/" class="has-text-white">Upcoming Events</a>
+          </p>
           <p class="subtitle has-text-white">Join an event (shown in Sydney time)</p>
+          <p class="has-text-centered"><a href="/events/" class="has-text-white">See all events</a></p>
           {{/*  Events  */}}
-          {{ range first 5 (sort (where .Site.RegularPages "Section" "events") ".Params.eventstart") }}
+          {{ range first 3 (sort (where .Site.RegularPages "Section" "events") ".Params.eventstart") }}
           <div style="padding: 0.5rem; color: unset">
             {{ .Render "li-small" }}
           </div>
           {{ end }}
-          <a href="/events/">See all events</a>
         </article>
       </div>
 
