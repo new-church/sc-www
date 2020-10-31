@@ -1,6 +1,6 @@
 <a class="card is-block" href="{{.Permalink}}">
   <div class="card-content">
-    <p class="subtitle is-spaced  is-7">{{ partial "time.html" .Date }}</p>
+    <p class="subtitle is-spaced  is-7">{{ partial "time.html" .Params.eventStart }}</p>
     <p class="title is-spaced is-6">{{ .Title }}</p>
     <p class="is-size-7 has-text-grey">{{ .Summary }}</p>
     <p class="has-text-link">more...</p>
