@@ -1,18 +1,17 @@
 <div class="card" href="{{.Permalink}}">
   <div class="card-content">
-    <p class="subtitle is-spaced  is-7">{{ partial "time.html" .Params.eventStart }}</p>
+    <p class="subtitle is-spaced  is-7">{{ partial "time.html" .Params.eventstart }}</p>
     <p class="title is-spaced is-6">
       <a href="{{.Permalink}}">{{ .Title }}</a>
     </p>
     <p class="is-size-7 has-text-grey">{{ .Summary }}</p>
-    <p class="is-size-7 has-text-grey">Test</p>
     <p class="has-text-link">
       <a href="{{.Permalink}}">more...</a>
     </p>
   </div>
-  {{ if .Params.zoomLink }}
+  {{ if .Params.zoomlink }}
   <footer class="card-footer">
-    <a href="{{.Params.zoomLink}}" class="card-footer-item" target="_blank">Join Zoom</a>
+    <a href="{{.Params.zoomlink}}" class="card-footer-item" target="_blank">Join Zoom</a>
   </footer>
   {{ end }}
 </div>

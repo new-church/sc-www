@@ -29,7 +29,7 @@
 </section>
 
 {{/*  Pagination  */}}
-{{ $paginator := .Paginate .Pages }}
+{{ $paginator := .Paginate (sort .Pages ".Params.eventstart") }}
 <section class="section">
   <div class="container">
 

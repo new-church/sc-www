@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{/*  Hero header  */}}
-<section class="hero is-bold {{- with .Params.heroClass }} {{.}}{{ else }} is-primary{{ end }}">
+<section class="hero is-bold {{- with .Params.heroclass }} {{.}}{{ else }} is-primary{{ end }}">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -27,13 +27,13 @@
 
 
     <div class="content">
-      <h3>Time: {{ partial "time.html" .Params.eventStart }}</h3>
+      <h3>Time: {{ partial "time.html" .Params.eventstart }}</h3>
 
       {{ .Content }}
 
-      {{ if .Params.zoomLink }}
+      {{ if .Params.zoomlink }}
       <p class="has-text-centered">
-        <a href="{{.Params.zoomLink}}" class="button is-link is-uppercase" target="_blank">Join Zoom Meeting</a>
+        <a href="{{.Params.zoomlink}}" class="button is-link is-uppercase" target="_blank">Join Zoom Meeting</a>
       </p>
       {{ end }}
     </div>
