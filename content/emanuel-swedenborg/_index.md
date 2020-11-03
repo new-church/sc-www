@@ -619,7 +619,7 @@ The timing and nature of our death generally cannot be predicted. Whenever, and 
 
 ## Links to additional information on life after death within the website
 
-**Michael Stanley talks on [Life after Death](audio/stanley/Life-After-Death.mp3), [Evidence of life after death](audio/stanley/Evidence-for-Life-After-Death.mp3), [Laws of the Spiritual World](audio/stanley/Laws-of-the-Spiritual-World.mp3), and [The effect of the Spiritual World on this World](audio/stanley/Effect-of-Other-World-on-this-World.mp3).** These are a comprehensive and wholistic view of life after death.
+**Michael Stanley talks on [Life after Death](candela/candela202009.pdf) audio/stanley/Life-After-Death.mp3, [Evidence of life after death](audio/stanley/Evidence-for-Life-After-Death.mp3), [Laws of the Spiritual World](audio/stanley/Laws-of-the-Spiritual-World.mp3), and [The effect of the Spiritual World on this World](audio/stanley/Effect-of-Other-World-on-this-World.mp3).** These are a comprehensive and wholistic view of life after death.
 
 ## Swedenborg Foundation link to Swedenborg on the Afterlife
 
