@@ -3,81 +3,46 @@ title: Emanuel Swedenborg
 description: Scientist And Spiritual Explorer
 ---
 
-<!-- [Swedenborg 2](#_Toc54773186)
+- [Who Is Swedenborg?](#who-is-swedenborg)
+  - [Swedenborg](#swedenborg)
+  - [Scientific Achievements](#scientific-achievements)
+  - [Psychic Abilities](#psychic-abilities)
+  - [Influences, tributes, testimonials](#influences-tributes-testimonials)
+- [Spiritual Philosophy](#spiritual-philosophy)
+  - [Divine Nature](#divine-nature)
+  - [Our Nature](#our-nature)
+  - [Spiritual Inflowing](#spiritual-inflowing)
+  - [Providence](#providence)
+  - [Free Will](#free-will)
+  - [Spiritual Growth](#spiritual-growth)
+  - [Spiritual Health](#spiritual-health)
+  - [Divine Manifestations](#divine-manifestations)
+- [Eternal Questions](#eternal-questions)
+  - [Who am I?](#who-am-i)
+  - [What am I?](#what-am-i)
+  - [What Am I Doing Here?](#what-am-i-doing-here)
+  - [Where Am I Going?](#where-am-i-going)
+  - [What Happens When I Die, In Short, What is the Meaning and Purpose of Life?](#what-happens-when-i-die-in-short-what-is-the-meaning-and-purpose-of-life)
+- [Synchronicity](#synchronicity)
+- [Life After Death And Angels](#life-after-death-and-angels)
+  - [The Inescapable Fact](#the-inescapable-fact)
+  - [Proving Life After Death?](#proving-life-after-death)
+  - [What details do we have?](#what-details-do-we-have)
+  - [Swedenborg's Uniqueness](#swedenborgs-uniqueness)
+  - [Outstanding Insights Offered by Swedenborg](#outstanding-insights-offered-by-swedenborg)
+  - [New Concept of Transition](#new-concept-of-transition)
+  - [New Concept of Heaven](#new-concept-of-heaven)
+  - [New Concept of Hell](#new-concept-of-hell)
+  - [Links to additional information on life after death within the website](#links-to-additional-information-on-life-after-death-within-the-website)
+  - [Swedenborg Foundation link to Swedenborg on the Afterlife](#swedenborg-foundation-link-to-swedenborg-on-the-afterlife)
+  - [A Person's awakening from the dead and entrance into eternal life](#a-persons-awakening-from-the-dead-and-entrance-into-eternal-life)
+  - [Angels - Their Origin](#angels---their-origin)
+  - [What do Angels look like?](#what-do-angels-look-like)
+  - [Angelic Environment and Work](#angelic-environment-and-work)
+  - [Guardian Angels](#guardian-angels)
+  - ["Harps and Wings"](#harps-and-wings)
+  - [Angelic Life Now](#angelic-life-now)
 
-[Scientific Achievements 3](#_Toc54773187)
-
-[Psychic Abilities 5](#_Toc54773188)
-
-[Influences, tributes, testimonials 8](#_Toc54773189)
-
-[Spiritual Philosophy 12](#_Toc54773190)
-
-[DIVINE NATURE](#_Toc54773191) 13
-
-[OUR NATURE](#_Toc54773192) 13
-
-[SPIRITUAL INFLOWING](#_Toc54773193) 13
-
-[PROVIDENCE](#_Toc54773194) 14
-
-[FREE WILL](#_Toc54773195) 14
-
-[SPIRITUAL GROWTH](#_Toc54773196) 14
-
-[SPIRITUAL HEALTH](#_Toc54773197) 14
-
-[DIVINE MANIFESTATIONS](#_Toc54773198) 15
-
-[Eternal Questions 15](#_Toc54773199)
-
-[Who am I?](#_Toc54773200) 15
-
-[What am I?](#_Toc54773201) 17
-
-[What Am I Doing Here?](#_Toc54773202) 17
-
-[Where Am I Going?](#_Toc54773203) 18
-
-[What Happens When I Die, In Short, What is the Meaning and Purpose of Life?](#_Toc54773204) 19
-
-[Synchronicity 21](#_Toc54773205)
-
-[Life After Death &amp; Angels 23](#_Toc54773206)
-
-[The Inescapable Fact 23](#_Toc54773207)
-
-[Proving Life After Death? 24](#_Toc54773208)
-
-[What details do we have? 24](#_Toc54773209)
-
-[Swedenborg's Uniqueness 24](#_Toc54773210)
-
-[Outstanding Insights Offered by Swedenborg 24](#_Toc54773211)
-
-[New Concept of Transition 25](#_Toc54773212)
-
-[New Concept of Heaven 25](#_Toc54773213)
-
-[New Concept of Hell 25](#_Toc54773214)
-
-[Links to additional information on life after death within the website 26](#_Toc54773215)
-
-[Swedenborg Foundation link to Swedenborg on the Afterlife 26](#_Toc54773216)
-
-[A Person's awakening from the dead and entrance into eternal life 26](#_Toc54773217)
-
-[Angels - Their Origin](#_Toc54773218) 30
-
-[What do Angels look like?](#_Toc54773219) 30
-
-[Angelic Environment and Work](#_Toc54773220) 30
-
-[Guardian Angels](#_Toc54773221) 30
-
-["Harps and Wings"](#_Toc54773222) 31
-
-[Angelic Life Now](#_Toc54773223) 31 -->
 
 # Who Is Swedenborg?
 
@@ -125,10 +90,10 @@ If there are any doubts about Emanuel's perceptive mind and his extraordinary co
 - A Tank for testing ships
 - Ear Trumpet for the deaf
 
-| ![](RackMultipart20201027-4-fpomgc_html_cfd9868e844944bf.jpg) | ![](RackMultipart20201027-4-fpomgc_html_188f0fb70504d5cc.jpg) |
-| ------------------------------------------------------------- | ------------------------------------------------------------- |
-| _Two sketches of Swedenborg's Aircraft_                       | _Machine for raising ore, invented circa 1715._               |
-|                                                               |
+| ![Two sketches of Swedenborg's Aircraft](https://res.cloudinary.com/swedenborg/image/upload/v1604483650/two-aircraft-sketches.jpg) | ![Machine for raising ore, invented circa 1715.](https://res.cloudinary.com/swedenborg/image/upload/v1604483649/ore-raising-machine.jpg) |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| _Two sketches of Swedenborg's Aircraft_                                                                                            | _Machine for raising ore, invented circa 1715._                                                                                          |
+|                                                                                                                                    |
 
 His principle scientific attainments: First to propound a "Nebular Hypothesis", discoveries founded the science of Crystallography, anticipated the Doctrine of Energy, discovered functions of corpora striata and motor areas of cerebral lobes, Suggested particle construction of the magnet, discovered that the brain animates synchronously with the lungs, discovered function of the ductless glands, wrote and published first Swedish Algebra, first with hypothesis of numerous galaxies, researches founded science of Geology in Sweden, first exhaustive works on Metallurgy, discovered circulation and uses of the cerebrospinal fluid.
 
@@ -172,9 +137,9 @@ Many others have testified to the truth of the messages Swedenborg brought them 
 
 ## Influences, tributes, testimonials
 
-_"The wide range of Swedenborg's mind over the known branches of science is comparable only with that of Leonardo da Vinci"._
-
-**Everyman's Encyclopaedia (Volume 11 p. 522)**
+> _"The wide range of Swedenborg's mind over the known branches of science is comparable only with that of Leonardo da Vinci"._
+> 
+> **Everyman's Encyclopaedia (Volume 11 p. 522)**
 
 On an index for Intelligence Quotients, 150 represents "genius" level. Four people have been accredited with figures over 200:
 
@@ -195,131 +160,131 @@ Many distinguished men and women from throughout the world have acknowledged the
 
 In addition to these famous people, many others are known to have been influenced by him and a fuller list may be obtained from the Swedenborg Association of Australia.
 
-_"Swedenborg was one of the world's great geniuses. With his rare intellect and deep spiritual insight he has much to contribute to our modern life"._
+> _"Swedenborg was one of the world's great geniuses. With his rare intellect and deep spiritual insight he has much to contribute to our modern life"._
+> 
+> **Dr. Norman Vincent Peale, Author of The Power of Positive Thinking**
 
-**Dr. Norman Vincent Peale, Author of The Power of Positive Thinking**
+> _"People who have had near-death experiences peek through the door of the afterlife, but Swedenborg explored the whole house."_
+> 
+> **Kenneth Ring, Author and Founder of the International Association for Near Death Studies**
 
-_"People who have had near-death experiences peek through the door of the afterlife, but Swedenborg explored the whole house."_
+> _"I acknowledge my profound indebtedness to Emanuel Swedenborg for a richer interpretation of the Bible, and a deeper understanding of Christianity, and a precious sense of the divine presence in the world."_
+> 
+> _"Swedenborg's message has given colour and reality and unity to my thought of the life to come; it has exalted my ideas of love, truth, and usefulness; it has been my strongest incitement to overcome my limitations"._
+> 
+> **Helen Keller, Blind, deaf American Author and Lecturer**
 
-**Kenneth Ring, Author and Founder of the International Association for Near Death Studies**
+> _"Swedenborg was the first modern scientist to treat heaven as a real place, and the first to try to map it."_
+> 
+> **Dr Eben Alexander, author of Map of Heaven and Proof of Heaven.**
 
-_"I acknowledge my profound indebtedness to Emanuel Swedenborg for a richer interpretation of the Bible, and a deeper understanding of Christianity, and a precious sense of the divine presence in the world."_
+> _"Swedenborg's visions . . . are the foundation for grand things."_
+> 
+> **William Blake, English Poet, Painter, and Engraver**
 
-_"Swedenborg's message has given colour and reality and unity to my thought of the life to come; it has exalted my ideas of love, truth, and usefulness; it has been my strongest incitement to overcome my limitations"._
+> _"Continue to love me. Aye, let us love, as God would have us love one another, and let us realise, on earth, in spirit, what Swedenborg said when he saw in his vision in heaven, that man and wife there were melted into one angel."_
+> 
+> **General William Booth, founder of The Salvation Army (in a published letter to his wife)**
 
-**Helen Keller, Blind, deaf American Author and Lecturer**
+> _"Swedenborg . . . No one accepted life more fully, no one investigated it with a passion so great, with the same intellectual love, or with such impatience to learn about it"._
+> 
+> **Jorge Luis Borges, South American Poet and Novelist (d. 1986)**
 
-_"Swedenborg was the first modern scientist to treat heaven as a real place, and the first to try to map it."_
+> _"I have the profoundest honour for the character and work of Emanuel Swedenborg. I have from time to time gained much from his writings"._
+> 
+> **Rt. Rev. Phillips Brooks, Episcopalian Minister (writer of O Little Town of Bethlehem)**
 
-**Dr Eben Alexander, author of Map of Heaven and Proof of Heaven.**
+> _"To my mind the only light that has been cast on the other life is found in Swedenborg's philosophy"_
+> 
+> **Elizabeth Barrett Browning, English Poet**
 
-_"Swedenborg's visions . . . are the foundation for grand things."_
+> _"Swedenborg was a man of great and indisputable cultivation, strong mathematical intellect, and the most pious, seraphic turn of mind; a man beautiful, lovable and tragical to me. More truths are confessed in Swedenborg's writings than that of any other man. One of the loftiest minds in the realm of mind. One of the spiritual suns that will shine brighter as the years go on"._
+> 
+> **Thomas Carlyle, Scottish essayist, historian, and moralist**
 
-**William Blake, English Poet, Painter, and Engraver**
-
-_"Continue to love me. Aye, let us love, as God would have us love one another, and let us realise, on earth, in spirit, what Swedenborg said when he saw in his vision in heaven, that man and wife there were melted into one angel."_
-
-**General William Booth, founder of The Salvation Army (in a published letter to his wife)**
-
-_"Swedenborg . . . No one accepted life more fully, no one investigated it with a passion so great, with the same intellectual love, or with such impatience to learn about it"._
-
-**Jorge Luis Borges, South American Poet and Novelist (d. 1986)**
-
-_"I have the profoundest honour for the character and work of Emanuel Swedenborg. I have from time to time gained much from his writings"._
-
-**Rt. Rev. Phillips Brooks, Episcopalian Minister (writer of O Little Town of Bethlehem)**
-
-_"To my mind the only light that has been cast on the other life is found in Swedenborg's philosophy"_
-
-**Elizabeth Barrett Browning, English Poet**
-
-_"Swedenborg was a man of great and indisputable cultivation, strong mathematical intellect, and the most pious, seraphic turn of mind; a man beautiful, lovable and tragical to me. More truths are confessed in Swedenborg's writings than that of any other man. One of the loftiest minds in the realm of mind. One of the spiritual suns that will shine brighter as the years go on"._
-
-**Thomas Carlyle, Scottish essayist, historian, and moralist**
-
-_"I may speak here of another matter which belongs to this same period. A few persons in Allegheny— probably not above a hundred in all— had formed themselves into a Swedenborgian Society, in which our American relatives were prominent. My father attended that church after leaving the Presbyterian, and, of course, I was taken there. My mother, however, took no interest in Swedenborg. Although always inculcating respect for all forms of religion, and discouraging theological disputes, she maintained for herself a marked reserve. Her position might best be defined by the celebrated maxim of Confucius: 'To perform the duties of this life well, troubling not about another, is the prime wisdom.'... I became deeply interested in the mysterious doctrines of Swedenborg, and received the congratulations of my devout Aunt Aitken upon my ability to expound 'spiritual sense.' That dear old woman fondly looked forward to a time when I should become a shining light in the New Jerusalem, and I know it was sometimes not beyond the bounds of her imagination that I might blossom into what she called a 'preacher of the Word.'"._
-
-**Autobiography of Andrew Carnegie, 1920**
+> _"I may speak here of another matter which belongs to this same period. A few persons in Allegheny— probably not above a hundred in all— had formed themselves into a Swedenborgian Society, in which our American relatives were prominent. My father attended that church after leaving the Presbyterian, and, of course, I was taken there. My mother, however, took no interest in Swedenborg. Although always inculcating respect for all forms of religion, and discouraging theological disputes, she maintained for herself a marked reserve. Her position might best be defined by the celebrated maxim of Confucius: 'To perform the duties of this life well, troubling not about another, is the prime wisdom.'... I became deeply interested in the mysterious doctrines of Swedenborg, and received the congratulations of my devout Aunt Aitken upon my ability to expound 'spiritual sense.' That dear old woman fondly looked forward to a time when I should become a shining light in the New Jerusalem, and I know it was sometimes not beyond the bounds of her imagination that I might blossom into what she called a 'preacher of the Word.'"._
+> 
+> **Autobiography of Andrew Carnegie, 1920**
 
 Andrew Carnegie (1835-1919) was an American captain of industry whose philanthropy adapted the Swedenborg's 'doctrine of uses' to the Industrial Age. The son of a poor Scottish immigrant, Andrew Carnegie started out working at humble jobs but through his hard work and acute business insight he eventually formed the giant Carnegie Steel Company in 1892. In 1902 banker J.P. Morgan arranged to buy out Carnegie, making him the world's wealthiest man. In his 'Gospel of Wealth,' Carnegie set forth the idea that the wealthy should spend the latter part of their lives giving away their wealth. Carnegie established a pattern of modern philanthropy followed by later industrialists, and his Carnegie Corporation in New York continues to carry out his philanthropic work today. Carnegie's social conscience was shaped in part by his mentors Matthew Arnold and Herbert Spencer, but he was also influenced by Swedenborg's Doctrine of Uses. As a young man, he attended the Sunday school of the Swedenborgian Church in Pittsburgh and was librarian of that church. Carnegie did not merely give away his wealth - he devoted considerable effort to make certain that his gifts would be put to proper use, an approach that fitted Swedenborg's doctrine to early twentieth century America in a remarkable way.
 
-Swedenborg's books: _"Good news right fresh from heaven"._
+> Swedenborg's books: _"Good news right fresh from heaven"._
+> 
+> **John Chapman, better known as Johnny Appleseed**
 
-**John Chapman, better known as Johnny Appleseed**
+> _"As a moralist Swedenborg is above all praise"._
+> 
+> **Samuel Taylor Coleridge, Poet, philosopher, literary, social and theological critic**
 
-_"As a moralist Swedenborg is above all praise"._
-
-**Samuel Taylor Coleridge, Poet, philosopher, literary, social and theological critic**
-
-_"My salvation and inspiration come from philosophy a little and religion a great deal, especially from the mystics ancient or modern theosophical. With them my load is lifted and I regain peace, courage, faith. Praise be to the God of Jesus, ... of Swedenborg, of St. Paul."_
-
-**Alfred Deakin, Australia's second Prime Minister**
+> _"My salvation and inspiration come from philosophy a little and religion a great deal, especially from the mystics ancient or modern theosophical. With them my load is lifted and I regain peace, courage, faith. Praise be to the God of Jesus, ... of Swedenborg, of St. Paul."_
+> 
+> **Alfred Deakin, Australia's second Prime Minister**
 
 For more Deakin quotes on Swedenborg, see [here](https://www.alfreddeakin.com/spiritual-journey).
 
-_"The great Swedish seer Emanuel Swedenborg has some claim to be the father of our new knowledge of supernal matters. When the first rays of the rising sun of spiritual knowledge fell upon the earth, they illuminated the greatest and highest human mind before they shed their light on lesser men. That great mountain peak of mentality was this great religious reformer."_
+> _"The great Swedish seer Emanuel Swedenborg has some claim to be the father of our new knowledge of supernal matters. When the first rays of the rising sun of spiritual knowledge fell upon the earth, they illuminated the greatest and highest human mind before they shed their light on lesser men. That great mountain peak of mentality was this great religious reformer."_
+> 
+> **Arthur Conan Doyle, British writer and creator of the fictional detective Sherlock Holmes**
 
-**Arthur Conan Doyle, British writer and creator of the fictional detective Sherlock Holmes**
+> _"The most remarkable step in the religious history of recent ages is that made by the genius of Swedenborg. These truths passing out of his system into general circulation, are now met with every day, qualifying the views and creeds of all churches, and of men of no church."_
+> 
+> "_Swedenborg is one of the missoriums and mastodons of literature, not to be measured by whole colleges of ordinary scholars. . . Swedenborg is systematic and respective of the world in every sentence; a colossal soul who lies vast upon our times."_
+> 
+> **Ralph Waldo Emerson, American Philosopher**
 
-_"The most remarkable step in the religious history of recent ages is that made by the genius of Swedenborg. These truths passing out of his system into general circulation, are now met with every day, qualifying the views and creeds of all churches, and of men of no church."_
+> _"To me, Swedenborg's literature is an explanation of life - its meaning and purpose - which satisfies that something within us which we already know is only appealed to by the truth."_
+> 
+> **Amelita Galli-Curci, Italian Soprano**
 
-"_Swedenborg is one of the missoriums and mastodons of literature, not to be measured by whole colleges of ordinary scholars. . . Swedenborg is systematic and respective of the world in every sentence; a colossal soul who lies vast upon our times."_
+> _"I am as much inclined as anyone to believe in a world beyond the visible, and I have enough poetic and vital drive that even my own constricted self expands to feel a Swedenborgian spirit world"._
+> 
+> **Johann Wolfgang von Goethe, German poet and dramatist (Author of Faust)**
 
-**Ralph Waldo Emerson, American Philosopher**
+> _"Emanuel Swedenborg had the sanest and most far-reaching intellect this age has known . . . He grasped with clear and intellectual vision the seminal principles of things"_
+> 
+> **Henry James, Sr., American Philosopher**
 
-_"To me, Swedenborg's literature is an explanation of life - its meaning and purpose - which satisfies that something within us which we already know is only appealed to by the truth."_
+> _"I admire Swedenborg as a great scientist and a great mystic at the same time. His life and work has always been of great interest to me and I read about seven fat volumes of his writings when I was a medical student"._
+> 
+> **Carl Jung, Swiss Psychologist and Psychoanalyst**
 
-**Amelita Galli-Curci, Italian Soprano**
+> _"All my teaching is founded on that of Hahnemann and of Swedenborg; their teachings correspond perfectly"._
+> 
+> **James Tyler Kent, nineteenth-century physician, writer and proponent of modern day Homeopathy theory and practice.**
 
-_"I am as much inclined as anyone to believe in a world beyond the visible, and I have enough poetic and vital drive that even my own constricted self expands to feel a Swedenborgian spirit world"._
+> _"In the history of the rebellion of man against God and the order of nature, Swedenborg stands out as a healer who wanted to break the seals on the sacred books and thus make the rebellion unnecessary"._
+> 
+> **Czeslaw Milosz, Polish Poet and Novelist; 1980 Nobel Prize winner for literature.**
 
-**Johann Wolfgang von Goethe, German poet and dramatist (Author of Faust)**
+> _"Emanuel Swedenborg was the most remarkable man whom Sweden has ever brought forth . . . if the theological works of Swedenborg at first were apt to discredit the results of his manifold scientific research in the eyes of those who did not share his theological views, the renown of the greatest religious thinker in later times has outshone the fame of which, as the versatile scholar and philosopher, he was so eminently worthy."_
+> 
+> **Victor Nilsson, Swedish Historian**
 
-_"Emanuel Swedenborg had the sanest and most far-reaching intellect this age has known . . . He grasped with clear and intellectual vision the seminal principles of things"_
+> _"Emanuel Swedenborg: No single individual in the world's history ever encompassed in himself so great a variety of useful knowledge"._
+> 
+> **Ripley's Believe It or Not**
 
-**Henry James, Sr., American Philosopher**
+> _"In a world in which the voice of conscience too often seems still and small there is need of that spiritual leadership of which Swedenborg was a particular example."_
+> 
+> **Franklin D. Roosevelt, 32nd U.S. President**
 
-_"I admire Swedenborg as a great scientist and a great mystic at the same time. His life and work has always been of great interest to me and I read about seven fat volumes of his writings when I was a medical student"._
+> _"Theological revolutionary, traveler of heaven and hell, . . . great king of the mystical realm, seer unique throughout history, . . . clear-minded scientist, . . . all these make Swedenborg"._
+> 
+> **Daisetsu Teitaro Suzuki, Japanese philosopher and Buddhist scholar**
 
-**Carl Jung, Swiss Psychologist and Psychoanalyst**
+> _"Swedenborg has become my Virgil. Swedenborg's work is one of enormous compass and he has answered all my questions, however presumptuous they may have been. Disquiet soul, suffering heart "Take up and read"._
+> 
+> **Johann August Strindberg, Novelist, dramatist, poet - Sweden's greatest literary figure.**
 
-_"All my teaching is founded on that of Hahnemann and of Swedenborg; their teachings correspond perfectly"._
+> _"His (Swedenborg's) revelations look through all external and outward manifestations to inward realities; which regard all objects in the world of sense only as the types and symbols of the world of spirit; literally unmasking the universe and laying bare the profoundest mysteries of life"._
+> 
+> **John Greenleaf Whittier, American Poet**
 
-**James Tyler Kent, nineteenth-century physician, writer and proponent of modern day Homeopathy theory and practice.**
+> _"It must be acknowledged that there is something very beautiful and healthy about the Swedenborgian Religion. The feeling of breezy health is the basic reason for its enduring popularity"._
+> 
+> **Colin Wilson, English Philosopher and Writer**
 
-_"In the history of the rebellion of man against God and the order of nature, Swedenborg stands out as a healer who wanted to break the seals on the sacred books and thus make the rebellion unnecessary"._
-
-**Czeslaw Milosz, Polish Poet and Novelist; 1980 Nobel Prize winner for literature.**
-
-_"Emanuel Swedenborg was the most remarkable man whom Sweden has ever brought forth . . . if the theological works of Swedenborg at first were apt to discredit the results of his manifold scientific research in the eyes of those who did not share his theological views, the renown of the greatest religious thinker in later times has outshone the fame of which, as the versatile scholar and philosopher, he was so eminently worthy."_
-
-**Victor Nilsson, Swedish Historian**
-
-_"Emanuel Swedenborg: No single individual in the world's history ever encompassed in himself so great a variety of useful knowledge"._
-
-**Ripley's Believe It or Not**
-
-_"In a world in which the voice of conscience too often seems still and small there is need of that spiritual leadership of which Swedenborg was a particular example."_
-
-**Franklin D. Roosevelt, 32nd U.S. President**
-
-_"Theological revolutionary, traveler of heaven and hell, . . . great king of the mystical realm, seer unique throughout history, . . . clear-minded scientist, . . . all these make Swedenborg"._
-
-**Daisetsu Teitaro Suzuki, Japanese philosopher and Buddhist scholar**
-
-_"Swedenborg has become my Virgil. Swedenborg's work is one of enormous compass and he has answered all my questions, however presumptuous they may have been. Disquiet soul, suffering heart "Take up and read"._
-
-**Johann August Strindberg, Novelist, dramatist, poet - Sweden's greatest literary figure.**
-
-_"His (Swedenborg's) revelations look through all external and outward manifestations to inward realities; which regard all objects in the world of sense only as the types and symbols of the world of spirit; literally unmasking the universe and laying bare the profoundest mysteries of life"._
-
-**John Greenleaf Whittier, American Poet**
-
-_"It must be acknowledged that there is something very beautiful and healthy about the Swedenborgian Religion. The feeling of breezy health is the basic reason for its enduring popularity"._
-
-**Colin Wilson, English Philosopher and Writer**
-
-## Spiritual Philosophy
+# Spiritual Philosophy
 
 "The Lord regards nothing else in a person but the person's aim or purpose. Whatever the thoughts and deeds may be, varying in countless ways, they are all good provided the purpose is good. But if the end in view is bad, they are all bad. . . . . A person's aim is his very life."
 
@@ -337,31 +302,31 @@ The spiritual philosophy in Swedenborg's writings draws together the many and va
 
 This summary is simply an outline of some of the basic concepts analysed by Swedenborg, each of which relate to the whole.
 
-## DIVINE NATURE
+## Divine Nature
 
 Divine Love and Wisdom continuously creating and maintaining what is created
 
 The Divine Itself is the unity of love and wisdom. Whilst in reality one does not exist without the other, our intellectual mind sees them as distinct. Divine Love, being the very substance of creation, is invisible; Divine Wisdom, which gives form and direction to Divine Love, is visible in what is created. United Love and Wisdom is not static but a source of power which continually creates and sustains what it has created. The closest example that we have in this world is through the heat and light of the sun acting together and providing the power for sustaining natural life. The Divine is outside the constraints of space and time, which exist only in this natural realm, and our own reflecting on the Divine nature must recognise that this is so.
 
-## OUR NATURE
+## Our Nature
 
 We are each a unique soul receiving and responding to the Divine Life which animates us.
 
 We are finite spiritual beings born with a material body in order to function in this natural world. As a unique soul formed at the time of conception, we each continuously receive the Divine Life of Love and Wisdom enabling us to live as feeling and thinking beings. As the highest form in creation, we have the ability to reason and make choices about spiritual matters as if we had our own life. The true person - the spirit - is immortal and on discarding the material body we become fully conscious of the spiritual realm. The qualities of love and related intelligence - our ruling love - that we have made our own in this world remain with us and become the basis for our spiritual development to eternity.
 
-## SPIRITUAL INFLOWING
+## Spiritual Inflowing
 
 We are constantly under positive and negative influences from the spiritual realm
 
 As spiritual beings living in the worldly plane of existence, our internal minds are open to both positive and negative influences from spirits in the same way that our conscious minds are directly affected by our external circumstances. These influences - positive from spirits in heavenly states and negative from those in hellish states - are kept in equilibrium by the Lord to preserve our freedom. As part of the total mind processes, the spiritual influences filter into our consciousness and impinge on our choice processes. But we need to become aware of them, especially the subtle and persuasive hellish influences, and only take on board those influences for good in our decision making if we want to be in tune with the Divine to achieve lasting spiritual growth.
 
-## PROVIDENCE
+## Providence
 
 The Divine constantly works in every detail of life according to spiritual laws that look to our eternal welfare
 
 Just as this world operates in accordance with natural, scientific, laws which apply consistently and coherently, so there are corresponding laws which govern all aspects of our spiritual life. These laws are the Divine Providence in action, which has for its end the eternal happiness of every person. The purpose of our existence here is to become sensitive to the Divine Will and act in ways that are harmonious with the laws of Providence. When we do live in accord with the Divine plan, as we understand it to be, our lives will be blessed ultimately, if not at once. Yet, even if we do act contrary to them, the Lord works untiringly giving us countless opportunities to return to the stream of Providence. In this world we always remain open to the possibility of misfortune but that will not be detrimental to our eternal welfare if we respond positively to these apparently adverse circumstances.
 
-## FREE WILL
+## Free Will
 
 We cannot always choose what happens to us; we can choose how we respond to it
 
@@ -371,7 +336,7 @@ The God-given gift of freedom to choose rationally how we will act and react in 
 
 All of these internal choices placed before us are character building and we gradually build up the type of person we want to become.
 
-## SPIRITUAL GROWTH
+## Spiritual Growth
 
 A purifying process which through an inner struggle to overcome selfish motives we can enjoy the peace
 
@@ -381,7 +346,7 @@ The whole purpose of our life in this realm of existence is to grow spiritually 
 
 Temptations - the inner struggle of choosing between higher and lower motives - are very much part of the process even being something we should expect and welcome. Nature is full of examples of beauty and perfection coming through struggle; it is the same spiritually. We may only just begin the process here, but in doing so we will engage in dynamic and expanding awareness and growth patterns to eternity.
 
-## SPIRITUAL HEALTH
+## Spiritual Health
 
 Through loving what is good and true and applying in life our understanding of it for the eternal welfare of others (Karmic principle)
 
@@ -391,7 +356,7 @@ Irrespective of our bodily condition, we are in a state of spiritual health when
 
 Spiritual health automatically involves our own personal growth and a genuine concern for the welfare of others which, in turn, brings inner peace, humility and joy - spiritual riches beyond measure.
 
-## DIVINE MANIFESTATIONS
+## Divine Manifestations
 
 The Divine reveals Itself through the imagery of sacred scriptures and in the functioning of created forms
 
@@ -401,7 +366,7 @@ Without direct revelation we cannot know of, or acknowledge, the existence of a 
 
 This relationship between the outer and inner worlds also applies to nature, being the result of the continuous divine creative process. The functioning and usefulness of each individual part reflects the love and wisdom of the Divine so that through an understanding of how the material world operates we can gain insights into the nature of the Divine.
 
-## Eternal Questions
+# Eternal Questions
 
 ## Who am I?
 
@@ -497,7 +462,7 @@ _But the way in which the Divine Good of the Lord's Divine Love is modified for 
 
 _Reader treasure this up within you, and after death, when you are living as a spirit, inquire whether this is true, and you will see._ [Swedenborg: Apocalypse Explained 984:3]
 
-## Synchronicity
+# Synchronicity
 
 Chance? Coincidence? Providence?
 
@@ -539,7 +504,7 @@ _"All things, indeed, the least of all things, down to the minutest are directed
 
 There are more things in heaven and earth than you and I ever dreamed of . . . .
 
-## Life After Death & Angels
+# Life After Death And Angels
 
 ## The Inescapable Fact
 
