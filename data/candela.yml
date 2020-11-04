@@ -1,10 +1,16 @@
 files:
-- title: September Candela
-  description: >
-    We hope that you enjoy this new issue of the 'Candela' and its various items 
-    to help you see more of your way on your spiritual path.
-  path: candela/candela202009.pdf
-  modified: 2020-09-01 00:00:00 +1000 AEDT
+  # - title: August Candela
+  #   description: >
+  #     We hope that you enjoy this new issue of the 'Candela' and its various items 
+  #     to help you see more of your way on your spiritual path.
+  #   path: candela/candela202008.pdf
+  #   modified: 2020-08-01 00:00:00 +1000 AEDT
+  - title: September Candela
+    description: >
+      We hope that you enjoy this new issue of the 'Candela' and its various items 
+      to help you see more of your way on your spiritual path.
+    path: candela/candela202009.pdf
+    modified: 2020-09-01 00:00:00 +1000 AEDT
 # - title: October Candela
 #   description: >
 #     Add a new description here

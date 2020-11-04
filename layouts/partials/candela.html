@@ -1,0 +1,12 @@
+<div class="card mb-3">
+  <div class="card-content">
+    <!-- <p class="subtitle is-spaced  is-7">{{ partial "time.html" .Params.eventstart }}</p> -->
+    <p class="title is-spaced is-6">
+      {{ .title }}
+    </p>
+    <p class="is-size-7 has-text-grey">{{ .description }}</p>
+  </div>
+  <footer class="card-footer">
+    <a href="{{ $.Site.Params.staticURL }}{{ .path }}" class="card-footer-item" target="_blank">Download</a>
+  </footer>
+</div>

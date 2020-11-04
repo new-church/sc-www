@@ -42,6 +42,37 @@ menu:
       name: contact
       url: /contact/
       weight: 1
+  footer:
+    - 
+      name: Home
+      url: /
+      weight: 1
+    - 
+      name: Events
+      url: /events/
+      weight: 2
+    - 
+      name: News
+      url: /news/
+      weight: 3
+    - 
+      name: Shop
+      url: /shop/
+      weight: 4
+    - 
+      name: Swedenborg
+      url: /emanuel-swedenborg/
+      weight: 5
+    - 
+      name: Contact
+      url: /contact/
+      weight: 6
+  resources:
+    -
+      name: Candela
+      url: /candela/
+      weight: 1
+      
 outputs:
   home:
     - html

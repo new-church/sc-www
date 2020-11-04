@@ -1,4 +1,29 @@
 <footer class="footer">
+
+  <div class="columns is-centered">
+    <div class="column is-one-quarter">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.footer }}
+      <p class="bd-footer-link">
+        <a class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">
+          <span>{{ .Name }}</span>
+        </a>
+      </p>
+      {{ end }}
+    </div>
+    <div class="column is-one-quarter">
+      <p class="has-text-weight-bold">Resources</p>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.resources }}
+      <p class="bd-footer-link">
+        <a class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">
+          <span>{{ .Name }}</span>
+        </a>
+      </p>
+      {{ end }}
+    </div>
+  </div>
+
   <div class="content has-text-centered">
     <p>
       &copy; {{ now.Format "2006"}} <strong>Swedenborg Association Of Australia</strong> All Rights Reserved
