@@ -90,12 +90,6 @@ If there are any doubts about Emanuel's perceptive mind and his extraordinary co
 - A Tank for testing ships
 - Ear Trumpet for the deaf
 
-
-
-
-
-
-
 | ![Two sketches of Swedenborg's Aircraft](https://res.cloudinary.com/swedenborg/image/upload/v1604483650/two-aircraft-sketches.jpg) | ![Machine for raising ore, invented circa 1715.](https://res.cloudinary.com/swedenborg/image/upload/v1604483649/ore-raising-machine.jpg) |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | _Two sketches of Swedenborg's Aircraft_                                                                                            | _Machine for raising ore, invented circa 1715._                                                                                          |
