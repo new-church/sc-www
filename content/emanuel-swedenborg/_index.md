@@ -24,7 +24,7 @@ description: Scientist And Spiritual Explorer
   - [Where Am I Going?](#where-am-i-going)
   - [What Happens When I Die, In Short, What is the Meaning and Purpose of Life?](#what-happens-when-i-die-in-short-what-is-the-meaning-and-purpose-of-life)
 - [Synchronicity](#synchronicity)
-- [Life After Death And Angels](#life-after-death-and-angels)
+- [Life After Death & Angels](#life-after-death--angels)
   - [The Inescapable Fact](#the-inescapable-fact)
   - [Proving Life After Death?](#proving-life-after-death)
   - [What details do we have?](#what-details-do-we-have)
@@ -504,7 +504,7 @@ _"All things, indeed, the least of all things, down to the minutest are directed
 
 There are more things in heaven and earth than you and I ever dreamed of . . . .
 
-# Life After Death And Angels
+# Life After Death & Angels
 
 ## The Inescapable Fact
 
