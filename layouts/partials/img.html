@@ -1,0 +1,40 @@
+{{/* get file that matches the filename as specified as src="" in shortcode */}}
+{{ $src := resources.GetMatch .src }}
+{{ if $src }}
+
+{{ $width := default "1" $src.Width }}
+{{ $height := default "1" $src.Height }}
+{{ $layout := default "responsive" .layout }}
+{{ $alt := default "" .alt }}
+
+{{/* resize the src image to the given sizes */}}
+
+{{ $img80x := $src.Resize "80x" }}
+{{ $img160x := $src.Resize "160x" }}
+{{ $img320x := $src.Resize "320x" }}
+{{ $img640x := $src.Resize "640x" }}
+{{ $img1024x := $src.Resize "1024x" }}
+{{ $img2048x := $src.Resize "2048x" }}
+
+<amp-img width="{{$width}}" height="{{$height}}" layout="{{$layout}}" alt="{{$alt}}" srcset='
+  {{- if ge $src.Width "80" }}
+    {{- with $img80x.RelPermalink }}{{.}} 80w{{- end -}}
+  {{- end -}}
+  {{ if ge $src.Width "160" }}
+    {{- with $img160x.RelPermalink }}, {{.}} 160w{{- end -}}
+  {{- end -}}
+  {{ if ge $src.Width "320" }}
+    {{- with $img320x.RelPermalink }}, {{.}} 320w{{- end -}}
+  {{- end -}}
+  {{ if ge $src.Width "640" }}
+    {{- with $img640x.RelPermalink }}, {{.}} 640w{{- end -}}
+  {{- end -}}
+  {{ if ge $src.Width "1024" }}
+    {{- with $img1024x.RelPermalink }}, {{.}} 1024w{{- end -}}
+  {{- end -}}
+  {{ if ge $src.Width "2048" }}
+    {{- with $img2048x.RelPermalink }}, {{.}} 2048w{{- end -}}
+  {{- end -}}
+  '>
+</amp-img>
+{{ end }}

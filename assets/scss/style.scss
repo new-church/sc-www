@@ -25,8 +25,10 @@ $gradient-radial: radial-gradient(#f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4
 // Set your brand colors
 
 // Update Bulma's global variables
-$family-sans-serif: "Noto sans", sans-serif;
-$family-secondary:  "Poppins", sans-serif;
+$family-sans-serif: "Noto sans",
+sans-serif;
+$family-secondary: "Poppins",
+sans-serif;
 
 // $grey-dark: $brown;
 // $grey-light: $beige-light;
@@ -39,7 +41,7 @@ $fullhd-enabled: false;
 // $body-background-color: $beige-lighter;
 $control-border-width: 2px;
 $input-border-color: transparent;
-$input-shadow: none;
+$input-shadow: node;
 
 
 // Additional colors
@@ -50,20 +52,35 @@ $color5-invert: findColorInvert($color5);
 
 // 5. Add new color variables to the color map.
 @import "../from-node/bulma/sass/utilities/derived-variables";
-$addColors: (
-  "color2":($color2, $color2-invert),
+$addColors: ("color2":($color2, $color2-invert),
   "color3":($color3, $color3-invert),
   "color4": ($color4, $color4-invert),
-  "color5": ($color5, $color5-invert)
-);
+  "color5": ($color5, $color5-invert));
 $colors: map-merge($colors, $addColors);
 
-@import "../from-node/bulma/bulma";
-// @import "../from-node/bulma/sass/base/_all";
-// @import "../from-node/bulma/sass/elements/_all";
-// @import "../from-node/bulma/sass/form/_all";
-// @import "../from-node/bulma/sass/components/_all";
-// @import "../from-node/bulma/sass/grid/_all";
-// @import "../from-node/bulma/sass/layout/_all";
-@import "typography";
 
+@import "../from-node/bulma/sass/utilities/_all";
+@import "../from-node/bulma/sass/base/_all";
+// @import "../from-node/bulma/sass/elements/_all";
+// elements
+@import "../from-node/bulma/sass/elements/box.sass";
+@import "../from-node/bulma/sass/elements/button.sass";
+@import "../from-node/bulma/sass/elements/container.sass";
+@import "../from-node/bulma/sass/elements/content.sass";
+@import "../from-node/bulma/sass/elements/icon.sass";
+// @import "../from-node/bulma/sass/elements/image.sass";
+@import "../from-node/bulma/sass/elements/notification.sass";
+@import "../from-node/bulma/sass/elements/progress.sass";
+@import "../from-node/bulma/sass/elements/table.sass";
+@import "../from-node/bulma/sass/elements/tag.sass";
+@import "../from-node/bulma/sass/elements/title.sass";
+@import "../from-node/bulma/sass/elements/other.sass";
+// end elements
+@import "../from-node/bulma/sass/form/_all";
+@import "../from-node/bulma/sass/components/_all";
+@import "../from-node/bulma/sass/grid/_all";
+@import "../from-node/bulma/sass/helpers/_all";
+@import "../from-node/bulma/sass/layout/_all";
+
+@import "typography";
+@import "image";
