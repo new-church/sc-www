@@ -1,6 +1,8 @@
 ---
 title: Emanuel Swedenborg
 description: Scientist And Spiritual Explorer
+heroclass: is-dark
+img: images/featureWrapper_bkgd.jpg
 ---
 
 - [Who Is Swedenborg?](#who-is-swedenborg)
@@ -90,10 +92,9 @@ If there are any doubts about Emanuel's perceptive mind and his extraordinary co
 - A Tank for testing ships
 - Ear Trumpet for the deaf
 
-| ![Two sketches of Swedenborg's Aircraft](https://res.cloudinary.com/swedenborg/image/upload/v1604483650/two-aircraft-sketches.jpg) | ![Machine for raising ore, invented circa 1715.](https://res.cloudinary.com/swedenborg/image/upload/v1604483649/ore-raising-machine.jpg) |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| _Two sketches of Swedenborg's Aircraft_                                                                                            | _Machine for raising ore, invented circa 1715._                                                                                          |
-|                                                                                                                                    |
+![Two sketches of Swedenborg's Aircraft](images/two-aircraft-sketches.jpg "Two sketches of Swedenborg's Aircraft")
+
+![Machine for raising ore, invented circa 1715.](images/ore-raising-machine.jpg "Machine for raising ore, invented circa 1715.")
 
 His principle scientific attainments: First to propound a "Nebular Hypothesis", discoveries founded the science of Crystallography, anticipated the Doctrine of Energy, discovered functions of corpora striata and motor areas of cerebral lobes, Suggested particle construction of the magnet, discovered that the brain animates synchronously with the lungs, discovered function of the ductless glands, wrote and published first Swedish Algebra, first with hypothesis of numerous galaxies, researches founded science of Geology in Sweden, first exhaustive works on Metallurgy, discovered circulation and uses of the cerebrospinal fluid.
 

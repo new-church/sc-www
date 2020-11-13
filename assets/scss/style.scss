@@ -61,21 +61,7 @@ $colors: map-merge($colors, $addColors);
 
 @import "../from-node/bulma/sass/utilities/_all";
 @import "../from-node/bulma/sass/base/_all";
-// @import "../from-node/bulma/sass/elements/_all";
-// elements
-@import "../from-node/bulma/sass/elements/box.sass";
-@import "../from-node/bulma/sass/elements/button.sass";
-@import "../from-node/bulma/sass/elements/container.sass";
-@import "../from-node/bulma/sass/elements/content.sass";
-@import "../from-node/bulma/sass/elements/icon.sass";
-// @import "../from-node/bulma/sass/elements/image.sass";
-@import "../from-node/bulma/sass/elements/notification.sass";
-@import "../from-node/bulma/sass/elements/progress.sass";
-@import "../from-node/bulma/sass/elements/table.sass";
-@import "../from-node/bulma/sass/elements/tag.sass";
-@import "../from-node/bulma/sass/elements/title.sass";
-@import "../from-node/bulma/sass/elements/other.sass";
-// end elements
+@import "../from-node/bulma/sass/elements/_all";
 @import "../from-node/bulma/sass/form/_all";
 @import "../from-node/bulma/sass/components/_all";
 @import "../from-node/bulma/sass/grid/_all";
@@ -84,3 +70,4 @@ $colors: map-merge($colors, $addColors);
 
 @import "typography";
 @import "image";
+@import "helpers";
