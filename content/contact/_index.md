@@ -36,8 +36,6 @@ Administrative Assistant - Elizabeth Kemmis
 | ADELAIDE  | 287 Oaklands Road, MARION (P.O. Box 469, PARKHOLME, 5043) | (08) 8326 9663 | June Johnson   | [email](mailto:junejohnson5@bigpond.com)   |
 | BALLARAT  | 318 Fussell Street, BALLARAT                              | (03) 5331 5638 | Judy Robinson  | [email](mailto:lenrob@vic.chariot.net.au)  |
 | BRISBANE  |                                                           | 0421 319 252   | Darren Brunne  | [email](mailto:drbrunne@gmail.com)         |
-| BRISBANE  |                                                           | (07) 3369 0054 | Ian Arnold     | [email](mailto:im.arnold@bigpond.com)      |
-| ACT       | c/- 33 Allchin Circuit, Kambah                            | 0402 944 889   | David Moffat   | [email](mailto:d_a_moffat@yahoo.com.au)    |
 | MELBOURNE | TBA                                                       | (03) 8555 9116 | Neville Jarvis | [email](mailto:anjarvis72@optusnet.com.au) |
 | PERTH     | 281 Albany Highway, Victoria Park                         | (08) 9243 5251 | Lyn Rocke      | [email](mailto:crocke@bigpond.net.au)      |
 
