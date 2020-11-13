@@ -1,14 +1,17 @@
 {{ define "main" }}
-<section class="hero is-primary is-bold">
+<section class="hero is-bold is-medium is-dark is-relative is-clipped">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-lv-2">
       <h1 class="title">
         Swedenborg Association of Australia
       </h1>
       <h2 class="subtitle">
-        {{ .Site.Params.description }}
+        <span class="has-text-background has-background-dark-transparent">{{ .Site.Params.description }}</span>
       </h2>
     </div>
+  </div>
+  <div class="bg-img is-lv-1">
+    {{ partial "img.html" (dict "src" "/images/unsplash/mindy-pongpanik-Uz6kRtgKRjg-unsplash.jpg" "alt" "Emanuel Swedenborg" "layout" "fill") }}
   </div>
 </section>
 
@@ -19,14 +22,20 @@
       <div class="tile is-vertical is-8">
         <div class="tile">
           <div class="tile is-parent is-vertical">
-            <article class="box is-child is-white">
-              <p class="title">
-                <a href="/emanuel-swedenborg/">Who is Swedenborg?</a>
-              </p>
-              <p class="subtitle">Swedenborg, Afterlife Eyewitness</p>
-              <p class="has-text-centered">
-                <a href="/emanuel-swedenborg/" class="button is-link is-uppercase">Learn More</a>
-              </p>
+            <article class="box is-child is-white is-relative is-clipped">
+              <div class="is-relative is-lv-2">
+                <p class="title">
+                  <a href="/emanuel-swedenborg/"
+                    class="has-text-white has-text-background has-background-dark-transparent">Who is Swedenborg?</a>
+                </p>
+                <p class="subtitle has-text-white pb-6">Swedenborg, Afterlife Eyewitness</p>
+                <p class="has-text-centered">
+                  <a href="/emanuel-swedenborg/" class="button is-link is-uppercase">Learn More</a>
+                </p>
+              </div>
+              <div class="bg-img is-lv-1">
+                {{ partial "img.html" (dict "src" "/images/Swedenborg - 7.jpg" "alt" "Emanuel Swedenborg" "layout" "fill") }}
+              </div>
             </article>
             <!-- Latest Candela -->
             {{ range first 1 (sort .Site.Data.candela.files "modified" "desc") }}
@@ -35,6 +44,9 @@
                 <a href="{{ $.Site.Params.staticURL }}{{ .path }}" target="_blank"
                   class="has-text-white">{{ .title }}</a>
               </p>
+              <figure>
+                {{ partial "img.html" (dict "src" "/images/candelas.jpg" "alt" "Candelas")}}
+              </figure>
               <p class="subtitle has-text-white">{{ .description }}</p>
               <p class="has-text-centered">
                 <a href="{{ $.Site.Params.staticURL }}{{ .path }}" target="_blank"
