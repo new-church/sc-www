@@ -38,7 +38,7 @@
               </div>
             </article>
             <!-- Latest Candela -->
-            {{ range first 1 (sort .Site.Data.candela.files "modified" "desc") }}
+            {{ range first 1 (sort .Site.Data.candela "modified" "desc") }}
             <article class="tile is-child box has-background-color2">
               <p class="title">
                 <a href="{{ $.Site.Params.staticURL }}{{ .path }}" target="_blank"

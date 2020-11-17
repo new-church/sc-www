@@ -33,7 +33,7 @@
 
     <div class="columns is-centered">
       <div class="column is-half">
-        {{ range (sort .Site.Data.candela.files "modified" "desc") }}
+        {{ range (sort .Site.Data.candela "modified" "desc") }}
         {{ partial "candela.html" . }}
         {{ end }}
       </div>

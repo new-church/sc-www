@@ -29,9 +29,18 @@ menu:
       url: /shop/
       weight: 4
     - 
+      name: resources
+      url: /resources/
+      weight: 5
+    - 
+      parent: resources
+      name: Audio
+      url: /resources/audio/
+      weight: 2
+    - 
       name: about
       url: /about/
-      weight: 5
+      weight: 6
     - 
       parent: about
       name: Swedenborg
@@ -72,6 +81,10 @@ menu:
       name: Candela
       url: /candela/
       weight: 1
+    -
+      name: Audio
+      url: /resources/audio
+      weight: 2
       
 outputs:
   home:

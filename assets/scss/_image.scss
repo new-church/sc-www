@@ -9,3 +9,11 @@
     object-fit: cover;
   }
 }
+
+.image {
+  &.is-rounded {
+    img {
+      border-radius: $radius-rounded;
+    }
+  }
+}
