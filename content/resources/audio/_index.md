@@ -8,4 +8,6 @@ heroclass: is-color4
 
 {{< file-list data-section="groves" >}}
 
+# Dr Michael Stanley
 
+{{< file-list data-section="stanley" >}}
