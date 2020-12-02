@@ -1,5 +1,5 @@
 ---
-title: Contact, Membership, Constitution
+title: Contact Us and membership
 description: Contact the Swedenborg Association of Australia
 ---
 
