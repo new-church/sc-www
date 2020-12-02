@@ -3,7 +3,7 @@ title: Contact, Membership, Constitution
 description: Contact the Swedenborg Association of Australia
 ---
 
-# Membership of Swedenborg Association Of Australia (SAA)
+# Swedenborg Association Of Australia (SAA) Membership
 The SAA is set up to benefit people who are interested in Swedenborg. Member benefits are:
 - 20% discount on Swedenborg Centre purchases
 - discount rates for lectures, seminars and workshops
@@ -12,6 +12,7 @@ The SAA is set up to benefit people who are interested in Swedenborg. Member ben
 - connect with other members living in the same area if you're interested
 
 For current membership rates and a membership application form [click here](https://static.swedenborg.com.au/pdf/Membership_Application_Form.pdf)
+
 For the SAA constitution [click here](https://static.swedenborg.com.au/pdf/constitution.pdf)
 
 # The Swedenborg Centre
