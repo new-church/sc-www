@@ -38,6 +38,11 @@ menu:
       url: /resources/audio/
       weight: 2
     - 
+      parent: resources
+      name: Links
+      url: /resources/links/
+      weight: 2
+    - 
       name: about
       url: /about/
       weight: 6
@@ -83,7 +88,11 @@ menu:
       weight: 1
     -
       name: Audio
-      url: /resources/audio
+      url: /resources/audio/
+      weight: 2
+    -
+      name: Links
+      url: /resources/links/
       weight: 2
       
 outputs:
