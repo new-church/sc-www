@@ -3,13 +3,14 @@ title: Links
 description: Links to Swedenborg study resources
 heroclass: is-dark
 img: images/linksWrapper_bkgd.jpg
+hastextbackground: true
 ---
 
 # Links to useful Swedenborg-related study resources and external content
 
 ## Books
 
-- [Swedenborg Foundation, USA](http:/www.swedenborg.com) provides many free ebooks of Swedenborg’s writings plus much other useful content; also run events.
+- [Swedenborg Foundation, USA](http:/www.swedenborg.com) provides many free ebooks of Swedenborgï¿½s writings plus much other useful content; also run events.
 - [Swedenborg Society, UK](http:/www.swedenborg.org.uk) bookshop and supplies located in the heart of London at _Swedenborg House_; also run events.
 - [New Church Bookstore, USA](https://www.newchurchbooks.com)
 - [Swedenborg Scientific Association, USA](http:/www.newphilosophyonline.org)
@@ -18,8 +19,8 @@ img: images/linksWrapper_bkgd.jpg
 ## Search and study
 
 - [New Christian Bible Study](http:/www.newchristianbiblestudy.org/Swedenborg) copious Swedenborg study material, cross-linked, and in many languages. Use it to study the Bible, various spiritual topics, or Swedenborg's theological works.
-- [Swedenborg Study website](http://www.swedenborgstudy.com/websites.htm) contains many very useful free books online written by excellent authors about Swedenborg’s ideas.
-- [Swedenborg's Spiritual writings](http:/www.heavenlydoctrines.org/dtSearch.html) another site to search Swedenborg’s writings.
+- [Swedenborg Study website](http://www.swedenborgstudy.com/websites.htm) contains many very useful free books online written by excellent authors about Swedenborgï¿½s ideas.
+- [Swedenborg's Spiritual writings](http:/www.heavenlydoctrines.org/dtSearch.html) another site to search Swedenborgï¿½s writings.
 - [Kempton Project](http:/www.kemptonproject.org) a Swedenborg-based translation of the Bible available to search and study online or for purchase.
 - [Learn about Corrrespondences](http://www.scienceofcorrespondences.com) searchable site explaining many _Correspondences_
 
@@ -32,8 +33,8 @@ img: images/linksWrapper_bkgd.jpg
 ## Spiritual practice sites
 
 - [Spirit and Life](http:/spiritandlife.net/page2.html) dedicated to bringing a spiritual perspective to living life. What you will find here are a range of videos and online courses focused primarily on working with spiritual texts as a basis for cultivating a transformative spiritual practice.
-- [Regeneration, Spiritual Growth](http:/www.swedenborg.com/emanuel-swedenborg/explore/regeneration) _Regeneration_ is the word Swedenborg uses to describe our growth as spiritual beings—a process of being _created anew_ as spiritual people bound for heaven. He describes regeneration as a three-step process, one that begins with self-reflection, turning towards a better inner life, deepening our understanding, and finally focusing on the regeneration of our will and affections.
-- [A Daily Spiritual Practice Based on Swedenborg’s Rules of Life](https:/swedenborg.com/daily-spiritual-practice-based-swedenborgs-rules-life) - according to James Lawrence, Swedenborg’s “Rules of Life” incorporates the essence of two popular Christian spirituality practices, _Lectio Divina_ and the Ignatian _Examen_.
+- [Regeneration, Spiritual Growth](http:/www.swedenborg.com/emanuel-swedenborg/explore/regeneration) _Regeneration_ is the word Swedenborg uses to describe our growth as spiritual beingsï¿½a process of being _created anew_ as spiritual people bound for heaven. He describes regeneration as a three-step process, one that begins with self-reflection, turning towards a better inner life, deepening our understanding, and finally focusing on the regeneration of our will and affections.
+- [A Daily Spiritual Practice Based on Swedenborgï¿½s Rules of Life](https:/swedenborg.com/daily-spiritual-practice-based-swedenborgs-rules-life) - according to James Lawrence, Swedenborgï¿½s ï¿½Rules of Lifeï¿½ incorporates the essence of two popular Christian spirituality practices, _Lectio Divina_ and the Ignatian _Examen_.
 
 ## Swedenborg-related news and info
 
