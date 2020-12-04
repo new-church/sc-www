@@ -3,6 +3,7 @@ title: Links
 description: Links to external Swedenborg resources
 heroclass: is-dark
 img: images/linksWrapper_bkgd.jpg
+hastextbackground: true
 ---
 
 # Links to external Swedenborg content

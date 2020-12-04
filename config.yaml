@@ -12,80 +12,70 @@ taxonomies:
   location: location
 menu:
   main:
-    - 
-      name: home
+    - name: home
       url: /
       weight: 1
-    - 
-      name: events
+    - name: events
       url: /events/
       weight: 2
-    - 
-      name: news
+    - name: news
       url: /news/
       weight: 3
-    - 
-      name: shop
+    - name: shop
       url: /shop/
       weight: 4
-    - 
-      name: resources
+    - name: resources
       url: /resources/
       weight: 5
-    - 
-      parent: resources
-      name: Audio
+    - parent: resources
+      name: audio
       url: /resources/audio/
+      weight: 1
+    - parent: resources
+      name: links
+      url: /resources/links/
       weight: 2
-    - 
-      name: about
+    - name: about
       url: /about/
       weight: 6
-    - 
-      parent: about
-      name: Swedenborg
-      url: /emanuel-swedenborg/
-      weight: 2
-    - 
-      parent: about
+    - parent: about
       name: contact
       url: /contact/
       weight: 1
-  footer:
-    - 
-      name: Home
-      url: /
-      weight: 1
-    - 
-      name: Events
-      url: /events/
-      weight: 2
-    - 
-      name: News
-      url: /news/
-      weight: 3
-    - 
-      name: Shop
-      url: /shop/
-      weight: 4
-    - 
+    - parent: about
       name: Swedenborg
       url: /emanuel-swedenborg/
+      weight: 2
+  footer:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Events
+      url: /events/
+      weight: 2
+    - name: News
+      url: /news/
+      weight: 3
+    - name: Shop
+      url: /shop/
+      weight: 4
+    - name: Swedenborg
+      url: /emanuel-swedenborg/
       weight: 5
-    - 
-      name: Contact
+    - name: Contact
       url: /contact/
       weight: 6
   resources:
-    -
-      name: Candela
+    - name: Candela
       url: /candela/
       weight: 1
-    -
-      name: Audio
-      url: /resources/audio
+    - name: Audio
+      url: /resources/audio/
       weight: 2
-      
+    - name: Links
+      url: /resources/links/
+      weight: 3
+
 outputs:
   home:
     - html
@@ -97,7 +87,6 @@ params:
   staticURL: https://static.swedenborg.com.au/
   imagesURL: https://res.cloudinary.com/swedenborg/image/upload/
   author: Joe Vandermeer
-  description:
-    Since 1992, the SAA has been offering useful events, discussions and material about spiritual life and the spiritual world from the unique experiences and writings of Emanuel Swedenborg. Our aim is to help us prepare for richer experiences ahead, and to relate Swedenborg's writings to our lives.
+  description: Since 1992, the SAA has been offering useful events, discussions and material about spiritual life and the spiritual world from the unique experiences and writings of Emanuel Swedenborg. Our aim is to help us prepare for richer experiences ahead, and to relate Swedenborg's writings to our lives.
   email: info@swedenborg.com.au
   facebook: https://www.facebook.com/Swedenborg-Association-of-Australia-104862382911851/

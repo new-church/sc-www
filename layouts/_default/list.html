@@ -9,7 +9,8 @@
         {{ .Title }}
       </h1>
       <h2 class="subtitle">
-        {{ .Description }}
+        <span {{- with .Params.hastextbackground}} class="has-text-background has-background-dark-transparent"
+          {{end}}>{{ .Description }}</span>
       </h2>
     </div>
   </div>
