@@ -36,7 +36,7 @@ hastextbackground: true
 - [Regeneration, Spiritual Growth](http:/www.swedenborg.com/emanuel-swedenborg/explore/regeneration) _Regeneration_ is the word Swedenborg uses to describe our growth as spiritual beings - a process of being _created anew_ as spiritual people bound for heaven. He describes regeneration as a three-step process, one that begins with self-reflection, turning towards a better inner life, deepening our understanding, and finally focusing on the regeneration of our will and affections.
 - [A Daily Spiritual Practice Based on Swedenborg's Rules of Life](https:/swedenborg.com/daily-spiritual-practice-based-swedenborgs-rules-life) - according to James Lawrence, Swedenborg's "Rules of Life" incorporates the essence of two popular Christian spirituality practices, _Lectio Divina_ and the Ignatian _Examen_.
 
-### Swedenborg-related news and info
+### Swedenborg news and info
 
 - [Swedenborg Association of Australia Facebook Page](https:/www.facebook.com/pages/Swedenborg-Association-of-Australia/104862382911851)
 - [Swedenborg Association of Australia Blog](http:/swedenborgaustralia.blogspot.com)
