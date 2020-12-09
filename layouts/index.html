@@ -44,8 +44,13 @@
                 <a href="{{ $.Site.Params.staticURL }}{{ .path }}" target="_blank"
                   class="has-text-white">{{ .title }}</a>
               </p>
+              <p class="has-text-centered mb-3"><a href="/candela/" class="has-text-white">See all Candelas</a></p>
               <figure>
+                {{ if .image }}
+                {{ partial "img.html" (dict "src" .image "alt" "Candelas")}}
+                {{ else }}
                 {{ partial "img.html" (dict "src" "/images/candelas.jpg" "alt" "Candelas")}}
+                {{ end }}
               </figure>
               <p class="subtitle has-text-white">{{ .description }}</p>
               <p class="has-text-centered">
@@ -85,7 +90,8 @@
                 Phone (Joe): <strong><a href="tel://+61294162812" class="has-text-white">02 9416 2812</a><br></strong>
                 <strong><a href="mailto:saa@swedenborg.com.au" class="has-text-white">saa@swedenborg.com.au</a></strong>
               </p>
-              <p>See <a href="/contact/" class="has-text-white">CONTACT</a> page for further contact and membership details</p>
+              <p>See <a href="/contact/" class="has-text-white">CONTACT</a> page for further contact and membership
+                details</p>
             </div>
           </article>
         </div>

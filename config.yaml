@@ -28,13 +28,17 @@ menu:
       url: /resources/
       weight: 5
     - parent: resources
+      name: candela
+      url: /candela/
+      weight: 1
+    - parent: resources
       name: audio
       url: /resources/audio/
-      weight: 1
+      weight: 2
     - parent: resources
       name: links
       url: /resources/links/
-      weight: 2
+      weight: 3
     - name: about
       url: /about/
       weight: 6
