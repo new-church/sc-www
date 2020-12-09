@@ -43,13 +43,13 @@ Administrative Assistant - Elizabeth Kemmis
 
 ## OTHER LOCATIONS
 
-| LOCATION  | ADDRESS                                                   | TELEPHONE        | CONTACT        | EMAIL                                      |
-| --------- | --------------------------------------------------------- | ---------------- | -------------- | ------------------------------------------ |
-| ADELAIDE  | 287 Oaklands Road, MARION (P.O. Box 469, PARKHOLME, 5043) | (08) 8326 9663 | June Johnson   | [email](mailto:junejohnson5@bigpond.com)   |
-| BALLARAT  | 318 Fussell Street, BALLARAT                              | (03) 5331 5638 | Judy Robinson  | [email](mailto:lenrob@vic.chariot.net.au)  |
-| BRISBANE  |                                                           | 0421 319 252   | Darren Brunne  | [email](mailto:drbrunne@gmail.com)         |
-| MELBOURNE | TBA                                                       | (03) 8555 9116 | Neville Jarvis | [email](mailto:anjarvis72@optusnet.com.au) |
-| PERTH     | 281 Albany Highway, Victoria Park                         | (08) 9243 5251 | Lyn Rocke      | [email](mailto:crocke@bigpond.net.au)      |
+| LOCATION  | ADDRESS                                                   | TELEPHONE    | CONTACT        | EMAIL                                      |
+| --------- | --------------------------------------------------------- | ------------ | -------------- | ------------------------------------------ |
+| ADELAIDE  | 287 Oaklands Road, MARION (P.O. Box 469, PARKHOLME, 5043) | (08)83269663 | June Johnson   | [email](mailto:junejohnson5@bigpond.com)   |
+| BALLARAT  | 318 Fussell Street, BALLARAT                              | (03)53315638 | Judy Robinson  | [email](mailto:lenrob@vic.chariot.net.au)  |
+| BRISBANE  |                                                           | 0421319252   | Darren Brunne  | [email](mailto:drbrunne@gmail.com)         |
+| MELBOURNE | TBA                                                       | (03)85559116 | Neville Jarvis | [email](mailto:anjarvis72@optusnet.com.au) |
+| PERTH     | 281 Albany Highway, Victoria Park                         | (08)92435251 | Lyn Rocke      | [email](mailto:crocke@bigpond.net.au)      |
 
 There is also a Swedenborg Bookroom located at Penshurst in Sydney’s southern suburbs. The details are:
 
