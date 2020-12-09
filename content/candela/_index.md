@@ -1,6 +1,6 @@
 ---
 title: Candela Publication
-description: Released monthly
+description: Released quarterly
 ---
 
 ### Here are a list of historical Candela publications

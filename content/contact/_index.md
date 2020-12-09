@@ -43,8 +43,8 @@ Administrative Assistant - Elizabeth Kemmis
 
 ## OTHER LOCATIONS
 
-| LOCATION  | ADDRESS                                                   | TELEPHONE      | CONTACT        | EMAIL                                      |
-| --------- | --------------------------------------------------------- | -------------- | -------------- | ------------------------------------------ |
+| LOCATION  | ADDRESS                                                   | TELEPHONE        | CONTACT        | EMAIL                                      |
+| --------- | --------------------------------------------------------- | ---------------- | -------------- | ------------------------------------------ |
 | ADELAIDE  | 287 Oaklands Road, MARION (P.O. Box 469, PARKHOLME, 5043) | (08) 8326 9663 | June Johnson   | [email](mailto:junejohnson5@bigpond.com)   |
 | BALLARAT  | 318 Fussell Street, BALLARAT                              | (03) 5331 5638 | Judy Robinson  | [email](mailto:lenrob@vic.chariot.net.au)  |
 | BRISBANE  |                                                           | 0421 319 252   | Darren Brunne  | [email](mailto:drbrunne@gmail.com)         |
