@@ -1,17 +1,24 @@
 {{ define "main" }}
 
 {{/*  Hero header  */}}
-<section class="hero is-bold {{- with .Params.heroclass }} {{.}}{{ else }} is-primary{{ end }}">
+<section
+  class="hero is-bold {{- with .Params.heroclass }} {{.}}{{ end }}{{- with .Params.img }} is-medium{{ else }} is-primary{{ end }} is-relative">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-lv-2">
       <h1 class="title">
         {{ .Title }}
       </h1>
       <h2 class="subtitle">
-        {{ .Description }}
+        <span {{- with .Params.hastextbackground}} class="has-text-background has-background-dark-transparent"
+          {{end}}>{{ .Description }}</span>
       </h2>
     </div>
   </div>
+  {{- with .Params.img }}
+  <div class="bg-img is-lv-1">
+    {{ partial "img.html" (dict "src" . "alt" $.Title "layout" "fill")}}
+  </div>
+  {{ end -}}
 </section>
 
 {{/*  Breadcrumb  */}}
@@ -34,13 +41,12 @@
     <div class="columns is-centered">
       <div class="column is-half">
         {{ range (sort .Site.Data.candela "modified" "desc") }}
-        {{ partial "candela.html" . }}
+        {{ partial "candela.html" (dict "item" . "ctx" $) }}
         {{ end }}
       </div>
     </div>
 
   </div>
 </section>
-
 
 {{ end }}
