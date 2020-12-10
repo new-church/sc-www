@@ -3,11 +3,10 @@
     <!-- <p class="subtitle is-spaced  is-7">{{ partial "time.html" .Params.eventstart }}</p> -->
     <p class="title is-spaced is-6">
       <a href="{{ .ctx.Site.Params.staticURL }}{{ .item.path }}" target="_blank">{{ .item.title }}</a>
-
     </p>
     <div class="columns is-mobile">
       {{ if .item.image }}
-      <div class="column is-3 p-3">
+      <div class="column is-3">
         <a href="{{ .ctx.Site.Params.staticURL }}{{ .item.path }}" target="_blank">
           <figure>
             {{ partial "img.html" (dict "src" .item.image "alt" "Candelas")}}
@@ -15,8 +14,8 @@
         </a>
       </div>
       {{ end }}
-      <div class="columns p-3 is-flex is-align-items-center">
-        <p class="is-size-5 has-text-grey">{{ .item.description }}</p>
+      <div class="column is-flex is-align-items-center">
+        <p class="is-size-6 has-text-grey">{{ .item.description }}</p>
       </div>
     </div>
   </div>
