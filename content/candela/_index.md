@@ -1,6 +1,9 @@
 ---
 title: Candela Publication
 description: Released quarterly
+img: images/candelas.jpg
+heroclass: is-dark
+hastextbackground: true
 ---
 
 ### Here are a list of historical Candela publications
