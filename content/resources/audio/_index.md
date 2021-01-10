@@ -11,3 +11,6 @@ heroclass: is-color4
 # Dr Michael Stanley
 
 {{< file-list data-section="stanley" >}}
+
+
+
