@@ -16,6 +16,12 @@ hastextbackground: true
 - [Swedenborg Scientific Association, USA](http:/www.newphilosophyonline.org)
 - [Kempton Project](http:/www.kemptonproject.org) read, search and study, or purchase a Swedenborg-based translation of the Bible.
 
+### Reading Guides
+
+- [A guide to the enjoyment of Swedenborg by Wilson van Dusen](https://static.swedenborg.com.au/pdf/A-guide-to-the-enjoyment-of-Swedenborg.pdf)
+- [Presenting Swedenborg, A Roadmap for Readers by Julian Duckworth](https://static.swedenborg.com.au/pdf/books/presentingswedenborg.pdf)
+- [Swedenborg on... (an anthology) by Julian Duckworth](https://static.swedenborg.com.au/pdf/books/SwedenborgAnthology.pdf)
+
 ### Search and study
 
 - [New Christian Bible Study](http:/www.newchristianbiblestudy.org/Swedenborg) copious Swedenborg study material, cross-linked, and in many languages. Use it to study the Bible, various spiritual topics, or Swedenborg's theological works.
