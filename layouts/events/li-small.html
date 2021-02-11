@@ -7,14 +7,16 @@
   </div> -->
   <div class="card-content">
     <p class="subtitle is-spaced  is-7">{{ partial "time.html" .Params.eventstart }}</p>
+    {{ if .Params.img }}
+    <div class="is-flex is-justify-content-center mb-2">
+      <figure class="image is-48x48 is-rounded">
+        {{ partial "img-box.html" (dict "src" .Params.img "alt" .Title "layout" "intrinsic")}}
+      </figure>
+    </div>
+    {{ end }}
     <p class="title is-spaced is-6">
       <a href="{{.Permalink}}">{{ .Title }}</a>
     </p>
-    {{ if .Params.img }}
-    <figure>
-      {{ partial "img.html" (dict "src" .Params.img "alt" .Title )}}
-    </figure>
-    {{ end }}
     <p class="is-size-7 has-text-grey">{{ .Summary }}</p>
     <p class="has-text-link">
       <a href="{{.Permalink}}">more...</a>
