@@ -48,7 +48,7 @@ Administrative Assistant - Elizabeth Kemmis
 | ADELAIDE  | 287 Oaklands Road, MARION (P.O. Box 469, PARKHOLME, 5043) | (08)&nbsp;8326&nbsp;9663 | June Johnson   | [email](mailto:junejohnson5@bigpond.com)   |
 | BALLARAT  | 318 Fussell Street, BALLARAT                              | (03)&nbsp;5331&nbsp;5638 | Judy Robinson  | [email](mailto:lenrob@vic.chariot.net.au)  |
 | BRISBANE  |                                                           | 0421&nbsp;319&nbsp;252   | Darren Brunne  | [email](mailto:drbrunne@gmail.com)         |
-| MELBOURNE | TBA                                                       | (03)&nbsp;8555&nbsp;9116 | Neville Jarvis | [email](mailto:anjarvis72@optusnet.com.au) |
+| MELBOURNE | Unit 3 / 20 Duerdin Street, Clayton VIC 3168              | (03)&nbsp;8555&nbsp;9116 | Neville Jarvis | [email](mailto:swedenborgvictoria@gmail.com) |
 | PERTH     | 281 Albany Highway, Victoria Park                         | (08)&nbsp;9243&nbsp;5251 | Lyn Rocke      | [email](mailto:crocke@bigpond.net.au)      |
 
 There is also a Swedenborg Bookroom located at Penshurst in Sydney’s southern suburbs. The details are:
