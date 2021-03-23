@@ -36,6 +36,10 @@ menu:
       url: /resources/audio/
       weight: 2
     - parent: resources
+      name: PDFs
+      url: /pdf-downloads/
+      weight: 3
+    - parent: resources
       name: links
       url: /resources/links/
       weight: 3
