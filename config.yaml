@@ -45,15 +45,15 @@ menu:
       weight: 4
     - name: about
       url: /about/
-      weight: 1
+      weight: 6
     - parent: about
       name: contact
       url: /contact/
-      weight: 2
+      weight: 1
     - parent: about
       name: Swedenborg
       url: /emanuel-swedenborg/
-      weight: 3
+      weight: 2
   footer:
     - name: Home
       url: /
@@ -86,6 +86,7 @@ menu:
     - name: Links
       url: /resources/links/
       weight: 4
+
 
 outputs:
   home:
