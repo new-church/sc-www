@@ -42,18 +42,18 @@ menu:
     - parent: resources
       name: links
       url: /resources/links/
-      weight: 3
+      weight: 4
     - name: about
       url: /about/
-      weight: 6
+      weight: 1
     - parent: about
       name: contact
       url: /contact/
-      weight: 1
+      weight: 2
     - parent: about
       name: Swedenborg
       url: /emanuel-swedenborg/
-      weight: 2
+      weight: 3
   footer:
     - name: Home
       url: /
@@ -80,11 +80,11 @@ menu:
     - name: Audio
       url: /resources/audio/
       weight: 2
-    - name: Links
-      url: /resources/links/
-      weight: 3
     - name: PDFs
       url: /resources/pdf-downloads/
+      weight: 3
+    - name: Links
+      url: /resources/links/
       weight: 4
 
 outputs:
