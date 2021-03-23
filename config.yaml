@@ -37,7 +37,7 @@ menu:
       weight: 2
     - parent: resources
       name: PDFs
-      url: /pdf-downloads/
+      url: /resources/pdf-downloads/
       weight: 3
     - parent: resources
       name: links
@@ -83,6 +83,9 @@ menu:
     - name: Links
       url: /resources/links/
       weight: 3
+    - name: PDFs
+      url: /resources/pdf-downloads/
+      weight: 4
 
 outputs:
   home:
