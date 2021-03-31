@@ -16,7 +16,7 @@ Dr Michael Stanley was Principal of the New Church College, a Swedenborgian theo
 
 {{< file-list data-section="stanley" >}}
 
-# Emanuel Swedenborg
+# Emanuel Swedenborg's The Heavenly City
 
 In a time of spiritual upheaval Swedenborg sought to understand the deeper nature of spiritual realities. He first tried by exploring the outer world through the sciences, but as his search deepened he was drawn into exploring his own nature. Eventually a door was openened to him revealing not only the true nature of his own spirit but also the entire spiritual reality across all worlds in great detail, which he continued to experience, explore and document daily for around three decades. The clarity, consistency and wholistic nature of his account, as well as its breadth and unprecedented detail, are priceless to any spiritual searcher. In this small book he draws together in a simple form and language all the great themes of his spiritual search and experience, which makes it an excellent starting point and summary.
 
