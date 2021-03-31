@@ -15,3 +15,9 @@ Dr Philip W. Groves received PhDs in Biochemistry, Divinity and Psychology as we
 Dr Michael Stanley was Principal of the New Church College, a Swedenborgian theological seminary in Manchester, England. With a doctorate in Physics, his career moved from research in solid state physics to philosophy, psychology, and religion and particularly to the spiritual symbolism of the Bible as set forth by Swedenborg. Dr. Stanley has particular interest in the synthesising potential of the New Age, and of the power of Swedenborg's teachings in focusing this synthesis toward spiritual renewal.
 
 {{< file-list data-section="stanley" >}}
+
+# Emanuel Swedenborg
+
+In a time of spiritual upheaval Swedenborg sought to understand the deeper nature of spiritual realities. He first tried by exploring the outer world through the sciences, but as his search deepened he was drawn into exploring his own nature. Eventually a door was openened to him revealing not only the true nature of his own spirit but also the entire spiritual reality across all worlds in great detail, which he continued to explore and experience daily for around three decades. The clarity, consistency and wholistic account as well as the unprecedented detail is priceless for any spiritual searcher. In this small book he draws together in the simplest form and language possible all the great themes of his spiritual search and experience, which makes it an excellent starting point and summary.
+
+{{< file-list data-section="swedenborg" >}}
