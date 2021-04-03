@@ -24,7 +24,7 @@ hastextbackground: true
 
 ### Search and study
 
-- [New Christian Bible Study](http:/www.newchristianbiblestudy.org/Swedenborg) copious Swedenborg study material, cross-linked, and in many languages. Use it to study the Bible, various spiritual topics, or Swedenborg's theological works.
+- [New Christian Bible Study](https://newchristianbiblestudy.org/advanced-search) copious Swedenborg study material, cross-linked, and in many languages. Use it to study the Bible, various spiritual topics, or Swedenborg's theological works.
 - [Swedenborg Study website](http://www.swedenborgstudy.com/websites.htm) contains many very useful free books online written by excellent authors about Swedenborg's ideas.
 - [Swedenborg's Spiritual writings](http:/www.heavenlydoctrines.org/dtSearch.html) another site to search Swedenborg's writings.
 - [Kempton Project](http:/www.kemptonproject.org) a Swedenborg-based translation of the Bible available to search and study online or for purchase.
