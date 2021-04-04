@@ -1,7 +1,7 @@
 ---
 title: "New event - Rumi readings"
 description: "We are piloting a new event - reading the spiritual poetry of Rumi"
-date: 2020-10-26 14:00:00 +1100 AEDT
+date: 2021-04-05 01:00:00 +1100 AEDT
 ---
 
 We are piloting a new event reading the spiritual work of the famous 13th century Persian poet Rumi.
