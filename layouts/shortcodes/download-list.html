@@ -1,0 +1,40 @@
+{{ range (index .Site.Data (.Get "data-section")) }}
+
+<div class="card mb-4">
+
+  <div class="card-content">
+    <div class="media">
+      {{ if .image }}
+      <div class="media-left">
+        <figure class="image is-48x48 is-rounded">
+          {{ partial "img-box.html" (dict "src" .image "alt" .author "layout" "intrinsic")}}
+        </figure>
+      </div>
+      {{ end }}
+      <div class="media-content">
+        <p class="title is-4">{{.title}}</p>
+        <p class="subtitle is-6">
+          {{ .author }} -
+          <span class="has-text-grey is-size-7"><i>
+              {{ with .date }}
+              <time datetime="2016-1-1">{{ dateFormat "January 2, 2006" . }}</time>
+              {{ else }}
+              Unknown Date
+              {{ end }}
+          </span></i>
+        </p>
+      </div>
+    </div>
+
+    <div class="content">
+      {{ with .description }}
+      {{ . | markdownify }}
+      {{ end }}
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a href="{{ $.Site.Params.staticURL }}{{ .file }}" class="card-footer-item">Download</a>
+  </footer>
+</div>
+
+{{ end }}
