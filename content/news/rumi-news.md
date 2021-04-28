@@ -14,4 +14,8 @@ Sessions will be led by Tania Astans who will read it in Persian and in English,
 
 [Click here](https://static.swedenborg.com.au/pdf/fliers/rumi20210428.pdf) to open a flier with more details and contact info.
 
+Visit the Facebook page by [clicking here](https://www.facebook.com/Tanias-Shams-and-Rumi-Room-106439571596187) to see which teachings have been explored.
+
+The reading material can be found online by [clicking here] (https://faakhirislamic.wordpress.com/2016/05/23/masnavi-rumi-persian-with-english-translation/)
+
 Check individual events on this website for more specific details and Zoom links.
