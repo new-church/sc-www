@@ -13,7 +13,7 @@ hastextbackground: true
 - [Swedenborg Foundation, USA](http:/www.swedenborg.com) provides many free ebooks of Swedenborg's writings plus much other useful content; also run events.
 - [Swedenborg Society, UK](http:/www.swedenborg.org.uk) bookshop and supplies located in the heart of London at _Swedenborg House_; also run events.
 - [New Church Bookstore, USA](https://www.newchurchbooks.com)
-- [Swedenborg Scientific Association, USA](http:/www.newphilosophyonline.org)
+- [Swedenborg Scientific Association, USA](http:/www.newphilosophyonline.org) a.k.a. [Swedenborg Philosophy](http:/www.newphilosophyonline.org) is a group of dedicated scientists and philosophers who looks into Swedenborg's scientific works, and publish a magazine called The New Philosophy, and publish a newsletter respresenting all Swedenborg Publishers International (SPI).
 - [Kempton Project](http:/www.kemptonproject.org) read, search and study, or purchase a Swedenborg-based translation of the Bible.
 
 ### Reading Guides
