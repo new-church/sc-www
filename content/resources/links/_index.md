@@ -33,8 +33,8 @@ hastextbackground: true
 ### Videos
 
 - [offTheLeftEye](https://offthelefteye.com) has great videos exploring the afterlife, angels and spirits, near-death experiences, God, spirituality, and much more, and discusses how they relate to modern-day life.
-- [Splendors of the Spirit](https:/www.youtube.com/watch?v=RdzeFKh9_D4) excellent hour-long film on the life and legacy of Emanuel Swedenborg
-- [Swedenborg Australia YouTube channel](https:/www.youtube.com/channel/UC_YRMrzGHVbP23SQAXYK8lQ) has videos of talks in Australia on Swedenborg and spirituality - includes _Spiritual Rays of Light_ a slideshow of Swedenborg concepts.
+- [Splendors of the Spirit](https://www.youtube.com/watch?v=RdzeFKh9_D4) excellent hour-long film on the life and legacy of Emanuel Swedenborg
+- [Swedenborg Australia YouTube channel](https://www.youtube.com/channel/UC_YRMrzGHVbP23SQAXYK8lQ) has videos of talks in Australia on Swedenborg and spirituality - includes _Spiritual Rays of Light_ a slideshow of Swedenborg concepts.
 
 ### Spiritual practice sites
 
