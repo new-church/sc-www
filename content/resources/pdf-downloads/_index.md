@@ -8,6 +8,10 @@ hastextbackground: true
 
 ### These are free lecture transcripts, booklets, articles
 
+# Pamphlets introducing the main works of Swedenborg
+
+{{< download-list data-section="pamphlets" >}}
+
 #### To check the list of radio scripts, you can
 #### click [here](https://static.swedenborg.com.au/pdf/transcripts/000TopicIndex.pdf) for a list by topic,
 #### or click [here](https://static.swedenborg.com.au/pdf/transcripts/000Index.pdf) for a list of articles.
