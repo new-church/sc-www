@@ -1,12 +1,15 @@
-- title: Candela March 2021
+- title: Candela June 2021
   description: >
     Enjoy this latest edition.
-  image: /images/candela-mar-2021.png
+  image: /images/candela-jun-2021.png
   path: candela/candela202103.pdf
-  modified: 2021-03-02 00:00:00 +1000 AEDT
-- title: Candela December 2020
+  modified: 2021-06-15 00:00:00 +1000 AEDT
+- title: Candela March 2021
   description: >
     Previous edition.
+  path: candela/candela202103.pdf
+  modified: 2021-03-02 00:00:00 +1000 AEDT
+- title: Candela September 2020
   path: candela/candela202012.pdf
   modified: 2020-12-01 00:00:00 +1000 AEDT
 - title: Candela September 2020
