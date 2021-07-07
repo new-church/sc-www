@@ -1,11 +1,13 @@
 ---
-title: "2021 fortnightly art classes commencing in July"
-description: "Fortnightly art classes commence Tuesday 13th July"
+title: "One-week delay to weekly art classes (start 20th July)"
+description: "Weekly art classes commence Tuesday 20th July"
 date: 2021-06-17 20:00:00 +1100 AEDT
 ---
 
-We are offering live in-person art classes at the Swedenborg Centre to eight people, as well as for anyone else on Zoom.
-Live participation is offered to the first eight people who sign up (booking required, $5 per class), while Zoom attendees can participate for free (no booking required for ZOom use).
+Due to Covid lockdown in Sydney being extended, the art classes will start one week later on July 20th.
+
+We are offering live in-person art classes at the Swedenborg Centre to six people, as well as for anyone else on Zoom.
+Live participation is offered to the first six people who sign up (booking required, $5 per class), while Zoom attendees can participate for free (no booking required for ZOom use).
 For bookings and further enquiries, please email info@swedenborg.com.au
 
 See the individual events for further details and Zoom link.
