@@ -6,8 +6,8 @@ date: 2021-06-17 20:00:00 +1100 AEDT
 
 Due to Covid lockdown in Sydney being extended, the art classes will start a fortnight later on July 27th.
 
-We are offering live in-person art classes at the Swedenborg Centre to six people, as well as for anyone else on Zoom.
-Live participation is offered to the first six people who sign up (booking required, $5 per class), while Zoom attendees can participate for free (no booking required for ZOom use).
+We are offering live in-person art classes at the Swedenborg Centre to four people, as well as for anyone else on Zoom.
+Live participation is offered to the first four people who sign up (booking required, $5 per class), while Zoom attendees can participate for free (no booking required for ZOom use).
 For bookings and further enquiries, please email info@swedenborg.com.au
 
 See the individual events for further details and Zoom link.
