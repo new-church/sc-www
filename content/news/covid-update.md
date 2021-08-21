@@ -1,7 +1,7 @@
 ---
-title: "Swedenborg Centre activities restricted to online only until end September due to Sydney Covid lockdown"
-description: "All activites are held online only until further notice - see each event to join it online"
-date: 2021-08-21 20:00:00 +1100 AEDT
+title: "Swedenborg Centre only having online activities during Sydney Covid lockdown until end September"
+description: "All activites online only until further notice, see each event to join in"
+date: 2021-08-21 00:00:00 +1100 AEDT
 ---
 
 Covid lockdown in Sydney is currently in place until end September 2021.
