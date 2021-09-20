@@ -1,10 +1,10 @@
 ---
-title: "Swedenborg Centre only having online activities during Sydney Covid lockdown until end September"
+title: "Swedenborg Centre only having online activities during Sydney Covid lockdown ends"
 description: "All activites online only until further notice, see each event to join in"
 date: 2021-08-21 00:00:00 +1100 AEDT
 ---
 
-Covid lockdown in Sydney is currently in place until end September 2021.
+Covid lockdown in Sydney is currently in place until NSW reaches 70% vaccination rates (the government has not provided an exact date).
 
 Meanwhile we are not on site to send out book orders, but will attend to them after end of lockdown.
 
