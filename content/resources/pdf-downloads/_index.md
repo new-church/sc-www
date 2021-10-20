@@ -12,6 +12,14 @@ hastextbackground: true
 
 {{< download-list data-section="pamphlets" >}}
 
+## Brochures about Swedenborgian themes
+
+{{< download-list data-section="themes" >}}
+
+## Brochures introducing practices and guidance to spiritual growth
+
+{{< download-list data-section="brochures" >}}
+
 ## The Swedenborg Program radio scripts of Ian Arnold
 
 #### To check the list of radio scripts, you can
