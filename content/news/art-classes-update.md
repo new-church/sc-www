@@ -1,7 +1,7 @@
 ---
-title: "Art classes postponed until Sydney Covid lockdown ends"
+title: "Art classes will commence in 2022 - news on start date later"
 description: "Fortnightly art classes to commence after Sydney lockdown"
 date: 2021-08-19 00:00:00 +1100 AEDT
 ---
 
-Due to Covid lockdown in Sydney the art classes have been postponed. More details after the lockdown is lifted at the end of September.
+The art classes on the Correspondences of Egypt will be conducted in 2022. More news about when it starts will be announced here later.
