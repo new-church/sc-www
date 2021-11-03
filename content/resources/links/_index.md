@@ -10,11 +10,11 @@ hastextbackground: true
 
 ### Books
 
-- [Swedenborg Foundation, USA](http:/www.swedenborg.com) provides many free ebooks of Swedenborg's writings plus much other useful content; also run events.
-- [Swedenborg Society, UK](http:/www.swedenborg.org.uk) bookshop and supplies located in the heart of London at _Swedenborg House_; also run events.
+- [Swedenborg Foundation, USA](http://www.swedenborg.com) provides many free ebooks of Swedenborg's writings plus much other useful content; also run events.
+- [Swedenborg Society, UK](http://www.swedenborg.org.uk) bookshop and supplies located in the heart of London at _Swedenborg House_; also run events.
 - [New Church Bookstore, USA](https://www.newchurchbooks.com)
-- [Swedenborg Scientific Association, USA](http:/www.newphilosophyonline.org) a.k.a. [Swedenborg Philosophy](http:/www.newphilosophyonline.org) is a group of dedicated scientists and philosophers who looks into Swedenborg's scientific works, and publish a magazine called The New Philosophy, and publish a newsletter respresenting all Swedenborg Publishers International (SPI).
-- [Kempton Project](http:/www.kemptonproject.org) read, search and study, or purchase a Swedenborg-based translation of the Bible.
+- [Swedenborg Scientific Association, USA](http://www.newphilosophyonline.org) a.k.a. [Swedenborg Philosophy](http://www.newphilosophyonline.org) is a group of dedicated scientists and philosophers who looks into Swedenborg's scientific works, and publish a magazine called The New Philosophy, and publish a newsletter respresenting all Swedenborg Publishers International (SPI).
+- [Kempton Project](http://www.kemptonproject.org) read, search and study, or purchase a Swedenborg-based translation of the Bible.
 
 ### Reading Guides
 
@@ -26,8 +26,8 @@ hastextbackground: true
 
 - [New Christian Bible Study](https://newchristianbiblestudy.org/advanced-search) copious Swedenborg study material, cross-linked, and in many languages. Use it to study the Bible, various spiritual topics, or Swedenborg's theological works.
 - [Swedenborg Study website](http://www.swedenborgstudy.com/websites.htm) contains many very useful free books online written by excellent authors about Swedenborg's ideas.
-- [Swedenborg's Spiritual writings](http:/www.heavenlydoctrines.org/dtSearch.html) another site to search Swedenborg's writings.
-- [Kempton Project](http:/www.kemptonproject.org) a Swedenborg-based translation of the Bible available to search and study online or for purchase.
+- [Swedenborg's Spiritual writings](http://www.heavenlydoctrines.org/dtSearch.html) another site to search Swedenborg's writings.
+- [Kempton Project](http://www.kemptonproject.org) a Swedenborg-based translation of the Bible available to search and study online or for purchase.
 - [Learn about Corrrespondences](http://www.scienceofcorrespondences.com) searchable site explaining many _Correspondences_
 
 ### Videos
@@ -39,27 +39,27 @@ hastextbackground: true
 ### Spiritual practice sites
 
 - [Logopraxis - spiritual practice](http://logopraxis.online) dedicated to bringing a spiritual perspective to living life. What you will find here are a range of videos and online courses focused primarily on working with spiritual texts as a basis for cultivating a transformative spiritual practice.
-- [Regeneration, Spiritual Growth](http:/www.swedenborg.com/emanuel-swedenborg/explore/regeneration) _Regeneration_ is the word Swedenborg uses to describe our growth as spiritual beings - a process of being _created anew_ as spiritual people bound for heaven. He describes regeneration as a three-step process, one that begins with self-reflection, turning towards a better inner life, deepening our understanding, and finally focusing on the regeneration of our will and affections.
-- [A Daily Spiritual Practice Based on Swedenborg's Rules of Life](https:/swedenborg.com/daily-spiritual-practice-based-swedenborgs-rules-life) - according to James Lawrence, Swedenborg's "Rules of Life" incorporates the essence of two popular Christian spirituality practices, _Lectio Divina_ and the Ignatian _Examen_.
+- [Regeneration, Spiritual Growth](http://www.swedenborg.com/emanuel-swedenborg/explore/regeneration) _Regeneration_ is the word Swedenborg uses to describe our growth as spiritual beings - a process of being _created anew_ as spiritual people bound for heaven. He describes regeneration as a three-step process, one that begins with self-reflection, turning towards a better inner life, deepening our understanding, and finally focusing on the regeneration of our will and affections.
+- [A Daily Spiritual Practice Based on Swedenborg's Rules of Life](https://swedenborg.com/daily-spiritual-practice-based-swedenborgs-rules-life) - according to James Lawrence, Swedenborg's "Rules of Life" incorporates the essence of two popular Christian spirituality practices, _Lectio Divina_ and the Ignatian _Examen_.
 
 ### Swedenborg news and info
 
-- [Swedenborg Association of Australia Facebook Page](https:/www.facebook.com/pages/Swedenborg-Association-of-Australia/104862382911851)
-- [Swedenborg Association of Australia Blog](http:/swedenborgaustralia.blogspot.com)
-- [Spiritual Questions](http:/spiritualquestions.org.uk) throws light on human happiness and the meaning of life and spiritual questions, explored links between Swedenborg's writings, psychology and spiritual healing.
+- [Swedenborg Association of Australia Facebook Page](https://www.facebook.com/pages/Swedenborg-Association-of-Australia/104862382911851)
+- [Swedenborg Association of Australia Blog](http://swedenborgaustralia.blogspot.com)
+- [Spiritual Questions](http://spiritualquestions.org.uk) throws light on human happiness and the meaning of life and spiritual questions, explored links between Swedenborg's writings, psychology and spiritual healing.
 
 # Swedenborg organisations
 
 ### Australia
 
-- [New Church in Australia](http:/www.newchurch.net.au) Swedenborgian congregations in Australia.
-- [Australian New Church College](http:/anccollege.org) training college which runs online courses on Swedenborg and his Writings and teachings.
-- [The New Age Journal](http:/thenewage.net.au) articles on Swedenborg and his Writings and teachings.
+- [New Church in Australia](http://www.newchurch.net.au) Swedenborgian congregations in Australia.
+- [Australian New Church College](http://anccollege.org) training college which runs online courses on Swedenborg and his Writings and teachings.
+- [The New Age Journal](http://thenewage.net.au) articles on Swedenborg and his Writings and teachings.
 
 ### USA, Canada
 
-- [Swedenborgian Church of North America](http:/www.swedenborg.org)
-- [General Church of the New Jerusalem](http:/www.newchurch.org)
+- [Swedenborgian Church of North America](http://www.swedenborg.org)
+- [General Church of the New Jerusalem](http://www.newchurch.org)
 
 ### UK
 
