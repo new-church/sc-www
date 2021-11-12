@@ -8,6 +8,13 @@ hastextbackground: true
 
 # These are free lecture transcripts, booklets, articles
 
+This page contains free lecture transcripts, booklets, articles for you to enjoy. They are found below in this order:
+- Pamphlets introducing the main works of Swedenborg
+- Brochures about Swedenborgian themes
+- Brochures introducing practices and guidance to spiritual growth
+- Transcripts of YouTube clips
+- The Swedenborg Program radio scripts of Ian Arnold
+
 ## Pamphlets introducing the main works of Swedenborg
 
 {{< download-list data-section="pamphlets" >}}
@@ -20,6 +27,10 @@ hastextbackground: true
 
 {{< download-list data-section="brochures" >}}
 
+## Transcripts of YouTube clips
+
+{{< download-list data-section="youtube" >}}
+
 ## The Swedenborg Program radio scripts of Ian Arnold
 
 #### To check the list of radio scripts, you can
@@ -30,6 +41,3 @@ Radio stations 2KY and later 2SER broadcast programs to introduce Sydney's radio
 
 {{< download-list data-section="arnold" >}}
 
-## Transcripts of YouTube clips
-
-{{< download-list data-section="youtube" >}}
