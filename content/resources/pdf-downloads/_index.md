@@ -6,9 +6,9 @@ img: images/articles_bkgd.jpg
 hastextbackground: true
 ---
 
-# These are free lecture transcripts, booklets, articles
+# Free lecture transcripts, booklets & articles
 
-This page contains free lecture transcripts, booklets, articles for you to enjoy. They are found below in this order:
+These materials are free for you to enjoy and are listed below in this order:
 - Pamphlets introducing the main works of Swedenborg
 - Brochures about Swedenborgian themes
 - Brochures introducing practices and guidance to spiritual growth
