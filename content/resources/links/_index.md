@@ -20,7 +20,7 @@ hastextbackground: true
 
 - [A guide to the enjoyment of Swedenborg by Wilson van Dusen](https://static.swedenborg.com.au/pdf/A-guide-to-the-enjoyment-of-Swedenborg.pdf)
 - [Presenting Swedenborg, A Roadmap for Readers by Julian Duckworth](https://static.swedenborg.com.au/pdf/books/presentingswedenborg.pdf)
-- [Swedenborg on... (an anthology) by Julian Duckworth](https://static.swedenborg.com.au/pdf/books/SwedenborgAnthology.pdf)
+- [Swedenborg on... (an anthology) by Julian Duckworth](https://static.swedenborg.com.au/pdf/books/swedenborganthology.pdf)
 
 ### Search and study
 

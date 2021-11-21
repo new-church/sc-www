@@ -6,12 +6,18 @@ img: images/articles_bkgd.jpg
 hastextbackground: true
 ---
 
+# Library catalogue, Swedenborg Centre (Roseville)
+
+Reference items may be studied at the Centre only due to their age, rarity, frequent use, or expense
+- [Library catalogue](https://static.swedenborg.com.au/pdf/books/swedenborgcentrelibrarycatalogue.pdf)
+
 # Free lecture transcripts, booklets & articles
 
 These materials are free for you to enjoy and are listed below in this order:
 - Pamphlets introducing the main works of Swedenborg
 - Brochures about Swedenborgian themes
 - Brochures introducing practices and guidance to spiritual growth
+- Digital books and booklets on Swedenborg-related themes from various authors
 - Transcripts of YouTube clips
 - The Swedenborg Program radio scripts of Ian Arnold
 
@@ -26,6 +32,10 @@ These materials are free for you to enjoy and are listed below in this order:
 ## Brochures introducing practices and guidance to spiritual growth
 
 {{< download-list data-section="brochures" >}}
+
+## Digital books and booklets on Swedenborg-related themes from various authors
+
+{{< download-list data-section="books" >}}
 
 ## Transcripts of YouTube clips
 
