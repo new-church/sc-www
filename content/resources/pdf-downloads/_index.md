@@ -6,9 +6,9 @@ img: images/articles_bkgd.jpg
 hastextbackground: true
 ---
 
-# Library catalogue, Swedenborg Centre (Roseville)
+# Lending library catalogue, Swedenborg Centre (Roseville)
 
-Reference items may be studied at the Centre only due to their age, rarity, frequent use, or expense
+Items markes as reference may only be studied at the Centre due to their age, rarity, frequent use, or expense
 - [Library catalogue](https://static.swedenborg.com.au/pdf/books/swedenborgcentrelibrarycatalogue.pdf)
 
 # Free lecture transcripts, booklets & articles
