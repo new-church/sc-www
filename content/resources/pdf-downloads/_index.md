@@ -8,7 +8,7 @@ hastextbackground: true
 
 # Lending library catalogue, Swedenborg Centre (Roseville)
 
-Items markes as reference may only be studied at the Centre due to their age, rarity, frequent use, or expense
+Items marked as reference may only be studied at the Centre due to their age, rarity, frequent use, or expense
 - [Library catalogue](https://static.swedenborg.com.au/pdf/books/swedenborgcentrelibrarycatalogue.pdf)
 
 # Free lecture transcripts, booklets & articles
