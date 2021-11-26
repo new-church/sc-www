@@ -1,0 +1,10 @@
+<div class="card mb-4">
+
+  <div class="card-content">
+    {{ range (index .Site.Data (.Get "data-section")) }}
+    <div class="mb-1">
+      <a href="{{ $.Site.Params.staticURL }}{{ .file }}">{{.title}}</a>
+    </div>
+    {{ end }}
+  </div>
+</div>
