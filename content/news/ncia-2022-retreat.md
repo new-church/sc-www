@@ -8,7 +8,7 @@ The [New Church In Australia (NCIA)](http://newchurch.net.au/) holds an annual f
 
 The scheduled events so far are:
 
-- Thursday 6th January 2022: 'Question Time' by David Moffat either at 10AM or 8PM or both (TBD). [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/2074775351?pwd=ZEdFT0x1OTRVWFdOMzZqcEcrZ2dTdz09)
+- Thursday 6th January 2022: 'Question Time' by David Moffat either at 10AM (and also at 8PM if there is enough interest). [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/2074775351?pwd=ZEdFT0x1OTRVWFdOMzZqcEcrZ2dTdz09)
 - Friday 7th January 2022: 'Where's Wally? Maps and tools for the spiritually lost, perplexed and unmotivated' by Joe Vandermeer. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/89832027177?pwd=L1NDZytIb2MrU0pHMkJ4SVJBdG5EQT09)
 - Saturday 8th January 2022: presentation by Sarah Walker at 2PM
 - Sunday 9th January 2022: Melbourne New Church service live streaming by David Moffat at 10:30AM. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/2074775351?pwd=ZEdFT0x1OTRVWFdOMzZqcEcrZ2dTdz09)
