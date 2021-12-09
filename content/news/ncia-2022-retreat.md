@@ -8,11 +8,11 @@ The [New Church In Australia (NCIA)](http://newchurch.net.au/) holds an annual f
 
 The scheduled events so far are:
 
-- Thursday 6th January 2022 10AM, 8PM: 'Question Time' by David Moffat. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/2074775351?pwd=ZEdFT0x1OTRVWFdOMzZqcEcrZ2dTdz09)
-- Friday 7th January 2022 10AM: 'Deborah's Tree' by Ros Taylor. (Link TBD)
+- Thursday 6th January 2022 10AM and 8PM: 'Question Time' by David Moffat. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/2074775351?pwd=ZEdFT0x1OTRVWFdOMzZqcEcrZ2dTdz09)
+- Friday 7th January 2022 10AM: 'Deborah's Tree' by Ros Taylor. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/81419610190?pwd=cVVCTnFSNVhROWp2L1lDUXlIZWhjQT09)
 - Friday 7th January 2022 8PM: 'Where's Wally? Maps and tools for the spiritually lost, perplexed and unmotivated' by Joe Vandermeer. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/89832027177?pwd=L1NDZytIb2MrU0pHMkJ4SVJBdG5EQT09)
-- Saturday 8th January 2022 9:50AM: presentation by Julian Duckworth on 'Using the Word More Personally'. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/89943297066?pwd=REZyVzJVUXc5ZXp5SU9IN2tGY1BzQT09). For a synopsis [click here](https://static.swedenborg.com.au/pdf/fliers/ncia202201081000.pdf)
-- Saturday 8th January 2022: presentation by Sarah Walker at 2PM on 'An experience of self'. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/128490153?pwd=MFo5NGFWL2RFRXNRQzAxYzlKMEJHUT09)
-- Sunday 9th January 2022: Service of Worship live streamed by David Moffat at 10:30AM. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/2074775351?pwd=ZEdFT0x1OTRVWFdOMzZqcEcrZ2dTdz09)
+- Saturday 8th January 2022 9:50AM: 'Using the Word More Personally' by Julian Duckworth. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/89943297066?pwd=REZyVzJVUXc5ZXp5SU9IN2tGY1BzQT09). For a synopsis [click here](https://static.swedenborg.com.au/pdf/fliers/ncia202201081000.pdf)
+- Saturday 8th January 2022 2PM: 'An experience of self' by Sarah Walker. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/128490153?pwd=MFo5NGFWL2RFRXNRQzAxYzlKMEJHUT09)
+- Sunday 9th January 2022 10:30AM: Service of Worship live streamed by David Moffat. [Click here to join Zoom at the time it begins](https://us02web.zoom.us/j/2074775351?pwd=ZEdFT0x1OTRVWFdOMzZqcEcrZ2dTdz09)
 
-For more news, event details, and Zoom links relating to this retreat see the New Church In Victoria website at [https://www.swedenborgcommunityvictoria.net.au/](https://www.swedenborgcommunityvictoria.net.au/) then search for January events.
+For more news, event details, and Zoom links relating to this retreat see the Swedenborg Community Victoria website at [https://www.swedenborgcommunityvictoria.net.au/](https://www.swedenborgcommunityvictoria.net.au/) then search for January events.
