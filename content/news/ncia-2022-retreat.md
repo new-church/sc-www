@@ -8,12 +8,11 @@ The [New Church In Australia (NCIA)](http://newchurch.net.au/) holds an annual f
 
 PROGRAM
 
-For specific event details, fliers, and Zoom links, please look for each event on the ['events' pages - click here](https://swedenborg.com.au/events/) and find the relevant page (for multi-page navigation see the foot of each events list).
-
+For specifics on each event, eg attendance details and links, or other detailed info, please look for the relevant event on the ['events' pages in the top menu or by clicking here](https://swedenborg.com.au/events/) and then navigate to the relevant page and event using the multi-page navigation at the foot of the page.
 
 ~ Thursday 6th January 2022 10AM: 'Question Time' by Dick Keyworth.
 
-~ Thursday 6th January 2022 8PM: 'Question Time' by David Moffat. For this event please contact David (email: [d_a_moffat@yahoo.com.au](d_a_moffat@yahoo.com.au)) for attendance information,
+~ Thursday 6th January 2022 8PM: 'Question Time' by David Moffat.
 
 ~ Friday 7th January 2022 10AM: 'Deborah's Tree' by Ros Taylor.
 
@@ -23,6 +22,6 @@ For specific event details, fliers, and Zoom links, please look for each event o
 
 ~ Saturday 8th January 2022 2PM: 'An experience of self' by Sarah Walker.
 
-~ Sunday 9th January 2022 10:30AM: Service of Worship live streamed by David Moffat. For this event please contact David (email: [d_a_moffat@yahoo.com.au](d_a_moffat@yahoo.com.au)) for attendance information,
+~ Sunday 9th January 2022 10:30AM: Service of Worship live streamed by David Moffat.
 
 For more news, event details, and Zoom links relating to this retreat see the Swedenborg Community Victoria website at [https://www.swedenborgcommunityvictoria.net.au/](https://www.swedenborgcommunityvictoria.net.au/) then search for January events.
