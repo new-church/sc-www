@@ -8,7 +8,7 @@ The [New Church In Australia (NCIA)](http://newchurch.net.au/) holds an annual f
 
 PROGRAM
 
-For specifics on each event, eg attendance details and links, or other detailed info, please look for the relevant event on the ['events' pages in the top menu or by clicking here](https://swedenborg.com.au/events/) and then navigate to the relevant page and event using the multi-page navigation at the foot of the page.
+For specifics on each event, eg attendance details and links, or other detailed info, please look for the relevant event on the ['events' pages in the top menu or by clicking here](https://swedenborg.com.au/events/) and then navigate to the relevant page with the event using the multi-page navigation at the foot of each page.
 
 ~ Thursday 6th January 2022 10AM: 'Question Time' by Dick Keyworth.
 
