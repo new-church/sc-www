@@ -18,7 +18,7 @@ For specifics on each event, eg attendance details and links, or other detailed 
 
 ~ Friday 7th January 2022 8PM: 'Where's Wally? Maps and tools for the spiritually lost, perplexed and unmotivated' by Joe Vandermeer.
 
-~ Saturday 8th January 2022 9:50AM: 'Using the Word More Personally' by Julian Duckworth.
+~ Saturday 8th January 2022 10AM: 'Using the Word More Personally' by Julian Duckworth.
 
 ~ Saturday 8th January 2022 2PM: 'An experience of self' by Sarah Walker.
 
