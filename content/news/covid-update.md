@@ -4,7 +4,7 @@ description: "relaxation of Covid rules affecting Swedenborg Centre"
 date: 2021-12-16 00:00:00 +1100 AEDT
 ---
 
-The Swedenborg Centre is able to allow its visitors to be more relaxed, because the following easing of Covid rules was announced by NSW Public Health effective from Thu 16th Dec 2021.
+The Swedenborg Centre can now allow visitors to relax, because NSW Covid rules were eased from Thu 16th Dec 2021.
 
 To visit the Centre you do NOT need to:
 - wear a mask
