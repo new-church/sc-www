@@ -64,10 +64,3 @@ hastextbackground: true
 ### UK
 
 - [New Church UK](https://newchurch.org.uk)
-
-# music principles for Fourth Way studies
-
-- [video 1](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples1.mp4)
-- [video 2](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples2.mp4)
-- [video 3](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples3.mp4)
-- [video 4](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples4.mp4)
