@@ -65,11 +65,9 @@ hastextbackground: true
 
 - [New Church UK](https://newchurch.org.uk)
 
-# supplementary material
+# music principles for Fourth Way studies
 
-### 4 videos on music principles for Fourth Way esoteric studies, 2 hours each (right click and 'save as' to download)
-
-- [part 1](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples1.mp4)
-- [part 2](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples2.mp4)
-- [part 3](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples3.mp4)
-- [part 4 (appendix)](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples4.mp4)
+- [video 1](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples1.mp4)
+- [video 2](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples2.mp4)
+- [video 3](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples3.mp4)
+- [video 4](https://static.swedenborg.com.au/audio/fourthway/202112fourthwaymusicprinciples4.mp4)
