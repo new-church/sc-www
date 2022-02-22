@@ -1,7 +1,7 @@
 ---
 title: "2pm Sunday 27th March Riley Lee and Cliona Molins Concert at Roseville New Church"
 description: "Autumn Concert at the Roseville New Church, 4 Shirley Rd, Roseville NSW 2069"
-date: 2022-03-27 00:00:00 +1100 AEDT
+date: 2022-02-22 00:00:00 +1100 AEDT
 ---
 
 Internationally renowned shakuhachi master Riley Lee and acclaimed Sydney harpist Cliona Molins will be performing some wonderfully meditative and introspective music at their Autumn Concert at the Roseville New Church, 4 Shirley Rd, Roseville NSW 2069.
