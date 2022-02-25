@@ -9,4 +9,4 @@ Music will also include some calm and classic Irish and original melodies.
 
 [Click here](https://static.swedenborg.com.au/pdf/fliers/leemolins20220327.pdf) to open a flier with more details and booking info.
 
-[Click here](https://www.trybooking.com/BWVPY) to book your tickets ($35).
+[Click here](https://www.trybooking.com/BWVPY) to book your tickets ($35/$30).
