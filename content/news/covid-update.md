@@ -1,5 +1,5 @@
 ---
-title: "Swedenborg Centre activities all now online start of Easter (Centre closed to visitors)"
+title: "Activities online only until start of Easter (Centre closed)"
 description: "Changes to events run by the Swedenborg Centre"
 date: 2022-04-04 00:00:00 +1100 AEDT
 ---
