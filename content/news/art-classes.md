@@ -8,7 +8,7 @@ We are offering live in-person art classes at the Swedenborg Centre to four peop
 
 The subject of our art endeavours will be Correspondences of Egypt - guidance on the subject will be provided at each class.
 
-Live participation is offered to the first six people who sign up (booking required, $5 per class), while Zoom attendees can participate for free (no booking required for ZOom use).
+Live participation is offered to the first six people who sign up (booking required, $5 per class), while Zoom attendees can participate for free (no booking required for Zoom use).
 
 Session will run from 10am to 2pm every week.
 
