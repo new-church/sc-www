@@ -10,7 +10,7 @@ The subject of our art endeavours will be Correspondences of Egypt - guidance on
 
 Live participation is offered to the first six people who sign up (booking required, $5 per class), while Zoom attendees can participate for free (no booking required for Zoom use).
 
-Session will run from 10am to 2pm every week.
+Session will run from 10am to 3pm every week.
 
 For bookings and further enquiries, please email [info@swedenborg.com.au](mailto:info@swedenborg.com.au) for attendance information,
 
