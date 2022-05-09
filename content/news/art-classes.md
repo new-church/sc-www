@@ -1,14 +1,14 @@
 ---
-title: "Six weekly art classes starting 5th May"
-description: "Weekly art classes commence Thursday 5th May"
+title: "Six weekly Thursday art classes 5th May-6 June 10am-3pm"
+description: "Weekly art classes on correspondences"
 date: 2022-01-01 01:00:00 +1100 AEDT
 ---
 
-We are offering live in-person art classes at the Swedenborg Centre to four people, plus an unlimited number of people on Zoom.
+We are offering six art special classes both as live in-person and on Zoom.
 
 The subject of our art endeavours will be Correspondences of Egypt - guidance on the subject will be provided at each class.
 
-Live participation is offered to the first six people who sign up (booking required, $5 per class), while Zoom attendees can participate for free (no booking required for Zoom use).
+Live participation at the Swedenborg Centre is offered to six people (booking required, $5 per class), while Zoom attendees can participate for free (no booking required for Zoom use).
 
 Session will run from 10am to 3pm every week.
 
