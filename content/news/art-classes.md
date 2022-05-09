@@ -1,5 +1,5 @@
 ---
-title: "Six weekly Thursday art classes 5th May-6 June 10am-3pm"
+title: "Six weekly Thursday art classes 5th May to 6th June, 10am-3pm"
 description: "Weekly art classes on correspondences"
 date: 2022-01-01 01:00:00 +1100 AEDT
 ---
