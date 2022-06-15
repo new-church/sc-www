@@ -4,7 +4,7 @@ description: "1992-2022 Swedenborg Association achievements"
 date: 2022-01-01 01:00:00 +1100 AEDT
 ---
 
-This year, the SAA (Swedenborg Association of Australia) Celebrates its 30th year of service. Here are some major highlights of those 3 decades (thanks to Michael Chester for this history compilation):
+This year, the SAA (Swedenborg Association of Australia) celebrates its 30th year of service. Here are some major highlights of those 3 decades (thanks to Michael Chester for this history compilation):
 
 1992
 - Regular group meetings began in Melbourne, Perth and Sydney. Over 80 talks in Sydney recorded and made available as DVDs.
