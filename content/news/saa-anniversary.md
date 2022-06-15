@@ -15,13 +15,13 @@ This year, the SAA (Swedenborg Association of Australia) celebrates its 30th yea
 - Regular Newsletter Candela first issued. Colour print started in 2016. 108 issues so far.
 
 1994
-- Publication of Presenting Swedenborg: A Roadmap for readers. Major revision in 2019. This booklet is a 'road map' to provide a bridge for the would be reader who wonders where to begin and where to find the central concepts in Swedenborg's writings. To view or download a copy, click [here](https://static.swedenborg.com.au/pdf/books/presentingswedenborg.pdf) 
+- Publication of Presenting Swedenborg: A Roadmap for Readers. Major revision in 2019. This booklet is a 'road map' to provide a bridge for the would be reader who wonders where to begin and where to find the central concepts in Swedenborg's writings. To view or download a copy, click [here](https://static.swedenborg.com.au/pdf/books/presentingswedenborg.pdf) 
 
 1995
 - Website established on the internet. Upgrades occurred in 2003, 2014 and 2020.
 
 2002
-- Cooperative agreement between the SAA and the Swedenborg Centre concluded with future activities under Association’s name.
+- Cooperative agreement between the SAA and the Swedenborg Centre concluded with future activities under Association's name.
 
 2009
 - Added the first video to the SwedenborgAustralia YouTube channel - video called Spiritual Rays of Light. The video presents key concepts based on the writings of Emanuel Swedenborg. You can view it at [https://www.youtube.com/watch?v=GjHC206cVd0](https://www.youtube.com/watch?v=GjHC206cVd0) Additional videos have been added subsequently.
@@ -34,10 +34,10 @@ This year, the SAA (Swedenborg Association of Australia) celebrates its 30th yea
 - Presence on Facebook began. Approximately fifty posts a year. In June 2022 has 475 followers.
 
 2015
-- Participated in the 2015, 2016 and 2017 Australian Afterlife Explorer’s Conferences.
+- Participated in the 2015, 2016 and 2017 Australian Afterlife Explorer's Conferences.
 
 2017
-- Publication of the Swedenborg Anthology—an explanation of words and terms used in Swedenborg’s writings. View or download it [here](https://static.swedenborg.com.au/pdf/books/swedenborganthology.pdf)
+- Publication of the Swedenborg Anthology — an explanation of words and terms used in Swedenborg's writings. View or download it [here](https://static.swedenborg.com.au/pdf/books/swedenborganthology.pdf)
 
 2018
 - Registered Office moved from North Ryde to Roseville.
