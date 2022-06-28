@@ -1,5 +1,5 @@
 ---
-title: "SAA celebrates 30 years in existence"
+title: "SAA celebrates 30 years"
 description: "1992-2022 Swedenborg Association achievements"
 date: 2022-01-01 01:00:00 +1100 AEDT
 ---
