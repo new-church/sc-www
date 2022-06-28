@@ -1,12 +1,15 @@
+- title: Candela June 2022
+  description: >
+    Enjoy this 30th anniversary edition.
+  image: /images/candela-jun-2022.png
+  path: candela/candela202206.pdf
+  modified: 2022-06-01 00:00:00 +1000 AEDT
 - title: Candela March 2022
   description: >
-    Enjoy this latest edition.
-  image: /images/candela-mar-2022.png
+    Previous edition.
   path: candela/candela202203.pdf
   modified: 2022-03-01 00:00:00 +1000 AEDT
 - title: Candela December 2021
-  description: >
-    Previous edition.
   path: candela/candela202112.pdf
   modified: 2021-12-01 00:00:00 +1000 AEDT
 - title: Candela September 2021
