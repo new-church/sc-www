@@ -43,5 +43,5 @@ This year, the SAA (Swedenborg Association of Australia) celebrates its 30th yea
 - Registered Office moved from North Ryde to Roseville.
 
 2020
-- Beginning of Zoom meetings so that people from all over Australia and indeed the world can join in live meetings. Swedenborg Saturdays was set up especially as an opportunity for SAA members to meet and share their interest in Swedenborg and his Writings.
-- Revision of the classic: A light burden, Easier ways to shun evils. An in-depth practical look at a basic teaching of Swedenborg - turning away from evils is vital to spiritual growth. View or download it [here](https://static.swedenborg.com.au/pdf/books/alightburden.pdf)
+- Beginning of Zoom meetings. People from all over Australia and indeed the world can join in live meetings. Swedenborg Saturdays was set up as a special endeavour for SAA members to meet and share their interest in Swedenborg and his Writings.
+- Revision of the classic: A light burden: Easier ways to shun evils. An in-depth practical look at a basic teaching of Swedenborg - turning away from evils is vital to spiritual growth. View or download it [here](https://static.swedenborg.com.au/pdf/books/alightburden.pdf)
