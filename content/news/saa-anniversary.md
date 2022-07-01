@@ -1,5 +1,5 @@
 ---
-title: "SAA celebrates 30 years - historical Candela editions now available"
+title: "SAA celebrates 30 years. Historical Candela editions now available"
 description: "1992-2022 Swedenborg Association achievements"
 date: 2022-01-01 01:00:00 +1100 AEDT
 ---
