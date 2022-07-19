@@ -55,4 +55,4 @@ There is also a Swedenborg Bookroom located at Penshurst in Sydney’s southern 
 
 *22 Dudley Street, PENSHURST NSW\
 Telephone (02) 9580 1589\
-Email : newchurch@optusnet.com.au*
+Email : todd@hurstvillenewchurch.com*
