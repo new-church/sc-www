@@ -10,9 +10,9 @@ Session will run monthly from 10am to 3pm on the first Thursday of every month.
 
 The subject of our art will continue to be 'correspondences' - guidance on the subject will be provided at each class.
 
-Live participation at the Swedenborg Centre requires a booking ($5 per class). Zoom attendees is free and no booking required for Zoom.
+No booking required.
 
-For bookings and further enquiries, please email [info@swedenborg.com.au](mailto:info@swedenborg.com.au) for attendance information,
+For attendance information and enquiries please email [info@swedenborg.com.au](mailto:info@swedenborg.com.au)
 
 See the individual events for further details and a Zoom link.
 
