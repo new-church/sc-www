@@ -12,7 +12,7 @@ The subject of our art will continue to be 'correspondences' - guidance on the s
 
 No booking required.
 
-For attendance information and enquiries please email [info@swedenborg.com.au](mailto:info@swedenborg.com.au)
+For more information and enquiries please email [info@swedenborg.com.au](mailto:info@swedenborg.com.au)
 
 See the individual events for further details and a Zoom link.
 
