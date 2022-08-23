@@ -157,7 +157,7 @@ Many distinguished men and women from throughout the world have acknowledged the
 
 (mostly in alphabetical order)
 
-**Dr Eben Alexander; William Blake; General William Booth; Jorge Luis Borges; Rt. Rev. Phillips Brooks; Elizabeth Barrett Browning; Thomas Carlyle; Andrew Carnegie; John Chapman (Johnny Appleseed); Samuel Taylor Coleridge; Alfred Deakin; Arthur Conan Doyle; Ralph Waldo Emerson; Amelita Galli-Curci; Johann Wolfgang von Goethe; Henry James, Sr.; Carl Jung; Helen Keller; James Tyler Kent; Czeslaw Milosz; Victor Nilsson; Dr. Norman Vincent Peale; Kenneth Ring; George Ripley; Franklin D. Roosevelt; Daisetsu Teitaro Suzuki; Johann August Strindberg; John Greenleaf Whittier; Colin Wilson.**
+**Dr Eben Alexander; William Blake; General William Booth; Jorge Luis Borges; Rt. Rev. Phillips Brooks; Elizabeth Barrett Browning; Thomas Carlyle; Andrew Carnegie; John Chapman (Johnny Appleseed); Samuel Taylor Coleridge; Alfred Deakin; Arthur Conan Doyle; Ralph Waldo Emerson; Amelita Galli-Curci; Johann Wolfgang von Goethe; Henry James, Sr.; Carl Jung; Helen Keller; James Tyler Kent; Czeslaw Milosz; Victor Nilsson; Dr. Norman Vincent Peale; Kenneth Ring; George Ripley; Franklin D. Roosevelt; Daisetsu Teitaro Suzuki; Johann August Strindberg; John Greenleaf Whittier; Colin Wilson; Bill Wilson.**
 
 In addition to these famous people, many others are known to have been influenced by him and a fuller list may be obtained from the Swedenborg Association of Australia.
 
@@ -284,6 +284,12 @@ For more Deakin quotes on Swedenborg, see [here](https://www.alfreddeakin.com/sp
 > _"It must be acknowledged that there is something very beautiful and healthy about the Swedenborgian Religion. The feeling of breezy health is the basic reason for its enduring popularity"._
 > 
 > **Colin Wilson, English Philosopher and Writer**
+
+> _"In January of 1918 Bill and Lois were married in the Swedenborgian church in Brooklyn, New York"._
+> _"Bill learned that Lois' family were all Swedenborgians, and the mystic aspect of the faith so fascinated them they vowed to explore it more deeply..."._
+> _"This is not to say that Bill Wilson became a Swedenborgian per se, yet his obsession with spiritualism and view of Christ and the Bible must be at least partially attributed to exposure to Swedenborgian teachings"._
+> 
+> **references to co-founder of A.A., Bill Wilson, and his connection to Swedenborg (for more [click here](https://static.swedenborg.com.au/pdf/swedenborg_bill_wilson.pdf))**
 
 # Spiritual Philosophy
 
