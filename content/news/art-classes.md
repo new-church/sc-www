@@ -1,14 +1,14 @@
 ---
-title: "NEW: monthly art class start August - first Thu each month 10am-3pm"
+title: "monthly art class first Thu each month 10am-3pm"
 description: "Monthly art class on correspondences"
 date: 2022-01-01 01:00:00 +1100 AEDT
 ---
 
-Thanks to the success of our pilot art classes, we are offering more art classes, both live (in-person) and on Zoom.
+Thanks to the success of our pilot art classes, we are now offering more art classes, both live (in-person) and on Zoom.
 
-Session will run monthly from 10am to 3pm on the first Thursday of every month.
+Monthly session run from 10am to 3pm on the first Thursday of every month.
 
-The subject of our art will continue to be 'correspondences' - guidance on the subject will be provided at each class.
+The subject of our art is 'correspondences'.
 
 No booking required.
 
@@ -24,4 +24,5 @@ Things you will need:
 - a pencil sharpener; 
 - a soft eraser (a kneadable eraser is recommended); 
 - a backing board (e.g. cardboard, plastic, corflute, plywood, or a flat art folder);
-- your lunch.
+- your lunch;
+- a small donation if attending live and if you wish to contribute to minor costs
