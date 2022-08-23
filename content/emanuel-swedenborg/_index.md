@@ -289,7 +289,7 @@ For more Deakin quotes on Swedenborg, see [here](https://www.alfreddeakin.com/sp
 > _"Bill learned that Lois' family were all Swedenborgians, and the mystic aspect of the faith so fascinated them they vowed to explore it more deeply..."._
 > _"This is not to say that Bill Wilson became a Swedenborgian per se, yet his obsession with spiritualism and view of Christ and the Bible must be at least partially attributed to exposure to Swedenborgian teachings"._
 > 
-> **references to co-founder of A.A., Bill Wilson, and his connection to Swedenborg (for more [click here](https://static.swedenborg.com.au/pdf/swedenborg_bill_wilson.pdf))**
+> **references to co-founder of A.A., Bill Wilson, and his connection to Swedenborg (for more [click here](https://static.swedenborg.com.au/pdf/Swedenborg_and_Bill_Wilson.pdf))**
 
 # Spiritual Philosophy
 
