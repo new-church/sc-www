@@ -29,7 +29,7 @@ hastextbackground: true
 - [Swedenborg's Spiritual writings](http://www.heavenlydoctrines.org/dtSearch.html) another site to search Swedenborg's writings.
 - [Kempton Project](http://www.kemptonproject.org) a Swedenborg-based translation of the Bible available to search and study online or for purchase.
 - [Learn about Corrrespondences](http://www.scienceofcorrespondences.com) searchable site explaining many _Correspondences_
-- [Free spiritual e-learning](https://www.swedenborg-openlearning.org.uk/free-spiritual-e-learning/) online courses offered by the Swedenborg Open Learning Centre (UK, previously New Church College). These new courses are especially adapted for public use based on modules previously used to train ordination students. These online introductory and further study courses in Swedenborgian thought are also available in person at the Swedenborg Open Learning Centre.
+- [Free spiritual e-learning](https://www.swedenborg-openlearning.org.uk/free-spiritual-e-learning/) online courses offered by the Swedenborg Open Learning Centre (UK, previously New Church College). These new courses are especially adapted for public use based on modules previously used to train ordination students. One option for studying these online introductory and further study courses in Swedenborgian thought, is through online personal tutoring.
 
 ### Videos
 
