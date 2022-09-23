@@ -16,13 +16,15 @@ Dr Michael Stanley was Principal of the New Church College, a Swedenborgian theo
 
 The following Dr Stanley audio talks also have transcripts available (click on the link below to read and download the transcript):
 
-[Effect of Other World on this World transcript](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Other-World-Effect-on-This-World_transcript.pdf) 
+[Effect of Other World on this World (lecture transcript)](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Other-World-Effect-on-This-World_transcript.pdf) 
 
-[Evidence for Life After Death transcript](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Evidence-of-Life-After-Death_transcript.pdf) 
+[Evidence for Life After Death (lecture transcript)](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Evidence-of-Life-After-Death_transcript.pdf) 
 
-[Laws of the Spiritual World transcript](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Laws-of-the-Spiritual-World_transcript.pdf) 
+[Laws of the Spiritual World (lecture transcript)](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Laws-of-the-Spiritual-World_transcript.pdf) 
 
-[Life After Death transcript](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Life-After-Death_transcript.pdf)
+[Life After Death (lecture transcript)](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Life-After-Death_transcript.pdf)
+
+Below are the audio files.
 
 {{< file-list data-section="stanley" >}}
 
