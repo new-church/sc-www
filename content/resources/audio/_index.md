@@ -12,10 +12,16 @@ Dr Philip W. Groves received PhDs in Biochemistry, Divinity and Psychology as we
 
 # Dr Michael Stanley
 
-Dr Michael Stanley was Principal of the New Church College, a Swedenborgian theological seminary in Manchester, England. With a doctorate in Physics, his career moved from research in solid state physics to philosophy, psychology, and religion and particularly to the spiritual symbolism of the Bible as set forth by Swedenborg. Dr. Stanley has particular interest in the synthesising potential of the New Age, and of the power of Swedenborg's teachings in focusing this synthesis toward spiritual renewal. The following audio talks below have transcripts available (click on the link to read and download the transcript):
+Dr Michael Stanley was Principal of the New Church College, a Swedenborgian theological seminary in Manchester, England. With a doctorate in Physics, his career moved from research in solid state physics to philosophy, psychology, and religion and particularly to the spiritual symbolism of the Bible as set forth by Swedenborg. Dr. Stanley has particular interest in the synthesising potential of the New Age, and of the power of Swedenborg's teachings in focusing this synthesis toward spiritual renewal.
+
+The following Dr Stanley audio talks also have transcripts available (click on the link below to read and download the transcript):
+
 [Effect of Other World on this World transcript](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Other-World-Effect-on-This-World_transcript.pdf) 
+
 [Evidence for Life After Death transcript](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Evidence-of-Life-After-Death_transcript.pdf) 
+
 [Laws of the Spiritual World transcript](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Laws-of-the-Spiritual-World_transcript.pdf) 
+
 [Life After Death transcript](https://static.swedenborg.com.au/pdf/transcripts/DrMichaelStanley_Life-After-Death_transcript.pdf)
 
 {{< file-list data-section="stanley" >}}
