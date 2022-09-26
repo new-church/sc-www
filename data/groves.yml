@@ -1,8 +1,8 @@
-- file: "audio/groves/Ancient Egyptian Hieroglyphs.mp3"
-  title: "Ancient Egyptian Hieroglyphs"
+- file: "audio/groves/Swedenborg_and_Correspondences.mp3"
+  title: "Swedenborg and Science of Correspondences"
   author: "Dr Philip W Groves"
   image: "images/dr Philip W Groves.jpg"
-  date: 1994-03-25
+  date: 1988-03-27
 - file: "audio/groves/Dynamics of Creation.mp3"
   title: "Dynamics of Creation"
   author: "Dr Philip W Groves"
@@ -13,31 +13,26 @@
   author: "Dr Philip W Groves"
   image: "images/dr Philip W Groves.jpg"
   date: 1993-09-17
-- file: "audio/groves/Phantasy_and_Reality.mp3"
-  title: "Fantasy and Reality"
-  author: "Dr Philip W Groves"
-  image: "images/dr Philip W Groves.jpg"
-  date: 1995-04-28
 - file: "audio/groves/Rebirth_and_Transformation.mp3"
   title: "Rebirth and Transformation"
   author: "Dr Philip W Groves"
   image: "images/dr Philip W Groves.jpg"
   date: 1993-09-24 
+- file: "audio/groves/Ancient Egyptian Hieroglyphs.mp3"
+  title: "Ancient Egyptian Hieroglyphs"
+  author: "Dr Philip W Groves"
+  image: "images/dr Philip W Groves.jpg"
+  date: 1994-03-25
+- file: "audio/groves/Phantasy_and_Reality.mp3"
+  title: "Fantasy and Reality"
+  author: "Dr Philip W Groves"
+  image: "images/dr Philip W Groves.jpg"
+  date: 1995-04-28
 - file: "audio/groves/Swedenborg's Mighty Contribution.mp3"
   title: "Swedenborg's Mighty Contribution"
   author: "Dr Philip W Groves"
   image: "images/dr Philip W Groves.jpg"
   date: 1996-02-23
-- file: "audio/groves/Swedenborg's Vision.mp3"
-  title: "Swedenborg's Vision (Tricentenary)"
-  author: "Dr Philip W Groves"
-  image: "images/dr Philip W Groves.jpg"
-  date: 1998-01-30
-- file: "audio/groves/Swedenborg_and_Correspondences.mp3"
-  title: "Swedenborg and Science of Correspondences"
-  author: "Dr Philip W Groves"
-  image: "images/dr Philip W Groves.jpg"
-  date: 1988-03-27
 - file: "audio/groves/Western Mandalas.mp3"
   title: "Western Mandalas"
   author: "Dr Philip W Groves"
@@ -48,3 +43,9 @@
   author: "Dr Philip W Groves"
   image: "images/dr Philip W Groves.jpg"
   date: 1996-11-16
+- file: "audio/groves/Swedenborg's Vision.mp3"
+  title: "Swedenborg's Vision (Tricentenary)"
+  author: "Dr Philip W Groves"
+  image: "images/dr Philip W Groves.jpg"
+  date: 1998-01-30
+
