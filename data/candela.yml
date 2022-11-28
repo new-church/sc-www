@@ -1,12 +1,15 @@
-- title: Candela number 109, September 2022
+- title: Candela number 110, December 2022
   description: >
     Enjoy this latest edition.
-  image: /images/candela-sep-2022.png
+  image: /images/candela-dec-2022.png
+  path: candela/candela202212.pdf
+  modified: 2022-12-01 00:00:00 +1000 AEDT
+- title: Candela number 109, September 2022
+  description: >
+    Previous edition.
   path: candela/candela202209.pdf
   modified: 2022-09-01 00:00:00 +1000 AEDT
 - title: Candela number 108, June 2022
-  description: >
-    Previous edition.
   path: candela/candela202206.pdf
   modified: 2022-06-01 00:00:00 +1000 AEDT
 - title: Candela number 107, March 2022
