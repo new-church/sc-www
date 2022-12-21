@@ -1,9 +1,9 @@
 ---
-title: "SAA clip on YouTube"
-description: "Latest: SAA video clip on Being Useful"
+title: "SAA clips on YouTube"
+description: "SAA video clip on YouTube"
 date: 2022-01-01 01:00:00 +1100 AEDT
 ---
 
-The latest short video clip uploaded to the SwedenborgAustralia YouTube channel explains the centrality of the need to be of use, the spiritual benefit of becoming a contributor rather than a consumer. You can view the video at [https://www.youtube.com/watch?v=X_d6-nUQJcY](https://www.youtube.com/watch?v=X_d6-nUQJcY)
+See some short video clips on the SwedenborgAustralia YouTube channel on various introductory Swedenborg topics. You'll find the videos at [https://www.youtube.com/@swedenborgaustralia2839](https://www.youtube.com/@swedenborgaustralia2839)
 
-Enjoy the presentation. We hope you find it useful. We strive to produce these material so that Swedenborg's writings can be presented without jargon, and we hope that they can be enjoyed and understood by a wide audience, so that the ideas might be applied to every viewer's life.
+We strive to produce these material so that Swedenborg's writings can be presented without jargon, and we hope that they can be enjoyed and understood by a wide audience, so that the ideas might be applied to every viewer's life.
