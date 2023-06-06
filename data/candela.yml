@@ -1,12 +1,15 @@
-- title: Candela number 111, March 2023
+- title: Candela number 112, June 2023
   description: >
     Enjoy this latest edition.
-  image: /images/candela-mar-2023.png
+  image: /images/candela-jun-2023.png
+  path: candela/candela202306.pdf
+  modified: 2023-06-01 00:00:00 +1000 AEDT
+- title: Candela number 111, March 2023
+  description: >
+    Previous edition.
   path: candela/candela202303.pdf
   modified: 2023-03-01 00:00:00 +1000 AEDT
 - title: Candela number 110, December 2022
-  description: >
-    Previous edition.
   path: candela/candela202212.pdf
   modified: 2022-12-01 00:00:00 +1000 AEDT
 - title: Candela number 109, September 2022
