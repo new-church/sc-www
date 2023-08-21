@@ -15,7 +15,7 @@ Here are the relevant notices and reports:
 
 [Click here](https://static.swedenborg.com.au/pdf/fliers/saaagm20230922agendaproxy.pdf) to open an Agenda and Proxy form.
 
-[Click here](https://static.swedenborg.com.au/pdf/fliers/saaagm20220923minutes.pdf) to open minutes of the 2021 AGM (to be approved at this AGM).
+[Click here](https://static.swedenborg.com.au/pdf/fliers/saaagm20220923minutes.pdf) to open minutes of last year's AGM (to be approved this meeting).
 
 [Click here](https://static.swedenborg.com.au/pdf/fliers/saaagm20230922treasurer.pdf) to open the Treasurer's Report.
 
