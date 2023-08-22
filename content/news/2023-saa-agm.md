@@ -19,4 +19,5 @@ Here are the relevant notices and reports:
 
 [Click here](https://static.swedenborg.com.au/pdf/fliers/saaagm20230922treasurer.pdf) to open the Treasurer's Report.
 
-The President's Report will be uploaded for you to download and read as soon as it becomes available.
+[Click here](https://static.swedenborg.com.au/pdf/fliers/saaagm20230922president.pdf) to open the President's Report.
+
