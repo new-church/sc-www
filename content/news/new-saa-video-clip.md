@@ -1,7 +1,7 @@
 ---
 title: "SAA clips on YouTube"
 description: "SAA video clip on YouTube"
-date: 2022-01-01 01:00:00 +1100 AEDT
+date: 2023-08-28 01:00:00 +1100 AEDT
 ---
 
 See some short video clips on the SwedenborgAustralia YouTube channel on various introductory Swedenborg topics. You'll find the videos at [https://www.youtube.com/@swedenborgaustralia2839](https://www.youtube.com/@swedenborgaustralia2839)
