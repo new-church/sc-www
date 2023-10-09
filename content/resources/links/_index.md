@@ -56,7 +56,7 @@ hastextbackground: true
 
 - [New Church in Australia](http://www.newchurch.net.au) Swedenborgian congregations in Australia.
 - [Australian New Church College](http://anccollege.org) training college which runs online courses on Swedenborg and his Writings and teachings.
-- [Roseville New Church](https://www.rosevillenewchurch.com.au) Roseville New Church, 4 Shirley Road, Roseville NSW 2069, Australia.
+- [Roseville New Church](https://www.rosevillenewchurch.com.au) Roseville New Church (4 Shirley Rd, Roseville Australia). Check out the Minister's Reflections.
 - [The New Age Journal](http://thenewage.net.au) articles on Swedenborg and his Writings and teachings.
 
 ### USA, Canada
