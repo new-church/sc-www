@@ -36,6 +36,7 @@ hastextbackground: true
 - [offTheLeftEye](https://offthelefteye.com) has great videos exploring the afterlife, angels and spirits, near-death experiences, God, spirituality, and much more, and discusses how they relate to modern-day life.
 - [Splendors of the Spirit](https://www.youtube.com/watch?v=RdzeFKh9_D4) excellent hour-long film on the life and legacy of Emanuel Swedenborg
 - [Swedenborg Australia YouTube channel](https://www.youtube.com/channel/UC_YRMrzGHVbP23SQAXYK8lQ) has videos of talks in Australia on Swedenborg and spirituality - includes _Spiritual Rays of Light_ a slideshow of Swedenborg concepts.
+- [Spiritual Shorts](https://www.youtube.com/@spiritualshorts43/videos) has topical videos produced by Rev Howard Thompson of Roseville New Church (see also link below under Swedenborg Organisations - Australia).
 
 ### Spiritual practice sites
 
@@ -55,6 +56,7 @@ hastextbackground: true
 
 - [New Church in Australia](http://www.newchurch.net.au) Swedenborgian congregations in Australia.
 - [Australian New Church College](http://anccollege.org) training college which runs online courses on Swedenborg and his Writings and teachings.
+- [Roseville New Church](https://www.rosevillenewchurch.com.au) Roseville New Church, 4 Shirley Road, Roseville NSW 2069, Australia.
 - [The New Age Journal](http://thenewage.net.au) articles on Swedenborg and his Writings and teachings.
 
 ### USA, Canada
