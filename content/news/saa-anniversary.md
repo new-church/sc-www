@@ -1,12 +1,10 @@
 ---
-title: "SAA celebrates 30 years. Historical Candelas now available."
-description: "1992-2022 Swedenborg Association achievements"
+title: "SAA historical candelas available."
+description: "1992-2024 Swedenborg Association achievements"
 date: 2022-01-01 01:00:00 +1100 AEDT
 ---
 
-This year, the SAA (Swedenborg Association of Australia) celebrates its 30th year of service.
-
-To celebrate, we have loaded up the very earliest Candela magazine issues. See bottom of [the Candela page](https://swedenborg.com.au/candela/) for some facsinating historical editions. For a special celebration issue of the Candela, [click here](https://static.swedenborg.com.au/candela/candela202206.pdf) to open and download it.
+In 2022, the SAA (Swedenborg Association of Australia) celebrated its 30th year of service and uploaded the very earliest Candela magazine issues. See bottom of [the Candela page](https://swedenborg.com.au/candela/) for some facsinating historical editions. For a special celebration issue of the Candela, [click here](https://static.swedenborg.com.au/candela/candela202206.pdf) to open and download it.
 
 And below are some major highlights of those 3 decades (thanks to Michael Chester for this history compilation):
 
