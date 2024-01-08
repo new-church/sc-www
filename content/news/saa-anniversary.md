@@ -1,5 +1,5 @@
 ---
-title: "SAA historical candelas available."
+title: "SAA historical Candelas available."
 description: "1992-2024 Swedenborg Association achievements"
 date: 2022-01-01 01:00:00 +1100 AEDT
 ---
