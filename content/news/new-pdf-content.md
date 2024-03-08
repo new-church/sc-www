@@ -1,6 +1,6 @@
 ---
 title: "New free digitised PDF resources available."
-description: "New digitised talks, booklets, leaflets added, see end of Resources -> PDFs"
+description: "New digitised talks, booklets, leaflets added, see Resources -> PDFs (bottom of page)"
 date: 2024-03-08 01:00:00 +1100 AEDT
 ---
 
