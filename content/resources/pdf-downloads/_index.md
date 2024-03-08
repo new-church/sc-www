@@ -51,3 +51,7 @@ Radio stations 2KY and later 2SER broadcast programs to introduce Sydney's radio
 
 {{< download-list-simple data-section="arnold" >}}
 
+## Recent new additions of digitised talks, booklets and leaflets
+
+{{< download-list-simple data-section="recent" >}}
+
