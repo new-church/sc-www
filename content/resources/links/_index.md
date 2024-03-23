@@ -54,15 +54,16 @@ hastextbackground: true
 
 ### Australia
 
-- [New Church in Australia](http://www.newchurch.net.au) Swedenborgian congregations in Australia.
-- [Australian New Church College](http://anccollege.org) training college which runs online courses on Swedenborg and his Writings and teachings.
-- [Roseville New Church](https://www.rosevillenewchurch.com.au) Roseville New Church (4 Shirley Rd, Roseville Australia). Check out the Minister's Reflections.
-- [The New Age Journal](http://thenewage.net.au) articles on Swedenborg and his Writings and teachings.
+- [New Church in Australia - www.newchurch.net.au](http://www.newchurch.net.au) Swedenborgian congregations in Australia.
+- [Australian New Church College - anccollege.org](http://anccollege.org) training college which runs online courses on Swedenborg and his Writings and teachings.
+- [Roseville New Church - www.rosevillenewchurch.com.au](https://www.rosevillenewchurch.com.au) Roseville New Church (4 Shirley Rd, Roseville Australia). Check out the Minister's Reflections.
+- [The New Age Journal - thenewage.net.au](http://thenewage.net.au) articles on Swedenborg and his Writings and teachings.
 
 ### USA, Canada
 
-- [Swedenborgian Church of North America](http://www.swedenborg.org)
-- [General Church of the New Jerusalem](http://www.newchurch.org)
+- [Swedenborgian Church of North America www.swedenborg.org](http://www.swedenborg.org)
+- [General Church of the New Jerusalem - www.newchurch.org](http://www.newchurch.org)
+- [Swedenborg Library in Chicago - www.swedenborglib.org](http://www.swedenborglib.org)
 
 ### UK
 
