@@ -22,15 +22,17 @@ hastextbackground: true
 - [Presenting Swedenborg, A Roadmap for Readers by Julian Duckworth](https://static.swedenborg.com.au/pdf/books/presentingswedenborg.pdf)
 - [Swedenborg on... (an anthology) by Julian Duckworth](https://static.swedenborg.com.au/pdf/books/swedenborganthology.pdf)
 
-### Search and study
+### Search, study and practive
 
 - [New Christian Bible Study](https://newchristianbiblestudy.org/advanced-search) copious Swedenborg study material, cross-linked, and in many languages. Use it to study the Bible, various spiritual topics, or Swedenborg's theological works.
-- [Logopraxis - spiritual practice](https://logopraxis-institute.online) dedicated to bringing a spiritual perspective to living life. What you will find here are a range of articles, videos and online courses focused primarily on working with spiritual texts as a basis for cultivating a transformative spiritual practice.
+- [Logopraxis - spiritual practice](https://logopraxis-institute.online) dedicated to bring a spiritual perspective to life. Here are a range of articles, videos, podcasts and online courses focused on working with spiritual texts as a basis for cultivating a transformative spiritual practice.
 - [Swedenborg Study website](http://www.swedenborgstudy.com/websites.htm) contains many very useful free books online written by excellent authors about Swedenborg's ideas.
 - [Swedenborg's Spiritual writings](http://www.heavenlydoctrines.org/dtSearch.html) another site to search Swedenborg's writings.
 - [Kempton Project](http://www.kemptonproject.org) a Swedenborg-based translation of the Bible available to search and study online or for purchase.
 - [Learn about Corrrespondences](http://www.scienceofcorrespondences.com) searchable site explaining many _Correspondences_
 - [Free spiritual e-learning](https://www.swedenborg-openlearning.org.uk/free-spiritual-e-learning/) online courses offered by the Swedenborg Open Learning Centre (UK, previously New Church College). These new courses are especially adapted for public use based on modules previously used to train ordination students. One option for studying these online introductory and further study courses in Swedenborgian thought, is through online personal tutoring.
+- [Regeneration, Spiritual Growth](http://www.swedenborg.com/emanuel-swedenborg/explore/regeneration) _Regeneration_ is the word Swedenborg uses to describe our growth as spiritual beings - a process of being _created anew_ as spiritual people bound for heaven. He describes regeneration as a three-step process, one that begins with self-reflection, turning towards a better inner life, deepening our understanding, and finally focusing on the regeneration of our will and affections.
+- [A Daily Spiritual Practice Based on Swedenborg's Rules of Life](https://swedenborg.com/daily-spiritual-practice-based-swedenborgs-rules-life) - according to James Lawrence, Swedenborg's "Rules of Life" incorporates the essence of two popular Christian spirituality practices, _Lectio Divina_ and the Ignatian _Examen_.
 
 ### Videos
 
@@ -39,11 +41,6 @@ hastextbackground: true
 - [Swedenborg Australia YouTube channel](https://www.youtube.com/channel/UC_YRMrzGHVbP23SQAXYK8lQ) has videos of talks in Australia on Swedenborg and spirituality - includes _Spiritual Rays of Light_ a slideshow of Swedenborg concepts.
 - [Spiritual Shorts](https://www.youtube.com/@spiritualshorts43/videos) has topical videos produced by Rev Howard Thompson of Roseville New Church (see also link below under Swedenborg Organisations - Australia).
 
-### Spiritual practice sites
-
-- [Logopraxis - spiritual practice](https://logopraxis-institute.online) dedicated to bringing a spiritual perspective to living life. What you will find here are a range of articles, videos and online courses focused primarily on working with spiritual texts as a basis for cultivating a transformative spiritual practice.
-- [Regeneration, Spiritual Growth](http://www.swedenborg.com/emanuel-swedenborg/explore/regeneration) _Regeneration_ is the word Swedenborg uses to describe our growth as spiritual beings - a process of being _created anew_ as spiritual people bound for heaven. He describes regeneration as a three-step process, one that begins with self-reflection, turning towards a better inner life, deepening our understanding, and finally focusing on the regeneration of our will and affections.
-- [A Daily Spiritual Practice Based on Swedenborg's Rules of Life](https://swedenborg.com/daily-spiritual-practice-based-swedenborgs-rules-life) - according to James Lawrence, Swedenborg's "Rules of Life" incorporates the essence of two popular Christian spirituality practices, _Lectio Divina_ and the Ignatian _Examen_.
 
 ### Swedenborg news and info
 
