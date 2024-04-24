@@ -40,7 +40,7 @@ hastextbackground: true
 - [Splendors of the Spirit](https://www.youtube.com/watch?v=RdzeFKh9_D4) excellent hour-long film on the life and legacy of Emanuel Swedenborg
 - [Swedenborg Australia YouTube channel](https://www.youtube.com/channel/UC_YRMrzGHVbP23SQAXYK8lQ) has videos of talks in Australia on Swedenborg and spirituality - includes _Spiritual Rays of Light_ a slideshow of Swedenborg concepts.
 - [Spiritual Shorts](https://www.youtube.com/@spiritualshorts43/videos) has topical videos produced by Rev Howard Thompson of Roseville New Church (see also link below under Swedenborg Organisations - Australia).
-- [Swedenborg Community Victoria](www.youtube.com/@swedenborgcommunityvictoria) Community of spiritual thinkers based in Melbourne inspired by Swedenborg writings and seeking to grow and practice those ideas and the light they shed on the Bible.
+- [Swedenborg Community Victoria](www.youtube.com/@swedenborgcommunityvictoria) is a community of spiritual thinkers based in Melbourne inspired by Swedenborg writings and seeking to grow and practice those ideas and the light they shed on the Bible.
 
 ### Swedenborg news and info
 
