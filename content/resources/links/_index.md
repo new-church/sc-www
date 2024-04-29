@@ -25,6 +25,7 @@ hastextbackground: true
 ### Search, study and practice
 
 - [New Christian Bible Study](https://newchristianbiblestudy.org/advanced-search) copious Swedenborg study material, cross-linked, and in many languages. Use it to study the Bible, various spiritual topics, or Swedenborg's theological works.
+- [Artificial Intelligence Chatbot: Swedenborg Question and Answer tool provided by New Christian Bible Study](https://newchristianbiblestudy.org/chatbot) very useful study tool for asking general questions about Swedenborg's theological writings and the ideas they contain.
 - [Logopraxis - spiritual practice](https://logopraxis-institute.online) dedicated to bring a spiritual perspective to life. Here are a range of articles, videos, podcasts and online courses focused on working with spiritual texts as a basis for cultivating a transformative spiritual practice.
 - [Swedenborg Study website](http://www.swedenborgstudy.com/websites.htm) contains many very useful free books online written by excellent authors about Swedenborg's ideas.
 - [Swedenborg's Spiritual writings](http://www.heavenlydoctrines.org/dtSearch.html) another site to search Swedenborg's writings.
