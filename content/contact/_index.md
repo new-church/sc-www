@@ -46,7 +46,7 @@ The Swedenborg Centre's official opening hours are 10.30am to 4pm Monday to Frid
 | BALLARAT  | 318 Fussell Street, BALLARAT                              | (03)&nbsp;5331&nbsp;5638 | Judy Robinson  | [email](mailto:lenrob@vic.chariot.net.au)  |
 | BRISBANE  |                                                           | 0421&nbsp;319&nbsp;252   | Darren Brunne  | [email](mailto:drbrunne@gmail.com)         |
 | MELBOURNE | Unit 3 / 20 Duerdin Street, Clayton VIC 3168              | (03)&nbsp;8555&nbsp;9116 | Neville Jarvis | [email](mailto:swedenborgvictoria@gmail.com) |
-| PERTH     | 281 Albany Highway, Victoria Park                         | (08)&nbsp;9243&nbsp;5251 | Lyn Rocke      | [email](mailto:crocke@bigpond.net.au)      |
+| PERTH     |                                                           | 0409&nbsp;887&nbsp;419   | David Walker   | [email](mailto:dave9649@bigpond.com)      |
 
 There is also a Swedenborg Bookroom located at Penshurst in Sydney’s southern suburbs. The details are:
 
