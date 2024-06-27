@@ -34,10 +34,7 @@ The Swedenborg Centre's official opening hours are 10.30am to 4pm Monday to Frid
 
 **Due to limited staffing, we recommend visitors to telephone the Centre before coming.**
 
-### Staff members are:
-
-Director - Joe Vandermeer\
-Administrative Assistant - Elizabeth Kemmis
+### Staff: Director - Joe Vandermeer
 
 ---
 
