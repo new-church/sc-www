@@ -48,7 +48,7 @@ menu:
       url: /about/
       weight: 6
     - parent: about
-      name: contact
+      name: contact & membership
       url: /contact/
       weight: 1
     - parent: about
