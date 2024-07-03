@@ -34,7 +34,7 @@
     <div class="content">{{ .Content }}</div>
 
     <div class="content">
-      <h3>All editions</h3>
+      <h3>Latest edition</h3>
       {{ range (sort .Site.Data.candela "modified" "desc") }}
       <div class="mb-1">
         <a href="{{ $.Site.Params.staticURL }}{{ .path }}">{{.title}}</a>
