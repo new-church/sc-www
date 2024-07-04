@@ -31,14 +31,10 @@ So you might ask, isn't a creative work in the public domain once it's on the in
 There are very few defences against infringement. "Fair use" in Australia mainly only allows for people to be let off the hook if a creatively something is licensed to the user, or is used for free for study purposes, or for reviewing the work, or to criticise or satire the work.
 
 Our recent lessons is learning to:
-
-Be careful (ignorance is no excuse, so when in doubt, don't!)
-
-Be wise (be informed and live by that info)
-
-Be kind (to the original content owners and their lives)
-
-Be grateful (thanks to the companies and lawyers who help us check on our conscience and charitableness to others respecting their livelihood, rights and income).
+- Be careful (ignorance is no excuse, so when in doubt, don't!)
+- Be wise (be informed, live by that info, be humble enough to address it if you get it wrong - apologise, make amends, take it down, replace it, do what is needed)
+- Be kind (to the original content owners and their lives)
+- Be grateful (thanks to the companies and lawyers who help us check on our conscience and charitableness to others respecting their livelihood, rights and income).
 
 Out of respect for the creators of the images we have enjoyed using in the past but without seeking their consent or licences, we have removed from the latest issue of Candela, which is why there are no images in it anymore (except for Ruth's own photographs). And we have also removed all past Candela from the web and changed. For any related enquiries about Candela, etc, please contact the Swedenborg Centre.
 
