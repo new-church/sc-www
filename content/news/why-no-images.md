@@ -8,7 +8,7 @@ The following is not legal advice but a cautionary tale of much learning resulti
 
 Well, actually, NO, it would not be good to grab any image. It would be good to be mindful of the following.
 
-Just because something is easy to find and access and download from the internet doesn't make it okay to use it or free to use without permission from the creator.
+Just because something is easy to find and access and download from the internet doesn't make it okay to use it or free to use without permission from its creator.
 
 Copyright protects creations (i.e. their creators) of works of art, for example photos, literature, books, poems, newspaper articles, drama performances, music, etc, unless the artist has specifically issued the work with a Creative Commons type of free public use licence. Otherwise the work will be automatically covered by the copyright act as soon as they are created.
 
@@ -16,15 +16,16 @@ The way copyright law works is that the original creator of any piece of art leg
 
 Under Australian law, a work can only be protected by copyright if a human author contributed their independent intellectual effort, and since Aritificial Intelligence tools are by a machine and lack the definition of being a human author, therefore AI art - as one of the newest mediums for expression - is forbidden from copyright protection because it fails the human authorship requirement under current law. Despite several challenges to this, the Copyright Office holds fast that AI art lacks humanity and therefore does not currently have the legal status to own copyright. But whenever a human author creates a new work, the artist does not have to 'apply for anything to be protected by the copyright laws. It's automatic, by default, and it therefore becomes immediately enforceable by law. This applies whether the work is digital or not. That is something we all should know.
 
-So, unless:
+So, it would be better that you don't use that image off the internet, unless:
 
 - you are the original creator, or
-- you are the creator and you have signed a "release form" (a waiver, which is a legal document that grants permission for a person or organization to use someone else's image, likeness, or property in a specific context; commonly used in photography, video production, and events), or
-- have obtained permission or purchased a licence from the creator or appointed agent for its general or specific use, or
+- have obtained permission from the owner-creator and - if needed - purchased a licence from them creator for its use (identify the owner, identify the rights needed, contact the owner and negotiate whether payment is required, get your permission agreement in writing), or
 - you come under the small number of "fair use" defences (see below), or
 - are getting an image which has a Create Commons licence issued by the creator to it,
 
-... then it would be better that you don't use that image off the internet. Start looking for - or creating - something else. Don't wait for an infringement notice to let you know what you can't use. Get informed (see useful links below).
+If the above does not relate to you, then we suggest you start looking for - or creating - another image. Don't wait for an infringement notice to let you know what you can't use. Get informed (see useful links below).
+
+Because rights are sometimes transferred, creators and owners might in that case not be the same. In the case where rights were transferred, this could occur in a person's will, or earlier, e.g. using a "release form" (a waiver, which is a legal document that grants permission for a person or organization to use someone else's image, likeness, or property in a specific context). Such a transfer is commonly used in photography, video production, and events). To obtain permission in that case, contact the new owner to which the rights were transferred.
 
 By thw way, performers or creators do not own any copyright in audio and visual recordings of their performances, including photos taken. The photographer 'owns' the rights to the photograph they took, however, the artist 'owns' copyright of the original work of art being photographed. That's where it can get tricky. So if in doubt, consult the laws or get legal advice. And the performers of a work of art (eg a dramatic play) have further rights apart from those of authors, composers etc. and consent must be obtained to record or broadcast a live performance. Unauthorised recording of a live performance can be pursued legally. The right to perform a work publicly is an exclusive right of the copyright owner, a public performance in a venue that does not have blanket licenses may require a license to be granted through the publisher of the work.
 
