@@ -66,10 +66,10 @@ Useful reference links:
 Below are some websites which offer copyright free images, e.g. under a creative commons agreement.
 Sometimes these require an attribution, which it is wise to do as a standard practice.
 
-[unsplash.com/license](https://unsplash.com/license)
-[www.pexels.com/license](https://www.pexels.com/license)
-[pixabay.com/service/license-summary](https://pixabay.com/service/license-summary)
-[www.freepik.com/pricing](https://www.freepik.com/pricing) - scroll to the bottom of that page for details
-[www.freeimages.com](https://www.freeimages.com)
-[stocksnap.io/license](https://stocksnap.io/license)
+- [unsplash.com/license](https://unsplash.com/license)
+- [www.pexels.com/license](https://www.pexels.com/license)
+- [pixabay.com/service/license-summary](https://pixabay.com/service/license-summary)
+- [www.freepik.com/pricing](https://www.freepik.com/pricing) - scroll to the bottom of that page for details
+- [www.freeimages.com](https://www.freeimages.com)
+- [stocksnap.io/license](https://stocksnap.io/license)
 
