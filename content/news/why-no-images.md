@@ -37,7 +37,7 @@ So you might ask, isn't a creative work in the public domain once it's on the in
 
 If the book includes photographs, artworks, drawings, illustrations, diagrams and maps, each will be protected separately as an artistic work.
 
-There are very few defences against infringement. "Fair use" in Australia mainly only allows for people to be let off the hook if a creatively something is licensed to the user, or is used for free for study purposes, or for reviewing the work, or to criticise, satire or parody the work. Check with the Australian Copyright Council (link below) for more detail.
+There are only a few specific defences against infringement. "Fair use" in Australia mainly only allows for people to be let off the hook if a creatively something is licensed to the user, or is used for free for study purposes, or for reviewing the work, or to criticise, satire or parody the work. Check with the Australian Copyright Council (link below) for more detail.
 
 Our recent lessons is learning to:
 - Be careful (ignorance is no excuse, so when in doubt, don't!)
@@ -60,4 +60,14 @@ Useful reference links:
 [picrights.com](https://picrights.com) - PicRights (and simlarly, Copyright Agent) are not law firms. They are third parties acting on behalf of rightsholders to identify and remedy the unlicensed use of those rightsholders' works online. Such rightsholders include Reuters, Alamay, Associated Press and Agence France Presse and others.
 
 [bing.com/images/create?](https://www.bing.com/images/create?) - Bing image creator is one example of an easy to use AI picture generator. There are many other free or paid services out there like it, simply search the internet for them. Here's how easy it is, using the Bing link as an example. Click on the link to take you to Bing, and then type in normal English language the kind of image you want, e.g."racing cyclist with red helmet riding fast through rural countryside," which it generated in around 10 seconds. Or asking for "two men sitting at a computer screen talking to each other" also came back with four possible picture options within seconds. You can add whatever detail you like eg "not smiling" or "picket fence" or whatever you fancy to add.Plus you can name a style, eg "like Van Gogh" or "photorealistic" or "impressionist style". It really is that simple, and a bit of fun. You can keep going back to your request and add more detail to see what it comes up with next to improve the intended target idea. Then copy or download the image you want for your work. And those images are totally unique, and do not (won't yet, and hopefully never will) attract any copyright or infringements.
+
+Below are some websites which offer copyright free images, e.g. under a creative commons agreement.
+Sometimes these require an attribution, which it is wise to do as a standard practice.
+
+[unsplash.com/license](https://unsplash.com/license)
+[www.pexels.com/license](https://www.pexels.com/license)
+[pixabay.com/service/license-summary](https://pixabay.com/service/license-summary)
+[www.freepik.com/pricing](https://www.freepik.com/pricing) - scroll to the bottom of that page for details
+[www.freeimages.com](https://www.freeimages.com)
+[stocksnap.io/license](https://stocksnap.io/license)
 
