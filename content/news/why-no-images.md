@@ -53,6 +53,8 @@ Five ways to determine if a photo is copyrighted.
 - Check the metadata.
 - Use Google's reverse image search, i.e. go to [Images.Google.com](https://images.google.com/), click Search by image, click Upload a file, select an image, click Open or Choose.
 
+Overseas copyright material is often also protected in Australia. A key factor is whether the material is made by a national of a country that is a party to one of the relevant copyright conventions to which Australia is also a party. E.g. although the U.S. has its own copyright laws and that law does not apply in Australia (the Commonwealth of Australia is a sovereign country with its own copyright laws), yet both countries are signatories of Berne Convention for the Protection of Literary and Artistic Works, an international agreement governing copyright.
+
 Useful reference links:
 
 [www.copyright.org.au](https://www.copyright.org.au/resources) - the Australian Copyright Council (ACC) have plenty of resources and info on their website to answer questions about copyright laws in Australia.
