@@ -4,7 +4,7 @@ description: "List of current topics"
 date: 2024-04-22 01:00:00 +1100 AEDT
 ---
 
-The weekly Wednesday Swedenborg reading sessions has completed reading Rev George de Charm's excellent work on the proprium (i.e. our sense of self) as well as briefly looking at the subject of temptations (based on Swedenborg quotes collated by Basil Lazer). We also from time to time look at Samuel Warren's compendium to see which Swedenborg quotes relate to a particular topic that may arise. Next we will look at Regeneration (Swedenborg excerpts edited by Lee Van Laer), then most likely look at the four key teachings of Swedenborg (on life, on faith, on the scriptures, and on the Lord), and then we will select some teachings on usefulness (charity), and read Heaven and Hell. Join in and help us decide or contribute your favourite topic.
+The weekly Wednesday Swedenborg reading sessions are exploring Regeneration (Swedenborg excerpts edited by Lee Van Laer), which is proving to be very enjoyable and useful. After that we will most likely look at the four key teachings of Swedenborg (on life, on faith, on the scriptures, and on the Lord), and then will look at usefulness (charity), and read Heaven and Hell. Join in and help us decide or contribute your favourite topic.
 
 The twice monthly Swedenborg Saturday sessions often cover other religious wisdom traditions, such as the Hindu Advaita Vedanta tradition and Shin Buddhism, seeing how they all enrich Swedenborg's way of stating things. Seeing reality expressed from different perspectives is often very benefitial and enriching.
 
