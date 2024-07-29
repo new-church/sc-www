@@ -157,7 +157,7 @@ Many distinguished men and women from throughout the world have acknowledged the
 
 (mostly in alphabetical order)
 
-**Dr Eben Alexander; William Blake; General William Booth; Jorge Luis Borges; Rt. Rev. Phillips Brooks; Elizabeth Barrett Browning; Thomas Carlyle; Andrew Carnegie; John Chapman (Johnny Appleseed); Samuel Taylor Coleridge; Alfred Deakin; Arthur Conan Doyle; Ralph Waldo Emerson; Amelita Galli-Curci; Johann Wolfgang von Goethe; Henry James, Sr.; Carl Jung; Helen Keller; James Tyler Kent; Czeslaw Milosz; Victor Nilsson; Dr. Norman Vincent Peale; Kenneth Ring; George Ripley; Franklin D. Roosevelt; Daisetsu Teitaro Suzuki; Johann August Strindberg; John Greenleaf Whittier; Colin Wilson; Bill Wilson.**
+**Dr Eben Alexander; William Blake; General William Booth; Jorge Luis Borges; Rt. Rev. Phillips Brooks; Elizabeth Barrett Browning; Thomas Carlyle; Andrew Carnegie; John Chapman (Johnny Appleseed); Samuel Taylor Coleridge; Alfred Deakin; Arthur Conan Doyle; Ralph Waldo Emerson; Amelita Galli-Curci; Johann Wolfgang von Goethe; Henry James, Sr.; Carl Jung; Helen Keller; James Tyler Kent; Czeslaw Milosz; Victor Nilsson; Dr. Norman Vincent Peale; Kenneth Ring; Robert "Believe It or Not!" Ripley; Franklin D. Roosevelt; Daisetsu Teitaro Suzuki; Johann August Strindberg; John Greenleaf Whittier; Colin Wilson; Bill Wilson.**
 
 In addition to these famous people, many others are known to have been influenced by him and a fuller list may be obtained from the Swedenborg Association of Australia.
 
@@ -263,7 +263,7 @@ For more Deakin quotes on Swedenborg, see [here](https://www.alfreddeakin.com/sp
 
 > _"Emanuel Swedenborg: No single individual in the world's history ever encompassed in himself so great a variety of useful knowledge"._
 > 
-> **Ripley's Believe It or Not**
+> **Robert Ripley, "Ripley's Believe It or Not!"**
 
 > _"In a world in which the voice of conscience too often seems still and small there is need of that spiritual leadership of which Swedenborg was a particular example."_
 > 
