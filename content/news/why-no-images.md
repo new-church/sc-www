@@ -1,5 +1,5 @@
 ---
-title: "Why my Candela has no pictures?"
+title: "Why previous Candelas are missing or some have no pictures?"
 description: "Know the copyright laws"
 date: 2024-07-01 01:00:00 +1100 AEDT
 ---
