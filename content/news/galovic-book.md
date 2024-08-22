@@ -12,4 +12,7 @@ You can get a glimpse of the book in the short clip [here](https://www.youtube.c
 
 You can purchase the monograph from Michael either via his new website at [michaelgalovic.com](https://michaelgalovic.com) or by emailing him at [michaelgalovic@gmail.com](mailto:michaelgalovic@gmail.com) and he will express post you a copy wherever you are in Australia.
 
-Michael's website above also contains (1) further material which may interest you about his work, (2) a place to purchase copies of his book and his works, (3) newsletters, (4) video clips documenting previous exhibitions such as the recent one on his work with St George and the Dragon, and (5) much more. Enjoy!
+Michael's website above also contains (1) further material which may interest you about his work, (2) a place to purchase copies of his book and his works, (3) newsletters, (4) video clips documenting previous exhibitions such as the recent one on his work with St George and the Dragon, and (5) much more.
+
+You can also listen to Michael on ABC Radio talking about his work and book [here](https://www.abc.net.au/listen/programs/conversations/michael-galovic-byzantium-icon-painting-art-orthodox/104132344). Enjoy!
+
