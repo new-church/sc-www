@@ -1,7 +1,7 @@
 ---
 title: "New regular event starting: explore spiritual work insights of Dr Maurice Nicoll"
 description: "2pm, 1st and 3rd Thursdays each month"
-date: 2024-09-20 00:00:00 +1100 AEDT
+date: 2024-09-19 00:00:00 +1100 AEDT
 ---
 
 Dr Maurice Nicoll was a friend and close colleague of Carl Jung and was earmarked to eventually take over to lead the psychology profession after Jung. But this never eventuated, because Nicoll met a Mr P D Ouspensky and through him met George Gurdjieff who was introducing a spiritual teaching now known as the Fourth Way to the west. Nicoll was already very insightful in the area of work with dreams, and his insights only deeped through his familiarity with the writings of Swedenborg, especially when he gravitated more and more towards those writings and the Bible in his maturing years of teachings groups in Scotland.
