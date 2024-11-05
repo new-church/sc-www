@@ -1,7 +1,13 @@
-{{/* get file that matches the filename as specified as src="" in shortcode */}}
 {{ $src := resources.GetMatch .Destination }}
-{{ if $src }}
+{{ if not $src }}
+  {{ $src = resources.Get .Destination }}
+{{ end }}
+{{ if not $src }}
+  {{ $src = .Page.Resources.Get .Destination }}
+{{ end }}
 
+
+{{ if $src }}
 {{ $width := default "1" $src.Width }}
 {{ $height := default "1" $src.Height }}
 {{ $layout := "responsive" }}
@@ -42,4 +48,6 @@
 <div class="has-text-centered has-text-grey is-size-7">{{ . }}</div>
 {{ end }}
 </p>
+{{ else }}
+  {{ printf "image not found: %s" .Destination }}
 {{ end }}
