@@ -4,7 +4,7 @@ description: "Here are details of Michael's amazing new book on a life of sacred
 date: 2024-08-11 00:00:00 +1100 AEDT
 ---
 
-![book cover](sbtb-cover.jpg "This is the book cover")
+![book cover](sbtb-cover.jpg "'Sailing Back to Byzantium' Cover")
 Our friend and iconographer Michael Galovic has just launched his very latest work, a magnificent book containing his lifetime of artistic work, a retrospective, reflecting on his prolific creative output. The book has aptly been titled "Sailing Back to Byzantium" and it is indeed a work of art in its own right. Michael's work ranges far beyond depictions of saints and explores the creative endeavour itself. Being able to present such a mature retrospective of one's life work is a major milestone for an artist, and Michael certainly does that reflection justice. The book is not just his own account but contains many great and interesting voices reflecting on his art.
 
 While the book is only recently fresh off the press, it has already attracted some high praise. Read some recent acclamations of it [here](https://static.swedenborg.com.au/pdf/fliers/sbtb-twc-review.pdf) and [here](https://static.swedenborg.com.au/pdf/fliers/sbtb-review-rod-pattenden.pdf). The first review is from the editor of a deeply incisive and impressive text, The Catholic Weekly, and the other review is from the artist, art historian and theologian Rod Pattenden, founder of the online publication "Art/s and Theology" (he also contributed to Michael's book with his writing). Both are marvellous and highly informative as to what one can expect from the publication.
