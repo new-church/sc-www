@@ -1,6 +1,6 @@
 ---
-title: "Why previous Candelas are missing or some have no pictures?"
-description: "Know the copyright laws"
+title: "Why old Candelas are missing, and some have few pictures"
+description: "Copyright laws"
 date: 2024-07-01 01:00:00 +1100 AEDT
 ---
 
