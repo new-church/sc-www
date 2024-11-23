@@ -1,6 +1,6 @@
 ---
 title: "SAA constitution changes - brief Special General Meeting Fri 7th Dec 2024, 7pm"
-date: 2022-01-18 00:00:00
+date: 2024-11-23 00:00:00
 eventstart: 2024-12-07 19:00:00
 eventend: 2024-12-07 22:00:00
 expirydate: 2024-12-07 22:00:00
