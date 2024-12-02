@@ -66,7 +66,10 @@ There are many free Artificial Intelligence (AI) image creation engines out ther
 Below is a list of websites which offer image creation or downloadable copyright-free images (e.g. under a creative commons agreement, referred to as "CC").
 Some of the sites offer images which require an attribution, which is wise to add anyway to your image use as standard practice, e.g. to attribute an image under Creative Commons, add under the image: "'(image name)', by Joe Jones, licensed under CC". To read more about CC licencing, see [creativecommons.org](https://creativecommons.org/share-your-work/cclicenses/)
 
-Here is a list of websites which offer collections of existing images that are copyright-free and royalty-free without needing to sign up or pay:
+Collections of existing images
+==============================
+
+Some websites offering collections of existing images that are copyright-free and royalty-free without needing to sign up or pay:
 
 [pexels.com](https://www.pexels.com/search/free)
 Provides a vast library of high-quality, free stock photos and videos. All content is free for personal and commercial use, with no attribution required. 
@@ -88,7 +91,10 @@ Scroll to the bottom of that page for details
 
 [freeimages.com](https://www.freeimages.com)
 
-Or, you can use an AI website (Artificial Intelligence) to generate images using your description of what you want to see in normal English language. These are copyright-free, royalty-free, and free to create and use. To find the right site or service, you need to find the balance between ease of use and quality (quality is usually provided through more complex customisable features). See alist of sites below.
+Image generators (AI)
+=====================
+
+Instead of the above collections, you can use an AI website (Artificial Intelligence) to generate images using your description of what you want to see in normal English language. These are copyright-free, royalty-free, and free to create and use. To find the right site or service, you need to find the balance between ease of use and quality (quality is usually provided through more complex customisable features). See alist of sites below.
 
 [chatgpt.com](https://chatgpt.com)
 Describe the details of your image idea, eg "image of penguin in a red suit doing a dance on the equator in Van Gogh style." Generates one image at a time, but you can ask it to tweak the image, eg "change the image above to a dog in a blue suit."
