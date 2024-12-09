@@ -1,7 +1,7 @@
 ---
 title: "Why old Candelas are missing, and some have few pictures"
 description: "Copyright laws"
-date: 2024-11-22 01:00:00 +1100 AEDT
+date: 2024-11-21 01:00:00
 ---
 
 The following is not legal advice but a cautionary tale of much learning resulting from having recently received several copyright infringement notices for images which we had used in two past Candela magazine issues, images we found on the internet, while not knowing and understanding the full implications of making use of them. The infringement notices were a surprise and wakeup call. You may well be asking "isn't it okay to use images easily available on the internet, especially if you don't know who owns or made them, and especially if everyone seems to be doing the same thing?" Or asking if it wouldn't seem a good idea to make a Powerpoint presentation more interesting, making it more colourful and entertaining by using that great image easy to find on the internet because the picture shows exactly what I mean? Or you may wish to spruce up your YouTube clips with images which seem to be freely accessible?

@@ -4,7 +4,6 @@ date: 2024-11-23 00:00:00
 eventstart: 2024-12-18 19:00:00
 eventend: 2024-12-18 22:00:00
 expirydate: 2024-12-18 22:00:00
-img: images/sydID.jpg
 ---
 
 At 7pm on Wednesday 18th December 2024 the SAA is holding a very brief Special General Meeting. You can attend via Zoom, turn up in person at the Swedenborg Centre, or vote by proxy.

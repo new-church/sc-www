@@ -1,7 +1,7 @@
 ---
 title: "Topics explored in our current events"
 description: "List of current topics"
-date: 2024-04-22 01:00:00 +1100 AEDT
+date: 2024-04-22 01:00:00
 ---
 
 The weekly Wednesday Swedenborg reading sessions are exploring Regeneration (Swedenborg excerpts edited by Lee Van Laer), which is proving to be very enjoyable and useful. After that we will most likely look at the four key teachings of Swedenborg (on life, on faith, on the scriptures, and on the Lord), and then will look at usefulness (charity), and read Heaven and Hell. Join in and help us decide or contribute your favourite topic.
