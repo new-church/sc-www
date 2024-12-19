@@ -6,7 +6,9 @@ eventend: 2024-12-25 22:00:00
 expirydate: 2024-12-25 22:00:00
 ---
 
-At 7pm on Wednesday 25th December 2024 the SAA is holding a very brief Special General Meeting. You can attend via Zoom or vote by proxy.
+Due to technical difficulties beyond our control which arose just before the meeting on 18th December, it was decided to adjourn that meeting for exactly one week according to the exact 7 day adjournment period defined in the constitution.
+
+Therefore, this SAA Special General Meeting will now be held at 7pm on Wednesday 25th December 2024. You can attend via Zoom or vote by proxy.
 
 [Click to join Zoom](https://us02web.zoom.us/j/89935897712?pwd=VnZLZGxzK0NCcmJzdVplQkx0OUc5Zz09) when the meeting time arrives.
 
