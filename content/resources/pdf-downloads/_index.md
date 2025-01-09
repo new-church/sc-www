@@ -23,6 +23,7 @@ These materials are free for you to enjoy and are listed below in this order:
 - The Swedenborg Program radio scripts of Ian Arnold
 
 ## Spiritual Journey 6 part series introducing Swedenborg spiritual teachings
+- NEW - Spiritual Journey six part booklet series and overview (suggest doing one per month)
 
 {{< download-list-simple data-section="sjourney" >}}
 
