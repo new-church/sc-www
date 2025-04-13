@@ -1,4 +1,4 @@
-{{ $style := resources.Get "scss/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+{{ $style := resources.Get "scss/style.scss" | css.Sass | resources.Minify | resources.Fingerprint }}
 
 {{/*  Meta  */}}
 <meta charset="utf-8" />
@@ -15,7 +15,13 @@
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 
 {{/*  Links  */}}
-<link rel="canonical" href="{{ .Permalink | safeURL }}">
+{{ if .IsPage }}
+  <link rel="canonical" href="{{ .Permalink | safeURL }}">
+{{ else if .Paginator }}
+  <link rel="canonical" href="{{ .Paginator.URL | absURL }}">
+{{ else }}
+  <link rel="canonical" href="{{ .Permalink | safeURL }}">
+{{ end }}
 <link
   href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
   rel="stylesheet">
