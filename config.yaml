@@ -4,8 +4,7 @@ title: Swedenborg Association of Australia
 googleAnalytics: UA-XXX-X
 disableKinds:
   - RSS
-pagination:
-  pagerSize: 6
+paginate: 16
 summaryLength: 20
 taxonomies:
   tag: tags
