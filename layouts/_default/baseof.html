@@ -2,6 +2,7 @@
 <html ⚡ lang="{{ .Site.LanguageCode }}">
 
 <head>
+  {{ block "pagination" . }}{{ end }}
   {{ partial "head.html" . }}
 </head>
 

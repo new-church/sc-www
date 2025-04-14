@@ -1,3 +1,8 @@
+{{ define "pagination" }}
+  {{ $pages := .Pages.ByDate }}
+  {{ .Store.Set "paginator" (.Paginate $pages) }}
+{{ end }}
+
 {{ define "main" }}
 
 {{/*  Hero header  */}}
@@ -36,27 +41,19 @@
 </section>
 
 {{/*  Pagination  */}}
-{{ $paginator := .Paginate .Pages }}
 <section class="section">
   <div class="container">
 
     <div class="columns is-multiline">
-      {{ range $paginator.Pages  }}
-      <div class="column is-half">
-        {{ .Render "li" }}
-      </div>
-      {{ end }}
-    </div>
-
-    <!-- <div class="tile is-ancestor">
-      <div class="tile is-parent">
-        {{ range $paginator.Pages  }}
-        <div class="tile is-child is-6" style="padding: 1rem">
-          {{ .Render "li" }}
-        </div>
+        {{ with .Store.Get "paginator" }}
+          {{ range .Pages }}
+          <div class="column is-half">
+            {{ .Render "li" }}
+          </div>
+          {{ end }}
         {{ end }}
       </div>
-    </div> -->
+
   </div>
 </section>
 

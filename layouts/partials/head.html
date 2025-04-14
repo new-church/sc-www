@@ -1,4 +1,4 @@
-{{ $style := resources.Get "scss/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+{{ $style := resources.Get "scss/style.scss" | css.Sass | resources.Minify | resources.Fingerprint }}
 
 {{/*  Meta  */}}
 <meta charset="utf-8" />
@@ -8,20 +8,34 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-{{/*  Page Title  */}}
-<title>{{ .Title | default .Site.Title }}</title>
-
 {{/*  AMP  */}}
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 
 {{/*  Links  */}}
-{{ if .IsPage }}
-  <link rel="canonical" href="{{ .Permalink | safeURL }}">
-{{ else if .Paginator }}
-  <link rel="canonical" href="{{ .Paginator.URL | absURL }}">
-{{ else }}
-  <link rel="canonical" href="{{ .Permalink | safeURL }}">
-{{ end }}
+{{- $canonicalURL := .Permalink }}
+{{- $title := printf "%s | %s" .Title site.Title }}
+{{- if .IsHome }}
+  {{- $title = site.Title }}
+{{- end }}
+
+{{- with .Store.Get "paginator" }}
+  {{- $canonicalURL = .URL | absLangURL }}
+  {{- if gt .TotalPages 1 }}
+    {{- $title = printf "%s - Page %d | %s" $.Title .PageNumber site.Title }}
+    {{- if $.IsHome }}
+      {{- $title = printf "%s - Page %d" site.Title .PageNumber }}
+    {{- end }}
+  {{- end }}
+  {{- with .Prev }}
+    <link rel="prev" href="{{ .URL | absLangURL }}">
+  {{- end }}
+  {{- with .Next }}
+    <link rel="next" href="{{ .URL | absLangURL }}">
+  {{- end }}
+{{- end }}
+
+<link rel="canonical" href="{{ $canonicalURL }}">
+<title>{{- $title }}</title>
 <link
   href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
   rel="stylesheet">
