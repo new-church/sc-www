@@ -8,7 +8,7 @@ At 6:30pm on the first Monday of each month we will be screening a free spiritua
 
 Join us Popcorn, Jaffas, and Maltesers (sorry, the dentist said Fantales have been discontinued).
 The movies will be titles based on a spiritual theme or by film-makers who were influenced by Emanuel Swedenborg's writings.
-Such movies may include (but are not limited to) as Ingmar Bergman movies, "What Dreams May Come," "As It Is In Heaven," and many more such titles.
+Such movies will include - for example - Ingmar Bergman movies, "What Dreams May Come," "As It Is In Heaven," and many more such titles.
 
 Look forward to seeing you at these Roseville New Church first Monday of the month movie nights.
 
