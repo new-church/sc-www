@@ -13,3 +13,5 @@ Such movies will include - for example - Ingmar Bergman movies, "What Dreams May
 Look forward to seeing you at these Roseville New Church first Monday of the month movie nights.
 
 For a poster of the latest movie titles, [click here](https://static.swedenborg.com.au/pdf/fliers/SpiritualMovieNightsPoster.pdf).
+
+These movies are screened for free publically under our BSML screening licence.
