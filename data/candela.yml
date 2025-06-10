@@ -1,9 +1,12 @@
-- title: Candela number 119, March 2025
+- title: Candela number 120, June 2025
   description: >
     Enjoy this latest edition.
-  image: /images/candela119_202503.png
+  image: /images/candela120_202506.png
+  path: candela/candela120_202506.pdf
+  modified: 2025-06-01 00:00:00 +1000 AEDT
+- title: Candela number 119, March 2025
   path: candela/candela119_202503.pdf
-  modified: 2024-12-01 00:00:00 +1000 AEDT
+  modified: 2025-03-01 00:00:00 +1000 AEDT
 - title: Candela number 118, December 2024
   path: candela/candela118_202412.pdf
   modified: 2024-12-01 00:00:00 +1000 AEDT
