@@ -16,7 +16,7 @@ hastextbackground: true
 - [Swedenborg Scientific Association, USA](http://www.newphilosophyonline.org) a.k.a. [Swedenborg Philosophy](http://www.newphilosophyonline.org) is a group of dedicated scientists and philosophers who looks into Swedenborg's scientific works, and publish a magazine called The New Philosophy, and publish a newsletter respresenting all Swedenborg Publishers International (SPI).
 - [Kempton Project](http://www.kemptonproject.org) read, search and study, or purchase a Swedenborg-based translation of the Bible.
 
-### Reading and study guides and sites
+### Reading or study guides and sites
 
 - [Beginner's guide for Swedenborg reading and study](https://static.swedenborg.com.au/pdf/books/readingandstudyguide.pdf)
 - [A guide to the enjoyment of Swedenborg by Wilson van Dusen](https://static.swedenborg.com.au/pdf/books/guidetoenjoyingswedenborg.pdf)
