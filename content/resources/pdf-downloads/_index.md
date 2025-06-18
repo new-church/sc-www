@@ -6,6 +6,41 @@ img: images/articles_bkgd.jpg
 hastextbackground: true
 ---
 
+# Reference conventions and abbreviations
+
+Swedenborg indexed each paragraph of his writings with a paragraph number for easy referencing. E.g. "Divine Providence 33" or "DP33" means: paragraph number 33 in his work called Divine Providence. Each of his works is usually referred to by the following abbreviation, listed in brackets along with its publication date(s):
+- Journal of Dreams (JD, 1743-1744)
+- Worship and Love of God (WLG, 1745)
+- The Word Explained, also known as Adversaria (WE, 1746-1747)
+- The Spiritual Diary (SD, 1747-1765)
+- Arcana Caelestia, also known as Heavenly Secrets (AC or HS, 1749-1756)
+- Earths in the Universe (EU, 1758)
+- Heaven and Hell (HH, 1758)
+- The Last Judgment (LJ, 1758)
+- The New Jerusalem and its Heavenly Doctrine (HD or NJHD, 1758)
+- The White Horse of the Apocalypse (WH, 1758)
+- The Apocalypse Explained (AE, 1759)
+- The Athanasian Creed (Ath, 1760)
+- The Internal Sense of the Prophets and Psalms (PP, 1761)
+- On the Divine Love (Div.Love 1762)
+- On the Divine Wisdom (Div.Wis. 1763)
+- The Four Doctrines:
+	the Lord (Lord, 1763)
+	Sacred Scriptures (SS, 1763)
+	Life (Life, 1763)
+	Faith (Faith, 1763)
+- Continuation of the Last Judgment (LJ Cont, 1763)
+- Divine Love and Wisdom (DLW, 1763)
+- Divine Providence (DP, 1764)
+- Charity (Charity, 1766)
+- Apocalypse Revealed (AR, 1766)
+- Conjugial Love, also known as Marriage Love (CL, 1768)
+- Brief Exposition of the Doctrine of the New Church (BE, 1769)
+- Soul-Body Interaction (SBI, 1769)
+- True Christian Religion also known as True Christianity (TCR or TC, 1771)
+- The Coronis (Cor, 1771)
+- Answers to Nine Questions (9Q, 1771)
+
 # Lending library catalogue, Swedenborg Centre (Roseville)
 
 Items marked as reference may only be studied at the Centre due to their age, rarity, frequent use, or expense
