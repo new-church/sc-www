@@ -16,14 +16,12 @@ hastextbackground: true
 - [Swedenborg Scientific Association, USA](http://www.newphilosophyonline.org) a.k.a. [Swedenborg Philosophy](http://www.newphilosophyonline.org) is a group of dedicated scientists and philosophers who looks into Swedenborg's scientific works, and publish a magazine called The New Philosophy, and publish a newsletter respresenting all Swedenborg Publishers International (SPI).
 - [Kempton Project](http://www.kemptonproject.org) read, search and study, or purchase a Swedenborg-based translation of the Bible.
 
-### Reading Guides
+### Reading and study guides and sites
 
+- [Beginner's guide for Swedenborg reading and study](https://static.swedenborg.com.au/pdf/books/readingandstudyguide.pdf)
 - [A guide to the enjoyment of Swedenborg by Wilson van Dusen](https://static.swedenborg.com.au/pdf/books/guidetoenjoyingswedenborg.pdf)
 - [Presenting Swedenborg, A Roadmap for Readers by Julian Duckworth](https://static.swedenborg.com.au/pdf/books/presentingswedenborg.pdf)
 - [Swedenborg on... (an anthology) by Julian Duckworth](https://static.swedenborg.com.au/pdf/books/swedenborganthology.pdf)
-
-### Search, study and practice
-
 - [New Christian Bible Study](https://newchristianbiblestudy.org/advanced-search) copious Swedenborg study material, cross-linked, and in many languages. Use it to study the Bible, various spiritual topics, or Swedenborg's theological works.
 - [New Christian Bible Study "Chatbot" function for studying Swedenborg](https://newchristianbiblestudy.org/chatbot) very useful study tool using Artificial Intelligence to answer questions (questions written in natural everyday English) about Swedenborg's theological writings and the ideas they contain.
 - [Logopraxis - spiritual practice](https://logopraxis-institute.online) dedicated to bring a spiritual perspective to life. Here are a range of articles, videos, podcasts and online courses focused on working with spiritual texts as a basis for cultivating a transformative spiritual practice.
