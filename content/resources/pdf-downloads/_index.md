@@ -49,7 +49,7 @@ Swedenborg indexed each paragraph of his writings with a number for easy referen
 
 Items marked as reference may only be studied at the Centre due to their age, rarity, frequent use, or expense
 - [Library catalogue](https://static.swedenborg.com.au/pdf/books/swedenborgcentrelibrarycatalogue.pdf)
-- [Swedenborg Centre Roseville publications for sale](https://static.swedenborg.com.au/pdf/books/ShopInventoryItems20250619.pdf)
+- [Swedenborg Centre Roseville publications for sale](https://static.swedenborg.com.au/pdf/books/ShopInventoryItems.pdf)
 
 # Free lecture transcripts, booklets & articles
 
