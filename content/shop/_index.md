@@ -1,6 +1,6 @@
 ---
 title: Shop
-description: Please come back soon to see the books and other items we have for sale
+description: See below how to obtain books and other sale items and or material
 heroclass: is-color2
 ---
 
