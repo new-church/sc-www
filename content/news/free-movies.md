@@ -1,5 +1,5 @@
 ---
-title: "Free monthly spiritual movies (1st Monday of the month)"
+title: "Free spiritual movie screenings (1st Monday of every month)"
 description: "monthly spiritual movies"
 date: 2025-05-01 01:00:00
 ---
