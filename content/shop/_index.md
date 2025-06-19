@@ -1,6 +1,6 @@
 ---
 title: Shop
-description: See below how to obtain books and other sale items and or material
+description: See below how to obtain books, other sale items, and free material
 heroclass: is-color2
 ---
 
