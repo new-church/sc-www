@@ -142,9 +142,9 @@ Many others have testified to the truth of the messages Swedenborg brought them 
 > 
 > _"The wide range of Swedenborg's mind over the known branches of science is comparable only with that of Leonardo da Vinci"._
 
-**Guinness Book of Records (1973 Edition)**
-
-_Emanuel Swedenborg is arguably the greatest Spiritual explorer of the Eighteenth Century. He enables us to understand why we were created, why we are alive and what happens to us when we die._
+> **Guinness Book of Records (1973 Edition)**
+> 
+> _Emanuel Swedenborg is arguably the greatest Spiritual explorer of the Eighteenth Century. He enables us to understand why we were created, why we are alive and what happens to us when we die._
 
 On an index for Intelligence Quotients, 150 represents "genius" level. Four people have been accredited with figures over 200:
 
