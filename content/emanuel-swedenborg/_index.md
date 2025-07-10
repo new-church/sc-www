@@ -138,9 +138,13 @@ Many others have testified to the truth of the messages Swedenborg brought them 
 
 ## Influences, tributes, testimonials
 
-> _"The wide range of Swedenborg's mind over the known branches of science is comparable only with that of Leonardo da Vinci"._
-> 
 > **Everyman's Encyclopaedia (Volume 11 p. 522)**
+> 
+> _"The wide range of Swedenborg's mind over the known branches of science is comparable only with that of Leonardo da Vinci"._
+
+**Guinness Book of Records (1973 Edition)**
+
+_Emanuel Swedenborg is arguably the greatest Spiritual explorer of the Eighteenth Century. He enables us to understand why we were created, why we are alive and what happens to us when we die._
 
 On an index for Intelligence Quotients, 150 represents "genius" level. Four people have been accredited with figures over 200:
 
@@ -149,13 +153,11 @@ On an index for Intelligence Quotients, 150 represents "genius" level. Four peop
 - Johann Wolfgang von Goethe (1749 - 1832), Germany; and;
 - Emanuel Swedenborg (1688 - 1772), Sweden
 
-**Guinness Book of Records (1973 Edition)**
-
-_Emanuel Swedenborg is arguably the greatest Spiritual explorer of the Eighteenth Century. He enables us to understand why we were created, why we are alive and what happens to us when we die._
+**Individual tributes**
 
 Many distinguished men and women from throughout the world have acknowledged the contribution made by Emanuel Swedenborg to further mankind's understanding of life in all its dimensions. Recently, it was found that even the Finnish composer Jean Sibelius was familiar with Swedenborg ideas and incorporated them into some of his music. Chicago lawyer Charles C. Bonney was inspired by Swedenborg's ideas and staged the First World Parliament of Religions. Architects John Wellborn Root (father of the skyscraper), Daniel Burnham (designed the Great White City and the Chicago city plan), and Louis Sullivan were all familiar with Swedenborg and used his spiritual ideas in their work. The tributes presented here demonstrate his impact on every phase of modern life and thought - in the arts, science, philosophy, religion and government. You can read below quotations about Swedenborg from - or references about the influences on - some very well-known personalities.
 
-The list is bigger than can be contained on this page. To know more, request details from the Swedenborg Centre or the Swedenborg Association of Australia.
+The list is bigger than can be contained on this page. So, to find out more, request details from the Swedenborg Centre or Swedenborg Association of Australia.
 
 > **Dr. Norman Vincent Peale, Author of The Power of Positive Thinking**
 > 
@@ -173,9 +175,9 @@ The list is bigger than can be contained on this page. To know more, request det
 > 
 > _"The truths Swedenborg taught me have been to my faculties what light, colour and music are to the eye and ear. They have given meaning to existence, order to the universe."._
 
-> **Dr Maurice Nicoll (1884-1953 UK psychologist, student of Gurdjieff and colleague and friend of Jung) when listing the mystical travels he had taken prior to meeting Ouspensky and Gurdjieff.
+> **Dr Maurice Nicoll (1884-1953 UK psychologist, student of Gurdjieff and colleague and friend of Jung) when listing the mystical travels he had taken prior to meeting Ouspensky and Gurdjieff.**
 > 
-> _"Now I had already studied at different times in the past the Gnostic literature, the Neo-Platonists, the Alchemists, some of the Indian Scriptures, the Hermetic writers, the Sufi literature, the Bible, the Chinese Mystics, the writings of Eckhart, Boehme, Blake, Swedenborg and others, and had been a pupil of Jung for some years." Historical records demonstrate that for Dr Nicoll a second Swedenborgian stage began prior to 1940, and when in his fifties, Nicoll's focus narrowed to four "indispensable" systems that were supplemental to the Fourth Way: the Bible, "all the volumes of Swedenborg," Hermeticism, and Platonism._
+> _"Now I had already studied at different times in the past the Gnostic literature, the Neo-Platonists, the Alchemists, some of the Indian Scriptures, the Hermetic writers, the Sufi literature, the Bible, the Chinese Mystics, the writings of Eckhart, Boehme, Blake, Swedenborg and others, and had been a pupil of Jung for some years." Historical records demonstrate that for Dr Nicoll a second Swedenborgian stage began prior to 1940, and when in his fifties, Nicoll's focus narrowed to four "indispensable" systems that were supplemental to the Fourth Way: the Bible, 'all the volumes of Swedenborg,' Hermeticism, and Platonism."_
 
 > **Dr Eben Alexander, author of Map of Heaven and Proof of Heaven.**
 > 
@@ -189,7 +191,7 @@ The list is bigger than can be contained on this page. To know more, request det
 
 In "Crime and Punishment" the character Rodion Raskolnikov asks the simple question "can murder ever be justified?" and provides a broad philosophical investigation and a depiction of a single man's mental deterioration, Dostoevsky's novel borrows themes and imagery from Swedenborg. Swedenborg's doctrine of correspondences is evident in the euphemistic descriptions of St Petersburg, and the character Svidrigailov voices theological thoughts straight from Heaven and Hell. Swedenborg's thoughts on the 'love of self' prove an apt companion to a novel which asks how far we would go to get the things we think we deserve. Swedenborgian themes can be found in Crime and Punishment and in the speeches of Father Zosima in The Brothers Karamazov which contains clear Swedenborgian teaching about the spiritual world, particularly that hell is always a voluntary spiritual state. 
 
-**Edgar Allan Poe (1809-1849 American poet and writer)**
+**Edgar Allan Poe (1809-1849, American poet and writer)**
 
 Edgar Allan Poe, in his collected works makes mention of Swedenborg and his work Heaven and Hell (which he had read). In his tale 'The Fall of the House of Usher' he states:
 
@@ -205,7 +207,7 @@ Walt Whitman offers a celebration of the human form and its delights, while bein
 _"[Swedenborg would make] the deepest and broadest mark upon the religions of, future ages, of any man who ever walked the earth."_
 It has recently been argued that Whitman's most famous work, Leaves of Grass, was deeply influenced by the doctrine of correspondences as expounded by Swedenborg. See Anders Hallengren's 'A Hermeneutic Key to the Leaves of Grass', in In Search of the Absolute.
 
-**James Joyce (1882-1941 Irish novelist, poet, and literary critic**
+**James Joyce (1882-1941, Irish novelist, poet, and literary critic**
 
 In whichever way you view James Joyce's work 'Portrait' is viewed - aesthetic experiment, modernist manifesto, compelling Bildungsroman - its influence can still be felt today. Moreover, the parallels between Stephen Dedalus and Sweden's own 'Daedalus of the North' are not lost on critics such as Gian Balsamo, and Joyce himself wrote of the lineage between Swedenborg's doctrine of correspondences, Baudelaire's Symbolist poetry and the Joycean epiphany.
 
@@ -229,11 +231,11 @@ In whichever way you view James Joyce's work 'Portrait' is viewed - aesthetic ex
 > 
 > _"Swedenborg was a man of great and indisputable cultivation, strong mathematical intellect, and the most pious, seraphic turn of mind; a man beautiful, lovable and tragical to me. More truths are confessed in Swedenborg's writings than that of any other man. One of the loftiest minds in the realm of mind. One of the spiritual suns that will shine brighter as the years go on"._
 
-> **Rev. J. R. Hibbard, in The Messenger, January 30, 1884, pg. 67 speaking about American President Abraham Lincoln (1809-1865)**
+> **American President Abraham Lincoln (1809-1865), described by Rev. J. R. Hibbard in 'The Messenger', January 30, 1884, pg. 67**
 > 
-> "Mr [Abraham] Lincoln was not a member of any of the various sects or churches. A very few know why. He was a religious man, a very conscientious man, and his conscience was formed by the Ten Commandments and the Word of God, which in private he read much. His views concerning the Lord Jesus Christ as God manifest, concerning the Sacred Scriptures and the life they teach, concerning the moral government of nations, the humanity wherever found, in the highest or lowest, were largely formed and influenced by the Writings of Swedenborg, furnished to him by his friend, Mr. I. S. Britton, about the year 1842 or 1843."
+> "Mr Lincoln was not a member of any of the various sects or churches. A very few know why. He was a religious man, a very conscientious man, and his conscience was formed by the Ten Commandments and the Word of God, which in private he read much. His views concerning the Lord Jesus Christ as God manifest, concerning the Sacred Scriptures and the life they teach, concerning the moral government of nations, the humanity wherever found, in the highest or lowest, were largely formed and influenced by the Writings of Swedenborg, furnished to him by his friend, Mr. I. S. Britton, about the year 1842 or 1843."
 
-> **Autobiography of Andrew Carnegie, 1920**
+> **Andrew Carnegie, in his 1920 autobiography**
 > 
 > _"I may speak here of another matter which belongs to this same period. A few persons in Allegheny— probably not above a hundred in all— had formed themselves into a Swedenborgian Society, in which our American relatives were prominent. My father attended that church after leaving the Presbyterian, and, of course, I was taken there. My mother, however, took no interest in Swedenborg. Although always inculcating respect for all forms of religion, and discouraging theological disputes, she maintained for herself a marked reserve. Her position might best be defined by the celebrated maxim of Confucius: 'To perform the duties of this life well, troubling not about another, is the prime wisdom.'... I became deeply interested in the mysterious doctrines of Swedenborg, and received the congratulations of my devout Aunt Aitken upon my ability to expound 'spiritual sense.' That dear old woman fondly looked forward to a time when I should become a shining light in the New Jerusalem, and I know it was sometimes not beyond the bounds of her imagination that I might blossom into what she called a 'preacher of the Word.'"._
 
@@ -243,11 +245,11 @@ Andrew Carnegie (1835-1919) was an American captain of industry whose philanthro
 > 
 > Swedenborg's books: _"Good news right fresh from heaven"._
 
-> **Samuel Taylor Coleridge, Poet, philosopher, literary, social and theological critic**
+> **Samuel Taylor Coleridge, poet, philosopher, social and theological critic**
 > 
 > _"As a moralist Swedenborg is above all praise"._
 
-> **Alfred Deakin, Australia's second Prime Minister**
+> **Alfred Deakin, Australia's 2nd Prime Minister**
 >
 > _"My salvation and inspiration come from philosophy a little and religion a great deal, especially from the mystics ancient or modern theosophical. With them my load is lifted and I regain peace, courage, faith. Praise be to the God of Jesus, ... of Swedenborg, of St. Paul."_
 
@@ -257,25 +259,25 @@ For more Deakin quotes on Swedenborg, see [here](https://www.alfreddeakin.com/sp
 > 
 > _"The great Swedish seer Emanuel Swedenborg has some claim to be the father of our new knowledge of supernal matters. When the first rays of the rising sun of spiritual knowledge fell upon the earth, they illuminated the greatest and highest human mind before they shed their light on lesser men. That great mountain peak of mentality was this great religious reformer."_
 
-> **Ralph Waldo Emerson, American Philosopher**
+> **Ralph Waldo Emerson, American philosopher**
 > 
 > _"The most remarkable step in the religious history of recent ages is that made by the genius of Swedenborg. These truths passing out of his system into general circulation, are now met with every day, qualifying the views and creeds of all churches, and of men of no church."_
 > 
 > "_Swedenborg is one of the missoriums and mastodons of literature, not to be measured by whole colleges of ordinary scholars. . . Swedenborg is systematic and respective of the world in every sentence; a colossal soul who lies vast upon our times."_
 
-> **Amelita Galli-Curci, Italian Soprano**
+> **Amelita Galli-Curci, Italian soprano**
 > 
 > _"To me, Swedenborg's literature is an explanation of life - its meaning and purpose - which satisfies that something within us which we already know is only appealed to by the truth."_
 
-> **Johann Wolfgang von Goethe, German poet and dramatist (Author of Faust)**
+> **Johann Wolfgang von Goethe, German poet and dramatist (author of Faust)**
 > 
 > _"I am as much inclined as anyone to believe in a world beyond the visible, and I have enough poetic and vital drive that even my own constricted self expands to feel a Swedenborgian spirit world"._
 
-> **Henry James, Sr., American Philosopher**
+> **Henry James, Sr., American philosopher**
 > 
 > _"Emanuel Swedenborg had the sanest and most far-reaching intellect this age has known . . . He grasped with clear and intellectual vision the seminal principles of things"_
 
-> **Carl Jung, Swiss Psychologist and Psychoanalyst**
+> **Carl Jung, Swiss psychologist and psychoanalyst**
 > 
 > _"I admire Swedenborg as a great scientist and a great mystic at the same time. His life and work has always been of great interest to me and I read about seven fat volumes of his writings when I was a medical student"._
 
@@ -283,11 +285,11 @@ For more Deakin quotes on Swedenborg, see [here](https://www.alfreddeakin.com/sp
 > 
 > _"All my teaching is founded on that of Hahnemann and of Swedenborg; their teachings correspond perfectly"._ 
 
-> **Czeslaw Milosz, Polish Poet and Novelist; 1980 Nobel Prize winner for literature.**
+> **Czeslaw Milosz, Polish poet and novelist; 1980 Nobel Prize winner for literature.**
 > 
 > _"In the history of the rebellion of man against God and the order of nature, Swedenborg stands out as a healer who wanted to break the seals on the sacred books and thus make the rebellion unnecessary"._
 
-> **Victor Nilsson, Swedish Historian**
+> **Victor Nilsson, Swedish historian**
 > 
 > _"Emanuel Swedenborg was the most remarkable man whom Sweden has ever brought forth . . . if the theological works of Swedenborg at first were apt to discredit the results of his manifold scientific research in the eyes of those who did not share his theological views, the renown of the greatest religious thinker in later times has outshone the fame of which, as the versatile scholar and philosopher, he was so eminently worthy."_
 
@@ -316,11 +318,11 @@ _"Swedenborg enables us to understand why we were created, why we are alive and 
 
 Sri Aurobindo became interested in Swedenborg's ideas about spiritual evolution and the interconnectedness of all things. Aurobindo's own spiritual teachings, which he called Integral Yoga, drew heavily from Swedenborg's writings, as well as from other Western and Eastern sources. Aurobindo, Indian philosopher, yogi, and political leader was born in Calcutta (now Kolkata) in 1872 and educated in England, where he trained as a lawyer. After returning to India, Aurobindo became involved in the Indian independence movement and was a leader of the extremist faction of the Indian National Congress. In 1910, Aurobindo had a profound spiritual awakening. Sri Aurobindo was influenced by the writings of Emanuel Swedenborg, particularly Swedenborg's ideas about spiritual evolution and the interconnectedness of all things. Aurobindo drew heavily from Swedenborg's writings in his own spiritual teachings, which he called Integral Yoga, which he developed when he eventually retired from politics to focus on his spiritual teachings and practices. He founded the Sri Aurobindo Ashram in the French colony of Pondicherry (now Puducherry), where he spent the rest of his life writing about his spiritual philosophy and developing a system of yoga. Aurobindo saw the evolution of consciousness as a central theme in both his own teachings and in Swedenborg's writings. He believed and emphasised that human beings are in the process of evolving towards a higher state of consciousness, and that this evolution is guided by a divine force, that there is an evolving realization of the divine within each individual. This idea is similar to Swedenborg's concept of "regeneration," which describes the process of spiritual rebirth and growth. Aurobindo also shared Swedenborg's belief in the interconnectedness of all things. He saw the material world as a manifestation of a higher spiritual reality, and he believed that the evolution of consciousness involves an awakening to this underlying unity. He saw spirituality as a transformative process that could help individuals and society as a whole move towards a higher state of consciousness and a more harmonious way of life. His writings, which include works on philosophy, spirituality, and poetry, have had a profound influence on Indian and Western thought.
 
-**Hilma af Klint, (1862-1944 Swedish abstract artist)**
+**Hilma af Klint (1862-1944, Swedish abstract artist)**
  
 Hilma af Klint's drawings in the first volume of a new Catalogue 'Raisonne' represent an intense ten-year period of Hilma af Klint's life that would lay the foundation for her later achievements. In 1896, af Klint and four other women formed 'The Five', a group steeped in the spiritualist beliefs permeating Europe at that time, including theosophy, Rosicrucianism and other strains of liberal religious thought. From 1896 to 1907, The Five engaged in a daily systematic method of spiritual experimentation. During seances, Hilma af Klint drew automatic spiritual sketches based on the messages that the medium (not always the same member) communicated from the spirits the group summoned. The elaborate system of symbols, geometry and biological imagery that characterise her work all find their origin during this period. The Catalogue Raisonne is necessary in order to see the different cycles, motifs and symbols that recur in an exciting way. Hilma af Klint had books on Swedenborg. Hilma af Klint was the great aunt of Commodore Gustaf af Klint, who in 1998 (while President of the Hilma af Klint Foundation) presented a slideshow about her paintings at the University of NSW College of Fine Arts, when he talked about her being influenced by Theosophy, especially by Rudolf Steiner, and also that she studied the writings of Emanuel Swedenborg.
 
-**Rev. Dr. Jim Lawrence (President of the Swedenborgian Church of North America) about French King Louis XV funding Swedenborg's publications**
+**Rev. Dr. Jim Lawrence (President, Swedenborgian Church of North America) about French King Louis XV funding Swedenborg's publishing**
 
 _Few know Swedenborg received a secret pension from Louis XV for 25 years up to the conclusion of his publications paid directly from the French king's personal diplomatic fund. The Swedish scholar and diplomat, Lars Bergquist who served as Swedish ambassador to the People's Republic of China and to the Holy See (the Vatican), penned a major work, "Swedenborg's Secret: A Biography", in which he digs out the evidence discovered by his Swedish countryman, Franz Lindh, a member of the New Church in Sweden. Lindh in the 1910s and 1920s scrutinized Swedenborg's financial records still retrievable in Stockholm. He published evidence of an enormous sum of money from France providing primary means for Swedenborg to afford expenses required for high quality volume after volume after volume in his unfolding theological revelations for a New Church. The costs far exceeded Swedenborg's earnings or modest inheritance. The deposits over time represent a 50 times greater amount than his half-pension produced. Why was the revelator receiving so much money from the French king? That's another story worth exploring, but we can say with merit the King of France made the writings of our church possible._
 
