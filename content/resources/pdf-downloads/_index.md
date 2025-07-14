@@ -54,7 +54,7 @@ Items marked as reference may only be studied at the Centre due to their age, ra
 # Free lecture transcripts, booklets & articles
 
 These materials are free for you to enjoy and are listed below in this order:
-- NEW - Spiritual Journey six part booklet series (suggest doing one per month)
+- Spiritual Journey six part booklet series (suggest doing one per month)
 - Pamphlets introducing the main works of Swedenborg
 - Brochures about Swedenborgian themes
 - Brochures introducing practices and guidance to spiritual growth
@@ -63,7 +63,7 @@ These materials are free for you to enjoy and are listed below in this order:
 - The Swedenborg Program radio scripts of Ian Arnold
 
 ## Spiritual Journey 6 part series introducing Swedenborg spiritual teachings
-- NEW - Spiritual Journey six part booklet series and overview (suggest doing one per month)
+- Spiritual Journey six part booklet series and overview (suggest doing one per month)
 
 {{< download-list-simple data-section="sjourney" >}}
 
