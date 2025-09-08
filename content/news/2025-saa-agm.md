@@ -1,10 +1,9 @@
 ---
-title: "7pm: Zoom Annual General Meeting of Swedenborg Association of Australia"
-date: 2023-12-01 00:00:00
+title: "SAA AGM: Fri 26th Sept 2025 at 7pm"
+date: 2025-09-08 00:00:00
 eventstart: 2025-09-26 19:00:00
 eventend: 2025-09-26 22:00:00
 expirydate: 2025-09-26 22:00:00
-zoomlink: https://us02web.zoom.us/j/320544045?pwd=QjZtbUxvVk81b2dweUtZZTE3ZE9IZz09
 img: images/sydID.jpg
 ---
 
