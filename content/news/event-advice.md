@@ -1,5 +1,5 @@
 ---
-title: "When is an event is missing from the calendar"
+title: "When an event is missing"
 description: "Why and what to do"
 date: 2025-10-06 01:00:00
 ---
