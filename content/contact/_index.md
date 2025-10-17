@@ -11,7 +11,7 @@ The SAA is set up to benefit people who are interested in Swedenborg. Member ben
 - annual complimentary item, for yourself or to share
 - connect with other members living in the same area if you're interested
 
-For current membership rates and a membership application form [click here](https://static.swedenborg.com.au/pdf/Membership_Application_Form.pdf)
+For enquiries about membership please phone (02) 9416 2812.
 
 For the SAA constitution [click here](https://static.swedenborg.com.au/pdf/constitution.pdf)
 
