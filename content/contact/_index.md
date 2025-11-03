@@ -45,11 +45,11 @@ The Swedenborg Centre's official opening hours are 10.30am to 4pm Monday to Frid
 | ADELAIDE  | 287 Oaklands Road, MARION (P.O. Box 469, PARKHOLME, 5043) | (08)&nbsp;8326&nbsp;9663 | June Johnson   | [email](mailto:junejohnson5@bigpond.com)   |
 | BALLARAT  | 318 Fussell Street, BALLARAT                              | (03)&nbsp;5331&nbsp;5638 | Judy Robinson  | [email](mailto:lenrob@vic.chariot.net.au)  |
 | BRISBANE  |                                                           | 0421&nbsp;319&nbsp;252   | Darren Brunne  | [email](mailto:drbrunne@gmail.com)         |
-| MELBOURNE | Unit 3 / 20 Duerdin Street, Clayton VIC 3168              | (03)&nbsp;8555&nbsp;9116 | Neville Jarvis | [email](mailto:swedenborgvictoria@gmail.com) |
+| MELBOURNE | Unit 3 / 20 Duerdin Street, Clayton VIC 3168              | 0402&nbsp;944&nbsp;889 | David Moffat   | [email](mailto:david.moffat@swedenborgcommunityvictoria.net.au) |
 | PERTH     |                                                           | 0409&nbsp;887&nbsp;419   | David Walker   | [email](mailto:dave9649@bigpond.com)      |
 
 There is also a Swedenborg Bookroom located at Penshurst in Sydney’s southern suburbs. The details are:
 
 *22 Dudley Street, PENSHURST NSW\
 Telephone (02) 9580 1589\
-Email : todd@hurstvillenewchurch.com*
+Email : pastor@hurstvillenewchurch.com*
