@@ -58,6 +58,7 @@ hastextbackground: true
 - [Australian New Church College - anccollege.org](http://anccollege.org) training college which runs online courses on Swedenborg and his Writings and teachings.
 - [Roseville New Church - www.rosevillenewchurch.com.au](https://www.rosevillenewchurch.com.au) Roseville New Church (4 Shirley Rd, Roseville Australia). Check out the Minister's Reflections.
 - [The New Age Journal - thenewage.net.au](http://thenewage.net.au) articles on Swedenborg and his Writings and teachings.
+- [Swedenborg Community Victoria](https://www.swedenborgcommunityvictoria.net.au) is a community of spiritual thinkers based in Melbourne inspired by Swedenborg writings and seeking to grow and practice those ideas and the light they shed on the Bible.
 
 ### USA, Canada
 
