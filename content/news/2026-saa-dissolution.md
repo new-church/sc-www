@@ -24,7 +24,7 @@ Here are the relevant background details of the meeting:
 
 [Click here](https://static.swedenborg.com.au/pdf/fliers/saasgm20260227dissolution.pdf) to open the explanatory document.
 
-[Click here](https://static.swedenborg.com.au/pdf/fliers/saasgm20260227agenda.pdf) to open the explanatory document.
+[Click here](https://static.swedenborg.com.au/pdf/fliers/saasgm20260227agenda.pdf) to open the agenda.
 
 [Click here](https://static.swedenborg.com.au/pdf/fliers/saasgm20260227proxy.pdf) to open the proxy form.
 
