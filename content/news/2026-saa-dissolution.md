@@ -6,7 +6,9 @@ eventend: 2026-02-27 22:00:00
 expirydate: 2026-02-27 22:00:00
 ---
 
-A Special General Meeting of the SAA will be held at 7pm on Friday 27th February 2026. You can attend via Zoom, and if you are a financial member you may vote by proxy.
+A Special General Meeting of the SAA will be held at 7pm on Friday 27th February 2026 for SAA members to vote on a special resolution to wind up the Association.
+
+You can attend via Zoom, and if you are a financial member you may vote by proxy.
 
 The special resolution to be voted upon at this Special General Meeting is the motion:
 
