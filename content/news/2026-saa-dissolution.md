@@ -1,5 +1,5 @@
 ---
-title: "SAA dissolution - Special General Meeting Fri 27th Feb 2026, 7pm"
+title: "7pm: vote on special resolution to wind up the SAA, Fri 27th Feb 2026"
 date: 2026-01-01 00:00:00
 eventstart: 2026-02-27 19:00:00
 eventend: 2026-02-27 22:00:00
