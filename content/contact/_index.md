@@ -4,7 +4,7 @@ description: Contact the Swedenborg Association of Australia
 ---
 
 # Sign up for monthly Swedenborg Centre enews emails
-You can add your email address to our list so that you can receive the Swedenborg Centre's monthly enews [by clicking here.](https://mailchi.mp/4f0d6f13e724/sign-up-for-swedenborg-centre-enews)
+[Click here](https://mailchi.mp/4f0d6f13e724/sign-up-for-swedenborg-centre-enews) to add your email address to the list for receiving the monthly Swedenborg Centre enews by email.
 
 # Swedenborg Association Of Australia (SAA) Membership
 The SAA is set up to benefit people who are interested in Swedenborg. Member benefits are:
