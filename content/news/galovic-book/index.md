@@ -6,7 +6,7 @@ date: 2026-03-11 00:00:00 +1100 AEDT
 
 Iconographer and artist Michael Galovic is presenting a new exhibition in Canberra called Kyrie Eleison ('Lord, have mercy'), which is a most profound meditation on destruction and hope found in the Lord.
 
-The exhibition is Micheal's latest body of work on show at the Australian Centre for Christianity and Culture in Barton. Australian Centre for Christianity and Culture at Charles Sturt University, 15 Blackall St, Barton ACT 2600.
+The exhibition is Micheal's latest body of work on show at the Australian Centre for Christianity and Culture at Charles Sturt University, 15 Blackall St, Barton ACT 2600.
 
 The opening is on Thursday 12th March 2026 and the exhibition will run until 20 March, open daily 10:30am-3:30pm, with the artist himself present to meet visitors and discuss the works. Then from 20th March until 16th April the exhibition can continue to be visited only by appointment. 
 
