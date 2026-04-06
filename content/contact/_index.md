@@ -1,25 +1,20 @@
 ---
-title: Contact us, and membership
-description: Contact the Swedenborg Association of Australia
+title: Contact us
+description: Contact the Swedenborg Centre
 ---
 
 # Sign up for monthly Swedenborg Centre enews emails
 [Click here](https://mailchi.mp/4f0d6f13e724/sign-up-for-swedenborg-centre-enews) to add your email address to the list for receiving the monthly Swedenborg Centre enews by email.
 
-# Swedenborg Association Of Australia (SAA) Membership
-The SAA is set up to benefit people who are interested in Swedenborg. Member benefits are:
-- 20% discount on Swedenborg Centre purchases
-- discount rates for lectures, seminars and workshops
-- quarterly _Candela_ newsletter (can also be accessed on the website)
-- annual complimentary item, for yourself or to share
-- connect with other members living in the same area if you're interested
+# Swedenborg Centre
+The Swedenborg Centre is set up to connect with people who are interested in Swedenborg.
 
-For enquiries about membership please phone (02) 9416 2812.
+For enquiries please phone (02) 9416 2812.
 
-For the SAA constitution [click here](https://static.swedenborg.com.au/pdf/constitution.pdf)
+As at April 2026, the Swedenborg Association of Australia (SAA) has applied to NSW Fair Trading for its dissolution and are awaiting their approval. Meanwhile, for the SAA constitution [click here](https://static.swedenborg.com.au/pdf/constitution.pdf)
 
 # The Swedenborg Centre
-(which is the Registered Office of the Swedenborg Association of Australia Inc) is located at:
+(the Registered Office of the Swedenborg Association of Australia Inc) is located at:
 
 ***4 Shirley Road, Roseville NSW  2069,  Australia***
 
@@ -35,7 +30,7 @@ There are several streets in the vicinity of the Centre (near Shirley Road) whic
 
 The Swedenborg Centre's official opening hours are 10.30am to 4pm Monday to Friday (except for public holidays and during the Christmas/New Year holiday season). The Centre is occasionally open after-hours for meetings, or at other times by appointment.
 
-**Due to limited staffing, we recommend visitors to telephone the Centre before coming.**
+**Due to limited staffing, we recommend visitors phone the Centre before coming.**
 
 ### Staff: Director - Joe Vandermeer
 
