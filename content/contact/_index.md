@@ -23,7 +23,7 @@ As at April 2026, the Swedenborg Association of Australia (SAA) has applied to N
 | Telephone    | [(02) 9416 2812](tel://+61294162812) |
 | Books Orders | orders@swedenborg.com.au             |
 | Information  | info@swedenborg.com.au               |
-| Web Site     | www.swedenborg.com.au                |
+| Web Site     | swedenborg.com.au                |
 
 
 There are several streets in the vicinity of the Centre (near Shirley Road) which provide free street parking. We encourage using public transport.
