@@ -7,7 +7,7 @@ description: Contact the Swedenborg Centre
 [Click here](https://mailchi.mp/4f0d6f13e724/sign-up-for-swedenborg-centre-enews) to add your email address to the list for receiving the monthly Swedenborg Centre enews by email.
 
 # Swedenborg Centre
-The Swedenborg Centre is set up to connect with people who are interested in Swedenborg.
+The Swedenborg Centre is set up to connect with people who are interested in spiritual matters, in Emanuel Swedenborg and his writings, or in any of the concepts conveyed by them.
 
 For enquiries please phone (02) 9416 2812.
 
