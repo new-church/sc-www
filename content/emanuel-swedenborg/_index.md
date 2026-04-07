@@ -157,7 +157,7 @@ On an index for Intelligence Quotients, 150 represents "genius" level. Four peop
 
 Many distinguished men and women from throughout the world have acknowledged the contribution made by Emanuel Swedenborg to further mankind's understanding of life in all its dimensions. Recently, it was found that even the Finnish composer Jean Sibelius was familiar with Swedenborg ideas and incorporated them into some of his music. Chicago lawyer Charles C. Bonney was inspired by Swedenborg's ideas and staged the First World Parliament of Religions. Architects John Wellborn Root (father of the skyscraper), Daniel Burnham (designed the Great White City and the Chicago city plan), and Louis Sullivan were all familiar with Swedenborg and used his spiritual ideas in their work. The tributes presented here demonstrate his impact on every phase of modern life and thought - in the arts, science, philosophy, religion and government. You can read below quotations about Swedenborg from - or references about the influences on - some very well-known personalities.
 
-The list is bigger than can be contained on this page. So, to find out more, request details from the Swedenborg Centre or Swedenborg Association of Australia.
+The list is bigger than can be contained on this page. So, to find out more, request details from the Swedenborg Centre.
 
 > **Dr. Norman Vincent Peale, Author of The Power of Positive Thinking**
 > 

@@ -1,6 +1,6 @@
 ---
 title: News
-description: Latest news from the association
+description: Latest news from the Swedenborg Centre
 heroclass: is-color5
 ---
 
