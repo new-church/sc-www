@@ -4,11 +4,13 @@ description: "Why and what to do"
 date: 2025-10-06 01:00:00
 ---
 
-** Single source of truth
+This website is the single source of truth (about our events)
+=============================================================
 
 The listing of online events here on the website is the best and most up to date info and status about all events.
 
-** Recent changes?
+Recent changes?
+===============
 
 Dr Groves readings sessions are currently on hold until again requested by participants.
 
@@ -19,13 +21,15 @@ As Rev Howard Thompson and Debra prepare to return to the USA in June, bible stu
 But Howard will continue to upload his weekly videos on his YouTube channel "Spiritual Shorts". The channel is reaching a growing audience well beyond our local
 community. Each week features a 5-minute Sunday message summary, a 1-minute inspirational reflection, and a deeper exploration of Heaven and Hell. If you haven't already, take a look! [click here to be taken to the Spiritual Shorts YouTube Channel](https://www.youtube.com/channel/UCsrICJGeGmrnXVawn_Y7UQA)
 
-** What if an event is missing?
+What if an event is missing?
+============================
 
 If events are not listed in the calendar, it is generally because something else if happening at the Centre or because staff are away, so assume that the event is not on if not listed. Apologies for any inconvenience caused by any inconsistency of regular events. We look forward to seeing you on the next occasion.
 
 Feel free to check with us if you think the omission might be in error, which rarely but sometimes happens, but you will usually receive the above reason as a response (it's not on for any of a number of possible legitimate or unforseen reasons). Make the assumption that the online listing of events on this website is the most up to date and accurate indication of events and activities happening at the Centre.
 
-** Current event topics?
+Current event topics?
+=====================
 
 The weekly Wednesday Swedenborg reading sessions are exploring a powerful small work of Swedenborg called De Verbo (about "The Word"), which is proving to be very enjoyable and useful. After that we will most likely look at the four key teachings of Swedenborg (on life, on faith, on the scriptures, and on the Lord), and then will look at usefulness (charity), and read Heaven and Hell. Join in and help us decide or contribute your favourite topic.
 
@@ -40,6 +44,7 @@ We hope you feel like joining some of these rich conversations. They are mostly 
 See you soon.
 
 Enjoy!
+
 Joe
 
 For further event enquiries please contact the Swedenborg Centre
