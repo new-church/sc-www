@@ -11,7 +11,7 @@ The Swedenborg Centre is set up to connect with people who are interested in spi
 
 For enquiries please phone (02) 9416 2812.
 
-As at April 2026, the Swedenborg Association of Australia (SAA) has applied to NSW Fair Trading for its dissolution and are awaiting approval from them to go ahead with that plan. Meanwhile, for the SAA constitution [click here](https://static.swedenborg.com.au/pdf/constitution.pdf)
+As at April 2026, the dissolution of the Swedenborg Association of Australia (SAA) has been approved by NSW Fair Trading and is therefore in the process of finalising its affairs, to be completed by 29th May 2026. The Swedenborg Centre is taking over most of the former SAA activities and services without continuing the need for memberships. For the SAA constitution [click here](https://static.swedenborg.com.au/pdf/constitution.pdf)
 
 # The Swedenborg Centre
 (the Registered Office of the Swedenborg Association of Australia Inc) is located at:
