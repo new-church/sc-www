@@ -62,6 +62,8 @@ Useful reference links
 
 [picrights.com](https://picrights.com) - PicRights (and simlarly, Copyright Agent) are not law firms. They are third parties acting on behalf of rightsholders to identify and remedy the unlicensed use of those rightsholders' works online. Such rightsholders include Reuters, Alamay, Associated Press and Agence France Presse and others.
 
+[Click here](https://sprintlaw.com.au/articles/how-to-respond-to-picrights-australia-copyright-demands/#what-is-picrights-australia-pty-ltd) to see a response to receiving an email from PicRights claim.
+
 [creativecommons.org](https://creativecommons.org/share-your-work/cclicenses/) - Creative Commons (CC) licencing is a legal alternative to the default form of copyright which provides protection to the creation owner to derive an income from their creation and to prevents its misuse, abuse, or reuse. Instead, CC licencing specifically allows for the item's use by others. There are some variants, e.g. some licences might require attribution to your source. In any case, it is wise to add an attribution to all images as a standard practice, e.g. to attribute an image under Creative Commons, add under the image: "'futuristic cityscape', by Joe Jones, licensed under CC", or "Image generated using Dall-E from the prompt 'futuristic cityscape'".
 
 Free images
