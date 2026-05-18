@@ -9,7 +9,7 @@ description: Contact the Swedenborg Centre
 # Swedenborg Centre
 The Swedenborg Centre is set up to connect with people who are interested in spiritual matters, in Emanuel Swedenborg and his writings, or in any of the concepts conveyed by them.
 
-For enquiries please phone (02) 9416 2812.
+For enquiries please phone +61 2 9416 2812.
 
 At the end of May 2026, the Swedenborg Association of Australia (SAA) was dissolved. The Swedenborg Centre has taken over most of the former SAA activities and services without a continuing need for memberships.
 
@@ -20,7 +20,7 @@ At the end of May 2026, the Swedenborg Association of Australia (SAA) was dissol
 
 |              |                                      |
 | ------------ | ------------------------------------ |
-| Telephone    | [(02) 9416 2812](tel://+61294162812) |
+| Telephone    | [+61 2 9416 2812](tel://+61294162812) |
 | Books Orders | orders@swedenborg.com.au             |
 | Information  | info@swedenborg.com.au               |
 | Web Site     | swedenborg.com.au                |
