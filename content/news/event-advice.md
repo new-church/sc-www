@@ -4,6 +4,8 @@ description: "Why and what to do"
 date: 2025-10-06 01:00:00
 ---
 
+The SAA has been wound up and its activities will be continued by the Swedenborg Centre.
+
 This website is the single source of truth (about our events)
 =============================================================
 
