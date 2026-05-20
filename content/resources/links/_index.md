@@ -46,8 +46,8 @@ hastextbackground: true
 
 ### Swedenborg news and info
 
-- [Swedenborg Association of Australia Facebook Page](https://www.facebook.com/swedenborgau)
-- [Swedenborg Association of Australia Blog](http://swedenborgaustralia.blogspot.com)
+- [Swedenborg Centre Facebook Page](https://www.facebook.com/swedenborgau)
+- [Swedenborg Centre Blog](http://swedenborgaustralia.blogspot.com)
 - [Spiritual Questions](http://spiritualquestions.org.uk) throws light on human happiness and the meaning of life and spiritual questions, explored links between Swedenborg's writings, psychology and spiritual healing.
 
 # Swedenborg organisations
