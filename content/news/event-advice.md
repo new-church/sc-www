@@ -1,7 +1,7 @@
 ---
 title: "General event news and info"
 description: "Why and what to do"
-date: 2025-10-06 01:00:00
+date: 2026-05-21 01:00:00
 ---
 
 The SAA has been wound up and its activities will be continued by the Swedenborg Centre.
