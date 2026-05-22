@@ -4,8 +4,6 @@ description: "Why and what to do"
 date: 2026-05-21 01:00:00
 ---
 
-The SAA has been wound up and its activities will be continued by the Swedenborg Centre.
-
 This website is the single source of truth (about our events)
 =============================================================
 
@@ -14,14 +12,13 @@ The listing of online events here on the website is the best and most up to date
 Recent changes?
 ===============
 
-Dr Groves readings sessions are currently on hold until again requested by participants.
+The Swedenborg Association of Australia (SAA) officially ceases operations at the end of May 2026. The members approved the winding up of the Association and in conjunction with NSW Fair Trading and their prescribed process, the SAA officially ceases to be a registered organisation from the 29th of May 2026. This marks the conclusion of many years of service, fellowship and support shared through the Association. The good news is that many of its activities will now be continued by the Swedenborg Centre, such as the Candela quarterly Newsletter.
 
-Swedenborg Open Discussions will from 14th April 2026 be held weekly on Tuesdays and will start at 11am instead of 2pm, and the sessions will be 2 hours from now on. We found that one hour goes by very quickly, and there seems always more to explore. But you are always free to leave after one hour if you feel that is enough for you.
+Dr Groves readings sessions are currently on hold until requests by participants warrant it recommencing.
 
-As Rev Howard Thompson and Debra prepare to return to the USA in June, bible studies are being replaced by making the Tuesday Swedenborg Discussions weekly starting from 14th April 2026. These discussions are open format and therefore can easily (and often do) include questions about the Word (the Bible and its spiritual inner sense). So bible topics can continue to be explored on Tuesdays as part of the discussion event.
+Swedenborg Open Discussions are being held weekly on Tuesdays at 11am for 3 hours.
 
-But Howard will continue to upload his weekly videos on his YouTube channel "Spiritual Shorts". The channel is reaching a growing audience well beyond our local
-community. Each week features a 5-minute Sunday message summary, a 1-minute inspirational reflection, and a deeper exploration of Heaven and Hell. If you haven't already, take a look! [click here to be taken to the Spiritual Shorts YouTube Channel](https://www.youtube.com/channel/UCsrICJGeGmrnXVawn_Y7UQA)
+Rev Howard Thompson and Debra Thompson are returning to the USA in June, threfore bible studies have been replaced with a weekly and longer Tuesday Swedenborg Discussions session. These discussions are open format and therefore can easily (and often do) include questions about the Word (the Bible and its spiritual inner sense). So bible topics can continue to be explored on Tuesdays as part of the discussion event. Howard plans to continue uploading his weekly videos on his YouTube channel "Spiritual Shorts". The channel is reaching a growing audience well beyond our local community. Each week features a 5-minute Sunday message summary, a 1-minute inspirational reflection, and a deeper exploration of Heaven and Hell. If you haven't already, take a look! [click here to be taken to the Spiritual Shorts YouTube Channel](https://www.youtube.com/channel/UCsrICJGeGmrnXVawn_Y7UQA)
 
 What if an event is missing?
 ============================
