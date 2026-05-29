@@ -12,7 +12,7 @@ The listing of online events here on the website is the best and most up to date
 Recent changes?
 ===============
 
-The Swedenborg Association of Australia (SAA) officially ceased operations. Members approved the winding up of the Association in accordance with the prescribed process defined by NSW Fair Trading. The Association's cancellation of registration was officially publically gazetted on 29th of May 2026 [click here to see it in the NSW Fair Trading gazette on page 3](https://gazette.nsw.gov.au/gazette/2026/5/2026-5_206-gazette.pdf). This marks the conclusion of many years of service, fellowship and support shared through the Association. The good news is that many of its activities will now be continued by the Swedenborg Centre, such as the Candela quarterly Newsletter.
+The Swedenborg Association of Australia (SAA) has officially ceased operating. Members approved the winding up of the Association in accordance with the prescribed process defined by NSW Fair Trading. The Association's cancellation of registration was officially publically gazetted on 29th of May 2026 [click here to see it in the NSW Fair Trading gazette on page 3](https://gazette.nsw.gov.au/gazette/2026/5/2026-5_206-gazette.pdf). This marks the conclusion of many years of service, fellowship and support shared through the Association. The good news is that many of its activities will now be continued by the Swedenborg Centre, such as the Candela quarterly Newsletter.
 
 Dr Groves readings sessions are currently on hold until requests by participants warrant it recommencing.
 
