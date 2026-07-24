@@ -4,8 +4,8 @@ description: "Why and what to do"
 date: 2026-05-21 01:00:00
 ---
 
-This website is the single source of truth (about our events)
-=============================================================
+This website is the single source of truth (about our events).
+==============================================================
 
 The listing of online events here on the website is the best and most up to date info and status about all events.
 
