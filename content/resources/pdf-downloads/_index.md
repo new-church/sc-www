@@ -97,9 +97,3 @@ Rev Doug Taylor, during his pastorate at the Hurstville Society of the New Churc
 
 {{< download-list-simple data-section="arnold" >}}
 
-## Recent new additions of digitised talks, booklets and leaflets
-
-Look for the word "NEW" before titles on the above lists.
-
-{{< download-list-simple data-section="recent" >}}
-
