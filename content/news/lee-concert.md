@@ -1,5 +1,5 @@
 ---
-title: "7pm Friday 11th September SHakuhachi Masters concert with Riley Lee at Roseville New Church"
+title: "7pm Fri Sept 11 Shakuhachi Masters concert at Roseville New Church with Riley Lee"
 description: "Musical feast by top international artists at the Roseville New Church, 4 Shirley Rd, Roseville NSW 2069"
 date: 2026-08-20 00:00:00
 ---
