@@ -31,6 +31,8 @@ export const mainMenu = [
   {
     name: 'about',
     url: '/about/',
+    // There is no /about/ page: the item only opens its dropdown.
+    noLink: true,
     children: [
       { name: 'contact', url: '/contact/' },
       { name: 'Swedenborg', url: '/emanuel-swedenborg/' },

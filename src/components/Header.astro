@@ -26,13 +26,24 @@ const label = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
       {mainMenu.map((item) =>
         item.children ? (
           <div class="relative group">
-            <a
-              href={item.url}
-              class:list={[linkBase, 'inline-flex items-center gap-1 text-[14px] px-3 pt-2 pb-1.5', itemActive(item) ? 'text-accent-primary-strong bg-violet-100' : 'text-text-muted hover:text-text-heading']}
-            >
-              {label(item.name)}
-              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 3.5l3 3 3-3" /></svg>
-            </a>
+            {item.noLink ? (
+              <button
+                type="button"
+                aria-haspopup="true"
+                class:list={[linkBase, 'inline-flex items-center gap-1 text-[14px] px-3 pt-2 pb-1.5 cursor-default', itemActive(item) ? 'text-accent-primary-strong bg-violet-100' : 'text-text-muted hover:text-text-heading']}
+              >
+                {label(item.name)}
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 3.5l3 3 3-3" /></svg>
+              </button>
+            ) : (
+              <a
+                href={item.url}
+                class:list={[linkBase, 'inline-flex items-center gap-1 text-[14px] px-3 pt-2 pb-1.5', itemActive(item) ? 'text-accent-primary-strong bg-violet-100' : 'text-text-muted hover:text-text-heading']}
+              >
+                {label(item.name)}
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 3.5l3 3 3-3" /></svg>
+              </a>
+            )}
             <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition-opacity duration-150 absolute left-0 top-full pt-2 min-w-[190px]">
               <div class="rounded-md border border-border-soft bg-white shadow-card p-1.5 flex flex-col">
                 {item.children.map((c) => (
@@ -71,7 +82,11 @@ const label = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
     <div class="container-site px-4 sm:px-6 py-3 flex flex-col gap-1">
       {mainMenu.map((item) => (
         <>
-          <a href={item.url} class:list={[linkBase, 'text-[16px] px-4 py-3', itemActive(item) && !item.children ? 'text-accent-primary-strong bg-violet-100' : 'text-text-muted hover:text-text-heading hover:bg-violet-50']}>{label(item.name)}</a>
+          {item.noLink ? (
+            <span class={`${linkBase} text-[16px] px-4 pt-3 pb-1 text-text-heading`}>{label(item.name)}</span>
+          ) : (
+            <a href={item.url} class:list={[linkBase, 'text-[16px] px-4 py-3', itemActive(item) && !item.children ? 'text-accent-primary-strong bg-violet-100' : 'text-text-muted hover:text-text-heading hover:bg-violet-50']}>{label(item.name)}</a>
+          )}
           {item.children?.map((c) => (
             <a href={c.url} class={`${linkBase} text-[15px] pl-9 pr-4 py-2.5 text-text-muted hover:text-text-heading hover:bg-violet-50`}>{label(c.name)}</a>
           ))}
