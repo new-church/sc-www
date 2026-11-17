@@ -1,26 +1,21 @@
 ---
 import { getCollection } from 'astro:content';
 import Page from '../../layouts/Page.astro';
+import Card from '../../components/Card.astro';
 import { summary } from '../../lib/events';
 
 const order = ['resources/audio', 'resources/links', 'resources/pdf-downloads'];
 const pages = (await getCollection('pages')).filter((p) => order.includes(p.id)).sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
 ---
 
-<Page title="Resources">
-  <div class="columns is-multiline">
+<Page title="Resources" description="Audio talks, PDF downloads and links on Swedenborg and the New Church." width="wide" eyebrow="Library">
+  <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
     {pages.map((p) => (
-      <div class="column is-half">
-        <a class="card is-block" href={`/${p.id}/`}>
-          <div class="card-content">
-            <div class="media"><div class="media-content">
-              <p class="title is-4">{p.data.title}</p>
-              <p class="subtitle is-6">{p.data.description}</p>
-            </div></div>
-            <div class="content">{summary(p.body ?? '', 30)}</div>
-          </div>
-        </a>
-      </div>
+      <Card interactive href={`/${p.id}/`} title={p.data.title}>
+        {p.data.description}
+        <br />
+        <span class="mt-2 block text-text-muted">{summary(p.body ?? '', 30)}</span>
+      </Card>
     ))}
   </div>
 </Page>

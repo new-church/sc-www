@@ -1,22 +1,42 @@
 ---
-import { footerMenu, footerResources } from '../lib/site';
+import { footerMenu, footerResources, site } from '../lib/site';
+const year = new Date().getFullYear();
+const link = 'text-violet-200 no-underline hover:text-gold-300';
 ---
 
-<footer class="footer">
-  <div class="columns is-centered">
-    <div class="column is-one-quarter">
-      {footerMenu.map((i) => (
-        <p class="bd-footer-link"><a href={i.url}><span>{i.name}</span></a></p>
-      ))}
+<footer class="bg-gradient-dusk text-text-on-dark mt-24">
+  <div class="container-site px-6 md:px-8 pt-14 pb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr] gap-10">
+    <div>
+      <div class="font-display font-semibold text-[22px] tracking-[0.06em] mb-2.5">Swedenborg Centre</div>
+      <p class="m-0 text-[15px] text-text-on-dark/75 max-w-[340px]">
+        Talks, discussion and study groups, and resources on the writings of Emanuel Swedenborg, from Sydney to Australia and beyond.
+      </p>
+      <div class="flex gap-4 mt-5">
+        <a href={site.facebook} class:list={['font-display text-[13px] tracking-[0.04em]', link]} rel="noopener noreferrer" target="_blank">Facebook</a>
+        <a href="https://donorbox.org/swedenborg-centre" class:list={['font-display text-[13px] tracking-[0.04em]', link]} rel="noopener noreferrer" target="_blank">Donate</a>
+      </div>
     </div>
-    <div class="column is-one-quarter">
-      <p class="has-text-weight-bold">Resources</p>
-      {footerResources.map((i) => (
-        <p class="bd-footer-link"><a href={i.url}><span>{i.name}</span></a></p>
-      ))}
+
+    <div class="text-[15px] leading-[2]">
+      <div class="font-display text-[12px] tracking-eyebrow uppercase text-gold-300 mb-2">Explore</div>
+      {footerMenu.map((i) => (<><a href={i.url} class={link}>{i.name}</a><br /></>))}
+    </div>
+
+    <div class="text-[15px] leading-[2]">
+      <div class="font-display text-[12px] tracking-eyebrow uppercase text-gold-300 mb-2">Resources</div>
+      {footerResources.map((i) => (<><a href={i.url} class={link}>{i.name}</a><br /></>))}
+    </div>
+
+    <div class="text-[15px] leading-[2]">
+      <div class="font-display text-[12px] tracking-eyebrow uppercase text-gold-300 mb-2">Contact</div>
+      4 Shirley Rd, Roseville NSW 2069<br />
+      <a href="tel:+61294162812" class={link}>+61 2 9416 2812</a><br />
+      <a href="mailto:info@swedenborg.com.au" class:list={[link, 'break-all']}>info@swedenborg.com.au</a><br />
+      <a href="/subscribe/" class={link}>Join our mailing list</a>
     </div>
   </div>
-  <div class="content has-text-centered">
-    <p>&copy; {new Date().getFullYear()} <strong>Swedenborg Centre </strong> All Rights Reserved &middot; <a href="/privacy/">Privacy</a></p>
+  <div class="text-center pb-7 font-display text-[12px] tracking-[0.1em] text-text-on-dark/50 px-6">
+    &copy; {year} Swedenborg Centre · ✦ ·{' '}
+    <a href="/privacy/" class="text-text-on-dark/50 no-underline hover:text-gold-300">Privacy</a>
   </div>
 </footer>

@@ -1,25 +1,27 @@
 ---
 interface Props { page: number; totalPages: number; urlFor: (n: number) => string }
 const { page, totalPages, urlFor } = Astro.props;
-// Show first, last and the neighbours of the current page, with ellipses between (same as the Hugo partial).
+// Show first, last and the neighbours of the current page, with ellipses between.
 const shown = Array.from({ length: totalPages }, (_, i) => i + 1).filter(
   (n) => n < 2 || n === totalPages || (n > page - 2 && n < page + 2),
 );
+const base = 'inline-flex min-w-10 items-center justify-center rounded-pill px-3 pt-2 pb-1.5 font-display font-semibold text-[14px] no-underline';
 ---
 
 {totalPages > 1 && (
-  <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
-    {page > 1 && <a href={urlFor(page - 1)} class="pagination-previous">Previous</a>}
-    {page < totalPages && <a href={urlFor(page + 1)} class="pagination-next">Next page</a>}
-    <ul class="pagination-list">
-      {shown.map((n, i) => (
-        <>
-          {i > 0 && n - shown[i - 1] > 1 && <li><span class="pagination-ellipsis">&hellip;</span></li>}
-          <li>
-            <a href={urlFor(n)} class:list={['pagination-link', { 'is-current': n === page }]} aria-label={`Page ${n}`} aria-current={n === page ? 'page' : undefined}>{n}</a>
-          </li>
-        </>
-      ))}
-    </ul>
+  <nav class="mt-10 flex flex-wrap items-center justify-center gap-2" aria-label="Pagination">
+    {page > 1 && <a href={urlFor(page - 1)} class:list={[base, 'text-accent-primary-strong hover:bg-violet-100']}>Previous</a>}
+    {shown.map((n, i) => (
+      <>
+        {i > 0 && n - shown[i - 1] > 1 && <span class="px-1 text-text-muted">&hellip;</span>}
+        <a
+          href={urlFor(n)}
+          class:list={[base, n === page ? 'bg-accent-primary text-white hover:text-white' : 'text-accent-primary-strong hover:bg-violet-100']}
+          aria-label={`Page ${n}`}
+          aria-current={n === page ? 'page' : undefined}
+        >{n}</a>
+      </>
+    ))}
+    {page < totalPages && <a href={urlFor(page + 1)} class:list={[base, 'text-accent-primary-strong hover:bg-violet-100']}>Next</a>}
   </nav>
 )}

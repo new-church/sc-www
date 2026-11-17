@@ -2,6 +2,7 @@
 import { marked } from 'marked';
 import Page from '../../layouts/Page.astro';
 import Time from '../../components/Time.astro';
+import Button from '../../components/Button.astro';
 import { getEvent } from '../../lib/events';
 
 export const prerender = false;
@@ -13,11 +14,9 @@ const infoHtml = event.info?.body ? await marked.parse(event.info.body) : '';
 ---
 
 <Page title={event.title} crumbs={[{ name: 'Events', url: '/events/' }]}>
-  <h3>Time: <Time date={event.start} /></h3>
+  <p class="mt-0 font-display text-eyebrow font-semibold uppercase tracking-eyebrow text-accent-primary"><Time date={event.start} /></p>
   {infoHtml ? <Fragment set:html={infoHtml} /> : <Fragment set:html={event.descriptionHtml} />}
   {event.zoomlink && (
-    <p class="has-text-centered">
-      <a href={event.zoomlink} class="button is-link is-uppercase" target="_blank">Join Zoom Meeting</a>
-    </p>
+    <p class="mt-8"><Button size="lg" href={event.zoomlink}>Join Zoom meeting</Button></p>
   )}
 </Page>

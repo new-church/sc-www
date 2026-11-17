@@ -2,7 +2,7 @@
 import { getCollection, getEntry, render } from 'astro:content';
 import Page from '../../layouts/Page.astro';
 import { summary } from '../../lib/events';
-import Time from '../../components/Time.astro';
+import Card from '../../components/Card.astro';
 
 const entry = (await getEntry('pages', 'news'))!;
 const { Content } = await render(entry);
@@ -10,19 +10,14 @@ const d = entry.data;
 const posts = (await getCollection('news')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 ---
 
-<Page title={d.title} description={d.description} heroclass={d.heroclass}>
-  <Content />
-  <div class="columns is-multiline">
+<Page title={d.title} description={d.description} width="wide" eyebrow="Latest">
+  <div class="max-w-[760px]"><Content /></div>
+  <div class="mt-8 grid grid-cols-1 gap-5 md:grid-cols-2">
     {posts.map((p) => (
-      <div class="column is-half">
-        <a class="card is-block" href={`/news/${p.id}/`}>
-          <div class="card-content">
-            <p class="title is-4">{p.data.title}</p>
-            <p class="subtitle is-6">{p.data.description}</p>
-            <div class="content">{summary(p.body ?? '')}<br /><Time date={p.data.date} /></div>
-          </div>
-        </a>
-      </div>
+      <Card interactive href={`/news/${p.id}/`} eyebrow={p.data.date.toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })} title={p.data.title}>
+        {p.data.description ? <>{p.data.description}<br /></> : null}
+        {summary(p.body ?? '')}
+      </Card>
     ))}
   </div>
 </Page>
