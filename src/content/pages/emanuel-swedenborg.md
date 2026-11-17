@@ -704,7 +704,7 @@ _In the Christian world it is wholly unknown that heaven and hell are from the h
 
 _They wish for this reason that I should declare from their lips that in the entire heaven there is not a single angel who was created such from the beginning, nor in hell any devil who was created an angel of light and cast down; but that all, both in heaven and in hell, are from the human race; in heaven those who lived in the world in heavenly love and belief, in hell those who lived in infernal love and belief._ **[Heaven and Hell 311]**
 
-"All who have acquired intelligence and wisdom in the world,are received in heaven, and become Angels, everyone according to the quality and degree of his intelligence and wisdom." **[Heaven and Hell 349]**
+"All who have acquired intelligence and wisdom in the world,are received in heaven, and become Angels, everyone according to the quality and degree of his intelligence and wisdom." <strong>[Heaven and Hell 349]</strong>
 
 The last quarter of the 20th century has witnessed a remarkable change in people's willingness to more openly talk about paranormal experiences. The extensive publicity surrounding the Near Death Experience phenomena, to which modern scientific research has given some credence, seems to have "broken the shackles" of society taboos on talking about incidences such as meetings with supernatural beings, communications from spirit guides, clairvoyance, clairsentience, E.S.P. The mostly positive experiences involving rescue in life-threatening situations, causing unexpected physical healings, creating changes to outlook and direction, etc. have caught the imagination and interest of many others, bringing encouragement to those with a belief in the spiritual dimension.
 
