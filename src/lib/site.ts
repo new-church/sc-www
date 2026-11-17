@@ -45,6 +45,7 @@ export const footerMenu = [
   { name: 'Shop', url: '/shop/' },
   { name: 'Swedenborg', url: '/emanuel-swedenborg/' },
   { name: 'Contact', url: '/contact/' },
+  { name: 'Subscribe', url: '/subscribe/' },
 ];
 
 export const footerResources = [

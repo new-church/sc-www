@@ -1,0 +1,71 @@
+---
+import Page from '../../layouts/Page.astro';
+import { signupConfig } from '../../lib/signup/config';
+import { apiPath, turnstileKeys } from '../../lib/signup';
+
+export const prerender = false;
+
+const keys = turnstileKeys();
+const sp = Astro.url.searchParams;
+const sent = sp.get('sent') === '1';
+const error = sp.get('error');
+const messages: Record<string, string> = {
+  invalid: 'Please check your name and email address, and choose at least one list.',
+  check: 'We couldn’t complete the security check. Please try again.',
+  send: 'We couldn’t send the confirmation email just now. Please try again in a little while.',
+};
+---
+
+<Page title="Subscribe to our emails" description="Get Swedenborg Centre news and the Candela magazine by email.">
+  <p>
+    Choose what you’d like to receive. We’ll email you a link to confirm, and every message has an unsubscribe link.
+  </p>
+
+  {sent ? (
+    <div class="notification is-success is-light">
+      <strong>Check your email.</strong> We’ve sent you a confirmation email. Open it and press the button to finish
+      subscribing. It can take a few minutes, and it’s worth checking your junk folder.
+    </div>
+  ) : !keys ? (
+    <div class="notification is-warning is-light">
+      Sorry, sign-up isn’t working at the moment. Please email{' '}
+      <a href={`mailto:${signupConfig.replyTo}`}>{signupConfig.replyTo}</a>{' '}
+      and we’ll add you.
+    </div>
+  ) : (
+    <form method="post" action={apiPath()} style="max-width: 32rem">
+      {error && messages[error] && <div class="notification is-danger is-light" role="alert">{messages[error]}</div>}
+
+      <div class="field">
+        <label class="label" for="sub-first">First name</label>
+        <div class="control"><input class="input" id="sub-first" name="first" autocomplete="given-name" required /></div>
+      </div>
+      <div class="field">
+        <label class="label" for="sub-last">Last name</label>
+        <div class="control"><input class="input" id="sub-last" name="last" autocomplete="family-name" required /></div>
+      </div>
+      <div class="field">
+        <label class="label" for="sub-email">Email</label>
+        <div class="control"><input class="input" id="sub-email" name="email" type="email" autocomplete="email" required /></div>
+      </div>
+
+      <div class="field">
+        <p class="label">What would you like to receive?</p>
+        {signupConfig.lists.map((l) => (
+          <div class="control mb-2">
+            <label class="checkbox">
+              <input type="checkbox" name="lists" value={l.id} checked={l.checked} />{' '}
+              {l.label}
+              <br /><small class="has-text-grey">{l.hint}</small>
+            </label>
+          </div>
+        ))}
+      </div>
+
+      <div class="cf-turnstile mb-4" data-sitekey={keys.siteKey}></div>
+      <button class="button is-primary" type="submit">Send confirmation email</button>
+      <p class="help mt-3">See our <a href="/privacy/">privacy page</a> for how we use your details.</p>
+    </form>
+  )}
+  {keys && !sent && <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer is:inline></script>}
+</Page>

@@ -10,11 +10,12 @@ interface Props {
   img?: string;
   textBackground?: boolean;
   crumbs?: { name: string; url: string }[];
+  noindex?: boolean;
 }
-const { title, description, heroclass, img, textBackground, crumbs = [] } = Astro.props;
+const { title, description, heroclass, img, textBackground, crumbs = [], noindex } = Astro.props;
 ---
 
-<Base title={title} description={description}>
+<Base title={title} description={description} noindex={noindex}>
   <Hero title={title} description={description} heroclass={heroclass} img={img} textBackground={textBackground} />
   <Breadcrumb crumbs={crumbs} title={title} />
   <section class="section">

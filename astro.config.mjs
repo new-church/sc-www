@@ -8,7 +8,7 @@ import { unified } from '@astrojs/markdown-remark';
 export default defineConfig({
   site: 'https://swedenborg.com.au',
   adapter: vercel(),
-  integrations: [mdx(), sitemap()],
+  integrations: [mdx(), sitemap({ filter: (page) => !/\/subscribe\/confirm/.test(page) })],
   trailingSlash: 'always',
   build: { format: 'directory' },
   markdown: {

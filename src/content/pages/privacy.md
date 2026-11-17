@@ -19,7 +19,9 @@ The site is hosted by Vercel, and the audio and PDF files are served from a sepa
 
 # Events, enquiries and our mailing list
 
-The events list is drawn from our public Google Calendar. If you email, phone or write to us, we use the details you give us to reply and to look after your enquiry. If you sign up to our enews list, we use your name and email address to send you Swedenborg Centre news, through Mailchimp. Every email has an unsubscribe link, and you can ask us to remove you at any time. Zoom sessions are run through Zoom, which has its own privacy practices.
+The events list is drawn from our public Google Calendar. If you email, phone or write to us, we use the details you give us to reply and to look after your enquiry. Zoom sessions are run through Zoom, which has its own privacy practices.
+
+If you sign up to our email list, we ask for your name and email address and the lists you want. We first email you a link to confirm, and only then add you. We keep your details in Planning Center, the database used by the Sydney Society of the New Church, and send the confirmation email through Postmark. We use your details to send you the news you chose, and every email has an unsubscribe link. You can ask us to remove you at any time.
 
 # Donations and other websites
 
@@ -29,4 +31,4 @@ The Donate button takes you to Donorbox, which handles your payment details. We 
 
 You can ask us what information we hold about you, or ask us to correct or delete it, by emailing [info@swedenborg.com.au](mailto:info@swedenborg.com.au) or phoning [+61 2 9416 2812](tel:+61294162812). We may update this page from time to time.
 
-*Last updated 17 November 2026.*
+*Last updated 18 November 2026.*
