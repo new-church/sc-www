@@ -1,6 +1,6 @@
 ---
 import Button from './Button.astro';
-import { mainMenu, site } from '../lib/site';
+import { mainMenu } from '../lib/site';
 
 interface Props {
   currentPath?: string;
@@ -53,16 +53,12 @@ const label = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
           </a>
         ),
       )}
-      <a href={site.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="ml-1 inline-flex size-9 items-center justify-center rounded-pill text-violet-700 hover:bg-violet-100">
-        <svg class="size-[18px]" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21z" /></svg>
-      </a>
-      <Button variant="gold" size="sm" href="https://donorbox.org/swedenborg-centre" class="ml-2">Donate</Button>
-      <Button variant="secondary" size="sm" href="/contact/" class="ml-1.5">Contact</Button>
+      <Button size="sm" href="/contact/" class="ml-2">Contact</Button>
     </nav>
 
     <!-- Compact: CTA + menu toggle -->
     <div class="flex items-center gap-1.5 ml-auto xl:hidden">
-      <Button variant="gold" size="sm" href="https://donorbox.org/swedenborg-centre" class="!px-3 !pt-2 !pb-1.5 !text-[12px]">Donate</Button>
+      <Button size="sm" href="/contact/" class="!px-3 !pt-2 !pb-1.5 !text-[12px]">Contact</Button>
       <button type="button" id="nav-toggle" class="inline-flex items-center justify-center size-10 rounded-pill text-violet-900 hover:bg-violet-100 transition-colors duration-150" aria-controls="mobile-nav" aria-expanded="false" aria-label="Open menu">
         <svg id="nav-icon-open" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
         <svg id="nav-icon-close" class="hidden" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
@@ -82,8 +78,7 @@ const label = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
         </>
       ))}
       <div class="pt-2 pb-1 px-1 flex flex-col gap-2">
-        <Button variant="secondary" size="md" href="/contact/" class="w-full">Contact</Button>
-        <Button variant="ghost" size="md" href={site.facebook} class="w-full">Facebook</Button>
+        <Button size="md" href="/contact/" class="w-full">Contact</Button>
       </div>
     </div>
   </nav>

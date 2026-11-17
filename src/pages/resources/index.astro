@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import Page from '../../layouts/Page.astro';
 import Card from '../../components/Card.astro';
-import { summary } from '../../lib/events';
 
 const order = ['resources/audio', 'resources/links', 'resources/pdf-downloads'];
 const pages = (await getCollection('pages')).filter((p) => order.includes(p.id)).sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
@@ -13,8 +12,6 @@ const pages = (await getCollection('pages')).filter((p) => order.includes(p.id))
     {pages.map((p) => (
       <Card interactive href={`/${p.id}/`} title={p.data.title}>
         {p.data.description}
-        <br />
-        <span class="mt-2 block text-text-muted">{summary(p.body ?? '', 30)}</span>
       </Card>
     ))}
   </div>
