@@ -2,7 +2,13 @@
 import Page from '../../layouts/Page.astro';
 ---
 
-<Page title="You’re subscribed" noindex>
+<Page title="You’re subscribed" noindex analytics>
   <p>Thank you. Your subscription is confirmed. Every email has an unsubscribe link if you ever change your mind.</p>
   <p><a href="/">Back to the home page</a></p>
+<script is:inline>
+  // Signup conversion for GA4 (no personal details). Mark generate_lead as a key event in GA4.
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('event', 'generate_lead', { method: 'mailing_list' });
+</script>
 </Page>
