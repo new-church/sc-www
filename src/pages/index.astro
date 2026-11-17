@@ -1,0 +1,115 @@
+---
+import Base from '../layouts/Base.astro';
+import Img from '../components/Img.astro';
+import EventCardSmall from '../components/EventCardSmall.astro';
+import { getCollection } from 'astro:content';
+import { getEvents, summary } from '../lib/events';
+import { candela } from '../lib/data';
+import { site, staticHref } from '../lib/site';
+import Time from '../components/Time.astro';
+
+// Home shows live events, so it renders on request and is cached at the edge.
+export const prerender = false;
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=3600');
+
+const events = (await getEvents()).slice(0, 3);
+const news = (await getCollection('news')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 3);
+const latest = candela()[0];
+---
+
+<Base>
+  <section class="hero is-bold is-dark is-relative is-clipped">
+    <div class="hero-body">
+      <div class="container is-lv-2">
+        <h1 class="title">Swedenborg Centre</h1>
+        <h2 class="subtitle">
+          <span class="has-text-background has-background-dark-transparent">{site.description}</span>
+        </h2>
+      </div>
+    </div>
+    <div class="bg-img is-lv-1">
+      <Img src="images/unsplash/mindy-pongpanik-Uz6kRtgKRjg-unsplash.jpg" alt="Emanuel Swedenborg" layout="fill" loading="eager" />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="box is-child is-white is-relative is-clipped">
+                <div class="is-relative is-lv-2">
+                  <p class="title">
+                    <a href="/emanuel-swedenborg/" class="has-text-white has-text-background has-background-dark-transparent">Who is Swedenborg?</a>
+                  </p>
+                  <p class="subtitle has-text-white pb-6">Swedenborg, Afterlife Eyewitness</p>
+                  <p class="has-text-centered"><a href="/emanuel-swedenborg/" class="button is-link is-uppercase">Learn More</a></p>
+                </div>
+                <div class="bg-img is-lv-1">
+                  <Img src="images/Swedenborg - 7.jpg" alt="Emanuel Swedenborg" layout="fill" />
+                </div>
+              </article>
+
+              {latest && (
+                <article class="tile is-child box has-background-color2">
+                  <p class="title"><a href={staticHref(latest.path)} target="_blank" class="has-text-white">{latest.title}</a></p>
+                  <p class="has-text-centered mb-3"><a href="/candela/" class="has-text-white">See all Candelas</a></p>
+                  <a href={staticHref(latest.path)} target="_blank" class="has-text-white">
+                    <figure><Img src={latest.image ?? 'images/candelas.jpg'} alt="Candelas" /></figure>
+                  </a>
+                  <p class="subtitle has-text-white">{latest.description}</p>
+                  <p class="has-text-centered"><a href={staticHref(latest.path)} target="_blank" class="button is-link is-uppercase">Download</a></p>
+                </article>
+              )}
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box has-background-color5">
+                <div class="content">
+                  <p class="title has-text-white"><a href="/news/" class="has-text-white">News</a></p>
+                  <p class="subtitle has-text-white">The latest news from the Swedenborg Centre</p>
+                  {news.map((n) => (
+                    <div style="padding: 0.5rem; color: unset">
+                      <a class="card is-block" href={`/news/${n.id}/`}>
+                        <div class="card-content">
+                          <p class="subtitle is-spaced is-7"><Time date={n.data.date} /></p>
+                          <p class="title is-spaced is-6">{n.data.title}</p>
+                          <p class="is-size-7 has-text-grey">{summary(n.body ?? '')}</p>
+                          <p class="has-text-link">more...</p>
+                        </div>
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box has-background-danger">
+              <p class="title"><a href="/contact/" class="has-text-white">Contact</a></p>
+              <p class="subtitle has-text-white">Swedenborg Centre</p>
+              <div class="content has-text-white">
+                <p class="has-text-white">
+                  <strong><i class="has-text-white">4 Shirley Rd, Roseville NSW 2069, Australia</i></strong><br />
+                  Phone: <strong><a href="tel://+61294162812" class="has-text-white">+61 2 9416 2812</a><br /></strong>
+                  <strong><a href="mailto:info@swedenborg.com.au" class="has-text-white">info@swedenborg.com.au</a></strong>
+                </p>
+                <p>See <a href="/contact/" class="has-text-white">CONTACT</a> page for further contact details</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-color4">
+            <p class="title has-text-white"><a href="/events/" class="has-text-white">Upcoming Events</a></p>
+            <p class="subtitle has-text-white">Join an event (shown in Sydney time)</p>
+            <p class="has-text-centered"><a href="/events/" class="has-text-white">See all events</a></p>
+            {events.map((e) => (
+              <div style="padding: 0.5rem; color: unset"><EventCardSmall event={e} /></div>
+            ))}
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,53 @@
+---
+title: Contact us
+description: Contact the Swedenborg Centre
+---
+
+# Sign up for monthly Swedenborg Centre enews emails
+[Click here](https://mailchi.mp/4f0d6f13e724/sign-up-for-swedenborg-centre-enews) to add your email address to the list for receiving the monthly Swedenborg Centre enews by email.
+
+# Swedenborg Centre
+The Swedenborg Centre is set up to connect with people who are interested in spiritual matters, in Emanuel Swedenborg and his writings, or in any of the concepts conveyed by them.
+
+For enquiries please phone +61 2 9416 2812.
+
+At the end of May 2026, the Swedenborg Association of Australia (SAA) was dissolved. The Swedenborg Centre has taken over most of the former SAA activities and services without a continuing need for memberships.
+
+# The Swedenborg Centre
+(the Registered Office of the Swedenborg Association of Australia Inc) is located at:
+
+***4 Shirley Road, Roseville NSW  2069,  Australia***
+
+|              |                                      |
+| ------------ | ------------------------------------ |
+| Telephone    | [+61 2 9416 2812](tel://+61294162812) |
+| Books Orders | orders@swedenborg.com.au             |
+| Information  | info@swedenborg.com.au               |
+| Web Site     | swedenborg.com.au                |
+
+
+There are several streets in the vicinity of the Centre (near Shirley Road) which provide free street parking. We encourage using public transport.
+
+The Swedenborg Centre's official opening hours are 10.30am to 4pm Monday to Friday (except for public holidays and during the Christmas/New Year holiday season). The Centre is occasionally open after-hours for meetings, or at other times by appointment.
+
+**Due to limited staffing, we recommend visitors phone the Centre before coming.**
+
+### Staff: Director - Joe Vandermeer
+
+---
+
+## OTHER LOCATIONS
+
+| LOCATION  | ADDRESS                                                   | TELEPHONE      | CONTACT        | EMAIL                                      |
+| --------- | --------------------------------------------------------- | -------------- | -------------- | ------------------------------------------ |
+| ADELAIDE  | 287 Oaklands Road, MARION (P.O. Box 469, PARKHOLME, 5043) | (08)&nbsp;8326&nbsp;9663 | June Johnson   | [email](mailto:junejohnson5@bigpond.com)   |
+| BALLARAT  | 318 Fussell Street, BALLARAT                              | (03)&nbsp;5331&nbsp;5638 | Judy Robinson  | [email](mailto:lenrob@vic.chariot.net.au)  |
+| BRISBANE  |                                                           | 0421&nbsp;319&nbsp;252   | Darren Brunne  | [email](mailto:drbrunne@gmail.com)         |
+| MELBOURNE | Unit 3 / 20 Duerdin Street, Clayton VIC 3168              | 0402&nbsp;944&nbsp;889 | David Moffat   | [email](mailto:david.moffat@swedenborgcommunityvictoria.net.au) |
+| PERTH     |                                                           | 0409&nbsp;887&nbsp;419   | David Walker   | [email](mailto:dave9649@bigpond.com)      |
+
+There is also a Swedenborg Bookroom located at Penshurst in Sydney’s southern suburbs. The details are:
+
+*22 Dudley Street, PENSHURST NSW\
+Telephone (02) 9580 1589\
+Email : pastor@hurstvillenewchurch.com*

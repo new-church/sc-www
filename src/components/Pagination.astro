@@ -1,0 +1,25 @@
+---
+interface Props { page: number; totalPages: number; urlFor: (n: number) => string }
+const { page, totalPages, urlFor } = Astro.props;
+// Show first, last and the neighbours of the current page, with ellipses between (same as the Hugo partial).
+const shown = Array.from({ length: totalPages }, (_, i) => i + 1).filter(
+  (n) => n < 2 || n === totalPages || (n > page - 2 && n < page + 2),
+);
+---
+
+{totalPages > 1 && (
+  <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
+    {page > 1 && <a href={urlFor(page - 1)} class="pagination-previous">Previous</a>}
+    {page < totalPages && <a href={urlFor(page + 1)} class="pagination-next">Next page</a>}
+    <ul class="pagination-list">
+      {shown.map((n, i) => (
+        <>
+          {i > 0 && n - shown[i - 1] > 1 && <li><span class="pagination-ellipsis">&hellip;</span></li>}
+          <li>
+            <a href={urlFor(n)} class:list={['pagination-link', { 'is-current': n === page }]} aria-label={`Page ${n}`} aria-current={n === page ? 'page' : undefined}>{n}</a>
+          </li>
+        </>
+      ))}
+    </ul>
+  </nav>
+)}

@@ -1,0 +1,18 @@
+---
+import { getEntry, render } from 'astro:content';
+import Page from '../../layouts/Page.astro';
+import { candela } from '../../lib/data';
+import { staticHref } from '../../lib/site';
+
+const entry = (await getEntry('pages', 'candela'))!;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+
+<Page title={d.title} description={d.description} heroclass={d.heroclass} img={d.img} textBackground={d.hastextbackground}>
+  <Content />
+  <h3>Latest edition</h3>
+  {candela().map((c) => (
+    <div class="mb-1"><a href={staticHref(c.path)}>{c.title}</a></div>
+  ))}
+</Page>

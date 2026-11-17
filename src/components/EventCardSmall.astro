@@ -1,0 +1,27 @@
+---
+import Img from './Img.astro';
+import Time from './Time.astro';
+import { summary, type CalendarEvent } from '../lib/events';
+interface Props { event: CalendarEvent }
+const { event: e } = Astro.props;
+const href = `/events/${e.slug}/`;
+const blurb = summary(e.info?.body ?? e.descriptionText);
+const img = e.info?.data.img;
+---
+
+<div class="card">
+  <div class="card-content">
+    <p class="subtitle is-spaced is-7"><Time date={e.start} /></p>
+    {img && (
+      <div class="is-flex is-justify-content-center mb-2">
+        <figure class="image is-48x48 is-rounded"><Img src={img} alt={e.title} layout="box" /></figure>
+      </div>
+    )}
+    <p class="title is-spaced is-6"><a href={href}>{e.title}</a></p>
+    <p class="is-size-7 has-text-grey">{blurb}</p>
+    <p class="has-text-link"><a href={href}>more...</a></p>
+  </div>
+  {e.zoomlink && (
+    <footer class="card-footer"><a href={e.zoomlink} class="card-footer-item" target="_blank">Join Zoom</a></footer>
+  )}
+</div>

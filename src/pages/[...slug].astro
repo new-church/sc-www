@@ -1,0 +1,19 @@
+---
+import { getCollection, render } from 'astro:content';
+import Page from '../layouts/Page.astro';
+
+export async function getStaticPaths() {
+  // candela and news have their own pages (they add lists below the markdown).
+  const pages = (await getCollection('pages')).filter((p) => !['candela', 'news'].includes(p.id));
+  return pages.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+const crumbs = entry.id.startsWith('resources/') ? [{ name: 'Resources', url: '/resources/' }] : [];
+---
+
+<Page title={d.title} description={d.description} heroclass={d.heroclass} img={d.img} textBackground={d.hastextbackground} crumbs={crumbs}>
+  <Content />
+</Page>

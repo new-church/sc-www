@@ -1,0 +1,22 @@
+---
+import { footerMenu, footerResources } from '../lib/site';
+---
+
+<footer class="footer">
+  <div class="columns is-centered">
+    <div class="column is-one-quarter">
+      {footerMenu.map((i) => (
+        <p class="bd-footer-link"><a href={i.url}><span>{i.name}</span></a></p>
+      ))}
+    </div>
+    <div class="column is-one-quarter">
+      <p class="has-text-weight-bold">Resources</p>
+      {footerResources.map((i) => (
+        <p class="bd-footer-link"><a href={i.url}><span>{i.name}</span></a></p>
+      ))}
+    </div>
+  </div>
+  <div class="content has-text-centered">
+    <p>&copy; {new Date().getFullYear()} <strong>Swedenborg Centre </strong> All Rights Reserved</p>
+  </div>
+</footer>
