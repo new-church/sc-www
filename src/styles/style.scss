@@ -40,8 +40,8 @@ $fullhd-enabled: false;
 // Update some of Bulma's component variables
 // $body-background-color: $beige-lighter;
 $control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: node;
+$input-border-color: $grey-light;
+$input-shadow: none;
 
 
 // Additional colors
