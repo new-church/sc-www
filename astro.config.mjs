@@ -17,8 +17,6 @@ export default defineConfig({
     }),
   },
   vite: {
-    // sanitize-html (CommonJS) require()s htmlparser2 (ESM-only), which throws on Vercel's runtime. Bundle it.
-    ssr: { noExternal: ['sanitize-html'] },
     css: {
       preprocessorOptions: {
         scss: {

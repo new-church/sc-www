@@ -28,13 +28,11 @@
     "ical.js": "^2.2.1",
     "marked": "^18.2.1",
     "rehype-external-links": "^3.0.0",
-    "sanitize-html": "^2.18.2",
     "sass": "^1.108.2",
     "yaml": "^2.9.1"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
-    "@types/sanitize-html": "^2.16.2",
     "typescript": "^6.0.3"
   }
 }

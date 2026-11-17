@@ -1,5 +1,4 @@
 import ICAL from 'ical.js';
-import sanitizeHtml from 'sanitize-html';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { hm, ymd } from './dates';
 
@@ -32,13 +31,43 @@ export type CalendarEvent = {
 export const slugify = (s: string) =>
   s.toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
 
-const clean = (html: string) =>
-  sanitizeHtml(html, {
-    allowedTags: ['a', 'br', 'b', 'strong', 'i', 'em', 'u', 'p', 'ul', 'ol', 'li'],
-    allowedAttributes: { a: ['href'] },
-    transformTags: { a: sanitizeHtml.simpleTransform('a', { target: '_blank', rel: 'noopener' }) },
-  });
-const text = (html: string) => sanitizeHtml(html, { allowedTags: [], allowedAttributes: {} }).replace(/\s+/g, ' ').trim();
+// Calendar descriptions are small HTML snippets typed by the Centre's own staff. Keep a short
+// allowlist of tags, and only http(s)/mailto links. (A tiny in-house sanitiser: sanitize-html's
+// CommonJS require() of ESM-only htmlparser2 fails in Vercel's runtime.)
+const ALLOWED = new Set(['a', 'br', 'b', 'strong', 'i', 'em', 'u', 'p', 'ul', 'ol', 'li']);
+const escapeHtml = (t: string) => t.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+function clean(html: string): string {
+  const noScript = html.replace(/<(script|style)\b[\s\S]*?<\/\1\s*>/gi, '');
+  let out = '';
+  let last = 0;
+  for (const m of noScript.matchAll(/<(\/?)([a-zA-Z][a-zA-Z0-9]*)\b([^>]*)>/g)) {
+    out += escapeHtml(noScript.slice(last, m.index));
+    last = m.index + m[0].length;
+    const [, closing, rawName, attrs] = m;
+    const name = rawName.toLowerCase();
+    if (!ALLOWED.has(name)) continue;
+    if (closing) {
+      out += name === 'br' ? '' : `</${name}>`;
+    } else if (name === 'a') {
+      const href = attrs.match(/href\s*=\s*(?:"([^"]*)"|'([^']*)')/i);
+      const url = (href?.[1] ?? href?.[2] ?? '').trim();
+      out += /^(https?:|mailto:)/i.test(url) ? `<a href="${url.replace(/"/g, '&quot;')}" target="_blank" rel="noopener">` : '<a>';
+    } else {
+      out += name === 'br' ? '<br>' : `<${name}>`;
+    }
+  }
+  return out + escapeHtml(noScript.slice(last));
+}
+
+const ENTITIES: Record<string, string> = { '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"', '&#39;': "'", '&nbsp;': ' ' };
+const text = (html: string) =>
+  html
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/<[^>]*>/g, '')
+    .replace(/&(amp|lt|gt|quot|#39|nbsp);/g, (e) => ENTITIES[e])
+    .replace(/\s+/g, ' ')
+    .trim();
 
 // ---- last-good cache (per server instance) -------------------------------
 let cache: { at: number; body: string } | undefined;
