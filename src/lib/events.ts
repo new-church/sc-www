@@ -156,13 +156,16 @@ function expand(ics: string, now: Date, since: Date): Raw[] {
       if (d.startDate.toJSDate() > horizon) break;
       push(d.item, d.startDate, d.endDate);
     }
-    // Occurrences deleted in Google Calendar are listed as excluded dates: show them as cancelled.
+    // Occurrences deleted in Google Calendar are listed as excluded dates: show the ones still to come (or
+    // happening today) as cancelled. Past deletions are skipped: the Centre's series carry dozens of old excluded
+    // dates from tidying the calendar, which are not cancellations and must not appear as such.
     const seconds = Math.round((ev.endDate.toJSDate().getTime() - ev.startDate.toJSDate().getTime()) / 1000);
     for (const prop of ev.component.getAllProperties('exdate')) {
       for (const x of prop.getValues() as ICAL.Time[]) {
         const start = x.clone();
         const end = x.clone();
         end.addDuration(ICAL.Duration.fromSeconds(seconds));
+        if (end.toJSDate() < now) continue;
         push(ev, start, end, true);
       }
     }

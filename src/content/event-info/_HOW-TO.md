@@ -21,6 +21,6 @@ pictures, a longer write-up, a Zoom link, downloads.
    `![A caption](./photo.jpg)`.
 3. Cancel one occurrence of a repeating event in Google Calendar: either delete just that one
    ("This event" only), or rename it to start with CANCELLED. The website shows it in red as cancelled
-   without touching any file here.
+   without touching any file here. Only upcoming occurrences are marked: a deleted occurrence that has already passed is simply left off.
 
 Files and folders starting with an underscore (like this one) are ignored by the website.
