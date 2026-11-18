@@ -29,7 +29,7 @@ export type CalendarEvent = {
   location: string;
   zoomlink?: string;
   info?: CollectionEntry<'event-info'>;
-  /** Cancelled in the calendar: a deleted occurrence of a repeating event, STATUS:CANCELLED, or "Cancelled" in the title. */
+  /** Cancelled on purpose: "cancelled" in the title (rename one occurrence in Google Calendar), or STATUS:CANCELLED. A deleted event is simply not listed. */
   cancelled: boolean;
   /** Image for cards: from the event's info folder or src/assets/images (see resolveImage). */
   image?: string;
@@ -39,10 +39,6 @@ export const slugify = (s: string, max = 60) =>
   s.toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, max);
 
 /**
- * A title that says the event is off. Joe can cancel one occurrence of a repeating event in Google Calendar by
- * deleting it (the feed then lists it as an excluded date) or by renaming it, e.g. "CANCELLED: Open discussion".
- */
-/**
  * The title as shown on the site. Joe sometimes types the time into the calendar title, e.g. "Open discussion (weekly,
  * 11am-1pm)": that clock time is fixed to one zone and would mislead viewers in another, while the site already shows
  * each event's time in the viewer's zone. So a trailing bracket that contains a clock time is left off the displayed
@@ -51,6 +47,11 @@ export const slugify = (s: string, max = 60) =>
 export const displayTitle = (t: string): string =>
   t.replace(/\s*\([^)]*\b\d{1,2}(?::\d{2})?\s*(?:am|pm)\b[^)]*\)\s*$/i, '').trim() || t;
 
+/**
+ * A title that says the event is off. To announce a cancellation, Joe renames just that one occurrence in Google Calendar
+ * (edit it, change the title to include "Cancelled", save for "This event" only). Deleting an event is NOT a
+ * cancellation: it just disappears, which is how he tidies the calendar and re-plans ahead.
+ */
 export const isCancelledTitle = (t: string) => /\b(cancell?ed|postponed)\b/i.test(t) || /^\s*NO\s+[A-Za-z]/.test(t);
 
 // Calendar descriptions are small HTML snippets typed by the Centre's own staff. Keep a short
@@ -168,7 +169,7 @@ function expand(ics: string, now: Date, since: Date): Raw[] {
     if (!masterTitle || EXCLUDE_TITLE.test(masterTitle)) continue;
 
     /** One occurrence. `item` is the master, or the edited copy when a single occurrence was changed. */
-    const push = (item: ICAL.Event, start: ICAL.Time, end: ICAL.Time, deleted = false) => {
+    const push = (item: ICAL.Event, start: ICAL.Time, end: ICAL.Time) => {
       const title = item.summary || masterTitle;
       if (EXCLUDE_TITLE.test(title)) return;
       const tzid = tzidOf(item) ?? tzidOf(ev);
@@ -184,7 +185,7 @@ function expand(ics: string, now: Date, since: Date): Raw[] {
         start: s,
         end: e,
         allDay: start.isDate,
-        cancelled: deleted || status(item) === 'CANCELLED' || isCancelledTitle(title),
+        cancelled: status(item) === 'CANCELLED' || isCancelledTitle(title),
       });
     };
 
@@ -197,19 +198,6 @@ function expand(ics: string, now: Date, since: Date): Raw[] {
       const d = ev.getOccurrenceDetails(next);
       if (toInstant(d.startDate, tzidOf(d.item) ?? tzidOf(ev)) > horizon) break;
       push(d.item, d.startDate, d.endDate);
-    }
-    // Occurrences deleted in Google Calendar are listed as excluded dates: show the ones still to come (or
-    // happening today) as cancelled. Past deletions are skipped: the Centre's series carry dozens of old excluded
-    // dates from tidying the calendar, which are not cancellations and must not appear as such.
-    const seconds = Math.round((toInstant(ev.endDate, tzidOf(ev)).getTime() - toInstant(ev.startDate, tzidOf(ev)).getTime()) / 1000);
-    for (const prop of ev.component.getAllProperties('exdate')) {
-      for (const x of prop.getValues() as ICAL.Time[]) {
-        const start = x.clone();
-        const end = x.clone();
-        end.addDuration(ICAL.Duration.fromSeconds(seconds));
-        if (toInstant(end, tzidOf(ev)) < now) continue;
-        push(ev, start, end, true);
-      }
     }
   }
   return out.sort((a, b) => a.start.getTime() - b.start.getTime());

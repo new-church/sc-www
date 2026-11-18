@@ -19,9 +19,11 @@ pictures, a longer write-up, a Zoom link, downloads.
 
    Then write the extra detail below in plain text. Pictures saved in the folder can be added with
    `![A caption](./photo.jpg)`.
-3. Cancel one occurrence of a repeating event in Google Calendar: either delete just that one
-   ("This event" only), or rename it to start with CANCELLED. The website shows it in red as cancelled
-   without touching any file here. Only upcoming occurrences are marked: a deleted occurrence that has already passed is simply left off.
+3. Announce a cancellation: in Google Calendar, open just that one occurrence of the repeating event, change its title
+   to include the word "Cancelled" (for example "CANCELLED: Swedenborg Tuesday open discussion"), save, and choose
+   "This event" (not "All events"). The website then shows that one date in red as cancelled, with no file to touch.
+   Deleting an event is different: a deleted event simply disappears from the website, as if it was never planned. Use
+   that for tidying the calendar and for re-planning ahead, and use the rename only when people should be told.
 
 Time zones: the website shows every time in the viewer's own time zone (named on the page), and lets them flip to
 Sydney time, so you don't need to write times anywhere. Set the time in Google Calendar as normal, in the zone you are in.
