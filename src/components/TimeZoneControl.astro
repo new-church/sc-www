@@ -1,7 +1,7 @@
 ---
 /**
- * "Show times in: [Your time] [Sydney time] [Other…]". One preference for the whole page: every <Time> and the
- * calendar follow it, and it is remembered for next visit. Safe to include more than once.
+ * Two choices: the viewer's own time zone (the default, and named) or the Centre's (Sydney). Every <Time> and the
+ * calendar follow it. Safe to include more than once. Nothing is remembered.
  */
 import { site } from '../lib/site';
 ---
@@ -13,58 +13,36 @@ import { site } from '../lib/site';
       <button type="button" data-tz-choice="viewer" class="rounded-pill px-3 pt-1.5 pb-1 font-display text-[13px] font-semibold text-text-muted aria-pressed:bg-accent-primary aria-pressed:text-white">Your time</button>
       <button type="button" data-tz-choice="home" class="rounded-pill px-3 pt-1.5 pb-1 font-display text-[13px] font-semibold text-text-muted aria-pressed:bg-accent-primary aria-pressed:text-white">{site.timeZoneLabel} time</button>
     </div>
-    <label class="inline-flex items-center gap-2 text-text-muted">
-      <span class="sr-only">Another time zone</span>
-      <select data-tz-other class="rounded-md border border-border-strong bg-white px-2 py-1.5 font-body text-[14px] text-text-body">
-        <option value="">Another zone…</option>
-      </select>
-    </label>
   </div>
   <p data-tz-note class="m-0 text-text-muted" aria-live="polite">Times are shown in {site.timeZoneLabel} time.</p>
 </div>
 
 <script>
-  import { activeZone, getPref, homeLabel, onTzChange, setPref, viewerZone, zoneName } from '../lib/tz-client';
+  import { activeZone, getMode, homeLabel, onTzChange, setMode, viewerIsHome, zoneName, type Mode } from '../lib/tz-client';
 
   const controls = document.querySelectorAll<HTMLElement>('[data-tz-control]');
-  const zones = (): string[] => {
-    const any = Intl as unknown as { supportedValuesOf?: (k: string) => string[] };
-    return any.supportedValuesOf ? any.supportedValuesOf('timeZone') : ['Europe/London', 'America/New_York', 'America/Los_Angeles', 'Asia/Kolkata', 'Asia/Singapore', 'Pacific/Auckland'];
-  };
 
   const refresh = () => {
-    const pref = getPref();
-    const sameAsHome = viewerZone() === document.documentElement.dataset.homeTz;
+    const mode = getMode();
+    const same = viewerIsHome();
+    const zone = zoneName(activeZone());
     controls.forEach((c) => {
       const viewerBtn = c.querySelector<HTMLButtonElement>('[data-tz-choice="viewer"]')!;
       const homeBtn = c.querySelector<HTMLButtonElement>('[data-tz-choice="home"]')!;
-      const select = c.querySelector<HTMLSelectElement>('[data-tz-other]')!;
-      // When the viewer is in the Centre's zone, "Your time" and the Centre's time are the same thing.
-      viewerBtn.hidden = sameAsHome;
-      viewerBtn.setAttribute('aria-pressed', String(pref === 'viewer' && !sameAsHome));
-      homeBtn.setAttribute('aria-pressed', String(pref === 'home' || (pref === 'viewer' && sameAsHome)));
-      select.value = pref !== 'viewer' && pref !== 'home' ? pref : '';
-      const note = c.querySelector<HTMLElement>('[data-tz-note]')!;
-      const zone = activeZone();
-      note.textContent =
-        pref === 'viewer' ? `Times are shown in your time zone, ${zoneName(zone)}.`
-        : pref === 'home' ? `Times are shown in ${homeLabel()} time, ${zoneName(zone)}.`
-        : `Times are shown in ${zoneName(zone)}.`;
+      // A viewer already in the Centre's zone has nothing to flip between: show just the note.
+      c.querySelector<HTMLElement>('[role="group"]')!.parentElement!.hidden = same;
+      viewerBtn.setAttribute('aria-pressed', String(mode === 'viewer'));
+      homeBtn.setAttribute('aria-pressed', String(mode === 'home'));
+      c.querySelector<HTMLElement>('[data-tz-note]')!.textContent =
+        same ? `Times are shown in ${homeLabel()} time, ${zone}, which is also your time zone.`
+        : mode === 'viewer' ? `Times are shown in your time zone, ${zone}.`
+        : `Times are shown in ${homeLabel()} time, ${zone}.`;
     });
   };
 
-  controls.forEach((c) => {
-    const select = c.querySelector<HTMLSelectElement>('[data-tz-other]')!;
-    for (const z of zones()) {
-      const o = document.createElement('option');
-      o.value = z;
-      o.textContent = z.replaceAll('_', ' ');
-      select.appendChild(o);
-    }
-    c.querySelectorAll<HTMLButtonElement>('[data-tz-choice]').forEach((b) => b.addEventListener('click', () => setPref(b.dataset.tzChoice!)));
-    select.addEventListener('change', () => setPref(select.value || 'viewer'));
-  });
-
+  controls.forEach((c) =>
+    c.querySelectorAll<HTMLButtonElement>('[data-tz-choice]').forEach((b) => b.addEventListener('click', () => setMode(b.dataset.tzChoice as Mode))),
+  );
   onTzChange(refresh);
   refresh();
 </script>

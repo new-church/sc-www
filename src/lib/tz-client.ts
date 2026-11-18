@@ -1,50 +1,28 @@
 /**
  * Browser-side time zone handling. The server renders times in the Centre's own zone (so the page works without
- * JavaScript); here the viewer's zone, or one they pick, takes over.
- *
- * The preference is one of:  "viewer" (the browser's zone, the default),  "home" (the Centre's zone), or any IANA zone
- * name such as "Europe/London". It is remembered in localStorage and shared by every control and calendar on the page.
- * The Centre's zone is never named here: it comes from <html data-home-tz> (set from src/lib/site.ts).
+ * JavaScript); here the browser's own zone takes over, and the viewer can flip between two views:
+ *   "viewer": the browser's time zone (the default, and always what a page starts in)
+ *   "home":   the Centre's own zone (Sydney)
+ * Nothing is remembered between visits or pages. The Centre's zone is never named here: it comes from
+ * <html data-home-tz> (set from src/lib/site.ts).
  */
-const KEY = 'tz-pref';
 const EVENT = 'tz-change';
+export type Mode = 'viewer' | 'home';
+let mode: Mode = 'viewer';
 
 export const homeZone = (): string => document.documentElement.dataset.homeTz || 'UTC';
 export const homeLabel = (): string => document.documentElement.dataset.homeLabel || 'Home';
 export const viewerZone = (): string => Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
+/** True when the viewer is already in the Centre's zone, so there is nothing to flip between. */
+export const viewerIsHome = (): boolean => viewerZone() === homeZone();
 
-const valid = (z: string) => {
-  try {
-    new Intl.DateTimeFormat('en', { timeZone: z });
-    return true;
-  } catch {
-    return false;
-  }
-};
-
-export function getPref(): string {
-  try {
-    const v = localStorage.getItem(KEY);
-    if (v === 'viewer' || v === 'home' || (v && valid(v))) return v;
-  } catch {
-    /* storage blocked: fall through to the default */
-  }
-  return 'viewer';
-}
-
-export function setPref(p: string): void {
-  try {
-    localStorage.setItem(KEY, p);
-  } catch {
-    /* ignore */
-  }
+export const getMode = (): Mode => mode;
+export function setMode(m: Mode): void {
+  mode = m;
   window.dispatchEvent(new CustomEvent(EVENT));
 }
 
-export function activeZone(): string {
-  const p = getPref();
-  return p === 'viewer' ? viewerZone() : p === 'home' ? homeZone() : p;
-}
+export const activeZone = (): string => (mode === 'home' ? homeZone() : viewerZone());
 
 export const onTzChange = (fn: () => void): void => {
   window.addEventListener(EVENT, fn);

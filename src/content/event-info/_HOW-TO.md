@@ -23,8 +23,8 @@ pictures, a longer write-up, a Zoom link, downloads.
    ("This event" only), or rename it to start with CANCELLED. The website shows it in red as cancelled
    without touching any file here. Only upcoming occurrences are marked: a deleted occurrence that has already passed is simply left off.
 
-Time zones: the website shows every time in the viewer's own time zone and lets them switch to Sydney time or any other
-zone, so you don't need to write times anywhere. Set the time in Google Calendar as normal, in the zone you are in.
+Time zones: the website shows every time in the viewer's own time zone (named on the page), and lets them flip to
+Sydney time, so you don't need to write times anywhere. Set the time in Google Calendar as normal, in the zone you are in.
 A bracket at the end of a calendar title that holds a clock time, such as "(weekly, 11am-1pm)", is left off the website's
 display title (it would be wrong for viewers in other zones); put times in the calendar entry itself, not the title.
 
