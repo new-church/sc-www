@@ -1,0 +1,28 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import Page from '../../layouts/Page.astro';
+import { summary } from '../../lib/events';
+import Time from '../../components/Time.astro';
+
+const entry = (await getEntry('pages', 'news'))!;
+const { Content } = await render(entry);
+const d = entry.data;
+const posts = (await getCollection('news')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<Page title={d.title} description={d.description} heroclass={d.heroclass}>
+  <Content />
+  <div class="columns is-multiline">
+    {posts.map((p) => (
+      <div class="column is-half">
+        <a class="card is-block" href={`/news/${p.id}/`}>
+          <div class="card-content">
+            <p class="title is-4">{p.data.title}</p>
+            <p class="subtitle is-6">{p.data.description}</p>
+            <div class="content">{summary(p.body ?? '')}<br /><Time date={p.data.date} /></div>
+          </div>
+        </a>
+      </div>
+    ))}
+  </div>
+</Page>

@@ -1,0 +1,29 @@
+---
+import Base from './Base.astro';
+import Hero from '../components/Hero.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  heroclass?: string;
+  img?: string;
+  textBackground?: boolean;
+  crumbs?: { name: string; url: string }[];
+  noindex?: boolean;
+  /** Load Google Analytics even on a noindex page (the signup-confirmed page counts as a conversion). */
+  analytics?: boolean;
+}
+const { title, description, heroclass, img, textBackground, crumbs = [], noindex, analytics } = Astro.props;
+---
+
+<Base title={title} description={description} noindex={noindex} analytics={analytics}>
+  <Hero title={title} description={description} heroclass={heroclass} img={img} textBackground={textBackground} />
+  <Breadcrumb crumbs={crumbs} title={title} />
+  <section class="section">
+    <div class="container">
+      <div class="content"><slot /></div>
+    </div>
+  </section>
+  <slot name="after" />
+</Base>

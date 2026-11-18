@@ -1,0 +1,23 @@
+---
+import Page from '../../layouts/Page.astro';
+import EventCard from '../../components/EventCard.astro';
+import Pagination from '../../components/Pagination.astro';
+import { getEvents } from '../../lib/events';
+
+export const prerender = false;
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=3600');
+
+const PER_PAGE = 16;
+const events = await getEvents();
+const totalPages = Math.max(1, Math.ceil(events.length / PER_PAGE));
+const page = Math.min(Math.max(parseInt(Astro.url.searchParams.get('page') ?? '1', 10) || 1, 1), totalPages);
+const slice = events.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+---
+
+<Page title="Events">
+  {slice.length === 0 && <p>No upcoming events are listed right now. Please check back soon.</p>}
+  <div class="columns is-multiline">
+    {slice.map((e) => <div class="column is-half"><EventCard event={e} /></div>)}
+  </div>
+  <Pagination page={page} totalPages={totalPages} urlFor={(n) => (n === 1 ? '/events/' : `/events/?page=${n}`)} />
+</Page>

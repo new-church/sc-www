@@ -1,0 +1,14 @@
+---
+import { getCollection, render } from 'astro:content';
+import Page from '../../layouts/Page.astro';
+
+export async function getStaticPaths() {
+  return (await getCollection('news')).map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Page title={entry.data.title} description={entry.data.description} crumbs={[{ name: 'News', url: '/news/' }]}>
+  <Content />
+</Page>

@@ -1,0 +1,42 @@
+---
+import Img from './Img.astro';
+import { fileSection } from '../lib/data';
+import { staticHref } from '../lib/site';
+interface Props { section: string }
+const items = fileSection(Astro.props.section);
+const fmt = (d: string | Date) =>
+  new Date(d).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+---
+
+{items.map((i) => (
+  <div class="card mb-4">
+    <div class="card-content pb-0">
+      <div class="media mb-2">
+        {i.image && (
+          <div class="media-left">
+            <figure class="image is-48x48 is-rounded"><Img src={i.image} alt={i.author ?? ''} layout="box" /></figure>
+          </div>
+        )}
+        <div class="media-content">
+          <p class="title is-4">{i.title}</p>
+          <p class="subtitle is-6">
+            {i.author}
+            {i.date && (
+              <>
+                {i.author && ' - '}
+                <span class="has-text-grey is-size-7"><i><time>{fmt(i.date)}</time></i></span>
+              </>
+            )}
+          </p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="mb-1">
+          <audio controls class="is-fullwidth" preload="none"><source src={staticHref(i.file)} type="audio/mpeg" /></audio>
+        </div>
+        {i.description && <Fragment set:html={i.description} />}
+      </div>
+    </div>
+    <footer class="card-footer"><a href={staticHref(i.file)} class="card-footer-item">Download</a></footer>
+  </div>
+))}

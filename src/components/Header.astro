@@ -1,0 +1,57 @@
+---
+import Img from './Img.astro';
+import { mainMenu, site } from '../lib/site';
+---
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <Img src="images/ssa-logo.png" alt="Swedenborg Association of Australia" loading="eager" />
+    </a>
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarMain" class="navbar-menu">
+    <div class="navbar-start">
+      {mainMenu.map((item) =>
+        item.children ? (
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"><span>{item.name}</span></a>
+            <div class="navbar-dropdown">
+              {item.children.map((c) => (
+                <a class="navbar-item" href={c.url}><span>{c.name}</span></a>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <a class="navbar-item" href={item.url}><span>{item.name}</span></a>
+        ),
+      )}
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-warning is-rounded" href="https://donorbox.org/swedenborg-centre" target="_blank">Donate</a>
+          <a class="button" href={site.facebook} target="_blank" aria-label="Facebook">
+            <svg class="icon"><use xlink:href="#icon-facebook"></use></svg>
+          </a>
+          <a class="button is-primary" href="/contact/"><strong>Contact</strong></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.navbar-burger').forEach((el) => {
+    el.addEventListener('click', () => {
+      const target = document.getElementById(el.dataset.target ?? '');
+      el.classList.toggle('is-active');
+      target?.classList.toggle('is-active');
+    });
+  });
+</script>

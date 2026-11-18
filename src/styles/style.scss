@@ -1,0 +1,73 @@
+// 1. Import the initial variables
+@import "bulma/sass/utilities/initial-variables";
+@import "bulma/sass/utilities/functions";
+
+@charset "utf-8";
+
+/* HEX */
+$color1: #7209b7ff;
+$color2: #f72585ff;
+$color3: #3a0ca3ff;
+$color4: #4361eeff;
+$color5: #4cc9f0ff;
+
+/* GRADIENT */
+$gradient-top: linear-gradient(0deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-right: linear-gradient(90deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-bottom: linear-gradient(180deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-left: linear-gradient(270deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-top-right: linear-gradient(45deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-bottom-right: linear-gradient(135deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-top-left: linear-gradient(225deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-bottom-left: linear-gradient(315deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-radial: radial-gradient(#f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+
+// Set your brand colors
+
+// Update Bulma's global variables
+$family-sans-serif: "Noto sans",
+sans-serif;
+$family-secondary: "Poppins",
+sans-serif;
+
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+$primary: $color1;
+$link: $color3;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+// $body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: $grey-light;
+$input-shadow: none;
+
+
+// Additional colors
+$color2-invert: findColorInvert($color2);
+$color3-invert: findColorInvert($color3);
+$color4-invert: findColorInvert($color4);
+$color5-invert: findColorInvert($color5);
+
+// 5. Add new color variables to the color map.
+@import "bulma/sass/utilities/derived-variables";
+$addColors: ("color2":($color2, $color2-invert),
+  "color3":($color3, $color3-invert),
+  "color4": ($color4, $color4-invert),
+  "color5": ($color5, $color5-invert));
+$colors: map-merge($colors, $addColors);
+
+
+@import "bulma/sass/utilities/_all";
+@import "bulma/sass/base/_all";
+@import "bulma/sass/elements/_all";
+@import "bulma/sass/form/_all";
+@import "bulma/sass/components/_all";
+@import "bulma/sass/grid/_all";
+@import "bulma/sass/helpers/_all";
+@import "bulma/sass/layout/_all";
+
+@import "typography";
+@import "image";
+@import "helpers";

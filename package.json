@@ -1,25 +1,39 @@
 {
   "name": "sc-www",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "rm -rf public && hugo server -D --port 1314 --bind localhost --renderToDisk"
-  },
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Swedenborg Centre website (swedenborg.com.au)",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/new-church/sc-www.git"
   },
-  "author": "",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/new-church/sc-www/issues"
-  },
-  "homepage": "https://github.com/new-church/sc-www#readme",
-  "dependencies": {
-    "bulma": "^0.9.1"
-  },
   "engines": {
-    "node": "22.12.0"
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.9",
+    "@astrojs/mdx": "^8.1.6",
+    "@astrojs/sitemap": "^3.7.5",
+    "@astrojs/vercel": "^11.0.22",
+    "astro": "^7.4.12",
+    "bulma": "^0.9.4",
+    "ical.js": "^2.2.1",
+    "marked": "^18.2.1",
+    "rehype-external-links": "^3.0.0",
+    "sass": "^1.108.2",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "typescript": "^6.0.3"
   }
 }
