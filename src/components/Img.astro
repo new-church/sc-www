@@ -12,8 +12,14 @@ interface Props {
 }
 const { src, alt = '', layout = 'responsive', loading = 'lazy', class: className = '' } = Astro.props;
 
-const all = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/**/*.{jpg,jpeg,JPG,png}', { eager: true });
-const key = '/src/assets/' + src.replace(/^\//, '');
+const all = {
+  ...import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/**/*.{jpg,jpeg,JPG,png,webp}', { eager: true }),
+  // Pictures kept next to an event's notes: src/content/event-info/<event>/photo.jpg
+  ...import.meta.glob<{ default: ImageMetadata }>('/src/content/event-info/**/*.{jpg,jpeg,JPG,png,webp}', { eager: true }),
+};
+const rel = src.replace(/^\//, '');
+// "src/content/event-info/<event>/photo.jpg" is a picture in an event's folder; anything else is under src/assets.
+const key = rel.startsWith('src/') ? '/' + rel : '/src/assets/' + rel;
 const img = all[key]?.default;
 if (!img) console.warn(`[Img] image not found: ${src}`);
 ---

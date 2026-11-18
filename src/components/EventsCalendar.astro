@@ -1,0 +1,180 @@
+---
+/**
+ * Month calendar of the events, in the style of the Roseville New Church site. Events are passed in from the
+ * server (already read from the Google Calendar), so the month view needs no extra requests.
+ */
+export type CalendarItem = {
+  title: string;
+  start: string;
+  end: string;
+  allDay: boolean;
+  cancelled: boolean;
+  href: string;
+};
+interface Props {
+  items: CalendarItem[];
+  icsUrl: string;
+}
+const { items, icsUrl } = Astro.props;
+const webcalUrl = icsUrl.replace(/^https:/i, 'webcal:');
+---
+
+<section class="mt-2 mb-4" data-events-calendar aria-label="Events calendar">
+  <script type="application/json" data-items set:html={JSON.stringify(items)} />
+
+  <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-5">
+    <div>
+      <h2 class="m-0 text-h2">Calendar</h2>
+      <p class="m-0 mt-1.5 text-text-muted max-w-[36rem]">
+        Times are shown in Sydney time. Cancelled events are marked in red.
+      </p>
+    </div>
+    <div class="flex flex-wrap gap-2.5">
+      <a
+        href={webcalUrl}
+        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-display font-semibold tracking-[0.04em] rounded-pill border border-transparent transition-[background,transform,color] duration-150 ease-[var(--ease-gentle)] active:scale-[0.98] px-[18px] pt-[9px] pb-[7px] text-[13px] leading-none bg-accent-primary text-text-on-accent hover:bg-accent-primary-strong no-underline"
+      >
+        Add to my calendar
+      </a>
+    </div>
+  </div>
+
+  <div class="rounded-2xl border border-border-soft bg-surface-card/80 p-4 sm:p-5 shadow-[0_1px_0_rgba(46,26,71,0.04)]">
+    <div class="flex items-center justify-between gap-3 mb-4">
+      <button type="button" data-prev class="font-display font-semibold text-[14px] text-accent-primary-strong px-3 py-2 rounded-lg hover:bg-violet-50 transition-colors disabled:opacity-30 disabled:hover:bg-transparent" aria-label="Previous month">←</button>
+      <h3 data-month-label class="m-0 font-display font-semibold text-[18px] text-text-heading tracking-wide">…</h3>
+      <button type="button" data-next class="font-display font-semibold text-[14px] text-accent-primary-strong px-3 py-2 rounded-lg hover:bg-violet-50 transition-colors disabled:opacity-30 disabled:hover:bg-transparent" aria-label="Next month">→</button>
+    </div>
+
+    <div class="relative">
+      <div class="pointer-events-none absolute inset-0 grid grid-cols-7 gap-1" aria-hidden="true">
+        <div></div><div></div><div></div><div></div><div></div>
+        <div class="bg-stone-100/90 rounded-sm"></div>
+        <div class="bg-stone-100/90 rounded-sm"></div>
+      </div>
+      <div class="relative grid grid-cols-7 gap-1 mb-1 text-center font-display text-[11px] font-semibold tracking-[0.14em] uppercase text-text-muted" aria-hidden="true">
+        <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span class="text-stone-500">Sat</span><span class="text-stone-500">Sun</span>
+      </div>
+      <div data-grid class="relative grid grid-cols-7 gap-1" role="grid"></div>
+    </div>
+
+    <p data-status class="m-0 mt-4 text-sm text-text-muted" aria-live="polite"></p>
+    <ul data-list class="m-0 mt-3 p-0 list-none flex flex-col gap-3"></ul>
+  </div>
+</section>
+
+<script>
+  type Item = { title: string; start: string; end: string; allDay: boolean; cancelled: boolean; href: string };
+
+  const root = document.querySelector<HTMLElement>('[data-events-calendar]');
+  if (root) {
+    const items: Item[] = JSON.parse(root.querySelector('[data-items]')!.textContent || '[]');
+    const grid = root.querySelector<HTMLElement>('[data-grid]')!;
+    const list = root.querySelector<HTMLElement>('[data-list]')!;
+    const status = root.querySelector<HTMLElement>('[data-status]')!;
+    const monthLabel = root.querySelector<HTMLElement>('[data-month-label]')!;
+    const prevBtn = root.querySelector<HTMLButtonElement>('[data-prev]')!;
+    const nextBtn = root.querySelector<HTMLButtonElement>('[data-next]')!;
+    const tz = 'Australia/Sydney';
+
+    const dayKey = (iso: string) =>
+      new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(iso));
+    const todayKey = dayKey(new Date().toISOString());
+    const [ty, tm] = todayKey.split('-').map(Number);
+
+    // Navigable months: this month, up to the month of the last event we know about.
+    const lastKey = items.reduce((m, e) => (dayKey(e.start) > m ? dayKey(e.start) : m), todayKey);
+    const [ly, lm] = lastKey.split('-').map(Number);
+    const minIndex = ty! * 12 + (tm! - 1);
+    const maxIndex = Math.max(minIndex, ly! * 12 + (lm! - 1));
+    let index = minIndex;
+    let selected: string | null = null;
+
+    const escapeHtml = (s: string) => s.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+    const time = (iso: string, allDay: boolean) =>
+      allDay ? 'All day' : new Intl.DateTimeFormat('en-AU', { timeZone: tz, hour: 'numeric', minute: '2-digit' }).format(new Date(iso));
+    const shortTime = (iso: string) => time(iso, false).replace(':00', '').replace(/\s/g, '').toLowerCase();
+    const dayHeading = (key: string) => {
+      const [y, m, d] = key.split('-').map(Number);
+      return new Intl.DateTimeFormat('en-AU', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date(y!, m! - 1, d!));
+    };
+    const forDay = (key: string) => items.filter((e) => dayKey(e.start) === key);
+
+    const renderList = (monthPrefix: string) => {
+      const shown = selected ? forDay(selected) : items.filter((e) => dayKey(e.start).startsWith(monthPrefix));
+      list.innerHTML = '';
+      if (!shown.length) {
+        status.textContent = selected ? `No events on ${dayHeading(selected)}.` : 'No events this month yet.';
+        return;
+      }
+      status.textContent = selected ? dayHeading(selected) : `${shown.length} event${shown.length === 1 ? '' : 's'} this month`;
+      for (const e of shown) {
+        const li = document.createElement('li');
+        li.className = `rounded-xl border px-4 py-3.5 ${e.cancelled ? 'border-status-error/40 bg-status-error-bg/60' : 'border-border-soft bg-surface-page'}`;
+        li.innerHTML = `
+          <div class="font-display text-[12px] font-semibold tracking-[0.14em] uppercase ${e.cancelled ? 'text-status-error' : 'text-accent-primary'} mb-1">
+            ${e.cancelled ? '<span class="inline-block rounded-pill bg-status-error text-white px-2 pt-[3px] pb-[1px] mr-2 tracking-[0.08em]">Cancelled</span>' : ''}
+            <span class="${e.cancelled ? 'line-through' : ''}">${escapeHtml(dayHeading(dayKey(e.start)))} · ${escapeHtml(time(e.start, e.allDay))}</span>
+          </div>
+          <a href="${escapeHtml(e.href)}" class="font-display font-semibold text-[17px] text-text-heading no-underline hover:text-link-hover ${e.cancelled ? 'line-through decoration-status-error/60' : ''}">${escapeHtml(e.title)}</a>`;
+        list.appendChild(li);
+      }
+    };
+
+    const renderGrid = () => {
+      const y = Math.floor(index / 12);
+      const m = index % 12;
+      const prefix = `${y}-${String(m + 1).padStart(2, '0')}`;
+      monthLabel.textContent = new Intl.DateTimeFormat('en-AU', { month: 'long', year: 'numeric' }).format(new Date(y, m, 1));
+      prevBtn.disabled = index <= minIndex;
+      nextBtn.disabled = index >= maxIndex;
+
+      const firstDow = (new Date(y, m, 1).getDay() + 6) % 7; // Monday first
+      const daysInMonth = new Date(y, m + 1, 0).getDate();
+      grid.innerHTML = '';
+      for (let i = 0; i < firstDow; i++) {
+        const cell = document.createElement('div');
+        cell.className = 'min-h-[4.75rem] sm:min-h-[5.5rem]';
+        grid.appendChild(cell);
+      }
+      for (let day = 1; day <= daysInMonth; day++) {
+        const key = `${prefix}-${String(day).padStart(2, '0')}`;
+        const dayEvents = forDay(key);
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.setAttribute('role', 'gridcell');
+        const isSelected = selected === key;
+        const isToday = todayKey === key;
+        btn.className = [
+          'min-h-[4.75rem] sm:min-h-[5.5rem] rounded-md border text-sm font-display transition-[background,transform,border-color] duration-150',
+          'flex flex-col items-stretch gap-0.5 px-1 pt-1 pb-1 text-left',
+          isSelected ? 'bg-violet-700 text-text-on-dark border-violet-700' : isToday ? 'bg-violet-50 border-violet-200 text-text-heading' : 'bg-transparent border-transparent text-text-heading hover:bg-black/[0.03]',
+        ].join(' ');
+        const visible = dayEvents.slice(0, 2);
+        const overflow = dayEvents.length - visible.length;
+        const pills = visible
+          .map((e) => {
+            const tone = e.cancelled
+              ? isSelected ? 'bg-status-error-bg text-status-error line-through' : 'bg-status-error-bg text-status-error line-through'
+              : isSelected ? 'bg-gold-300/95 text-violet-950' : 'bg-violet-100 text-violet-800';
+            const label = e.allDay ? e.title : `${shortTime(e.start)} ${e.title}`;
+            return `<span class="block w-full truncate rounded-full px-1.5 py-0.5 text-[9px] sm:text-[10px] font-semibold leading-tight text-left ${tone}" title="${escapeHtml((e.cancelled ? 'Cancelled: ' : '') + e.title)}">${escapeHtml(label)}</span>`;
+          })
+          .join('');
+        const more = overflow > 0 ? `<span class="block px-0.5 text-[9px] sm:text-[10px] font-semibold leading-tight ${isSelected ? 'text-violet-100' : 'text-violet-600'}">+${overflow} more</span>` : '';
+        btn.innerHTML = `<span class="block text-[12px] sm:text-[13px] font-semibold leading-none px-0.5">${day}</span><span class="flex flex-col gap-0.5 w-full min-h-0">${pills}${more}</span>`;
+        btn.setAttribute('aria-label', dayEvents.length ? `${dayHeading(key)}, ${dayEvents.length} event${dayEvents.length === 1 ? '' : 's'}: ${dayEvents.map((e) => (e.cancelled ? 'cancelled ' : '') + e.title).join(', ')}` : dayHeading(key));
+        btn.addEventListener('click', () => {
+          selected = selected === key ? null : key;
+          renderGrid();
+        });
+        grid.appendChild(btn);
+      }
+      renderList(prefix);
+    };
+
+    prevBtn.addEventListener('click', () => { if (index > minIndex) { index--; selected = null; renderGrid(); } });
+    nextBtn.addEventListener('click', () => { if (index < maxIndex) { index++; selected = null; renderGrid(); } });
+    renderGrid();
+  }
+</script>

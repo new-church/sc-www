@@ -23,15 +23,20 @@ const news = defineCollection({
   }),
 });
 
-// Extra content layered onto Google Calendar events. An entry applies to any
-// calendar event whose title contains one of the `match` strings (lowercase).
+// Extra content layered onto Google Calendar events (images, a longer description, a Zoom link, attachments).
+// One folder per event series under src/content/event-info/, named after the event: the folder
+// "open-discussion" is picked up by any calendar event whose title contains "open discussion". Put the notes in
+// the folder's index.md and any pictures beside it. `match` is optional extra phrases.
 const eventInfo = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/event-info' }),
   schema: z.object({
-    title: z.string(),
-    match: z.array(z.string()),
+    title: z.string().optional(),
+    match: z.array(z.string()).optional(),
+    /** `./photo.jpg` (a file in this folder) or `images/photo.jpg` (in src/assets/images). */
     img: z.string().optional(),
     zoomlink: z.string().optional(),
+    /** Extra downloads shown on the event page. */
+    attachments: z.array(z.object({ title: z.string(), url: z.string() })).optional(),
   }),
 });
 

@@ -1,6 +1,6 @@
 ---
 title: Read and reflect on Swedenborg's writings
-match: ["reading and discussion", "read and reflect", "read es"]
+match: ["read and reflect", "read es"]
 img: images/esreadingID.jpg
 zoomlink: https://us02web.zoom.us/j/320544045?pwd=QjZtbUxvVk81b2dweUtZZTE3ZE9IZz09
 ---

@@ -3,8 +3,8 @@ import { getCollection, render } from 'astro:content';
 import Page from '../layouts/Page.astro';
 
 export async function getStaticPaths() {
-  // candela and news have their own pages (they add lists below the markdown).
-  const pages = (await getCollection('pages')).filter((p) => !['candela', 'news'].includes(p.id));
+  // candela, news and contact have their own pages (they add lists below the markdown).
+  const pages = (await getCollection('pages')).filter((p) => !['candela', 'news', 'contact'].includes(p.id));
   return pages.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
 }
 
