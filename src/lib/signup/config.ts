@@ -5,6 +5,8 @@ export const signupConfig = {
   siteUrl: 'https://swedenborg.com.au',
   from: 'Swedenborg Centre <info@swedenborg.com.au>',
   replyTo: 'info@swedenborg.com.au',
+  /** Staff alerts (new subscribers, problems) go to the alerts@ssnc.au distribution group in Microsoft 365, whose members are managed there. ALERT_EMAIL_TO in Vercel overrides this. */
+  alertTo: 'alerts@ssnc.au',
   contactPhone: '+61 2 9416 2812',
   /** rnc-web paths have no trailing slash; sc-www uses trailing slashes everywhere. */
   trailingSlash: true,
