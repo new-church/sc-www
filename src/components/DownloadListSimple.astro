@@ -5,10 +5,10 @@ interface Props { section: string }
 const items = fileSection(Astro.props.section);
 ---
 
-<div class="card mb-4">
-  <div class="card-content">
-    {items.map((i) => (
-      <div class="mb-1"><a href={staticHref(i.file)}>{i.title}</a></div>
-    ))}
-  </div>
-</div>
+<ul class="my-5 list-none rounded-lg border border-border-soft bg-surface-card p-2 shadow-card">
+  {items.map((i) => (
+    <li class="!mt-0 border-b border-border-soft last:border-b-0">
+      <a href={staticHref(i.file)} class="block rounded-sm px-4 py-2.5 no-underline hover:bg-violet-50">{i.title}</a>
+    </li>
+  ))}
+</ul>

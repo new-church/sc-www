@@ -4,6 +4,7 @@ import vercel from '@astrojs/vercel';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { unified } from '@astrojs/markdown-remark';
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://swedenborg.com.au',
@@ -18,14 +19,6 @@ export default defineConfig({
     }),
   },
   vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          // Bulma 0.9 uses Sass @import; fine until we modernise the styles.
-          silenceDeprecations: ['import', 'global-builtin', 'color-functions', 'slash-div'],
-          quietDeps: true,
-        },
-      },
-    },
+    plugins: [tailwindcss()],
   },
 });

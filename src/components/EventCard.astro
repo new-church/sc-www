@@ -1,6 +1,7 @@
 ---
 import Img from './Img.astro';
 import Time from './Time.astro';
+import Button from './Button.astro';
 import { summary, type CalendarEvent } from '../lib/events';
 interface Props { event: CalendarEvent }
 const { event: e } = Astro.props;
@@ -8,25 +9,15 @@ const href = `/events/${e.slug}/`;
 const img = e.info?.data.img;
 ---
 
-<div class="card is-block">
-  <div class="card-content">
-    <div class="media">
-      {img && (
-        <div class="media-left">
-          <figure class="image is-48x48 is-rounded"><Img src={img} alt={e.title} layout="box" /></figure>
-        </div>
-      )}
-      <div class="media-content">
-        <p class="title is-4"><a href={href}>{e.title}</a></p>
-      </div>
-    </div>
-    <div class="content">
-      {summary(e.info?.body ?? e.descriptionText)}
-      <br /><br />
-      <strong><Time date={e.start} /></strong>
-    </div>
+<article class="flex h-full flex-col rounded-lg border border-border-soft bg-surface-card p-6 shadow-card transition-all duration-[280ms] ease-[var(--ease-gentle)] hover:shadow-lift hover:-translate-y-0.5">
+  <div class="mb-2.5 font-display text-eyebrow font-semibold uppercase tracking-eyebrow text-accent-primary"><Time date={e.start} /></div>
+  <div class="mb-2 flex items-center gap-3">
+    {img && <Img src={img} alt="" layout="box" />}
+    <h3 class="m-0 text-h3"><a href={href} class="no-underline text-text-heading hover:text-link-hover">{e.title}</a></h3>
   </div>
-  {e.zoomlink && (
-    <footer class="card-footer"><a href={e.zoomlink} class="card-footer-item" target="_blank">Join Zoom</a></footer>
-  )}
-</div>
+  <p class="m-0 text-sm text-text-body">{summary(e.info?.body ?? e.descriptionText)}</p>
+  <div class="mt-auto flex flex-wrap gap-2 pt-4">
+    <Button size="sm" variant="secondary" href={href}>Details</Button>
+    {e.zoomlink && <Button size="sm" href={e.zoomlink}>Join Zoom</Button>}
+  </div>
+</article>

@@ -1,5 +1,8 @@
 ---
-import Page from '../../layouts/Page.astro';
+import Base from '../../layouts/Base.astro';
+import Button from '../../components/Button.astro';
+import Card from '../../components/Card.astro';
+import Input from '../../components/Input.astro';
 import { signupConfig } from '../../lib/signup/config';
 import { apiPath, turnstileKeys } from '../../lib/signup';
 
@@ -16,56 +19,71 @@ const messages: Record<string, string> = {
 };
 ---
 
-<Page title="Subscribe to our emails" description="Get Swedenborg Centre news and the Candela magazine by email.">
-  <p>
-    Choose what you’d like to receive. We’ll email you a link to confirm, and every message has an unsubscribe link.
-  </p>
-
-  {sent ? (
-    <div class="notification is-success is-light">
-      <strong>Check your email.</strong> We’ve sent you a confirmation email. Open it and press the button to finish
-      subscribing. It can take a few minutes, and it’s worth checking your junk folder.
+<Base
+  title="Join our mailing list"
+  description="Get Swedenborg Centre news and the Candela magazine by email."
+>
+  <main class="container-site px-6 md:px-8 pt-10 md:pt-14 pb-4">
+    <div class="max-w-[760px]">
+      <div class="font-display font-semibold text-eyebrow tracking-eyebrow uppercase text-accent-primary mb-2.5">
+        ✦ Stay in touch
+      </div>
+      <h1 class="mt-0 text-h1">Join our mailing list</h1>
+      <p class="text-lg text-text-muted -mt-1 mb-8">
+        Choose what you’d like to hear about. We’ll email you a link to confirm, and every message has an unsubscribe link.
+      </p>
     </div>
-  ) : !keys ? (
-    <div class="notification is-warning is-light">
-      Sorry, sign-up isn’t working at the moment. Please email{' '}
-      <a href={`mailto:${signupConfig.replyTo}`}>{signupConfig.replyTo}</a>{' '}
-      and we’ll add you.
+
+    <div class="max-w-[560px]">
+      {sent ? (
+        <Card variant="tint" title="Check your email">
+          <p class="m-0">
+            We’ve sent you a confirmation email. Open it and press the button to finish subscribing. It can take a
+            few minutes, and it’s worth checking your junk folder.
+          </p>
+        </Card>
+      ) : !keys ? (
+        <Card title="Sign-up is unavailable">
+          <p class="m-0">
+            Sorry, sign-up isn’t working at the moment. Please email{' '}
+            <a href={`mailto:${signupConfig.replyTo}`} class="text-link hover:text-link-hover">{signupConfig.replyTo}</a>{' '}
+            and we’ll add you.
+          </p>
+        </Card>
+      ) : (
+        <Card variant="tint" title="Your details">
+          {error && messages[error] && (
+            <p class="m-0 mb-4 font-body text-[14px] text-status-error" role="alert">{messages[error]}</p>
+          )}
+          <form method="post" action={apiPath()} class="flex flex-col gap-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <Input label="First name" id="sub-first" name="first" autocomplete="given-name" required />
+              <Input label="Last name" id="sub-last" name="last" autocomplete="family-name" required />
+            </div>
+            <Input label="Email" id="sub-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+
+            <fieldset class="border-0 p-0 m-0 flex flex-col gap-2.5">
+              <legend class="font-display text-sm text-text-heading mb-1">What would you like to receive?</legend>
+              {signupConfig.lists.map((l) => (
+                <label class="flex items-start gap-3 font-body text-base text-text-body">
+                  <input type="checkbox" name="lists" value={l.id} checked={l.checked} class="mt-1.5 h-4 w-4 accent-[var(--color-accent-primary,#5b3fa0)]" />
+                  <span>
+                    {l.label}
+                    <span class="block text-[13px] text-text-muted">{l.hint}</span>
+                  </span>
+                </label>
+              ))}
+            </fieldset>
+
+            <div class="cf-turnstile" data-sitekey={keys.siteKey}></div>
+            <Button type="submit">Send confirmation email</Button>
+            <p class="m-0 text-[13px] text-text-muted">
+              See our <a href="/privacy/" class="text-link hover:text-link-hover">privacy page</a> for how we use your details.
+            </p>
+          </form>
+        </Card>
+      )}
     </div>
-  ) : (
-    <form method="post" action={apiPath()} style="max-width: 32rem">
-      {error && messages[error] && <div class="notification is-danger is-light" role="alert">{messages[error]}</div>}
-
-      <div class="field">
-        <label class="label" for="sub-first">First name</label>
-        <div class="control"><input class="input" id="sub-first" name="first" autocomplete="given-name" required /></div>
-      </div>
-      <div class="field">
-        <label class="label" for="sub-last">Last name</label>
-        <div class="control"><input class="input" id="sub-last" name="last" autocomplete="family-name" required /></div>
-      </div>
-      <div class="field">
-        <label class="label" for="sub-email">Email</label>
-        <div class="control"><input class="input" id="sub-email" name="email" type="email" autocomplete="email" required /></div>
-      </div>
-
-      <div class="field">
-        <p class="label">What would you like to receive?</p>
-        {signupConfig.lists.map((l) => (
-          <div class="control mb-2">
-            <label class="checkbox">
-              <input type="checkbox" name="lists" value={l.id} checked={l.checked} />{' '}
-              {l.label}
-              <br /><small class="has-text-grey">{l.hint}</small>
-            </label>
-          </div>
-        ))}
-      </div>
-
-      <div class="cf-turnstile mb-4" data-sitekey={keys.siteKey}></div>
-      <button class="button is-primary" type="submit">Send confirmation email</button>
-      <p class="help mt-3">See our <a href="/privacy/">privacy page</a> for how we use your details.</p>
-    </form>
-  )}
+  </main>
   {keys && !sent && <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer is:inline></script>}
-</Page>
+</Base>

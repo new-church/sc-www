@@ -1,11 +1,10 @@
 ---
 import Base from './Base.astro';
-import Hero from '../components/Hero.astro';
-import Breadcrumb from '../components/Breadcrumb.astro';
 
 interface Props {
   title: string;
   description?: string;
+  /** Kept for the content front matter; the new theme has one page header style. */
   heroclass?: string;
   img?: string;
   textBackground?: boolean;
@@ -13,17 +12,30 @@ interface Props {
   noindex?: boolean;
   /** Load Google Analytics even on a noindex page (the signup-confirmed page counts as a conversion). */
   analytics?: boolean;
+  /** Plain width for forms and short pages; 'wide' for card grids. */
+  width?: 'prose' | 'wide';
+  eyebrow?: string;
 }
-const { title, description, heroclass, img, textBackground, crumbs = [], noindex, analytics } = Astro.props;
+const { title, description, crumbs = [], noindex, analytics, width = 'prose', eyebrow } = Astro.props;
+const trail = crumbs.length ? crumbs[crumbs.length - 1] : undefined;
 ---
 
 <Base title={title} description={description} noindex={noindex} analytics={analytics}>
-  <Hero title={title} description={description} heroclass={heroclass} img={img} textBackground={textBackground} />
-  <Breadcrumb crumbs={crumbs} title={title} />
-  <section class="section">
-    <div class="container">
-      <div class="content"><slot /></div>
+  <main class="container-site px-6 md:px-8 pt-10 md:pt-14 pb-4">
+    <div class="max-w-[760px]">
+      <div class="font-display font-semibold text-eyebrow tracking-eyebrow uppercase text-accent-primary mb-2.5">
+        {trail ? (
+          <a href={trail.url} class="no-underline text-accent-primary hover:text-link-hover">✦ {trail.name}</a>
+        ) : (
+          <>✦ {eyebrow ?? 'Swedenborg Centre'}</>
+        )}
+      </div>
+      <h1 class="mt-0 mb-3 text-h1">{title}</h1>
+      {description && <p class="text-lg text-text-muted mt-0 mb-8">{description}</p>}
     </div>
-  </section>
+    <div class:list={[width === 'prose' ? 'max-w-[760px] prose-site' : 'prose-site']}>
+      <slot />
+    </div>
+  </main>
   <slot name="after" />
 </Base>

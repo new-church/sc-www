@@ -1,0 +1,326 @@
+@import "tailwindcss";
+
+@import "@fontsource/josefin-sans/300.css";
+@import "@fontsource/josefin-sans/400.css";
+@import "@fontsource/josefin-sans/600.css";
+@import "@fontsource/lora/400.css";
+@import "@fontsource/lora/400-italic.css";
+@import "@fontsource/lora/500.css";
+
+@theme {
+  /* Brand palette — violet */
+  --color-violet-950: #231338;
+  --color-violet-900: #2e1a47;
+  --color-violet-700: #53377e;
+  --color-violet-500: #7c5cbf;
+  --color-violet-400: #9678d1;
+  --color-violet-200: #d8cbee;
+  --color-violet-100: #ece4f7;
+  --color-violet-50: #f6f2fb;
+
+  /* Dawn gold */
+  --color-gold-600: #c07f1d;
+  --color-gold-500: #e8a33d;
+  --color-gold-300: #f5c874;
+  --color-gold-100: #fbecd2;
+
+  /* Aurora accents */
+  --color-rose-500: #d96ba0;
+  --color-rose-100: #f9e4ee;
+  --color-teal-500: #3fa8a0;
+  --color-teal-100: #e0f2f0;
+  --color-sky-500: #5b8dd9;
+  --color-sky-100: #e4edfa;
+
+  /* Neutrals */
+  --color-paper: #fbf9f4;
+  --color-cream: #f4f0e7;
+  --color-stone-300: #d9d3c7;
+  --color-stone-500: #8d8577;
+  --color-ink-soft: #5c5370;
+  --color-ink: #2e2440;
+
+  /* Semantic surfaces & text */
+  --color-surface-page: #fbf9f4;
+  --color-surface-card: #ffffff;
+  --color-surface-tint: #f6f2fb;
+  --color-surface-inverse: #2e1a47;
+  --color-text-heading: #2e1a47;
+  --color-text-body: #2e2440;
+  --color-text-muted: #5c5370;
+  --color-text-on-dark: #f6f2fb;
+  --color-text-on-accent: #ffffff;
+  --color-accent-primary: #7c5cbf;
+  --color-accent-primary-strong: #53377e;
+  --color-accent-gold: #e8a33d;
+  --color-border-soft: #ece4f7;
+  --color-border-strong: #d8cbee;
+  --color-link: #53377e;
+  --color-link-hover: #d96ba0;
+
+  /* Status */
+  --color-status-success: #3fa8a0;
+  --color-status-success-bg: #e0f2f0;
+  --color-status-warning: #c07f1d;
+  --color-status-warning-bg: #fbecd2;
+  --color-status-error: #c14e6e;
+  --color-status-error-bg: #f9e4ee;
+  --color-status-info: #5b8dd9;
+  --color-status-info-bg: #e4edfa;
+
+  /* Typography */
+  --font-display: "Josefin Sans", system-ui, sans-serif;
+  --font-body: "Lora", Georgia, serif;
+
+  --text-hero: clamp(44px, 6vw, 72px);
+  --text-hero--line-height: 1.15;
+  --text-h1: 40px;
+  --text-h1--line-height: 1.15;
+  --text-h2: 28px;
+  --text-h2--line-height: 1.15;
+  --text-h3: 20px;
+  --text-h3--line-height: 1.15;
+  --text-eyebrow: 13px;
+  --text-lg: 19px;
+  --text-lg--line-height: 1.65;
+  --text-base: 17px;
+  --text-base--line-height: 1.65;
+  --text-sm: 15px;
+  --text-sm--line-height: 1.65;
+  --text-caption: 13px;
+
+  --tracking-display: 0.02em;
+  --tracking-eyebrow: 0.22em;
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-card: 0 2px 8px rgba(46, 26, 71, 0.06), 0 12px 32px rgba(46, 26, 71, 0.08);
+  --shadow-lift: 0 4px 12px rgba(46, 26, 71, 0.1), 0 20px 48px rgba(46, 26, 71, 0.14);
+  --shadow-glow: 0 0 0 4px #ece4f7;
+
+  /* Spacing extras */
+  --spacing-container: 1120px;
+  --spacing-prose: 680px;
+
+  /* Motion */
+  --ease-gentle: cubic-bezier(0.4, 0, 0.2, 1);
+  --default-transition-duration: 150ms;
+  --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@utility bg-gradient-dawn {
+  background-image: linear-gradient(180deg, #f6f2fb 0%, #fbecd2 100%);
+}
+
+@utility bg-gradient-dusk {
+  background-image: linear-gradient(160deg, #2e1a47 0%, #53377e 70%, #8a4d86 100%);
+}
+
+@utility bg-gradient-aurora {
+  background-image: linear-gradient(115deg, #7c5cbf 0%, #d96ba0 55%, #e8a33d 100%);
+}
+
+@utility text-gradient-aurora {
+  background-image: linear-gradient(115deg, #7c5cbf 0%, #d96ba0 55%, #e8a33d 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility container-site {
+  width: 100%;
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+@utility container-prose {
+  width: 100%;
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+/* Long-form content: markdown pages, event and news bodies */
+@layer components {
+  .prose-site {
+    color: var(--color-text-body);
+    font-size: var(--text-base);
+    line-height: 1.65;
+  }
+
+  .prose-site :where(p) {
+    margin: 0;
+  }
+
+  .prose-site :where(p + p) {
+    margin-top: 1.25rem;
+  }
+
+  /* The page title is rendered by the layout, so a markdown `#` is a section heading here. */
+  .prose-site :where(h1) {
+    margin: 3rem 0 1rem;
+    font-size: var(--text-h2);
+  }
+
+  .prose-site :where(h1:first-child, h2:first-child, h3:first-child) {
+    margin-top: 0;
+  }
+
+  .prose-site :where(h2) {
+    margin: 3rem 0 1rem;
+    font-size: var(--text-h2);
+  }
+
+  .prose-site :where(h3) {
+    margin: 2rem 0 0.75rem;
+    font-size: var(--text-h3);
+  }
+
+  .prose-site :where(blockquote) {
+    margin: 2.25rem 0 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.375rem;
+    line-height: 1.5;
+    color: var(--color-violet-700);
+  }
+
+  .prose-site :where(.quote-attr) {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: var(--font-display);
+    font-size: var(--text-caption);
+    font-weight: 600;
+    letter-spacing: var(--tracking-eyebrow);
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+
+  .prose-site :where(blockquote + .quote-attr + h2),
+  .prose-site :where(.quote-attr + h2) {
+    margin-top: 2.5rem;
+  }
+
+  .prose-site :where(ul, ol) {
+    margin: 1.25rem 0 0;
+    padding-left: 1.5rem;
+  }
+
+  .prose-site :where(ul) {
+    list-style: disc;
+  }
+
+  .prose-site :where(ol) {
+    list-style: decimal;
+  }
+
+  /* A paragraph straight after a list or table needs the same gap as one after a paragraph */
+  .prose-site :where(ul + p, ol + p, table + p, blockquote + p) {
+    margin-top: 1.25rem;
+  }
+
+  .prose-site :where(li + li) {
+    margin-top: 0.4rem;
+  }
+
+  .prose-site :where(li > ul, li > ol) {
+    margin-top: 0.4rem;
+  }
+
+  .prose-site :where(h4) {
+    margin: 1.5rem 0 0.5rem;
+    font-size: 17px;
+  }
+
+  .prose-site :where(hr) {
+    margin: 2.5rem 0;
+    border: 0;
+    border-top: 1px solid var(--color-border-strong);
+  }
+
+  .prose-site :where(table) {
+    display: block;
+    width: 100%;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    border-collapse: collapse;
+    font-size: var(--text-sm);
+  }
+
+  .prose-site :where(th, td) {
+    padding: 0.6rem 0.85rem;
+    border-bottom: 1px solid var(--color-border-soft);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .prose-site :where(th) {
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--color-text-heading);
+    background: var(--color-surface-tint);
+  }
+
+  .prose-site :where(img) {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-md);
+  }
+
+  .prose-site :where(audio) {
+    width: 100%;
+  }
+
+  .prose-site {
+    overflow-wrap: anywhere;
+  }
+
+  .prose-site :where(strong) {
+    font-weight: 600;
+    color: var(--color-text-heading);
+  }
+
+  .prose-site :where(a) {
+    color: var(--color-link);
+    text-underline-offset: 3px;
+    text-decoration-color: var(--color-violet-200);
+  }
+
+  .prose-site :where(a:hover) {
+    color: var(--color-link-hover);
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper font-body text-base text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display font-semibold tracking-display text-text-heading;
+    line-height: 1.15;
+  }
+
+  a {
+    @apply text-link underline-offset-[3px];
+    text-decoration-color: var(--color-violet-200);
+  }
+
+  a:hover {
+    @apply text-link-hover;
+  }
+}
