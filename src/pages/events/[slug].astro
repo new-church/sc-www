@@ -2,6 +2,7 @@
 import { render } from 'astro:content';
 import Page from '../../layouts/Page.astro';
 import Time from '../../components/Time.astro';
+import TimeZoneControl from '../../components/TimeZoneControl.astro';
 import Button from '../../components/Button.astro';
 import Badge from '../../components/Badge.astro';
 import Img from '../../components/Img.astro';
@@ -18,14 +19,15 @@ const Notes = hasNotes && event.info ? (await render(event.info)).Content : unde
 const attachments = event.info?.data.attachments ?? [];
 ---
 
-<Page title={event.title} crumbs={[{ name: 'Events', url: '/events/' }]}>
+<Page title={event.displayTitle} crumbs={[{ name: 'Events', url: '/events/' }]}>
   {event.cancelled && (
     <div class="not-prose mb-6 rounded-lg border border-status-error/40 bg-status-error-bg px-5 py-4" role="status">
       <Badge tone="error">Cancelled</Badge>
       <p class="m-0 mt-2 font-body text-base text-status-error">This event has been cancelled. Please check the events page for the next one.</p>
     </div>
   )}
-  <p class:list={['mt-0 font-display text-eyebrow font-semibold uppercase tracking-eyebrow', event.cancelled ? 'text-status-error line-through' : 'text-accent-primary']}><Time date={event.start} /></p>
+  <p class:list={['mt-0 font-display text-eyebrow font-semibold uppercase tracking-eyebrow', event.cancelled ? 'text-status-error line-through' : 'text-accent-primary']}><Time date={event.start} allDay={event.allDay} /></p>
+  <div class="mb-6 max-w-[620px]"><TimeZoneControl /></div>
   {event.image && (
     <div class="not-prose my-5 max-w-[240px]"><Img src={event.image} alt="" class:list={['rounded-lg shadow-card', event.cancelled && 'opacity-50 grayscale']} /></div>
   )}

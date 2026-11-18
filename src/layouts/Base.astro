@@ -13,7 +13,7 @@ const imageUrl = new URL(image, site.url).href;
 ---
 
 <!doctype html>
-<html lang={site.lang}>
+<html lang={site.lang} data-home-tz={site.timeZone} data-home-label={site.timeZoneLabel}>
   <head>
     <meta charset="utf-8" />
     {(analytics ?? !noindex) && <Analytics />}

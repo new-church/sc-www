@@ -1,0 +1,70 @@
+---
+/**
+ * "Show times in: [Your time] [Sydney time] [Other…]". One preference for the whole page: every <Time> and the
+ * calendar follow it, and it is remembered for next visit. Safe to include more than once.
+ */
+import { site } from '../lib/site';
+---
+
+<div data-tz-control class="not-prose flex flex-col gap-2 rounded-lg border border-border-soft bg-surface-card/70 px-4 py-3 text-sm">
+  <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+    <span class="font-display text-[12px] font-semibold uppercase tracking-[0.14em] text-text-muted">Show times in</span>
+    <div class="inline-flex rounded-pill border border-border-strong bg-white p-0.5" role="group" aria-label="Time zone">
+      <button type="button" data-tz-choice="viewer" class="rounded-pill px-3 pt-1.5 pb-1 font-display text-[13px] font-semibold text-text-muted aria-pressed:bg-accent-primary aria-pressed:text-white">Your time</button>
+      <button type="button" data-tz-choice="home" class="rounded-pill px-3 pt-1.5 pb-1 font-display text-[13px] font-semibold text-text-muted aria-pressed:bg-accent-primary aria-pressed:text-white">{site.timeZoneLabel} time</button>
+    </div>
+    <label class="inline-flex items-center gap-2 text-text-muted">
+      <span class="sr-only">Another time zone</span>
+      <select data-tz-other class="rounded-md border border-border-strong bg-white px-2 py-1.5 font-body text-[14px] text-text-body">
+        <option value="">Another zone…</option>
+      </select>
+    </label>
+  </div>
+  <p data-tz-note class="m-0 text-text-muted" aria-live="polite">Times are shown in {site.timeZoneLabel} time.</p>
+</div>
+
+<script>
+  import { activeZone, getPref, homeLabel, onTzChange, setPref, viewerZone, zoneName } from '../lib/tz-client';
+
+  const controls = document.querySelectorAll<HTMLElement>('[data-tz-control]');
+  const zones = (): string[] => {
+    const any = Intl as unknown as { supportedValuesOf?: (k: string) => string[] };
+    return any.supportedValuesOf ? any.supportedValuesOf('timeZone') : ['Europe/London', 'America/New_York', 'America/Los_Angeles', 'Asia/Kolkata', 'Asia/Singapore', 'Pacific/Auckland'];
+  };
+
+  const refresh = () => {
+    const pref = getPref();
+    const sameAsHome = viewerZone() === document.documentElement.dataset.homeTz;
+    controls.forEach((c) => {
+      const viewerBtn = c.querySelector<HTMLButtonElement>('[data-tz-choice="viewer"]')!;
+      const homeBtn = c.querySelector<HTMLButtonElement>('[data-tz-choice="home"]')!;
+      const select = c.querySelector<HTMLSelectElement>('[data-tz-other]')!;
+      // When the viewer is in the Centre's zone, "Your time" and the Centre's time are the same thing.
+      viewerBtn.hidden = sameAsHome;
+      viewerBtn.setAttribute('aria-pressed', String(pref === 'viewer' && !sameAsHome));
+      homeBtn.setAttribute('aria-pressed', String(pref === 'home' || (pref === 'viewer' && sameAsHome)));
+      select.value = pref !== 'viewer' && pref !== 'home' ? pref : '';
+      const note = c.querySelector<HTMLElement>('[data-tz-note]')!;
+      const zone = activeZone();
+      note.textContent =
+        pref === 'viewer' ? `Times are shown in your time zone, ${zoneName(zone)}.`
+        : pref === 'home' ? `Times are shown in ${homeLabel()} time, ${zoneName(zone)}.`
+        : `Times are shown in ${zoneName(zone)}.`;
+    });
+  };
+
+  controls.forEach((c) => {
+    const select = c.querySelector<HTMLSelectElement>('[data-tz-other]')!;
+    for (const z of zones()) {
+      const o = document.createElement('option');
+      o.value = z;
+      o.textContent = z.replaceAll('_', ' ');
+      select.appendChild(o);
+    }
+    c.querySelectorAll<HTMLButtonElement>('[data-tz-choice]').forEach((b) => b.addEventListener('click', () => setPref(b.dataset.tzChoice!)));
+    select.addEventListener('change', () => setPref(select.value || 'viewer'));
+  });
+
+  onTzChange(refresh);
+  refresh();
+</script>

@@ -1,7 +1,24 @@
 ---
 import { formatDateTime, isoDate } from '../lib/dates';
-interface Props { date: Date | string | undefined }
-const d = Astro.props.date ? new Date(Astro.props.date) : undefined;
+interface Props {
+  date: Date | string | undefined;
+  /** All-day events have a date but no time of day, so they are never converted between zones. */
+  allDay?: boolean;
+}
+const { date, allDay = false } = Astro.props;
+const d = date ? new Date(date) : undefined;
+const dateOnly = (x: Date) => new Intl.DateTimeFormat('en-AU', { timeZone: 'UTC', weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' }).format(x);
 ---
 
-{d && <time datetime={isoDate(d)}>{formatDateTime(d)}</time>}
+{
+  d && (allDay
+    ? <time datetime={d.toISOString().slice(0, 10)}>{dateOnly(d)}</time>
+    : <time datetime={isoDate(d)} data-tz>{formatDateTime(d)}</time>)
+}
+
+<script>
+  // Show times in the viewer's own zone (or the one they chose with the zone picker), and keep them up to date.
+  import { applyTimes, onTzChange } from '../lib/tz-client';
+  applyTimes();
+  onTzChange(applyTimes);
+</script>

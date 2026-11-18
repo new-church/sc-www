@@ -26,7 +26,7 @@ const webcalUrl = icsUrl.replace(/^https:/i, 'webcal:');
     <div>
       <h2 class="m-0 text-h2">Calendar</h2>
       <p class="m-0 mt-1.5 text-text-muted max-w-[36rem]">
-        Times are shown in Sydney time. Cancelled events are marked in red.
+        Cancelled events are marked in red.
       </p>
     </div>
     <div class="flex flex-wrap gap-2.5">
@@ -64,6 +64,8 @@ const webcalUrl = icsUrl.replace(/^https:/i, 'webcal:');
 </section>
 
 <script>
+  import { activeZone, dayKeyIn, onTzChange } from '../lib/tz-client';
+
   type Item = { title: string; start: string; end: string; allDay: boolean; cancelled: boolean; href: string };
 
   const root = document.querySelector<HTMLElement>('[data-events-calendar]');
@@ -75,33 +77,37 @@ const webcalUrl = icsUrl.replace(/^https:/i, 'webcal:');
     const monthLabel = root.querySelector<HTMLElement>('[data-month-label]')!;
     const prevBtn = root.querySelector<HTMLButtonElement>('[data-prev]')!;
     const nextBtn = root.querySelector<HTMLButtonElement>('[data-next]')!;
-    const tz = 'Australia/Sydney';
 
-    const dayKey = (iso: string) =>
-      new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(iso));
-    const todayKey = dayKey(new Date().toISOString());
-    const [ty, tm] = todayKey.split('-').map(Number);
+    // Everything below follows the viewer's chosen zone (see TimeZoneControl). All-day events have no time of day, so
+    // they stay on their own calendar date whatever the zone.
+    const zone = () => activeZone();
+    const dayKey = (e: Item) => (e.allDay ? e.start.slice(0, 10) : dayKeyIn(e.start, zone()));
+    const todayKey = () => dayKeyIn(new Date().toISOString(), zone());
 
-    // Navigable months: this month, up to the month of the last event we know about.
-    const lastKey = items.reduce((m, e) => (dayKey(e.start) > m ? dayKey(e.start) : m), todayKey);
-    const [ly, lm] = lastKey.split('-').map(Number);
-    const minIndex = ty! * 12 + (tm! - 1);
-    const maxIndex = Math.max(minIndex, ly! * 12 + (lm! - 1));
-    let index = minIndex;
+    let index = 0; // year * 12 + month, in the active zone
     let selected: string | null = null;
+    const indexOf = (key: string) => {
+      const [y, m] = key.split('-').map(Number);
+      return y! * 12 + (m! - 1);
+    };
+    const bounds = () => {
+      const min = indexOf(todayKey());
+      const last = items.reduce((m, e) => (dayKey(e) > m ? dayKey(e) : m), todayKey());
+      return { min, max: Math.max(min, indexOf(last)) };
+    };
 
     const escapeHtml = (s: string) => s.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
     const time = (iso: string, allDay: boolean) =>
-      allDay ? 'All day' : new Intl.DateTimeFormat('en-AU', { timeZone: tz, hour: 'numeric', minute: '2-digit' }).format(new Date(iso));
+      allDay ? 'All day' : new Intl.DateTimeFormat('en-AU', { timeZone: zone(), hour: 'numeric', minute: '2-digit' }).format(new Date(iso));
     const shortTime = (iso: string) => time(iso, false).replace(':00', '').replace(/\s/g, '').toLowerCase();
     const dayHeading = (key: string) => {
       const [y, m, d] = key.split('-').map(Number);
       return new Intl.DateTimeFormat('en-AU', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date(y!, m! - 1, d!));
     };
-    const forDay = (key: string) => items.filter((e) => dayKey(e.start) === key);
+    const forDay = (key: string) => items.filter((e) => dayKey(e) === key);
 
     const renderList = (monthPrefix: string) => {
-      const shown = selected ? forDay(selected) : items.filter((e) => dayKey(e.start).startsWith(monthPrefix));
+      const shown = selected ? forDay(selected) : items.filter((e) => dayKey(e).startsWith(monthPrefix));
       list.innerHTML = '';
       if (!shown.length) {
         status.textContent = selected ? `No events on ${dayHeading(selected)}.` : 'No events this month yet.';
@@ -114,7 +120,7 @@ const webcalUrl = icsUrl.replace(/^https:/i, 'webcal:');
         li.innerHTML = `
           <div class="font-display text-[12px] font-semibold tracking-[0.14em] uppercase ${e.cancelled ? 'text-status-error' : 'text-accent-primary'} mb-1">
             ${e.cancelled ? '<span class="inline-block rounded-pill bg-status-error text-white px-2 pt-[3px] pb-[1px] mr-2 tracking-[0.08em]">Cancelled</span>' : ''}
-            <span class="${e.cancelled ? 'line-through' : ''}">${escapeHtml(dayHeading(dayKey(e.start)))} · ${escapeHtml(time(e.start, e.allDay))}</span>
+            <span class="${e.cancelled ? 'line-through' : ''}">${escapeHtml(dayHeading(dayKey(e)))} · ${escapeHtml(time(e.start, e.allDay))}</span>
           </div>
           <a href="${escapeHtml(e.href)}" class="font-display font-semibold text-[17px] text-text-heading no-underline hover:text-link-hover ${e.cancelled ? 'line-through decoration-status-error/60' : ''}">${escapeHtml(e.title)}</a>`;
         list.appendChild(li);
@@ -122,13 +128,16 @@ const webcalUrl = icsUrl.replace(/^https:/i, 'webcal:');
     };
 
     const renderGrid = () => {
+      const { min, max } = bounds();
+      index = Math.min(Math.max(index, min), max);
       const y = Math.floor(index / 12);
       const m = index % 12;
       const prefix = `${y}-${String(m + 1).padStart(2, '0')}`;
       monthLabel.textContent = new Intl.DateTimeFormat('en-AU', { month: 'long', year: 'numeric' }).format(new Date(y, m, 1));
-      prevBtn.disabled = index <= minIndex;
-      nextBtn.disabled = index >= maxIndex;
+      prevBtn.disabled = index <= min;
+      nextBtn.disabled = index >= max;
 
+      const today = todayKey();
       const firstDow = (new Date(y, m, 1).getDay() + 6) % 7; // Monday first
       const daysInMonth = new Date(y, m + 1, 0).getDate();
       grid.innerHTML = '';
@@ -144,7 +153,7 @@ const webcalUrl = icsUrl.replace(/^https:/i, 'webcal:');
         btn.type = 'button';
         btn.setAttribute('role', 'gridcell');
         const isSelected = selected === key;
-        const isToday = todayKey === key;
+        const isToday = today === key;
         btn.className = [
           'min-h-[4.75rem] sm:min-h-[5.5rem] rounded-md border text-sm font-display transition-[background,transform,border-color] duration-150',
           'flex flex-col items-stretch gap-0.5 px-1 pt-1 pb-1 text-left',
@@ -154,9 +163,7 @@ const webcalUrl = icsUrl.replace(/^https:/i, 'webcal:');
         const overflow = dayEvents.length - visible.length;
         const pills = visible
           .map((e) => {
-            const tone = e.cancelled
-              ? isSelected ? 'bg-status-error-bg text-status-error line-through' : 'bg-status-error-bg text-status-error line-through'
-              : isSelected ? 'bg-gold-300/95 text-violet-950' : 'bg-violet-100 text-violet-800';
+            const tone = e.cancelled ? 'bg-status-error-bg text-status-error line-through' : isSelected ? 'bg-gold-300/95 text-violet-950' : 'bg-violet-100 text-violet-800';
             const label = e.allDay ? e.title : `${shortTime(e.start)} ${e.title}`;
             return `<span class="block w-full truncate rounded-full px-1.5 py-0.5 text-[9px] sm:text-[10px] font-semibold leading-tight text-left ${tone}" title="${escapeHtml((e.cancelled ? 'Cancelled: ' : '') + e.title)}">${escapeHtml(label)}</span>`;
           })
@@ -173,8 +180,11 @@ const webcalUrl = icsUrl.replace(/^https:/i, 'webcal:');
       renderList(prefix);
     };
 
-    prevBtn.addEventListener('click', () => { if (index > minIndex) { index--; selected = null; renderGrid(); } });
-    nextBtn.addEventListener('click', () => { if (index < maxIndex) { index++; selected = null; renderGrid(); } });
+    prevBtn.addEventListener('click', () => { index--; selected = null; renderGrid(); });
+    nextBtn.addEventListener('click', () => { index++; selected = null; renderGrid(); });
+    // Changing zone can move an event onto the next or previous day, so redraw from the current month.
+    onTzChange(() => { index = indexOf(todayKey()); selected = null; renderGrid(); });
+    index = indexOf(todayKey());
     renderGrid();
   }
 </script>

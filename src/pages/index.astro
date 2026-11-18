@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Img from '../components/Img.astro';
 import Button from '../components/Button.astro';
+import TimeZoneControl from '../components/TimeZoneControl.astro';
 import Card from '../components/Card.astro';
 import EventCard from '../components/EventCard.astro';
 import { getCollection } from 'astro:content';
@@ -54,7 +55,8 @@ const fmt = (d: Date) => d.toLocaleDateString('en-AU', { day: 'numeric', month: 
         <h2 class="m-0 text-h2">Upcoming events</h2>
         <a href="/events/" class="font-display font-semibold text-[15px] no-underline hover:underline">All events →</a>
       </div>
-      <p class="mt-0 mb-6 text-text-muted">Join an event on Zoom. Times are shown in Sydney time.</p>
+      <p class="mt-0 mb-4 text-text-muted">Join an event on Zoom. Times are shown in your own time zone.</p>
+      <div class="mb-6 max-w-[620px]"><TimeZoneControl /></div>
       {events.length === 0 ? (
         <p>No upcoming events are listed right now. Please check back soon.</p>
       ) : (
