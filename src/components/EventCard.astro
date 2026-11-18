@@ -2,22 +2,26 @@
 import Img from './Img.astro';
 import Time from './Time.astro';
 import Button from './Button.astro';
+import Badge from './Badge.astro';
 import { summary, type CalendarEvent } from '../lib/events';
 interface Props { event: CalendarEvent }
 const { event: e } = Astro.props;
 const href = `/events/${e.slug}/`;
-const img = e.info?.data.img;
+const img = e.image;
 ---
 
-<article class="flex h-full flex-col rounded-lg border border-border-soft bg-surface-card p-6 shadow-card transition-all duration-[280ms] ease-[var(--ease-gentle)] hover:shadow-lift hover:-translate-y-0.5">
-  <div class="mb-2.5 font-display text-eyebrow font-semibold uppercase tracking-eyebrow text-accent-primary"><Time date={e.start} /></div>
+<article class:list={['flex h-full flex-col rounded-lg border p-6 shadow-card transition-all duration-[280ms] ease-[var(--ease-gentle)] hover:shadow-lift hover:-translate-y-0.5', e.cancelled ? 'border-status-error/40 bg-status-error-bg/40' : 'border-border-soft bg-surface-card']}>
+  <div class="mb-2.5 flex flex-wrap items-center gap-2 font-display text-eyebrow font-semibold uppercase tracking-eyebrow">
+    {e.cancelled && <Badge tone="error">Cancelled</Badge>}
+    <span class:list={[e.cancelled ? 'text-status-error line-through decoration-1' : 'text-accent-primary']}><Time date={e.start} /></span>
+  </div>
   <div class="mb-2 flex items-center gap-3">
-    {img && <Img src={img} alt="" layout="box" />}
-    <h3 class="m-0 text-h3"><a href={href} class="no-underline text-text-heading hover:text-link-hover">{e.title}</a></h3>
+    {img && <Img src={img} alt="" layout="box" class:list={[e.cancelled && 'opacity-50 grayscale']} />}
+    <h3 class:list={['m-0 text-h3', e.cancelled && 'line-through decoration-status-error/60']}><a href={href} class="no-underline text-text-heading hover:text-link-hover">{e.title}</a></h3>
   </div>
   <p class="m-0 text-sm text-text-body">{summary(e.info?.body ?? e.descriptionText)}</p>
   <div class="mt-auto flex flex-wrap gap-2 pt-4">
     <Button size="sm" variant="secondary" href={href}>Details</Button>
-    {e.zoomlink && <Button size="sm" href={e.zoomlink}>Join Zoom</Button>}
+    {e.zoomlink && !e.cancelled && <Button size="sm" href={e.zoomlink}>Join Zoom</Button>}
   </div>
 </article>

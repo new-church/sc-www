@@ -26,10 +26,20 @@ export type CalendarEvent = {
   location: string;
   zoomlink?: string;
   info?: CollectionEntry<'event-info'>;
+  /** Cancelled in the calendar: a deleted occurrence of a repeating event, STATUS:CANCELLED, or "Cancelled" in the title. */
+  cancelled: boolean;
+  /** Image for cards: from the event's info folder or src/assets/images (see resolveImage). */
+  image?: string;
 };
 
-export const slugify = (s: string) =>
-  s.toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+export const slugify = (s: string, max = 60) =>
+  s.toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, max);
+
+/**
+ * A title that says the event is off. Joe can cancel one occurrence of a repeating event in Google Calendar by
+ * deleting it (the feed then lists it as an excluded date) or by renaming it, e.g. "CANCELLED: Open discussion".
+ */
+export const isCancelledTitle = (t: string) => /\b(cancell?ed|postponed)\b/i.test(t) || /^\s*NO\s+[A-Za-z]/.test(t);
 
 // Calendar descriptions are small HTML snippets typed by the Centre's own staff. Keep a short
 // allowlist of tags, and only http(s)/mailto links. (A tiny in-house sanitiser: sanitize-html's
@@ -88,7 +98,9 @@ async function fetchIcs(): Promise<string | undefined> {
   }
 }
 
-function expand(ics: string, now: Date): Omit<CalendarEvent, 'slug' | 'info' | 'zoomlink'>[] {
+type Raw = Omit<CalendarEvent, 'slug' | 'info' | 'zoomlink' | 'image'>;
+
+function expand(ics: string, now: Date, since: Date): Raw[] {
   const comp = new ICAL.Component(ICAL.parse(ics));
   // Register VTIMEZONE blocks so TZID-qualified times resolve.
   for (const tz of comp.getAllSubcomponents('vtimezone')) {
@@ -97,7 +109,7 @@ function expand(ics: string, now: Date): Omit<CalendarEvent, 'slug' | 'info' | '
   }
 
   const horizon = new Date(now.getTime() + HORIZON_DAYS * 86400_000);
-  const out: Omit<CalendarEvent, 'slug' | 'info' | 'zoomlink'>[] = [];
+  const out: Raw[] = [];
 
   const vevents = comp.getAllSubcomponents('vevent');
   // Overrides (RECURRENCE-ID) are applied by ical.js through relateException.
@@ -108,32 +120,51 @@ function expand(ics: string, now: Date): Omit<CalendarEvent, 'slug' | 'info' | '
     master?.relateException(ex);
   }
 
+  const status = (e: ICAL.Event) => String(e.component.getFirstPropertyValue('status') ?? '').toUpperCase();
+
   for (const ev of masters) {
-    const title = ev.summary ?? '';
-    if (!title || EXCLUDE_TITLE.test(title)) continue;
-    const base = {
-      uid: ev.uid,
-      title,
-      location: ev.location ?? '',
-      descriptionHtml: clean(ev.description ?? ''),
-      descriptionText: text(ev.description ?? ''),
-    };
-    const push = (start: ICAL.Time, end: ICAL.Time) => {
+    const masterTitle = ev.summary ?? '';
+    if (!masterTitle || EXCLUDE_TITLE.test(masterTitle)) continue;
+
+    /** One occurrence. `item` is the master, or the edited copy when a single occurrence was changed. */
+    const push = (item: ICAL.Event, start: ICAL.Time, end: ICAL.Time, deleted = false) => {
+      const title = item.summary || masterTitle;
+      if (EXCLUDE_TITLE.test(title)) return;
       const s = start.toJSDate();
       const e = end.toJSDate();
-      if (e < now || s > horizon) return;
-      out.push({ ...base, start: s, end: e, allDay: start.isDate });
+      if (e < since || s > horizon) return;
+      out.push({
+        uid: ev.uid,
+        title,
+        location: item.location ?? '',
+        descriptionHtml: clean(item.description ?? ''),
+        descriptionText: text(item.description ?? ''),
+        start: s,
+        end: e,
+        allDay: start.isDate,
+        cancelled: deleted || status(item) === 'CANCELLED' || isCancelledTitle(title),
+      });
     };
 
     if (!ev.isRecurring()) {
-      push(ev.startDate, ev.endDate);
+      push(ev, ev.startDate, ev.endDate);
       continue;
     }
     const it = ev.iterator();
     for (let n = 0, next = it.next(); next && n < MAX_OCCURRENCES_PER_SERIES; n++, next = it.next()) {
       const d = ev.getOccurrenceDetails(next);
       if (d.startDate.toJSDate() > horizon) break;
-      push(d.startDate, d.endDate);
+      push(d.item, d.startDate, d.endDate);
+    }
+    // Occurrences deleted in Google Calendar are listed as excluded dates: show them as cancelled.
+    const seconds = Math.round((ev.endDate.toJSDate().getTime() - ev.startDate.toJSDate().getTime()) / 1000);
+    for (const prop of ev.component.getAllProperties('exdate')) {
+      for (const x of prop.getValues() as ICAL.Time[]) {
+        const start = x.clone();
+        const end = x.clone();
+        end.addDuration(ICAL.Duration.fromSeconds(seconds));
+        push(ev, start, end, true);
+      }
     }
   }
   return out.sort((a, b) => a.start.getTime() - b.start.getTime());
@@ -141,21 +172,67 @@ function expand(ics: string, now: Date): Omit<CalendarEvent, 'slug' | 'info' | '
 
 const ZOOM = /https?:\/\/[a-z0-9.]*zoom\.us\/[^\s"'<>)]+/i;
 
-export async function getEvents(now = new Date()): Promise<CalendarEvent[]> {
+type Info = CollectionEntry<'event-info'>;
+
+/** The folder (or file name) an info entry lives under, e.g. "open-discussion". */
+export const infoFolder = (i: Info) => i.id.split('/')[0].replace(/\.mdx?$/, '');
+
+/**
+ * Pick the event-info entry for a calendar title. A folder (or file) named after the event matches when its name
+ * appears in the title, e.g. folder "open-discussion" or "Swedenborg Tuesday open discussion" matches the event
+ * "Swedenborg Tuesday open discussion (weekly)". Optional `match` phrases in the front matter work too. The longest
+ * match wins, so a more specific folder beats a general one.
+ */
+function findInfo(infos: Info[], title: string): Info | undefined {
+  const lower = title.toLowerCase();
+  const slug = slugify(title, 200);
+  let best: Info | undefined;
+  let bestLen = 0;
+  for (const i of infos) {
+    const keys: [string, boolean][] = [
+      [slugify(infoFolder(i), 200), true],
+      ...((i.data.match ?? []).map((m) => [m.toLowerCase(), false]) as [string, boolean][]),
+    ];
+    for (const [key, isSlug] of keys) {
+      if (!key) continue;
+      if ((isSlug ? slug : lower).includes(key) && key.length > bestLen) {
+        best = i;
+        bestLen = key.length;
+      }
+    }
+  }
+  return best;
+}
+
+/** `img: ./photo.jpg` is a file in the event's folder; `img: images/x.jpg` is in src/assets/images. */
+function resolveImage(info?: Info): string | undefined {
+  const img = info?.data.img;
+  if (!img || !info) return undefined;
+  if (!img.startsWith('./')) return img;
+  // The real folder on disk (Astro's entry id lower-cases it and swaps spaces for hyphens).
+  const dir = (info.filePath ?? '').replace(/\/[^/]*$/, '');
+  return `${dir}/${img.slice(2)}`;
+}
+
+/** Events from `since` (default now) to 150 days ahead. The calendar view passes the start of the month. */
+export async function getEvents(opts: { now?: Date; since?: Date } = {}): Promise<CalendarEvent[]> {
+  const now = opts.now ?? new Date();
   const ics = await fetchIcs();
   if (!ics) return [];
   const infos = await getCollection('event-info');
-  return expand(ics, now).map((e) => {
-    const lower = e.title.toLowerCase();
-    const info = infos.find((i) => i.data.match.some((m) => lower.includes(m.toLowerCase())));
+  return expand(ics, now, opts.since ?? now).map((e) => {
+    const info = findInfo(infos, e.title);
     const zoomlink =
       info?.data.zoomlink ?? e.descriptionHtml.match(/href="([^"]*zoom\.us[^"]*)"/i)?.[1] ?? e.descriptionText.match(ZOOM)?.[0] ?? e.location.match(ZOOM)?.[0];
-    return { ...e, info, zoomlink, slug: `${ymd(e.start)}${hm(e.start)}-${slugify(e.title)}` };
+    return { ...e, info, zoomlink, image: resolveImage(info), slug: `${ymd(e.start)}${hm(e.start)}-${slugify(e.title)}` };
   });
 }
 
+export const icsUrl = ICS_URL;
+
 export async function getEvent(slug: string) {
-  return (await getEvents()).find((e) => e.slug === slug);
+  // Look back a little so a link to an event that has just passed (or was cancelled today) still works.
+  return (await getEvents({ since: new Date(Date.now() - 2 * 86400_000) })).find((e) => e.slug === slug);
 }
 
 /** First n words of plain text, like Hugo's .Summary (summaryLength: 20). */

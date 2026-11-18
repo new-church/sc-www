@@ -1,8 +1,10 @@
 ---
-import { marked } from 'marked';
+import { render } from 'astro:content';
 import Page from '../../layouts/Page.astro';
 import Time from '../../components/Time.astro';
 import Button from '../../components/Button.astro';
+import Badge from '../../components/Badge.astro';
+import Img from '../../components/Img.astro';
 import { getEvent } from '../../lib/events';
 
 export const prerender = false;
@@ -10,13 +12,33 @@ const event = await getEvent(Astro.params.slug ?? '');
 if (!event) return Astro.redirect('/events/', 302);
 Astro.response.headers.set('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=3600');
 
-const infoHtml = event.info?.body ? await marked.parse(event.info.body) : '';
+// Extra detail from the event's folder in src/content/event-info (if there is one); otherwise the calendar's description.
+const hasNotes = Boolean(event.info?.body?.trim());
+const Notes = hasNotes && event.info ? (await render(event.info)).Content : undefined;
+const attachments = event.info?.data.attachments ?? [];
 ---
 
 <Page title={event.title} crumbs={[{ name: 'Events', url: '/events/' }]}>
-  <p class="mt-0 font-display text-eyebrow font-semibold uppercase tracking-eyebrow text-accent-primary"><Time date={event.start} /></p>
-  {infoHtml ? <Fragment set:html={infoHtml} /> : <Fragment set:html={event.descriptionHtml} />}
-  {event.zoomlink && (
+  {event.cancelled && (
+    <div class="not-prose mb-6 rounded-lg border border-status-error/40 bg-status-error-bg px-5 py-4" role="status">
+      <Badge tone="error">Cancelled</Badge>
+      <p class="m-0 mt-2 font-body text-base text-status-error">This event has been cancelled. Please check the events page for the next one.</p>
+    </div>
+  )}
+  <p class:list={['mt-0 font-display text-eyebrow font-semibold uppercase tracking-eyebrow', event.cancelled ? 'text-status-error line-through' : 'text-accent-primary']}><Time date={event.start} /></p>
+  {event.image && (
+    <div class="not-prose my-5 max-w-[240px]"><Img src={event.image} alt="" class:list={['rounded-lg shadow-card', event.cancelled && 'opacity-50 grayscale']} /></div>
+  )}
+  {Notes ? <Notes /> : <Fragment set:html={event.descriptionHtml} />}
+  {attachments.length > 0 && (
+    <>
+      <h2>Downloads</h2>
+      <ul>
+        {attachments.map((a) => <li><a href={a.url}>{a.title}</a></li>)}
+      </ul>
+    </>
+  )}
+  {event.zoomlink && !event.cancelled && (
     <p class="mt-8"><Button size="lg" href={event.zoomlink}>Join Zoom meeting</Button></p>
   )}
 </Page>

@@ -1,20 +1,40 @@
 ---
 import Page from '../../layouts/Page.astro';
 import EventCard from '../../components/EventCard.astro';
+import EventsCalendar from '../../components/EventsCalendar.astro';
 import Pagination from '../../components/Pagination.astro';
-import { getEvents } from '../../lib/events';
+import { getEvents, icsUrl } from '../../lib/events';
+import { ymd } from '../../lib/dates';
 
 export const prerender = false;
 Astro.response.headers.set('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=3600');
 
 const PER_PAGE = 16;
-const events = await getEvents();
-const totalPages = Math.max(1, Math.ceil(events.length / PER_PAGE));
+// Start from the beginning of this month so the calendar shows the whole month, including days that have passed.
+const today = ymd(new Date());
+const monthStart = new Date(`${today.slice(0, 4)}-${today.slice(4, 6)}-01T00:00:00+11:00`);
+const all = await getEvents({ since: monthStart });
+const now = Date.now();
+const upcoming = all.filter((e) => e.end.getTime() >= now);
+
+const calendarItems = all.map((e) => ({
+  title: e.title,
+  start: e.start.toISOString(),
+  end: e.end.toISOString(),
+  allDay: e.allDay,
+  cancelled: e.cancelled,
+  href: `/events/${e.slug}/`,
+}));
+
+const totalPages = Math.max(1, Math.ceil(upcoming.length / PER_PAGE));
 const page = Math.min(Math.max(parseInt(Astro.url.searchParams.get('page') ?? '1', 10) || 1, 1), totalPages);
-const slice = events.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+const slice = upcoming.slice((page - 1) * PER_PAGE, page * PER_PAGE);
 ---
 
 <Page title="Events" description="Talks, discussions and study groups. Times are shown in Sydney time." width="wide" eyebrow="What's on">
+  <EventsCalendar items={calendarItems} icsUrl={icsUrl} />
+
+  <h2 class="mt-12 mb-5">Upcoming events</h2>
   {slice.length === 0 && <p>No upcoming events are listed right now. Please check back soon.</p>}
   <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
     {slice.map((e) => <EventCard event={e} />)}

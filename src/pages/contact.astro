@@ -1,0 +1,88 @@
+---
+import { getEntry, render } from 'astro:content';
+import Page from '../layouts/Page.astro';
+import Button from '../components/Button.astro';
+import Card from '../components/Card.astro';
+import Input from '../components/Input.astro';
+import { signupConfig } from '../lib/signup/config';
+import { turnstileKeys } from '../lib/signup';
+
+export const prerender = false;
+
+const entry = (await getEntry('pages', 'contact'))!;
+const { Content } = await render(entry);
+const keys = turnstileKeys();
+const sp = Astro.url.searchParams;
+const sent = sp.get('sent') === '1';
+const error = sp.get('error');
+const messages: Record<string, string> = {
+  invalid: 'Please check your name, email address and message.',
+  check: 'We couldn’t complete the security check. Please try again.',
+  send: 'We couldn’t send your message just now. Please try again in a little while, or email us directly.',
+};
+---
+
+<Page title={entry.data.title} description={entry.data.description}>
+  <div id="enquiry" class="scroll-mt-24"></div>
+  <Card variant="tint" title="Send us a message">
+    {
+      sent ? (
+        <p class="m-0">Thank you. Your message has been sent to the Centre, and we’ll reply to the email address you gave us.</p>
+      ) : !keys ? (
+        <p class="m-0">
+          Sorry, the form isn’t working at the moment. Please email{' '}
+          <a href={`mailto:${signupConfig.contactTo}`} class="text-link hover:text-link-hover break-all">{signupConfig.contactTo}</a>{' '}
+          instead.
+        </p>
+      ) : (
+        <>
+          {error && messages[error] && <p class="m-0 mb-4 font-body text-[14px] text-status-error" role="alert">{messages[error]}</p>}
+          <form method="post" action="/api/contact/" class="flex flex-col gap-4">
+            <Input label="Your name" id="contact-name" name="name" autocomplete="name" required placeholder="Your name" />
+            <Input label="Your email" id="contact-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+            <Input label="Subject" id="contact-subject" name="subject" placeholder="How can we help?" />
+            <label class="flex flex-col gap-1.5 font-display text-sm text-text-heading">
+              Your message
+              <textarea
+                id="contact-message"
+                name="message"
+                required
+                rows="5"
+                maxlength="5000"
+                placeholder="Write your message…"
+                class="font-body text-base text-text-body px-4 py-3 rounded-md border border-border-strong bg-white outline-none transition-[box-shadow,border-color] duration-150 ease-[var(--ease-gentle)] focus:border-accent-primary focus:shadow-glow resize-y min-h-[120px]"
+              ></textarea>
+            </label>
+            <div
+              class="cf-turnstile"
+              data-sitekey={keys.siteKey}
+              data-appearance="interaction-only"
+              data-callback="turnstileDone"
+              data-expired-callback="turnstileReset"
+              data-error-callback="turnstileReset"
+            ></div>
+            <Button type="submit" id="contact-submit" disabled>Send message</Button>
+            <p class="m-0 text-[13px] text-text-muted">
+              See our <a href="/privacy/" class="text-link hover:text-link-hover">privacy page</a> for how we use your details.
+            </p>
+          </form>
+        </>
+      )
+    }
+  </Card>
+
+  <Content />
+
+  {
+    keys && !sent && (
+      <>
+        <script is:inline>
+          // The send button stays off until Turnstile has passed the visitor (usually instantly and invisibly).
+          window.turnstileDone = () => { document.getElementById('contact-submit').disabled = false; };
+          window.turnstileReset = () => { document.getElementById('contact-submit').disabled = true; };
+        </script>
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer is:inline />
+      </>
+    )
+  }
+</Page>

@@ -1,6 +1,6 @@
 ---
 title: Swedenborg Tuesday open discussion
-match: ["open discussion", "swedenborg tuesday"]
+match: ["swedenborg tuesday"]
 img: images/swedenborgID.jpg
 zoomlink: https://us02web.zoom.us/j/320544045?pwd=QjZtbUxvVk81b2dweUtZZTE3ZE9IZz09
 ---
