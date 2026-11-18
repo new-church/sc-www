@@ -1,5 +1,6 @@
 ---
 import { formatDateTime, isoDate } from '../lib/dates';
+import { site } from '../lib/site';
 interface Props {
   date: Date | string | undefined;
   /** All-day events have a date but no time of day, so they are never converted between zones. */
@@ -13,7 +14,7 @@ const dateOnly = (x: Date) => new Intl.DateTimeFormat('en-AU', { timeZone: 'UTC'
 {
   d && (allDay
     ? <time datetime={d.toISOString().slice(0, 10)}>{dateOnly(d)}</time>
-    : <time datetime={isoDate(d)} data-tz>{formatDateTime(d)}</time>)
+    : <time datetime={isoDate(d)} data-tz>{formatDateTime(d)} ({site.timeZoneLabel} time)</time>)
 }
 
 <script>

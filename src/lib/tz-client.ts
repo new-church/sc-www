@@ -50,10 +50,26 @@ export function zoneName(zone: string, at = new Date()): string {
   return abbr ? `${zone.replaceAll('_', ' ')} (${abbr})` : zone.replaceAll('_', ' ');
 }
 
+/**
+ * Whose time this is, shown next to every time: "your time", or "Sydney time" (also used when the viewer is already
+ * in the Centre's zone, where "your time" and the Centre's time are the same thing).
+ */
+export const zoneTag = (): string => (getMode() === 'home' || viewerIsHome() ? `${homeLabel()} time` : 'your time');
+
+/** The zone's short name at an instant, e.g. "AEDT", "AWST", "GMT-8". */
+export const abbrIn = (iso: string, zone: string): string =>
+  fmt(zone, { timeZoneName: 'short' }).formatToParts(new Date(iso)).find((x) => x.type === 'timeZoneName')?.value ?? '';
+
+/** "8:00 AM AWST (your time)": a time of day with its zone and whose zone it is. */
+export function clockWithZone(iso: string, zone: string): string {
+  const t = fmt(zone, { hour: 'numeric', minute: '2-digit', hour12: true }).format(new Date(iso));
+  return `${t} ${abbrIn(iso, zone)} (${zoneTag()})`;
+}
+
 /** Rewrite every <time data-tz> on the page into the active zone. */
 export function applyTimes(): void {
   const zone = activeZone();
   document.querySelectorAll<HTMLTimeElement>('time[data-tz]').forEach((el) => {
-    if (el.dateTime) el.textContent = formatFull(el.dateTime, zone);
+    if (el.dateTime) el.textContent = `${formatFull(el.dateTime, zone)} (${zoneTag()})`;
   });
 }
