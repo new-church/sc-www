@@ -231,8 +231,9 @@ export async function getEvents(opts: { now?: Date; since?: Date } = {}): Promis
 export const icsUrl = ICS_URL;
 
 export async function getEvent(slug: string) {
-  // Look back a little so a link to an event that has just passed (or was cancelled today) still works.
-  return (await getEvents({ since: new Date(Date.now() - 2 * 86400_000) })).find((e) => e.slug === slug);
+  // Look back far enough to cover every day the calendar view shows (it starts at the beginning of the month), so a
+  // click on an earlier event this month, or a link to one that has just passed, still opens its page.
+  return (await getEvents({ since: new Date(Date.now() - 40 * 86400_000) })).find((e) => e.slug === slug);
 }
 
 /** First n words of plain text, like Hugo's .Summary (summaryLength: 20). */
