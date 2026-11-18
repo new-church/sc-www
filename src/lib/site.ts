@@ -2,7 +2,9 @@ export const site = {
   title: 'Swedenborg Centre',
   url: 'https://swedenborg.com.au',
   lang: 'en-AU',
+  /** The Centre's own time zone: the zone events are scheduled in, and the one offered as "Sydney time". The only place it is named. */
   timeZone: 'Australia/Sydney',
+  timeZoneLabel: 'Sydney',
   author: 'Joe Vandermeer',
   description:
     "The Swedenborg Centre, for many decades since being established in Sydney, Australia, has been offering useful events, discussions and material about spiritual life and the spiritual world from the unique experiences and writings of Emanuel Swedenborg. Our aim is to help us prepare for richer experiences ahead, and to relate Swedenborg's writings to our lives.",

@@ -1,6 +1,7 @@
 import ICAL from 'ical.js';
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { hm, ymd } from './dates';
+import { hm, wallClockToInstant, ymd } from './dates';
+import { site } from './site';
 
 // The Centre's public Google Calendar. Override with EVENTS_ICS_URL (e.g. a secret address).
 const ICS_URL =
@@ -16,6 +17,8 @@ export type CalendarEvent = {
   uid: string;
   slug: string;
   title: string;
+  /** title without a trailing clock-time bracket (see displayTitle) */
+  displayTitle: string;
   start: Date;
   end: Date;
   allDay: boolean;
@@ -39,6 +42,15 @@ export const slugify = (s: string, max = 60) =>
  * A title that says the event is off. Joe can cancel one occurrence of a repeating event in Google Calendar by
  * deleting it (the feed then lists it as an excluded date) or by renaming it, e.g. "CANCELLED: Open discussion".
  */
+/**
+ * The title as shown on the site. Joe sometimes types the time into the calendar title, e.g. "Open discussion (weekly,
+ * 11am-1pm)": that clock time is fixed to one zone and would mislead viewers in another, while the site already shows
+ * each event's time in the viewer's zone. So a trailing bracket that contains a clock time is left off the displayed
+ * title. The full title is still used for matching event folders.
+ */
+export const displayTitle = (t: string): string =>
+  t.replace(/\s*\([^)]*\b\d{1,2}(?::\d{2})?\s*(?:am|pm)\b[^)]*\)\s*$/i, '').trim() || t;
+
 export const isCancelledTitle = (t: string) => /\b(cancell?ed|postponed)\b/i.test(t) || /^\s*NO\s+[A-Za-z]/.test(t);
 
 // Calendar descriptions are small HTML snippets typed by the Centre's own staff. Keep a short
@@ -98,7 +110,36 @@ async function fetchIcs(): Promise<string | undefined> {
   }
 }
 
-type Raw = Omit<CalendarEvent, 'slug' | 'info' | 'zoomlink' | 'image'>;
+type Raw = Omit<CalendarEvent, 'slug' | 'info' | 'zoomlink' | 'image' | 'displayTitle'>;
+
+const validZone = (z: string) => {
+  try {
+    new Intl.DateTimeFormat('en', { timeZone: z });
+    return true;
+  } catch {
+    return false;
+  }
+};
+const tzidOf = (e: ICAL.Event): string | undefined => {
+  const v = e.component.getFirstProperty('dtstart')?.getParameter('tzid');
+  return typeof v === 'string' ? v : undefined;
+};
+
+/**
+ * The true instant for a calendar time, independent of the zone this server happens to run in.
+ *  - all-day dates have no time of day: UTC midnight of that calendar date (never shifted)
+ *  - UTC times ("...Z") are read as UTC
+ *  - times with a TZID are read as wall-clock time in that IANA zone (so it works even when the calendar file does
+ *    not bundle that zone's rules)
+ *  - a time with no zone at all ("floating") is taken to be in the Centre's own zone (site.timeZone)
+ */
+function toInstant(t: ICAL.Time, tzid?: string): Date {
+  if (t.isDate) return new Date(Date.UTC(t.year, t.month - 1, t.day));
+  if (t.zone && t.zone.tzid === 'UTC') return new Date(Date.UTC(t.year, t.month - 1, t.day, t.hour, t.minute, t.second));
+  if (tzid && validZone(tzid)) return wallClockToInstant(t.year, t.month, t.day, t.hour, t.minute, tzid);
+  if (t.zone && t.zone.tzid && t.zone.tzid !== 'floating') return t.toJSDate(); // a zone the calendar file itself defines
+  return wallClockToInstant(t.year, t.month, t.day, t.hour, t.minute, site.timeZone);
+}
 
 function expand(ics: string, now: Date, since: Date): Raw[] {
   const comp = new ICAL.Component(ICAL.parse(ics));
@@ -130,8 +171,9 @@ function expand(ics: string, now: Date, since: Date): Raw[] {
     const push = (item: ICAL.Event, start: ICAL.Time, end: ICAL.Time, deleted = false) => {
       const title = item.summary || masterTitle;
       if (EXCLUDE_TITLE.test(title)) return;
-      const s = start.toJSDate();
-      const e = end.toJSDate();
+      const tzid = tzidOf(item) ?? tzidOf(ev);
+      const s = toInstant(start, tzid);
+      const e = toInstant(end, tzid);
       if (e < since || s > horizon) return;
       out.push({
         uid: ev.uid,
@@ -153,19 +195,19 @@ function expand(ics: string, now: Date, since: Date): Raw[] {
     const it = ev.iterator();
     for (let n = 0, next = it.next(); next && n < MAX_OCCURRENCES_PER_SERIES; n++, next = it.next()) {
       const d = ev.getOccurrenceDetails(next);
-      if (d.startDate.toJSDate() > horizon) break;
+      if (toInstant(d.startDate, tzidOf(d.item) ?? tzidOf(ev)) > horizon) break;
       push(d.item, d.startDate, d.endDate);
     }
     // Occurrences deleted in Google Calendar are listed as excluded dates: show the ones still to come (or
     // happening today) as cancelled. Past deletions are skipped: the Centre's series carry dozens of old excluded
     // dates from tidying the calendar, which are not cancellations and must not appear as such.
-    const seconds = Math.round((ev.endDate.toJSDate().getTime() - ev.startDate.toJSDate().getTime()) / 1000);
+    const seconds = Math.round((toInstant(ev.endDate, tzidOf(ev)).getTime() - toInstant(ev.startDate, tzidOf(ev)).getTime()) / 1000);
     for (const prop of ev.component.getAllProperties('exdate')) {
       for (const x of prop.getValues() as ICAL.Time[]) {
         const start = x.clone();
         const end = x.clone();
         end.addDuration(ICAL.Duration.fromSeconds(seconds));
-        if (end.toJSDate() < now) continue;
+        if (toInstant(end, tzidOf(ev)) < now) continue;
         push(ev, start, end, true);
       }
     }
@@ -227,7 +269,7 @@ export async function getEvents(opts: { now?: Date; since?: Date } = {}): Promis
     const info = findInfo(infos, e.title);
     const zoomlink =
       info?.data.zoomlink ?? e.descriptionHtml.match(/href="([^"]*zoom\.us[^"]*)"/i)?.[1] ?? e.descriptionText.match(ZOOM)?.[0] ?? e.location.match(ZOOM)?.[0];
-    return { ...e, info, zoomlink, image: resolveImage(info), slug: `${ymd(e.start)}${hm(e.start)}-${slugify(e.title)}` };
+    return { ...e, displayTitle: displayTitle(e.title), info, zoomlink, image: resolveImage(info), slug: `${ymd(e.start)}${hm(e.start)}-${slugify(e.title)}` };
   });
 }
 
